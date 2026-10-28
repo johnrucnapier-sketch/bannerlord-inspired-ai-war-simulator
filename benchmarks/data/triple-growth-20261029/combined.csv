@@ -1,0 +1,3 @@
+style,name,games,success_rate,success_mean,failed_mean,pending_mean,loss_mean,wound_events_mean,bandits_mean,late_bandits_mean,kills_mean,population_mean,party_food_mean,garrison_food_mean,standard_food_mean,full57_squads_mean,upgrades_mean
+timed57,A 定时护送,20,0.9927052452204767,4252.65,31.25,36,0,0,34.967261904761905,35.46398809523809,0.1,36814.8,159434.0,0.0,159434.0,31.981964285714287,35.75
+p557,B 三队P5,20,0.962322161302767,4115.9,161.15,36,223.45,3693.95,5.798571428571429,5.749404761904762,1672.55,34202.5,153896.9875,9307.94,163639.9875,28.203214285714285,36

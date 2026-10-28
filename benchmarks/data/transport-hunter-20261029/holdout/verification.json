@@ -1,0 +1,7 @@
+{
+  "games": 20,
+  "complete": true,
+  "commands_valid": true,
+  "trip_balance": true,
+  "legal_departure_strength": true
+}

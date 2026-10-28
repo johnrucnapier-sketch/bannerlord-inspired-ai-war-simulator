@@ -1,0 +1,158 @@
+{
+  "source_sha256": {
+    "aiwar/__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
+    "aiwar/__main__.py": "b77f1d39d07822ef3dc3fde7c948da839fc31dd92074d9c328fc20b65fc13465",
+    "aiwar/agent_example.py": "dc4a01dfb42e30959669227914756f9751ab71ff60c06693e053a2321514fa63",
+    "aiwar/agents.py": "f229c2b808e0394d6b340aac19647e71b40512d21b420809170cde828f47dc55",
+    "aiwar/config.json": "6b3c0c4dfb861b68677aa17aad764ca4eb24d302b3d2a59fd00f0ad25d668cd4",
+    "aiwar/economy.py": "7921fd3ffc210dba407237a2c999043a16665f1e8909b1d10ae92e26606cec83",
+    "aiwar/engine.py": "bf2026f6dfe675662cc88716f24b6077914f6918318dc9c974363ebcebaf45d0",
+    "aiwar/experiments.py": "2609f274383a54a6fb3313ffc701d9dab16f590254bb790c80280b7987b939e4",
+    "aiwar/layout.py": "69b35b31e2d8a5ed291e70407d84918ee06379b585ecf5ee031dbd87682718d0",
+    "aiwar/match.py": "9fb8e79e994d31f38226728ce874af6299a3483b4f146245b49b6847b6a1c20d",
+    "aiwar/metrics.py": "2e3eeb1f6b3e4939badfbe1318303c74d7eb8dd183c6803d65169d1314eae343",
+    "aiwar/navigation.py": "a7f5cb51a490c32eae447e24f86257f930e8b25a9a80c30bb5ea7df5c9bb6d62",
+    "aiwar/patrols.py": "aeb17dfe3d030a8e2459eef169dfecc24ce78a170f5997f71b464f270787cf0a",
+    "aiwar/policies.py": "1de261468d80b886d6ac7c9ea25c9a3b2e2482648b0e0d1f862589a26d040751",
+    "aiwar/policies_legacy.py": "55063b6597d255bb654a52a15d45716a7fc66d85684915fdf27389ae59adefe0",
+    "aiwar/policies_v014.py": "99417964e56760392a7c0275ac3f41a1b9aadb43660406a47e36b7ddc47d1a63",
+    "aiwar/policies_v015.py": "49ff2674bcfef21e082a8772f28794e5fa905169e9e652578cb4cee25fa6aff4",
+    "aiwar/relief.py": "d9487223196dbc127de5b8af88f2c635db36a3dad4b5858bb4c057fc96a21517",
+    "aiwar/replay.py": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+    "aiwar/runner.py": "dddb495a5bdfb7813ccf2bbed3d0ddca83cb4f9b8ac1640b61621bfa996941a8",
+    "aiwar/sdk.py": "2332300d45de3fe8b9789768b8f26ba116c8e3087cb05f8bdcb0540dbabfb959",
+    "aiwar/server.py": "d994b0e323bfd06c2767a8e107d54c70c74e540b057b556579146c57a6aa3aff",
+    "aiwar/warfare.py": "6d0a6d56d1f6686207eed256c84b5a095310accba6ce0a0294f1b20af30996cc",
+    "scripts/direct_garrison_study.py": "8db5f407b0f0b6f77d3b93090cafb8204f68b2ad8a60e1c0c3900e790d342755",
+    "scripts/escort_p5_defense_policy.py": "544655f2c5bddeb635de01b70ae84d189a662c1e5b4e7edad2dd03a3c262d499",
+    "scripts/escort_p5_defense_v2_policy.py": "f055d32fbc062afff4fe9224d0f74a218b436e8b35b05c9c5e56b0a1baf387bf",
+    "scripts/escort_p5_defense_v2_study.py": "b2ca261273208795d165790d597a20cc3bf663aec49d9217ac36f16ff49b9f00",
+    "scripts/transport_growth_policy.py": "97a9c274fc56caf2c81849a700ef83c94180815bf4f4ed592a1af650e8f06127",
+    "scripts/transport_triple_policy.py": "7967544d8a7e255155bbe2be8c9c61c0defa19eaecbb282b3a4cffa66856a6f8"
+  },
+  "jobs": [
+    {
+      "id": "direct-2088460572",
+      "seed": 2088460572,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1327243828",
+      "seed": 1327243828,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1199329012",
+      "seed": 1199329012,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1479552164",
+      "seed": 1479552164,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1555985896",
+      "seed": 1555985896,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1253421050",
+      "seed": 1253421050,
+      "style": "d2"
+    },
+    {
+      "id": "direct-2013042981",
+      "seed": 2013042981,
+      "style": "d2"
+    },
+    {
+      "id": "direct-97563383",
+      "seed": 97563383,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1241774772",
+      "seed": 1241774772,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1468188361",
+      "seed": 1468188361,
+      "style": "d2"
+    },
+    {
+      "id": "direct-455561258",
+      "seed": 455561258,
+      "style": "d2"
+    },
+    {
+      "id": "direct-80735816",
+      "seed": 80735816,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1072134541",
+      "seed": 1072134541,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1161127665",
+      "seed": 1161127665,
+      "style": "d2"
+    },
+    {
+      "id": "direct-304847128",
+      "seed": 304847128,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1764887916",
+      "seed": 1764887916,
+      "style": "d2"
+    },
+    {
+      "id": "direct-564474925",
+      "seed": 564474925,
+      "style": "d2"
+    },
+    {
+      "id": "direct-15517151",
+      "seed": 15517151,
+      "style": "d2"
+    },
+    {
+      "id": "direct-986496812",
+      "seed": 986496812,
+      "style": "d2"
+    },
+    {
+      "id": "direct-2084892231",
+      "seed": 2084892231,
+      "style": "d2"
+    },
+    {
+      "id": "direct-500792651",
+      "seed": 500792651,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1280858948",
+      "seed": 1280858948,
+      "style": "d2"
+    },
+    {
+      "id": "direct-1777274006",
+      "seed": 1777274006,
+      "style": "d2"
+    },
+    {
+      "id": "direct-464809217",
+      "seed": 464809217,
+      "style": "d2"
+    }
+  ],
+  "workers": {
+    "rig": 24
+  }
+}

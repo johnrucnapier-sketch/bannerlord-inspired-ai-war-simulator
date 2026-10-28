@@ -1,0 +1,6 @@
+# Preserve historical and frozen bytes, including original SVG formatting.
+game/** -whitespace
+benchmarks/** -whitespace
+strategies/reference/** -whitespace
+*.png binary
+*.gz binary

@@ -1,0 +1,12 @@
+{
+  "games": 80,
+  "all_complete": true,
+  "matched_preludes": 20,
+  "command_errors": 0,
+  "trip_balance": true,
+  "food_accounting": true,
+  "unit_tests_passed": 2,
+  "all_retirements_completed": true,
+  "untransitioned_city_cases": 3,
+  "garrison_food_accounting_limitation": true
+}

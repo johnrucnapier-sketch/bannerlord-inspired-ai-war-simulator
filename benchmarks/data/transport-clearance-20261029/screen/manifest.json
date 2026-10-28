@@ -1,0 +1,539 @@
+{
+  "stage": "screen",
+  "workers": {
+    "rig": 18,
+    "mac": 2
+  },
+  "source_sha256": {
+    "aiwar/__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
+    "aiwar/__main__.py": "b77f1d39d07822ef3dc3fde7c948da839fc31dd92074d9c328fc20b65fc13465",
+    "aiwar/agent_example.py": "dc4a01dfb42e30959669227914756f9751ab71ff60c06693e053a2321514fa63",
+    "aiwar/agents.py": "f229c2b808e0394d6b340aac19647e71b40512d21b420809170cde828f47dc55",
+    "aiwar/config.json": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+    "aiwar/economy.py": "7921fd3ffc210dba407237a2c999043a16665f1e8909b1d10ae92e26606cec83",
+    "aiwar/engine.py": "98e2ec9c087c952740ba0ce02f8f5467a4ba46f54fa187837325e31f1f3b91d8",
+    "aiwar/experiments.py": "2609f274383a54a6fb3313ffc701d9dab16f590254bb790c80280b7987b939e4",
+    "aiwar/layout.py": "69b35b31e2d8a5ed291e70407d84918ee06379b585ecf5ee031dbd87682718d0",
+    "aiwar/match.py": "9fb8e79e994d31f38226728ce874af6299a3483b4f146245b49b6847b6a1c20d",
+    "aiwar/metrics.py": "2e3eeb1f6b3e4939badfbe1318303c74d7eb8dd183c6803d65169d1314eae343",
+    "aiwar/navigation.py": "a7f5cb51a490c32eae447e24f86257f930e8b25a9a80c30bb5ea7df5c9bb6d62",
+    "aiwar/patrols.py": "aeb17dfe3d030a8e2459eef169dfecc24ce78a170f5997f71b464f270787cf0a",
+    "aiwar/policies.py": "e6ff27604f04f9c8c4767638036197cc7fe7ca2fc56ed46ad889a1badc3d2d2c",
+    "aiwar/policies_legacy.py": "55063b6597d255bb654a52a15d45716a7fc66d85684915fdf27389ae59adefe0",
+    "aiwar/policies_v014.py": "99417964e56760392a7c0275ac3f41a1b9aadb43660406a47e36b7ddc47d1a63",
+    "aiwar/policies_v015.py": "49ff2674bcfef21e082a8772f28794e5fa905169e9e652578cb4cee25fa6aff4",
+    "aiwar/relief.py": "d9487223196dbc127de5b8af88f2c635db36a3dad4b5858bb4c057fc96a21517",
+    "aiwar/replay.py": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+    "aiwar/runner.py": "dddb495a5bdfb7813ccf2bbed3d0ddca83cb4f9b8ac1640b61621bfa996941a8",
+    "aiwar/sdk.py": "2332300d45de3fe8b9789768b8f26ba116c8e3087cb05f8bdcb0540dbabfb959",
+    "aiwar/server.py": "d994b0e323bfd06c2767a8e107d54c70c74e540b057b556579146c57a6aa3aff",
+    "aiwar/warfare.py": "6d0a6d56d1f6686207eed256c84b5a095310accba6ce0a0294f1b20af30996cc",
+    "scripts/transport_growth_policy.py": "97a9c274fc56caf2c81849a700ef83c94180815bf4f4ed592a1af650e8f06127",
+    "scripts/transport_growth_study.py": "11607107cad13c76f0ae3a08ebe32a7a6b82b256b8715ab0d365a8254de46767",
+    "scripts/transport_triple_policy.py": "7967544d8a7e255155bbe2be8c9c61c0defa19eaecbb282b3a4cffa66856a6f8"
+  },
+  "jobs": [
+    {
+      "id": "grow27-n57-s7101",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7101
+    },
+    {
+      "id": "grow27-n57-s7102",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7102
+    },
+    {
+      "id": "grow27-n57-s7103",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7103
+    },
+    {
+      "id": "grow27-n57-s7104",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7104
+    },
+    {
+      "id": "grow27-n57-s7105",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7105
+    },
+    {
+      "id": "grow27-n57-s7106",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7106
+    },
+    {
+      "id": "grow27-n57-s7107",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7107
+    },
+    {
+      "id": "grow27-n57-s7108",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7108
+    },
+    {
+      "id": "grow27-n57-s7109",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7109
+    },
+    {
+      "id": "grow27-n57-s7110",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 7110
+    },
+    {
+      "id": "grow57-n57-s7101",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7101
+    },
+    {
+      "id": "grow57-n57-s7102",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7102
+    },
+    {
+      "id": "grow57-n57-s7103",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7103
+    },
+    {
+      "id": "grow57-n57-s7104",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7104
+    },
+    {
+      "id": "grow57-n57-s7105",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7105
+    },
+    {
+      "id": "grow57-n57-s7106",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7106
+    },
+    {
+      "id": "grow57-n57-s7107",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7107
+    },
+    {
+      "id": "grow57-n57-s7108",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7108
+    },
+    {
+      "id": "grow57-n57-s7109",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7109
+    },
+    {
+      "id": "grow57-n57-s7110",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 7110
+    },
+    {
+      "id": "escort-n30-s7101",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7101
+    },
+    {
+      "id": "hybrid-n30-s7101",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7101
+    },
+    {
+      "id": "timed-n30-s7101",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7101
+    },
+    {
+      "id": "timed-n30-s7104",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7104
+    },
+    {
+      "id": "timed-n30-s7103",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7103
+    },
+    {
+      "id": "timed-n30-s7102",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7102
+    },
+    {
+      "id": "timed-n30-s7105",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7105
+    },
+    {
+      "id": "escort-n30-s7106",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7106
+    },
+    {
+      "id": "escort-n30-s7108",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7108
+    },
+    {
+      "id": "escort-n30-s7109",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7109
+    },
+    {
+      "id": "escort-n30-s7107",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7107
+    },
+    {
+      "id": "hybrid-n30-s7106",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7106
+    },
+    {
+      "id": "hybrid-n30-s7108",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7108
+    },
+    {
+      "id": "timed-n30-s7110",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7110
+    },
+    {
+      "id": "hybrid-n30-s7109",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7109
+    },
+    {
+      "id": "hybrid-n30-s7107",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7107
+    },
+    {
+      "id": "timed-n30-s7107",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7107
+    },
+    {
+      "id": "timed-n30-s7109",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7109
+    },
+    {
+      "id": "hybrid-n30-s7110",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7110
+    },
+    {
+      "id": "timed-n30-s7108",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7108
+    },
+    {
+      "id": "timed-n30-s7106",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 7106
+    },
+    {
+      "id": "escort-n30-s7110",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7110
+    },
+    {
+      "id": "escort-n30-s7105",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7105
+    },
+    {
+      "id": "escort-n30-s7102",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7102
+    },
+    {
+      "id": "escort-n30-s7103",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7103
+    },
+    {
+      "id": "escort-n30-s7104",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 7104
+    },
+    {
+      "id": "hybrid-n30-s7105",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7105
+    },
+    {
+      "id": "hybrid-n30-s7102",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7102
+    },
+    {
+      "id": "hybrid-n30-s7103",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7103
+    },
+    {
+      "id": "hybrid-n30-s7104",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 7104
+    }
+  ],
+  "reused_results": [
+    {
+      "id": "escort-n30-s7101",
+      "source": "artifacts/transport-triple-20261029/screen/mac/escort-n30-s7101/result.json",
+      "sha256": "f5cdd9b5079943aba7d72f30957af2667f6dee5c797b3ca9471f4af485b0c217"
+    },
+    {
+      "id": "hybrid-n30-s7101",
+      "source": "artifacts/transport-triple-20261029/screen/mac/hybrid-n30-s7101/result.json",
+      "sha256": "3a47b322143993a13f21d07345cd1cd3d377362f6c92ccb89d03b33c720f1337"
+    },
+    {
+      "id": "timed-n30-s7101",
+      "source": "artifacts/transport-triple-20261029/screen/mac/timed-n30-s7101/result.json",
+      "sha256": "8dccd5f0cfd6a2b18adaa18233ff3bf7543b79b692a48125e8992926455936ff"
+    },
+    {
+      "id": "timed-n30-s7104",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7104/result.json",
+      "sha256": "3ac6c2dd9c40aba000bd211016b298aef69c64ef8ccd4ee28c2f7ab36b250e1c"
+    },
+    {
+      "id": "timed-n30-s7103",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7103/result.json",
+      "sha256": "dd336cb9dd8e95bdff346985a882e5dcf1616b6984d95e3200826a65d4b8c08e"
+    },
+    {
+      "id": "timed-n30-s7102",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7102/result.json",
+      "sha256": "e5567ec340e5a38fbd1f3d238f47fe09ffeb7bccdeb52ff794337bc3405c287a"
+    },
+    {
+      "id": "timed-n30-s7105",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7105/result.json",
+      "sha256": "9acab86f5f8029637678afd17ea637a6ae2a4c36806c96707c04ebea398cea16"
+    },
+    {
+      "id": "escort-n30-s7106",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7106/result.json",
+      "sha256": "4f7e333c1a7137895d2081fbf05538d0c730446d30cae5deb0bef90ed73e270a"
+    },
+    {
+      "id": "escort-n30-s7108",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7108/result.json",
+      "sha256": "8017edce43182c8dea2971f45ebe24806a10420430ae07592139a0eb003e1c0d"
+    },
+    {
+      "id": "escort-n30-s7109",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7109/result.json",
+      "sha256": "6d382798806e9bd52954adde8f0f80d1e84c8e43c8161095ccef3beaf922f05b"
+    },
+    {
+      "id": "escort-n30-s7107",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7107/result.json",
+      "sha256": "8fa55a59cb9c5edb78c73227f87718b264e6097c88be3f461026bbb26cf7d4bf"
+    },
+    {
+      "id": "hybrid-n30-s7106",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7106/result.json",
+      "sha256": "27e5ca88e7d930494d643b78bb492de804057e5be03af64299ef48f82f81a296"
+    },
+    {
+      "id": "hybrid-n30-s7108",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7108/result.json",
+      "sha256": "9a2db4cb627be7ce6798aff2406813e22e2fb496010d20637823e2f54a8deaae"
+    },
+    {
+      "id": "timed-n30-s7110",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7110/result.json",
+      "sha256": "83c6fe217b639e6df794ad15347f7e84ca0b9629d67f5a45bc5861f92fe97799"
+    },
+    {
+      "id": "hybrid-n30-s7109",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7109/result.json",
+      "sha256": "946d05a936b416ed75241f4bb122008a6e0fcdb0d5144ec835745ee20ce17c74"
+    },
+    {
+      "id": "hybrid-n30-s7107",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7107/result.json",
+      "sha256": "847da29867727df14aa2d87c48e7a9d731ab2e561c5e729c9ee77100b2b05b80"
+    },
+    {
+      "id": "timed-n30-s7107",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7107/result.json",
+      "sha256": "482dca6774494af3fa40337d1aa56d116adf6e8482fba6b6531e7b680ab70ed8"
+    },
+    {
+      "id": "timed-n30-s7109",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7109/result.json",
+      "sha256": "659c4906bd2664888e09e72f1742f012623a59759d8f9da92ea9faaa2653199e"
+    },
+    {
+      "id": "hybrid-n30-s7110",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7110/result.json",
+      "sha256": "df1a351002e64ece14e2922934c4d8be342c613b2634e5f082a8afced1f008bd"
+    },
+    {
+      "id": "timed-n30-s7108",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7108/result.json",
+      "sha256": "d9b73ddb1af22fb3b20af7922b3134474e6bd425e0ac6bae35387949893a649f"
+    },
+    {
+      "id": "timed-n30-s7106",
+      "source": "artifacts/transport-triple-20261029/screen/rig/timed-n30-s7106/result.json",
+      "sha256": "8a06891ae80cb01a41200a5fba43e41230deb0f78ce40ca6828b1c01b90494d7"
+    },
+    {
+      "id": "escort-n30-s7110",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7110/result.json",
+      "sha256": "ff98fd422c8277b1cd752796898b6a89abbf6617e5a184c0a710f5603fc7baa6"
+    },
+    {
+      "id": "escort-n30-s7105",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7105/result.json",
+      "sha256": "398efca4b857f72bb68095890bde47b989b8b69691295c6fe84109ccb3170527"
+    },
+    {
+      "id": "escort-n30-s7102",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7102/result.json",
+      "sha256": "39dc72219321291d5d81e1ada3474ff738c36f57b5ec1491738d35cfb3259870"
+    },
+    {
+      "id": "escort-n30-s7103",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7103/result.json",
+      "sha256": "115599a27fd19a08bba7f7f7316f2968c8bbe4e09c84c7e4b3a4f3da99f4dfb8"
+    },
+    {
+      "id": "escort-n30-s7104",
+      "source": "artifacts/transport-triple-20261029/screen/rig/escort-n30-s7104/result.json",
+      "sha256": "fd47e9ee77d7e8d5ac7bf458993b0040674357e977eca617849a978ca52d671f"
+    },
+    {
+      "id": "hybrid-n30-s7105",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7105/result.json",
+      "sha256": "a5a33360f0ab2b11abc993e92391ecd066e11a99a0f0253582b4db3b8bbfc069"
+    },
+    {
+      "id": "hybrid-n30-s7102",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7102/result.json",
+      "sha256": "3ab66bb44e9b75dc434cbfe3f250cb4621e54c1084960e807ce3ff20d6465954"
+    },
+    {
+      "id": "hybrid-n30-s7103",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7103/result.json",
+      "sha256": "35a45c75c36b449bfb5bb5c6734c2ed8c96a382f27a106e1c2c40349474cb00c"
+    },
+    {
+      "id": "hybrid-n30-s7104",
+      "source": "artifacts/transport-triple-20261029/screen/rig/hybrid-n30-s7104/result.json",
+      "sha256": "8be519281839b743c423bea7aae0dca83abdf9bfc855f5332360ce23fadda48c"
+    }
+  ]
+}

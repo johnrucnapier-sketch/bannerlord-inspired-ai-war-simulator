@@ -1,0 +1,24 @@
+{
+  "baseline": "v0.2.0",
+  "date": "2026-10-29",
+  "physics_source_matches_latest_formal_24_game_source": true,
+  "reference_d2_matches_latest_source": true,
+  "frozen_files": 807,
+  "catalog_studies": 19,
+  "reports": 34,
+  "raw_records": 1776,
+  "raw_record_count_includes_reuse_and_overlap": true,
+  "private_path_and_token_scan_passed": true,
+  "wheel_built": true,
+  "clean_wheel_install_verified": true,
+  "protocol_smoke": {
+    "game_hours": 24,
+    "agent_errors": [
+      0,
+      0
+    ],
+    "rejected_commands": 0,
+    "counts_as_strategy_benchmark": false
+  },
+  "validation_scope": "Packaging, integrity, installation and short protocol checks only; no new performance or strategy study."
+}

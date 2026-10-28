@@ -1,0 +1,40 @@
+{
+  "baseline": {
+    "games": 40,
+    "blue": 17,
+    "red": 14,
+    "draw": 9,
+    "blue_win_rate": 0.425,
+    "blue_cities_mean": 6.1,
+    "blue_population_mean": 14056.675,
+    "unifications": {
+      "0": 1
+    },
+    "blue_errors": 23442,
+    "red_errors": 36124,
+    "blue_defense_mobilizations": 0,
+    "blue_attack_mobilizations": 0
+  },
+  "experiment": {
+    "games": 40,
+    "blue": 2,
+    "red": 37,
+    "draw": 1,
+    "blue_win_rate": 0.05,
+    "blue_cities_mean": 3.375,
+    "blue_population_mean": 13535.6,
+    "unifications": {
+      "1": 1
+    },
+    "blue_errors": 0,
+    "red_errors": 11015,
+    "blue_defense_mobilizations": 167.6,
+    "blue_attack_mobilizations": 121.25
+  },
+  "paired": {
+    "win_gains": 1,
+    "win_losses": 16,
+    "blue_win_rate_change_pp": -37.5,
+    "exact_mcnemar_p": 0.000274658203125
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "default": {
+    "completed_plans": 0,
+    "mean_plan_hours": null,
+    "plan_end_reasons": {},
+    "games": 24,
+    "blue": 10,
+    "red": 9,
+    "draw": 5,
+    "blue_win_rate": 0.4166666666666667,
+    "blue_cities_mean": 6,
+    "blue_population_mean": 14074.375,
+    "blue_errors": 13724
+  },
+  "d1": {
+    "completed_plans": 6676,
+    "mean_plan_hours": 55.18454164170162,
+    "plan_end_reasons": {
+      "complete_or_refit": 4099,
+      "defense_priority": 2577
+    },
+    "games": 24,
+    "blue": 2,
+    "red": 21,
+    "draw": 1,
+    "blue_win_rate": 0.08333333333333333,
+    "blue_cities_mean": 3.1666666666666665,
+    "blue_population_mean": 12461.625,
+    "blue_errors": 0
+  },
+  "d2": {
+    "completed_plans": 3641,
+    "mean_plan_hours": 318.52238396045044,
+    "plan_end_reasons": {
+      "target_complete_or_threat_clear_168h": 2703,
+      "no_force": 643,
+      "low_food": 180,
+      "tour_timeout": 26,
+      "strength_depleted": 89
+    },
+    "games": 24,
+    "blue": 9,
+    "red": 12,
+    "draw": 3,
+    "blue_win_rate": 0.375,
+    "blue_cities_mean": 6,
+    "blue_population_mean": 14973.375,
+    "blue_errors": 0
+  },
+  "first_capture": {
+    "games": 24,
+    "no_capture": 0,
+    "mean_hour": 7488.083333333333,
+    "median_hour": 7605.5,
+    "min_hour": 395,
+    "max_hour": 14227,
+    "first_conqueror": {
+      "0": 13,
+      "1": 11
+    },
+    "before_means": {
+      "population": {
+        "blue": 8563.291666666666,
+        "red": 6222.916666666667,
+        "blue_minus_red": 2340.374999999999,
+        "blue_relative_change": 0.37608972212922653
+      },
+      "regular_total": {
+        "blue": 1238.0416666666667,
+        "red": 1333,
+        "blue_minus_red": -94.95833333333326,
+        "blue_relative_change": -0.07123655913978488
+      },
+      "regular_healthy": {
+        "blue": 1109.2916666666667,
+        "red": 1218,
+        "blue_minus_red": -108.70833333333326,
+        "blue_relative_change": -0.08925150519978098
+      },
+      "regular_wounded": {
+        "blue": 128.75,
+        "red": 115,
+        "blue_minus_red": 13.75,
+        "blue_relative_change": 0.11956521739130443
+      },
+      "field": {
+        "blue": 1175.3333333333333,
+        "red": 653.7083333333334,
+        "blue_minus_red": 521.6249999999999,
+        "blue_relative_change": 0.7979476066033524
+      },
+      "garrison": {
+        "blue": 62.708333333333336,
+        "red": 679.2916666666666,
+        "blue_minus_red": -616.5833333333333,
+        "blue_relative_change": -0.9076857020180334
+      },
+      "militia": {
+        "blue": 1130.2083333333333,
+        "red": 1124.5416666666667,
+        "blue_minus_red": 5.666666666666515,
+        "blue_relative_change": 0.00503908999962932
+      },
+      "city_recruits": {
+        "blue": 284.5833333333333,
+        "red": 97.20833333333333,
+        "blue_minus_red": 187.375,
+        "blue_relative_change": 1.9275610801543075
+      },
+      "village_recruits": {
+        "blue": 1.875,
+        "red": 10.541666666666666,
+        "blue_minus_red": -8.666666666666666,
+        "blue_relative_change": -0.8221343873517787
+      },
+      "transit_recruits": {
+        "blue": 27.708333333333332,
+        "red": 17.791666666666668,
+        "blue_minus_red": 9.916666666666664,
+        "blue_relative_change": 0.5573770491803276
+      }
+    }
+  },
+  "mission_field_time_share": 0.45869714208115225
+}

@@ -1,0 +1,1013 @@
+{
+  "note": "Source paths are project-relative; raw machine paths/hostnames omitted. Game outcomes and rule values retained.",
+  "files": [
+    {
+      "published": "benchmarks/data/patrol-strength-20261029/results.csv",
+      "source": "artifacts/patrol-strength-20261029/results.csv",
+      "original_sha256": "ae4ed5a4109e7f604462baacb7a2b87ca50d2a13e381663efcb0623034211d97",
+      "published_sha256": "837f917bb8f96c2cd7e8ade94078f9ca0daab381662cdcbfd593f7f4e786f565"
+    },
+    {
+      "published": "benchmarks/data/patrol-strength-20261029/results.json",
+      "source": "artifacts/patrol-strength-20261029/results.json",
+      "original_sha256": "0ccacdf6f9a4fa2c31dcf7648f8beb955b9774db3962b1429fbde2d97fe68f3a",
+      "published_sha256": "01d63d621b5346109e7a7260add8f34000114f30580623811990215cd9994d36"
+    },
+    {
+      "published": "benchmarks/data/patrol-strength-20261029/sweep.py",
+      "source": "artifacts/patrol-strength-20261029/sweep.py",
+      "original_sha256": "e945acc2b1ff6c21c1d2d010d5e14f62200e13fb479a012f49b8f1a7654dbae4",
+      "published_sha256": "e945acc2b1ff6c21c1d2d010d5e14f62200e13fb479a012f49b8f1a7654dbae4"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/all-games305.csv",
+      "source": "artifacts/patrol-endurance-20261029/all-games305.csv",
+      "original_sha256": "3bda369015c6e404eec0985c0e087c2311ec5a096621ac49e0dab14e53f312f9",
+      "published_sha256": "fe9063fa640bf1463bf34a3c3046d6df4f410a31e33198407c4851e54b46d5ed"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/combined-analysis.json",
+      "source": "artifacts/patrol-endurance-20261029/combined-analysis.json",
+      "original_sha256": "2a3a2acd42184b26491dc38faebd19f8f9432eff6a4766605930fda062d07e23",
+      "published_sha256": "3662b715af389480b7ca5dc08e6d83ddde3847e10774b8a5d8fcb67c55e6bd64"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/high_screen/analysis.json",
+      "source": "artifacts/patrol-endurance-20261029/high_screen/analysis.json",
+      "original_sha256": "378cc20cda935c3fc512200134323f07531eebbace3b903fe20beaa4d35bc134",
+      "published_sha256": "64dc41561d06f20185c82012589d47c90e00cb7daa9855992e2d5f76087281bd"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/high_screen/manifest.json",
+      "source": "artifacts/patrol-endurance-20261029/high_screen/manifest.json",
+      "original_sha256": "af7ea0d525756e77a65639ae530b1c8f52145c31303745dc98629687c6ba0f48",
+      "published_sha256": "d2afbf9b1c528477d7c2b562d5c428045233995856d3ff1e4fb2a1ccce79432b"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/high_validation/analysis.json",
+      "source": "artifacts/patrol-endurance-20261029/high_validation/analysis.json",
+      "original_sha256": "4c28b0f52c079ad85ef41fa3e03b713b87fdadb2c3bc150fae371743ff82a4b7",
+      "published_sha256": "144f1c191f450451c7b11eddb06894487dd443f156dd75877f06224239823d77"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/high_validation/manifest.json",
+      "source": "artifacts/patrol-endurance-20261029/high_validation/manifest.json",
+      "original_sha256": "f20cf1446cdc8f3ebaafa0dd0db5edccd0b38fe1fa888b302edbb8feb7191aa9",
+      "published_sha256": "3d2826dea0b095f0017c70c41475f876cb418de64cf57ff8d5a57761594363cc"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/low_knee/analysis.json",
+      "source": "artifacts/patrol-endurance-20261029/low_knee/analysis.json",
+      "original_sha256": "9b44ed01882317a8fd0a24056f0a5b7fbde017818c3dd94b4888d3f12664ce2c",
+      "published_sha256": "9456ac64ac0ffbdd7797e909769a2f7567a63beeecdbe5ae6dfb2d1e2850f194"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/low_knee/manifest.json",
+      "source": "artifacts/patrol-endurance-20261029/low_knee/manifest.json",
+      "original_sha256": "dfac0a81422e2f7587712a5fa9bdc6f3a2a8c96508c449040eb156ca718d7f4e",
+      "published_sha256": "92d3a7e91154a048551efb23ee750a17685f59e48775d2cc8d783c64ab3ce10c"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/low_screen/analysis.json",
+      "source": "artifacts/patrol-endurance-20261029/low_screen/analysis.json",
+      "original_sha256": "45b92323dcf0412ae94ef7e95a498a558493229a96e0528248d6dfcf39d5fcf8",
+      "published_sha256": "d81098b6e24dc3e1a676cc6a5db48996d7f6c2b721eaa6b681fecef1a455c340"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/low_screen/manifest.json",
+      "source": "artifacts/patrol-endurance-20261029/low_screen/manifest.json",
+      "original_sha256": "b1a95e2cb38edc93c22addf758df5179100a4b70ad4659c0862f25cf7c1e3cad",
+      "published_sha256": "90a3274f6789f0720fcf82b08ad440c7c2b115e7782094b68a9e3f8fe0f085e6"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/low_validation/analysis.json",
+      "source": "artifacts/patrol-endurance-20261029/low_validation/analysis.json",
+      "original_sha256": "050fc999b146bf089f8235840bc19afc43f4a0bd38da41221aed362116d00cff",
+      "published_sha256": "fadde2e0d7d01b2cb63b069639becbc1d1849d04aeb385131f09fb40e4704e05"
+    },
+    {
+      "published": "benchmarks/data/patrol-endurance-20261029/low_validation/manifest.json",
+      "source": "artifacts/patrol-endurance-20261029/low_validation/manifest.json",
+      "original_sha256": "beb6186cb0b47659561d04a0acd7f7b23cf6dd601b98c2f049da0cb8f6653a25",
+      "published_sha256": "548b28454ef33002c114dc04e1b763abacd7831193c0aee8602b19fb9af13049"
+    },
+    {
+      "published": "benchmarks/data/transport-strength-20261029/analysis.json",
+      "source": "artifacts/transport-strength-20261029/analysis.json",
+      "original_sha256": "7340e72a7ad745721342ef1f11c93bcf536f75592841b74649914635f8cd47a9",
+      "published_sha256": "113fbe8f8379160c62b7b2df4a5d38baae9e64a6d26b8098e83c14855c236c3c"
+    },
+    {
+      "published": "benchmarks/data/transport-strength-20261029/curves.csv",
+      "source": "artifacts/transport-strength-20261029/curves.csv",
+      "original_sha256": "6f6f4455ef1f7ae96e299ac4520a8c9a37c3140b7bdf1690d4f6fa04a0e33421",
+      "published_sha256": "ca4c3556127a5f0e42e5023499f33ac336e320aaaf5d9391491305951789340a"
+    },
+    {
+      "published": "benchmarks/data/transport-strength-20261029/curves.png",
+      "source": "artifacts/transport-strength-20261029/curves.png",
+      "original_sha256": "4b3a2df9f2d6b96cf065c7d383b4ca27af6978c01270fcfe3791b7e1aec9d4f7",
+      "published_sha256": "4b3a2df9f2d6b96cf065c7d383b4ca27af6978c01270fcfe3791b7e1aec9d4f7"
+    },
+    {
+      "published": "benchmarks/data/transport-strength-20261029/curves.svg",
+      "source": "artifacts/transport-strength-20261029/curves.svg",
+      "original_sha256": "425b9e258cc0bb38335519571d470f777d24f16e062ea889b0a2f25aced1ae3e",
+      "published_sha256": "425b9e258cc0bb38335519571d470f777d24f16e062ea889b0a2f25aced1ae3e"
+    },
+    {
+      "published": "benchmarks/data/transport-strength-20261029/manifest.json",
+      "source": "artifacts/transport-strength-20261029/manifest.json",
+      "original_sha256": "586a3af57187aae3fbc949e2be43a5f497cc7e534d5294889c92d3fa52b4eb08",
+      "published_sha256": "39ebf8684d0db93a6e3eb189ae816f1fda22fe3a15d07884cec8c34146d70800"
+    },
+    {
+      "published": "benchmarks/data/transport-strength-20261029/starvation-audit.json",
+      "source": "artifacts/transport-strength-20261029/starvation-audit.json",
+      "original_sha256": "67d70408aa7e013985d0ce1da08aa1dc21a5c67daf0dcfe0b0b15d8bd5b83d9b",
+      "published_sha256": "86438c3eb88deccb80ebbe0a5a96d71b99b2c17825d5a112ae9dd7022c823915"
+    },
+    {
+      "published": "benchmarks/data/transport-dual-20261029/analysis.json",
+      "source": "artifacts/transport-dual-20261029/analysis.json",
+      "original_sha256": "910633d88241c6dd0eeb935d97f9b63374122355f67dbf6d3eeef20c39b27655",
+      "published_sha256": "998f90d2e9cf81f1386f93184ea3a266ae13a181077ed1d0c060810102e98ae7"
+    },
+    {
+      "published": "benchmarks/data/transport-dual-20261029/curves.csv",
+      "source": "artifacts/transport-dual-20261029/curves.csv",
+      "original_sha256": "ae27948fd8c149151f74c685dcb59f842e9d54be4f9906e6f0e6df5ab48ef4b2",
+      "published_sha256": "a4ff93311ff8b2ee5966be08c34f49a53a1d842e897ac1efac5d1e83585e962d"
+    },
+    {
+      "published": "benchmarks/data/transport-dual-20261029/curves.png",
+      "source": "artifacts/transport-dual-20261029/curves.png",
+      "original_sha256": "293a711a61b3c99e66efcde1820f4044984e638d9bd2f690a31f44017ee5600f",
+      "published_sha256": "293a711a61b3c99e66efcde1820f4044984e638d9bd2f690a31f44017ee5600f"
+    },
+    {
+      "published": "benchmarks/data/transport-dual-20261029/curves.svg",
+      "source": "artifacts/transport-dual-20261029/curves.svg",
+      "original_sha256": "b3ac6a99f7f3645a985f4fffaeae2b0861ec45a7b853ab1c5bd837e28b8975f7",
+      "published_sha256": "b3ac6a99f7f3645a985f4fffaeae2b0861ec45a7b853ab1c5bd837e28b8975f7"
+    },
+    {
+      "published": "benchmarks/data/transport-dual-20261029/manifest.json",
+      "source": "artifacts/transport-dual-20261029/manifest.json",
+      "original_sha256": "991a66cc8659126995e31cc9cef0d4b509fbe96e12d422031b750790ba2dedc7",
+      "published_sha256": "6e1befe75817e848838b91bd3985575bddeebbc05a0456515a9e4e7d1e5c61c0"
+    },
+    {
+      "published": "benchmarks/data/transport-dual-20261029/verification.json",
+      "source": "artifacts/transport-dual-20261029/verification.json",
+      "original_sha256": "ef882161df25e69a154f94c5a03d29bf756e14da1cd29fd19b0ad82028447088",
+      "published_sha256": "6420e71595c74f4d936d7ac4b9912c7fbbdf81b6594b9aafc35206497d940358"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/comparison.png",
+      "source": "artifacts/transport-triple-20261029/comparison.png",
+      "original_sha256": "7868357df459c61f5c00fe46de04523ffa4ee3250cefb709d37fa34b86c2a596",
+      "published_sha256": "7868357df459c61f5c00fe46de04523ffa4ee3250cefb709d37fa34b86c2a596"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/comparison.svg",
+      "source": "artifacts/transport-triple-20261029/comparison.svg",
+      "original_sha256": "75a65c6e9f0e9842310018ac49fcd1ba558af26d33baa6599546a4fdd5c4ccf1",
+      "published_sha256": "75a65c6e9f0e9842310018ac49fcd1ba558af26d33baa6599546a4fdd5c4ccf1"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/holdout/analysis.json",
+      "source": "artifacts/transport-triple-20261029/holdout/analysis.json",
+      "original_sha256": "c681b7303ecf3b8911dbe05a1866ff9c23e978bde0ac9aeea6f99c8be3c67fb3",
+      "published_sha256": "4c9be594a1aebacb2594dc1f974bf574282fb8925e00361924854536de9b92b2"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/holdout/comparison.csv",
+      "source": "artifacts/transport-triple-20261029/holdout/comparison.csv",
+      "original_sha256": "cf5a27b50db1f09df26f4cad0de1589f80535b1ac912db83bdbc8f34abd7c1ee",
+      "published_sha256": "28ca5aac138ab70178968292b930366f27d2cc61b5f5a8b830e4cf98604f2bf6"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/holdout/manifest.json",
+      "source": "artifacts/transport-triple-20261029/holdout/manifest.json",
+      "original_sha256": "5427bc773bfcc2fa2e542f8e1464aea9347c2d7345bc4984efe60a14d1535fd1",
+      "published_sha256": "65bb9c5ef2fc2863c764697196ab91debf21fa801d1dbdd720fe95b60f7bc2c1"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/holdout/verification.json",
+      "source": "artifacts/transport-triple-20261029/holdout/verification.json",
+      "original_sha256": "31775d3de936cd318bc82a2eb5cfcf417bdb3f9a9885fc1faeab5573683e64ed",
+      "published_sha256": "5c821b9569cabbf4d3cb83fba67afc3e34fc6c882c006b4b4628547b9d50e38b"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/screen/analysis.json",
+      "source": "artifacts/transport-triple-20261029/screen/analysis.json",
+      "original_sha256": "3b615bb3601ece6625c5a21ade9d5289c80bdc73dbc0dcb43303df032eb20279",
+      "published_sha256": "a748e5226d31b3a635313e87aeecc9c1b9e9cbde2cfb5eacf5547d132c0f65c7"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/screen/comparison.csv",
+      "source": "artifacts/transport-triple-20261029/screen/comparison.csv",
+      "original_sha256": "9e98e13e34feb085fe341b83db79bec02c458e2a2354ea685e5362d853a3eac0",
+      "published_sha256": "f235ba522fdbf29367845b231820fef5ab49ef58ac42d0f06f5e727d5ac54776"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/screen/manifest.json",
+      "source": "artifacts/transport-triple-20261029/screen/manifest.json",
+      "original_sha256": "995bcc8aee73bc58790dd4180fcc26cf0ab3050977046bd0f7b26e264b1c4e67",
+      "published_sha256": "dd09b8748a0e66dcd939adf7602260bd22c3f62795dac03cea29088fcadb05c6"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/screen/verification.json",
+      "source": "artifacts/transport-triple-20261029/screen/verification.json",
+      "original_sha256": "54f6e224237c25906fc7610d5eba9f41e654694a04d9e1d9a9ea77b6b1838376",
+      "published_sha256": "0d0f7e0cdfbbf79424f2ca2342794e2ae593ad862af014ca591997f85d7afddb"
+    },
+    {
+      "published": "benchmarks/data/transport-triple-20261029/verification.json",
+      "source": "artifacts/transport-triple-20261029/verification.json",
+      "original_sha256": "16319e8d1455815e15473c4e93d4bdf4ca9d614ecba20217c85b2a21ada54a6b",
+      "published_sha256": "3c12230d9fd58c1d2a458447c809beb540cf561737cc64110bfdd6d19152c81d"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/combined/analysis.json",
+      "source": "artifacts/transport-clearance-20261029/combined/analysis.json",
+      "original_sha256": "427a913dabdb4b2687ee98c4e73b44986ea5b1c4a439cc44291f30af9c4ad1ab",
+      "published_sha256": "c5780ffd54cc04b1aba59dfccb3b2f59dd409e42073a0edcfb32a075c595a114"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/combined/comparison.csv",
+      "source": "artifacts/transport-clearance-20261029/combined/comparison.csv",
+      "original_sha256": "c03e303f6c245e9063bf23983f223c07c6cefb0e83d6c09ccf2c98ce827e649b",
+      "published_sha256": "b8c9cb4642e6c4ee91f53c7873a503c7eb9623245e21205e4ac8eb50b4b37d92"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/combined/manifest.json",
+      "source": "artifacts/transport-clearance-20261029/combined/manifest.json",
+      "original_sha256": "74f87b1bccc7ddbafec1fbbc90a99f04ab5da8a3100ec81fcd4ff3838e5a4612",
+      "published_sha256": "9ea4b137ec27fd3173930c2d35cb70c3c4d5dac024a8628a8a877b9f82b03fd8"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/combined/verification.json",
+      "source": "artifacts/transport-clearance-20261029/combined/verification.json",
+      "original_sha256": "d5d39095e724ccf0ddab3c6d0470d1f63e096494e96ca8610a8ae28e870fa8a8",
+      "published_sha256": "2d41b919767abb19b8f03818b4fd5b2788571e60507a4070186f9e508d487b0c"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/comparison.png",
+      "source": "artifacts/transport-clearance-20261029/comparison.png",
+      "original_sha256": "b53dc3b3546cf2ab71d09366dfb1ab3959c26df5047d5a99250aeb3b06ec865f",
+      "published_sha256": "b53dc3b3546cf2ab71d09366dfb1ab3959c26df5047d5a99250aeb3b06ec865f"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/comparison.svg",
+      "source": "artifacts/transport-clearance-20261029/comparison.svg",
+      "original_sha256": "09a69d436779a7a75c348038850ba19f1d37f96ea19c6e378acc053eeb65bbb3",
+      "published_sha256": "09a69d436779a7a75c348038850ba19f1d37f96ea19c6e378acc053eeb65bbb3"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/holdout/analysis.json",
+      "source": "artifacts/transport-clearance-20261029/holdout/analysis.json",
+      "original_sha256": "c5ed2e54d61b9d952b92036ad88694bb117933bf1a1a6f48735542c02e726fb7",
+      "published_sha256": "cc9ee46abbe88c170b6606609795164642806b61ec0320b9a227d66782e585a3"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/holdout/comparison.csv",
+      "source": "artifacts/transport-clearance-20261029/holdout/comparison.csv",
+      "original_sha256": "c3c1aae201dc0acd3eba128c384f7abd5925a53213453f71ea7f6a041f75194b",
+      "published_sha256": "aa3a35c5be3f3d324e5dc34b76eb55d460f475358ad4d2840e1683941c4ec632"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/holdout/manifest.json",
+      "source": "artifacts/transport-clearance-20261029/holdout/manifest.json",
+      "original_sha256": "422eaf9631c1b350f4c6cc7260cd78b871fbddc2d6170ca7c2a9fde5adf78bc1",
+      "published_sha256": "61c1fa61fb8f184fbb0ab42d11ffe9d417e2fd096736b4ea87135c4019a1de87"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/holdout/verification.json",
+      "source": "artifacts/transport-clearance-20261029/holdout/verification.json",
+      "original_sha256": "54f6e224237c25906fc7610d5eba9f41e654694a04d9e1d9a9ea77b6b1838376",
+      "published_sha256": "0d0f7e0cdfbbf79424f2ca2342794e2ae593ad862af014ca591997f85d7afddb"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/screen/analysis.json",
+      "source": "artifacts/transport-clearance-20261029/screen/analysis.json",
+      "original_sha256": "0782ce986e13bbeb081fb8351cdbc541ddd0741363ddee689f24e5f65ecd3d18",
+      "published_sha256": "8d2fbf171119f624cd537dc260c1a820c951475abb72407bed843740a658508d"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/screen/comparison.csv",
+      "source": "artifacts/transport-clearance-20261029/screen/comparison.csv",
+      "original_sha256": "ac22389236e8e62c19c39d70a8ce4d2359f63d94eb2b3844f51d7064dfddbae8",
+      "published_sha256": "b669dab51f7b03451ebdd474f30c23012a5f278cc08188af1a08eb332a2cab1d"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/screen/manifest.json",
+      "source": "artifacts/transport-clearance-20261029/screen/manifest.json",
+      "original_sha256": "b6e8a7ea12593c0d23d10bffd0a910d0a2fa0f981658e9f1e2691f89746e6124",
+      "published_sha256": "513199f46cd3968728e573096bae3ee9ad8cc147c76952c4700774474b28586c"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/screen/verification.json",
+      "source": "artifacts/transport-clearance-20261029/screen/verification.json",
+      "original_sha256": "54f6e224237c25906fc7610d5eba9f41e654694a04d9e1d9a9ea77b6b1838376",
+      "published_sha256": "0d0f7e0cdfbbf79424f2ca2342794e2ae593ad862af014ca591997f85d7afddb"
+    },
+    {
+      "published": "benchmarks/data/transport-clearance-20261029/verification.json",
+      "source": "artifacts/transport-clearance-20261029/verification.json",
+      "original_sha256": "cdf1e8da3c6ae719eba0051191952020d937fe2bfbbfbd233685047ffbfa3c14",
+      "published_sha256": "95362ca64b915576d712d24699938a67e656e00d624a31872beb4ca70632e9cc"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/comparison.png",
+      "source": "artifacts/transport-hunter-20261029/comparison.png",
+      "original_sha256": "26e23f5ec097c789ef045a8fad1153387477409fbb6b8a57aadf4dfac68f0df9",
+      "published_sha256": "26e23f5ec097c789ef045a8fad1153387477409fbb6b8a57aadf4dfac68f0df9"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/comparison.svg",
+      "source": "artifacts/transport-hunter-20261029/comparison.svg",
+      "original_sha256": "79c2d97174c5eb804d07ef95bb7a33693b94fd8a6cf0b97a06319a8fcc5aa433",
+      "published_sha256": "79c2d97174c5eb804d07ef95bb7a33693b94fd8a6cf0b97a06319a8fcc5aa433"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/holdout/analysis.json",
+      "source": "artifacts/transport-hunter-20261029/holdout/analysis.json",
+      "original_sha256": "1451eca75fa50a5d1528a40472e4834678d53c2a070b870fe18ad66749bc185f",
+      "published_sha256": "f5c79c0a01c0f2770767bd44e465b816834de963838bd0cda8e67de8f5a09f11"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/holdout/comparison.csv",
+      "source": "artifacts/transport-hunter-20261029/holdout/comparison.csv",
+      "original_sha256": "a49ae14eb4663d3c88428934e00d4d1b22bbc60e80448190166722888d65eb66",
+      "published_sha256": "948c86735c3dc529a13e4fa3c328bedd6c7e03a80135657ee5b32dbd34c5b0e1"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/holdout/manifest.json",
+      "source": "artifacts/transport-hunter-20261029/holdout/manifest.json",
+      "original_sha256": "a9c893257ec57631ece11541126c673b095a31278efcd25a6d74b93c540997c8",
+      "published_sha256": "11e088711c3cfde8760154416d1a7388eb18c6a3b14930aefc4047a6af27a7ff"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/holdout/verification.json",
+      "source": "artifacts/transport-hunter-20261029/holdout/verification.json",
+      "original_sha256": "31775d3de936cd318bc82a2eb5cfcf417bdb3f9a9885fc1faeab5573683e64ed",
+      "published_sha256": "5c821b9569cabbf4d3cb83fba67afc3e34fc6c882c006b4b4628547b9d50e38b"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/screen/analysis.json",
+      "source": "artifacts/transport-hunter-20261029/screen/analysis.json",
+      "original_sha256": "f087534510326d6be673cfd899f2ec3bee1928078e66af5e13fd413f1f9b7498",
+      "published_sha256": "05187a789c19adc11e59bc639c500b83a49886f48ff480c0f0536fcd8752c875"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/screen/comparison.csv",
+      "source": "artifacts/transport-hunter-20261029/screen/comparison.csv",
+      "original_sha256": "d87de99fec91d507d0ce5144abbc90c24f44c5e1e4ac9c93f7786bbd8637bc3f",
+      "published_sha256": "ddd5d8f58634e0c80f9d845632466c2f25e3d023a878021ee031feaaf6083561"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/screen/manifest.json",
+      "source": "artifacts/transport-hunter-20261029/screen/manifest.json",
+      "original_sha256": "685ef47371c7338c0fcf51ae4403abc7dc05dce376fa4b85f5189519fd1aa945",
+      "published_sha256": "d4b403c17a7519019a48d236d2c267f3fe64790a209a03006b5d25d6057e8e00"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/screen/verification.json",
+      "source": "artifacts/transport-hunter-20261029/screen/verification.json",
+      "original_sha256": "54f6e224237c25906fc7610d5eba9f41e654694a04d9e1d9a9ea77b6b1838376",
+      "published_sha256": "0d0f7e0cdfbbf79424f2ca2342794e2ae593ad862af014ca591997f85d7afddb"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/selection.json",
+      "source": "artifacts/transport-hunter-20261029/selection.json",
+      "original_sha256": "59cae787d9eee6723241a79fbf667286eb91145e6d4167eb0668ed373d8db0bd",
+      "published_sha256": "74b4e9cfb4a62c0ea36ba1bb0e1bfaefe7762538fcae6ba78ddd95b577913e0a"
+    },
+    {
+      "published": "benchmarks/data/transport-hunter-20261029/verification.json",
+      "source": "artifacts/transport-hunter-20261029/verification.json",
+      "original_sha256": "3779be2a53505a80c12aa2d310df00e637653e2cbff856b53d2855b5a9440af0",
+      "published_sha256": "511cb5910f1cf3be5f5dee5006bb07c900392015192b08ea7f2a93862a67d356"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/combined-analysis.json",
+      "source": "artifacts/triple-growth-20261029/combined-analysis.json",
+      "original_sha256": "ddf98b1b4eef7cd16a68d187ad4c045cd945a07f1a82413b547c5cc8d4fd10e7",
+      "published_sha256": "84bf2509b69b1d6475308827e43d75f555d6d99dfef25c3feee2d024bb488de2"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/combined.csv",
+      "source": "artifacts/triple-growth-20261029/combined.csv",
+      "original_sha256": "72cf058fa7294d1dcde639e47f177f057c16c327f723b9de2d34f245c1c185b6",
+      "published_sha256": "3a881c6482baf9abe9e07e5fe98444b3c5b0d912a08a6319d671550ef643c4e0"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/comparison.png",
+      "source": "artifacts/triple-growth-20261029/comparison.png",
+      "original_sha256": "5071ca154a718e4c1cd0a48900adc58b553bcd58a517d8b2aefd96228c95587f",
+      "published_sha256": "5071ca154a718e4c1cd0a48900adc58b553bcd58a517d8b2aefd96228c95587f"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/comparison.svg",
+      "source": "artifacts/triple-growth-20261029/comparison.svg",
+      "original_sha256": "aed79eb607b052a11926f5efdf944b59a05c98a8304cfe4c880cffbec5c113f9",
+      "published_sha256": "aed79eb607b052a11926f5efdf944b59a05c98a8304cfe4c880cffbec5c113f9"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/manifest.json",
+      "source": "artifacts/triple-growth-20261029/manifest.json",
+      "original_sha256": "21e0d8f161f14a703d7cd0d5bebc72696608ab88e87c29385391cefe0a6c03f7",
+      "published_sha256": "647c074a66b0f0e10ce6e64af70cca36ca69b2d059f8133f80824cc591fdff0a"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/round1-analysis.json",
+      "source": "artifacts/triple-growth-20261029/round1-analysis.json",
+      "original_sha256": "c388204351268a25543d9f2be9eb9e859667463c70c18b8081fe022873625221",
+      "published_sha256": "60a754083d97c7c17a1eb6131ce7a940f96742d5be15bae75aeb3859657c4bc4"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/round1.csv",
+      "source": "artifacts/triple-growth-20261029/round1.csv",
+      "original_sha256": "5165937c30cac184aff5672a117b94a50e7b3445bcf3356e1c45a890b7d3c236",
+      "published_sha256": "edea62f48591c762dcdb1f25d9590914f998319b79a037c677bda5db8e64ea38"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/round2-analysis.json",
+      "source": "artifacts/triple-growth-20261029/round2-analysis.json",
+      "original_sha256": "a6383a3ef36d6b7601892398460d9d7bfbac2d2d4d9dc49309440a056a0747cb",
+      "published_sha256": "d3a7ef54cf34ad0c5ec96b0635dca514452f91ed182a3593884dbeb728673b24"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/round2.csv",
+      "source": "artifacts/triple-growth-20261029/round2.csv",
+      "original_sha256": "06ea2a6de46060a3dbcb1bcbb0d319b6071c310631dd094d35bb3e1df430cb5e",
+      "published_sha256": "84badc6c9244f579d13d034e79cee463514385be0b3f8ca8ea26a1fc29188a02"
+    },
+    {
+      "published": "benchmarks/data/triple-growth-20261029/verification.json",
+      "source": "artifacts/triple-growth-20261029/verification.json",
+      "original_sha256": "3e57d144cd4fd59274be787bf1202a7659f41f927fe55e5f5afc48d45b13df8f",
+      "published_sha256": "0f5c5b343659852ccba8e88f11eb5ebc2c0ed35af2b187461a5abfc31b925861"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/combined-analysis.json",
+      "source": "artifacts/rear-allocation-20261029/combined-analysis.json",
+      "original_sha256": "5f6b589eb13e43f7a0d7f8f743de87aa69010ec944deb5446e3665ce1e9a950f",
+      "published_sha256": "c219818a9ac0154f29cf4383d7de406b4fd311d1e37604c0bf5a3cd71bc5259c"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/combined.csv",
+      "source": "artifacts/rear-allocation-20261029/combined.csv",
+      "original_sha256": "7087913d17792d8bdb2ddf4d8644fff996dc41efa3b477d6134f5a882c07f8ee",
+      "published_sha256": "583e10be9d302465660b7af5b739800a920674549ad3210f80db849fbfa5d2de"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/comparison.png",
+      "source": "artifacts/rear-allocation-20261029/comparison.png",
+      "original_sha256": "c39933a0121dcbef3e050bd18c49bc28e47122a576a3f0a10f18ed6e50c85fd0",
+      "published_sha256": "c39933a0121dcbef3e050bd18c49bc28e47122a576a3f0a10f18ed6e50c85fd0"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/comparison.svg",
+      "source": "artifacts/rear-allocation-20261029/comparison.svg",
+      "original_sha256": "3b4870f0e5abfbdfc5d35fa3ed3267c214103daba0f1104bdfab57d3fd2f3ae5",
+      "published_sha256": "3b4870f0e5abfbdfc5d35fa3ed3267c214103daba0f1104bdfab57d3fd2f3ae5"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/manifest.json",
+      "source": "artifacts/rear-allocation-20261029/manifest.json",
+      "original_sha256": "68b2650cf14f41bd80e8fe96626ec2c708e33e54b233583e01dbb1d87afaa222",
+      "published_sha256": "f7e048d8b7697d2140635856ecca41a2efcbabae0f9e810f451ebff0f4fe77ef"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/round1-analysis.json",
+      "source": "artifacts/rear-allocation-20261029/round1-analysis.json",
+      "original_sha256": "1bce14658cba17124761ff10e9b0c1af5a63e1e6845bbc6b26b5348bb98cab0e",
+      "published_sha256": "73c4bf6bed0de305fc80ce34598574b8723ce09c29f6703c348b0e0e65c54687"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/round1.csv",
+      "source": "artifacts/rear-allocation-20261029/round1.csv",
+      "original_sha256": "ea27e97db3b11a587c72e774c0fa9d8a23981943d007b465076adf89f71e44b3",
+      "published_sha256": "b8bd785fa4ff4c7bcdcc8555d9aa15d6012d10c7d15887c43aecc297b889ad55"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/round2-analysis.json",
+      "source": "artifacts/rear-allocation-20261029/round2-analysis.json",
+      "original_sha256": "94d6d18e2e019a83232381d8e7aebcb795d9c4f9fdb524bd67a668b0bfb6b594",
+      "published_sha256": "abb3fe1caa5f84d950359b1cd5c92122d89ccf68dcd8b56fffb1841d87dedf6c"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/round2.csv",
+      "source": "artifacts/rear-allocation-20261029/round2.csv",
+      "original_sha256": "43cfa6b443fe85c8879d4a9c6064c2af3f30c1b0c94a534c56ad4f18093f89eb",
+      "published_sha256": "1b4a1e7f77bd557d43122f28a58b3bdfd21d9ed1cab83d56230670c8319ed86b"
+    },
+    {
+      "published": "benchmarks/data/rear-allocation-20261029/verification.json",
+      "source": "artifacts/rear-allocation-20261029/verification.json",
+      "original_sha256": "cf3fea98591137ece4ffe530243d76b0d5bda92fc4df2541c88d9cffc64f75eb",
+      "published_sha256": "5273a082aa5c74317923e3e44eed0371a138261a3f0816d870990669dbd8dddc"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-20261029/analysis.json",
+      "source": "artifacts/escort-p5-defense-20261029/analysis.json",
+      "original_sha256": "ffb9fdbe33c37591d9acf89b29330f27b177a12d148ad9eed717164d9872f046",
+      "published_sha256": "341dc3f11e3d145353c973de12419cc41a3a89d3d4bb1634c05bccafe2a5c686"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-20261029/audit.json",
+      "source": "artifacts/escort-p5-defense-20261029/audit.json",
+      "original_sha256": "ba9985f8fa8b8b3c14032abc711f0b775d9084b2c3f809686090d9a8eed1cb80",
+      "published_sha256": "993b66da6b0c8a1de0372f61bea010ff24994ee718764fb2fd55fba2cc782db9"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-20261029/baseline/manifest.json",
+      "source": "artifacts/escort-p5-defense-20261029/baseline/manifest.json",
+      "original_sha256": "ec5c7e4f80edcfb4d892424984da5550ac57ad2b08669c944c6b9133f0fdbfe2",
+      "published_sha256": "aad760f2ffa437d4811dbb549ea305beffbd16b76807aff962a342c73579f200"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-20261029/experiment/manifest.json",
+      "source": "artifacts/escort-p5-defense-20261029/experiment/manifest.json",
+      "original_sha256": "f8ca204bb7309256d31287149fd6848bc286b3b828219e2a83fb4ec9ee654642",
+      "published_sha256": "c4843081fba60fde743523384842896c4c2aae529bc17d3281c3abc8701ba11c"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-20261029/paired40.csv",
+      "source": "artifacts/escort-p5-defense-20261029/paired40.csv",
+      "original_sha256": "4a898b1b8ac297024276c208bc52f365a36120a27fdcd467153ea550ed19a6b2",
+      "published_sha256": "4051ff1ccf85847b2002343bc32fd61ff7fde08f4099ebdf2ab411505fdf79f4"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-20261029/validation.json",
+      "source": "artifacts/escort-p5-defense-20261029/validation.json",
+      "original_sha256": "08d7f0513dec26375419a6bd401d25bcf34685b20e7dd40df7e49566d5e18e12",
+      "published_sha256": "4bcbdfc5f4e125e9d59cafad8312626d5d89a4306d88b9eb06e02a18b45cc5cb"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-v2-20261029/analysis.json",
+      "source": "artifacts/escort-p5-defense-v2-20261029/analysis.json",
+      "original_sha256": "2c6832849433181e69fd7d6f32634da83b79f2544f30319cd33c4cbd94fc23f7",
+      "published_sha256": "ae299e2ab0b4a717046ee0a502939797bd1f13ea36d99a0a19abe4151f413168"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-v2-20261029/experiment/manifest.json",
+      "source": "artifacts/escort-p5-defense-v2-20261029/experiment/manifest.json",
+      "original_sha256": "92a58a67caa7317ab492e71f853a06b3e1ee9e23a2562526d488173273af3282",
+      "published_sha256": "ae0c5b5f0f6dbbdd8311dd5cfd98bab04c48a342889e3be87f81405886bef629"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-v2-20261029/seed-selection.json",
+      "source": "artifacts/escort-p5-defense-v2-20261029/seed-selection.json",
+      "original_sha256": "d1f01feeed0f3567126d9a851a176717f1018e029e62d2290465261bc251127e",
+      "published_sha256": "bd186d2ca5a49fc3aedcdd3c9108ad5520e533a24c28ab4bddac2c2e5d859563"
+    },
+    {
+      "published": "benchmarks/data/escort-p5-defense-v2-20261029/validation.json",
+      "source": "artifacts/escort-p5-defense-v2-20261029/validation.json",
+      "original_sha256": "0ccb194211735ad835ce35ce59d829decb502c4e933f4f7f58864fbfdb584898",
+      "published_sha256": "a98a94bc33cc28f3146ed43b6523c5373fb98e9148858bd1ffd8c1cc2f09c583"
+    },
+    {
+      "published": "benchmarks/data/direct-garrison-20261029/analysis.json",
+      "source": "artifacts/direct-garrison-20261029/analysis.json",
+      "original_sha256": "8175dba44616e886cb77d4985809f1ef0eef2e81941bc6e3a7da7ecf57623333",
+      "published_sha256": "4b178a4d1a2e8ad5fc22d2e87e7614c62887cd31a0059afbcd0d51e66b907705"
+    },
+    {
+      "published": "benchmarks/data/direct-garrison-20261029/experiment/manifest.json",
+      "source": "artifacts/direct-garrison-20261029/experiment/manifest.json",
+      "original_sha256": "8b6a83376bc38ee6c592d07859093bb989803c1190c095108eb0a97c62abc497",
+      "published_sha256": "ff9e78143c8ea241327c9e169eb6f1fa32eb1ac02716e779ccadb6c05851796f"
+    },
+    {
+      "published": "benchmarks/data/direct-garrison-20261029/paired24.csv",
+      "source": "artifacts/direct-garrison-20261029/paired24.csv",
+      "original_sha256": "3f4c9f58b3888fd59cd1504d1f3aec7c57af765ae9370a27f902829b29027353",
+      "published_sha256": "f76cc52ce0109540845fa75b45184d61cfaf9213c7cc2fc2a1070af22aa481e9"
+    },
+    {
+      "published": "benchmarks/data/direct-garrison-20261029/seed-selection.json",
+      "source": "artifacts/direct-garrison-20261029/seed-selection.json",
+      "original_sha256": "d1f01feeed0f3567126d9a851a176717f1018e029e62d2290465261bc251127e",
+      "published_sha256": "bd186d2ca5a49fc3aedcdd3c9108ad5520e533a24c28ab4bddac2c2e5d859563"
+    },
+    {
+      "published": "benchmarks/data/direct-garrison-20261029/verification.json",
+      "source": "artifacts/direct-garrison-20261029/verification.json",
+      "original_sha256": "cecfe39d48cef51466effefbfab0c5facd6d5bcb2d062fb877768ec856332a05",
+      "published_sha256": "684b7b1248511752b7d1a41233de5fb31eb13176e15ddf924e8dbf4fb3626082"
+    },
+    {
+      "published": "benchmarks/data/winrate40-20261028/analysis.json",
+      "source": "artifacts/winrate40-20261028/analysis.json",
+      "original_sha256": "5bafe590568a188ddf0ec17266159817a6e66cbce9ee8fae38ecf7ca850b043a",
+      "published_sha256": "5d7d16512f434d9547e1dc63e5ba7f1b90e5b9f53f03b94603155ac78335a903"
+    },
+    {
+      "published": "benchmarks/data/winrate40-20261028/games.csv",
+      "source": "artifacts/winrate40-20261028/games.csv",
+      "original_sha256": "07fe1778774cf1b3df96c6f9410ab629be8007bd3a520b47cc7e12728067ea85",
+      "published_sha256": "b37d1b0cab12850aaa1c210e821273e3f64795048b2441e67337dc83d7b2ba76"
+    },
+    {
+      "published": "benchmarks/data/winrate40-20261028/manifest.json",
+      "source": "artifacts/winrate40-20261028/manifest.json",
+      "original_sha256": "c7558cbeb16e2316a7fa7926831005bfc0262106ff804a23b80ba82b41d4d51a",
+      "published_sha256": "4ae04905940b2f6100c67155e345472b3c068bce1f52f1124e6dbfa4a1e9bad7"
+    },
+    {
+      "published": "benchmarks/data/winrate100-20261028/analysis.json",
+      "source": "artifacts/winrate100-20261028/analysis.json",
+      "original_sha256": "5090a902f2046e8b9c52add01921b35c7fe5beda7ffea17abcf6d1dcf646015e",
+      "published_sha256": "35dab201d8d1453876013611c6ad45e42500915de18ad7b700d4b11d6f29ff45"
+    },
+    {
+      "published": "benchmarks/data/winrate100-20261028/games100.csv",
+      "source": "artifacts/winrate100-20261028/games100.csv",
+      "original_sha256": "b9681a49e1839116931c222a6ff6c8e01bf74f2a8994e9f7677e4360389eca88",
+      "published_sha256": "7a8c67a48c258e1f390a16e05f54b45f9580b1c471e6b4d35a35c6b801231b79"
+    },
+    {
+      "published": "benchmarks/data/winrate100-20261028/manifest.json",
+      "source": "artifacts/winrate100-20261028/manifest.json",
+      "original_sha256": "cf98e63f67c39403e6995d9759f6e2a9eebf33284827e63dfb87e5ebb80084ba",
+      "published_sha256": "57742d187959b010eebda1a89b4e4ab4bf9c945837ee85c1a605bce4ed43aaec"
+    },
+    {
+      "published": "benchmarks/data/p5-duel100-20261028/analysis.json",
+      "source": "artifacts/p5-duel100-20261028/analysis.json",
+      "original_sha256": "aff9858cf6e0f2522d06cce0e2e56579263d651360543845b985bf6c9b41feda",
+      "published_sha256": "90764f03114c3caa39c2b73615f86360d493dce6a83267d24618539209303ec1"
+    },
+    {
+      "published": "benchmarks/data/p5-duel100-20261028/games100.csv",
+      "source": "artifacts/p5-duel100-20261028/games100.csv",
+      "original_sha256": "e4da532093a35b5381387d03f9f642dc451234ad6586e52fcc1d3cb49e1a0080",
+      "published_sha256": "2c9e3659b91b934cb3256316b57642bb24dd85f575692130ac66742e620eb849"
+    },
+    {
+      "published": "benchmarks/data/p5-duel100-20261028/manifest.json",
+      "source": "artifacts/p5-duel100-20261028/manifest.json",
+      "original_sha256": "6f56198e71939dc77139ed0b9a1d6eb73f52ce074989519937b1c6760ae6bf31",
+      "published_sha256": "ad4e66abeadc442e4c5c25792b6b321a187f2640e1ed927528171abb08a7ce82"
+    },
+    {
+      "published": "benchmarks/data/p5-duel100-20261028/paired100.csv",
+      "source": "artifacts/p5-duel100-20261028/paired100.csv",
+      "original_sha256": "469185bb73a62de1daee7ce95760da253ae4f9e0f6ae1b2c278711c28fbd8444",
+      "published_sha256": "82689224caf1d73eccb21c259a4ee3e375b263e35ce5b2e8b3b260bf8f18a232"
+    },
+    {
+      "published": "benchmarks/data/war-strategies-20261028/all-games108.csv",
+      "source": "artifacts/war-strategies-20261028/all-games108.csv",
+      "original_sha256": "609fc5f844a0c885c7947e7375da88cda2563fef8f94bcbc1087be37b92c8caa",
+      "published_sha256": "4d61a7f91de64c151f7cfd652eb951f7d100b2ca7c435bca1f9c9fd5a91af2c6"
+    },
+    {
+      "published": "benchmarks/data/war-strategies-20261028/holdout/analysis.json",
+      "source": "artifacts/war-strategies-20261028/holdout/analysis.json",
+      "original_sha256": "ba3684338f2867b23ff5d839d69826eaa852042e99743563f45fb3000dc109b7",
+      "published_sha256": "f0b5269b28128857646daf44b3d5a50f4b11ebf4ed2b4267755d70c05ba18c63"
+    },
+    {
+      "published": "benchmarks/data/war-strategies-20261028/holdout/manifest.json",
+      "source": "artifacts/war-strategies-20261028/holdout/manifest.json",
+      "original_sha256": "80317a005aa9cd02e6151d8251421910e7a1b3252b3ec5657f48b3d1d1695287",
+      "published_sha256": "dbdffb40b1a1d9df99d5befeffb6b72a79bc765b56605eaade65f05cedb783f1"
+    },
+    {
+      "published": "benchmarks/data/war-strategies-20261028/screen/analysis.json",
+      "source": "artifacts/war-strategies-20261028/screen/analysis.json",
+      "original_sha256": "cbf1231b8b49db25c7c4b7d9169ee553a525492c1691fb0ebbb93bb60ea87f73",
+      "published_sha256": "3b6ddaa494e980b5924d55d19fdd8f573966f1a5527e4f7bb3c3225ad208a518"
+    },
+    {
+      "published": "benchmarks/data/war-strategies-20261028/screen/manifest.json",
+      "source": "artifacts/war-strategies-20261028/screen/manifest.json",
+      "original_sha256": "2529ed60638a247f49a37d6bdb35026ad67be269ac7b25d9d9734ad38670f55a",
+      "published_sha256": "1294523ffdeba6a202380edf73421103a14f4e9cc4a2380367cd49f824e7f403"
+    },
+    {
+      "published": "benchmarks/data/war-strategies-20261028/validation/analysis.json",
+      "source": "artifacts/war-strategies-20261028/validation/analysis.json",
+      "original_sha256": "96b80d2733af9b8c55717aae7634e54e137069ba05c8ed14aad38d7e7ff90413",
+      "published_sha256": "e43cc8f262d6a33f821391fb91c7c12709194b757cf41b7bd9c8eab40cd98391"
+    },
+    {
+      "published": "benchmarks/data/war-strategies-20261028/validation/manifest.json",
+      "source": "artifacts/war-strategies-20261028/validation/manifest.json",
+      "original_sha256": "faa7d0451de077665d55a1bf589ab33ac018c6a9296c1cbcfe506c7f112ba3dc",
+      "published_sha256": "11cdac170810b8243f4735e7805acc17c05628c1f534f35c1c069fc4339aaef3"
+    },
+    {
+      "published": "benchmarks/data/p3-improvement/coverage/results.json",
+      "source": "artifacts/p3-improvement/coverage/results.json",
+      "original_sha256": "51ebf64cab5152ed8b019218ced8982f6a27dd47c0b496b2943d7cf39eb060e7",
+      "published_sha256": "ca308014100897f319b02e62bfa3449d0d1e752ac911b47d221cc12395c7e689"
+    },
+    {
+      "published": "benchmarks/data/p3-improvement/dispatch/results.json",
+      "source": "artifacts/p3-improvement/dispatch/results.json",
+      "original_sha256": "704762e934e1b756f0f9f0dafd7e9327a71fa1e33ca6664473c3be36c34cd3c5",
+      "published_sha256": "f10b4e6133c7f511574916839defa999778436cc6703241cb60e9a77d2ed3371"
+    },
+    {
+      "published": "benchmarks/data/p3-improvement/p5-final/results.json",
+      "source": "artifacts/p3-improvement/p5-final/results.json",
+      "original_sha256": "5d0d1a6b808fe67ff15223aca08e4c53785d91196f0c282926cb91395e0bb14d",
+      "published_sha256": "2d0735304073fa45634e2810c150ff974209d6e4e08926a3b3734f2a4207c2ca"
+    },
+    {
+      "published": "benchmarks/data/p3-improvement/screen/results.json",
+      "source": "artifacts/p3-improvement/screen/results.json",
+      "original_sha256": "df8964154e7d5ac60ece5c3e69a014965e2c115031c3d7b74eb93e29aab1dcfb",
+      "published_sha256": "2438c303895efb9416982c6bcc722263a44d70a721c4a0a610ebda06cb5d5b0a"
+    },
+    {
+      "published": "benchmarks/data/p3-improvement/validation/results.json",
+      "source": "artifacts/p3-improvement/validation/results.json",
+      "original_sha256": "1b6ed7f7c66fb41b13d35b58d9bf75ae0a437d6fec055f52b8b412261eb9e6fc",
+      "published_sha256": "dc4a3ef251ed35bd58961695e61a2271a8013930e21e435d9e0d245cf8584b87"
+    },
+    {
+      "published": "benchmarks/data/p5-improvement/comparison/results.json",
+      "source": "artifacts/p5-improvement/comparison/results.json",
+      "original_sha256": "bae06c791a3ad4ab1c321d1425a64210ee4f30d351143ebc7b76c7c6ae67c76a",
+      "published_sha256": "44576c232d709c247fdf1fdfc119a8817ddcb8fccfa24a33033905d06225df68"
+    },
+    {
+      "published": "benchmarks/data/p5-improvement/screen/results.json",
+      "source": "artifacts/p5-improvement/screen/results.json",
+      "original_sha256": "6d9e8f74362024a6e4c1d0c8e487f0dd9a0e6b99f3c493783ecc4c53d4d2b13a",
+      "published_sha256": "dbca98556b7627caa0af0e7083c2f1d50a815e42342df07145f26f50b4947704"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/party-cap2-all-strategies.json",
+      "source": "artifacts/party-cap2-all-strategies.json",
+      "original_sha256": "12a251a6a7a5684b2d5e36d0ff0313d7394399a3ce27975641027619616ebfa5",
+      "published_sha256": "40bff20330a580374bbad82b32faa7f4a005d9d6eba58d4c22715027c7d4854f"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/party-cap2-top3-holdout.json",
+      "source": "artifacts/party-cap2-top3-holdout.json",
+      "original_sha256": "67bd681f669da15a84f616ed3bfdab0c24e64bce87b7b21749fa5162935f8eaa",
+      "published_sha256": "1287950be9b9f71a52cdaa2584e8f7bc39d6513872b1009f1c0c81f1f6a016f7"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/party-cap3-p5-control.json",
+      "source": "artifacts/party-cap3-p5-control.json",
+      "original_sha256": "74ee224a0c91599ecbba64a6b9242fc042cb9d0991a97e87fd1b6a54147ccf09",
+      "published_sha256": "d7e9a3b7e0525075ed31a7111518ef088adaf22e25e795eb1988ec1c512ff0bf"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/party-cap4-all-strategies.json",
+      "source": "artifacts/party-cap4-all-strategies.json",
+      "original_sha256": "0cc1e1dc608d39975418b4b1c05ef4d89d8096a205ec8be6517dd9b24e102569",
+      "published_sha256": "3fd2fd5603b608d2c006124a4cb4f8248f35f103ee49d3c8bb2871d012116614"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/party-cap4-top5-holdout.json",
+      "source": "artifacts/party-cap4-top5-holdout.json",
+      "original_sha256": "7480fea15283003603610b4e31a86c9ab47c3b7eb042bf095819911e54b1d0b2",
+      "published_sha256": "2494a8f3f895622a57c1bad2e970182813b0352483eaac934f6c0b15c6202c84"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/patrol-six-clans-v1.json",
+      "source": "artifacts/patrol-six-clans-v1.json",
+      "original_sha256": "04f256387d48526b0440221554f4e82df2cc782676ecf34994453d4d4638bd2e",
+      "published_sha256": "32db6be1673981a1f05c0601e52634b5136c9d4c7e7b603c20c8ff6511cf2c02"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/patrol-six-clans-v2.json",
+      "source": "artifacts/patrol-six-clans-v2.json",
+      "original_sha256": "190b95aa55c532f73bceaac5e28889c35b96cc0261a9cf658e68c26da66b780a",
+      "published_sha256": "4d69c2d21d40eb50fda760221885d8ad43da833f71e8be7a781b73e56d1335eb"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/concurrency-mac-20261028.json",
+      "source": "artifacts/concurrency-mac-20261028.json",
+      "original_sha256": "d30c201777636d253da3747624629d566270d9e1ba09cf7ea97f5f81c285938e",
+      "published_sha256": "be1e665323153284d872a50030835c306c203cdd96b52b1fc380f62efd0d60c4"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/concurrency-pc-20261028.json",
+      "source": "artifacts/concurrency-pc-20261028.json",
+      "original_sha256": "b6d26298d3a347645384c53a6c573dc40c0121e41198591460ced2af60396f30",
+      "published_sha256": "ea6407e8786efec85860f23d8dac28fa2eb456fe0f50e1566f7bc813e81f7999"
+    },
+    {
+      "published": "benchmarks/data/early-comparisons/concurrency-rig-20261028.json",
+      "source": "artifacts/concurrency-rig-20261028.json",
+      "original_sha256": "a11ec637dfbe95fa8035093b039620b63df174405dc3e9660fc2a08952eec08a",
+      "published_sha256": "5fbc8bab6b3d2b496cf86046c0d8f8a1a0ca4607a14f00c8677f0127dc1fdd6c"
+    },
+    {
+      "published": "benchmarks/reports/D1护送发育_P5防御优先_40局实验方法_2026-10-29.md",
+      "source": "docs/D1护送发育_P5防御优先_40局实验方法_2026-10-29.md",
+      "original_sha256": "187e824a83db92e8502a1656219ebaf0a40499ffd6043caf6b9064cbb2cfa4b3",
+      "published_sha256": "7c7fc192a7b62e215b71b890a34f9d2bb3d9b04c55de128e42cebcb70417356a"
+    },
+    {
+      "published": "benchmarks/reports/D1护送发育_P5防御优先_40局结果_2026-10-29.md",
+      "source": "docs/D1护送发育_P5防御优先_40局结果_2026-10-29.md",
+      "original_sha256": "5ba634a7596de416248ec1574f3acfe325dd02d91b5a4429ffab0b28fb6b8a81",
+      "published_sha256": "04d976cd7aa15a213666ec4d7d9c676e058d0ad85205dc1267fa4313e84ad051"
+    },
+    {
+      "published": "benchmarks/reports/D2军事任务持续性_24局实验方法_2026-10-29.md",
+      "source": "docs/D2军事任务持续性_24局实验方法_2026-10-29.md",
+      "original_sha256": "aa34210ca966087496bd4f0c47be7ced5c351b36abf659c848a7931939b42b3e",
+      "published_sha256": "b12bcc109b120fbc84accbac9bbbeead1c2d9d5c4c9b8b56d0c338677fe811bd"
+    },
+    {
+      "published": "benchmarks/reports/D2军事调度修复_24局及首次易手前对比_2026-10-29.md",
+      "source": "docs/D2军事调度修复_24局及首次易手前对比_2026-10-29.md",
+      "original_sha256": "332892959c509df03debd224789ec439d096f8631f7ff4376153c2fc02bb2745",
+      "published_sha256": "26265606d47af5a9509a9a408e92e65afff4979b135eb621f1486448f135fac7"
+    },
+    {
+      "published": "benchmarks/reports/P3日志诊断与P5策略_2026-10-28.md",
+      "source": "docs/P3日志诊断与P5策略_2026-10-28.md",
+      "original_sha256": "51a4de5d99071e18b98b4e1825c88f316ce4a1434bb514d37c7906f100de5462",
+      "published_sha256": "c3981075f09af088d976cf260079f6139723545468ff7088a58e90dc9ee73487"
+    },
+    {
+      "published": "benchmarks/reports/P5后续改进测试_2026-10-28.md",
+      "source": "docs/P5后续改进测试_2026-10-28.md",
+      "original_sha256": "4917b2eca80721b0dccc3751e76cd91b4d33e3759f7f632da196691320ae9a8f",
+      "published_sha256": "4b0a4513c479fb68c2d2a08ddc177054e9f7320361adbac06644e74b8b3f9ccd"
+    },
+    {
+      "published": "benchmarks/reports/P5对默认_100场配对验证_2026-10-28.md",
+      "source": "docs/P5对默认_100场配对验证_2026-10-28.md",
+      "original_sha256": "de7cf26185b54d7fa4450f2ff1c579159bf593e90b45403cd9a3d24ec0d52077",
+      "published_sha256": "e32959f3fcb7a242a6096c2325b383921b119d32cddf03ef463d6662902559f7"
+    },
+    {
+      "published": "benchmarks/reports/RIG_CPU并发短测_2026-10-28.md",
+      "source": "docs/RIG_CPU并发短测_2026-10-28.md",
+      "original_sha256": "61157dd2280e2bf1efe6732d16fb462c7a7d5f7c39125b887bc342b972730e6e",
+      "published_sha256": "cd82b938d525a0715ddbd7b93e5e18480c732f2dee49ebaacbd5cb616360da8e"
+    },
+    {
+      "published": "benchmarks/reports/三队定时护送与P5_逐队57人对比结果_2026-10-29.md",
+      "source": "docs/三队定时护送与P5_逐队57人对比结果_2026-10-29.md",
+      "original_sha256": "9062e71ed46bb1d4c4ee6e20a1c0d73d00686d87db597d804ac78c855edfb544",
+      "published_sha256": "d41e35240a3ef32c520afc23d1e95606471a7bd530b5493895336cd3c0fd717d"
+    },
+    {
+      "published": "benchmarks/reports/两队P5加专职清剿_策略实验方法_2026-10-29.md",
+      "source": "docs/两队P5加专职清剿_策略实验方法_2026-10-29.md",
+      "original_sha256": "a51c21b848828af0657ec0fddbaa5f8142ea21ff85f8e0a9bed658f0e71b8ba1",
+      "published_sha256": "7c1ca2ef5d8f2429ffc0d6bd5c62f403cf8de22f4bc5761d9b3245cea5d60786"
+    },
+    {
+      "published": "benchmarks/reports/两队P5加专职清剿_策略测试结果_2026-10-29.md",
+      "source": "docs/两队P5加专职清剿_策略测试结果_2026-10-29.md",
+      "original_sha256": "574a0a41fab9c9995f3dba575410c8bee0f1c86ba51903e82d395fdebf8fee33",
+      "published_sha256": "91a29e9d5402aad0baae316cc8741609a25774549434f0adb2f645c54e3c75b9"
+    },
+    {
+      "published": "benchmarks/reports/六家族护农策略对照_2026-10-28.md",
+      "source": "docs/六家族护农策略对照_2026-10-28.md",
+      "original_sha256": "e937855ed035a912cc93700704c371b582a7cc2bfbcf3ad786b4a48802d3056a",
+      "published_sha256": "bdaae9d2095815657fe58fb98d1c86ac576ae68e69ef0df3922972882d498d6f"
+    },
+    {
+      "published": "benchmarks/reports/兵员直接入驻军_24局实验方法_2026-10-29.md",
+      "source": "docs/兵员直接入驻军_24局实验方法_2026-10-29.md",
+      "original_sha256": "040725ceeb7fd41daac201f79a9bfa667449a4dbb1c0329038570d81c98e47e0",
+      "published_sha256": "aa5f791cc3376541723825361dce863d6bb2712d700876fd3c88217b0f3c546b"
+    },
+    {
+      "published": "benchmarks/reports/兵员直接入驻军_24局重测结果_2026-10-29.md",
+      "source": "docs/兵员直接入驻军_24局重测结果_2026-10-29.md",
+      "original_sha256": "91fdd648ec84461afeb11ddde7af5ab3d2f78a78b2d8b79bfdfdc23f755bee73",
+      "published_sha256": "dcee16d87aa90280169688d78c73d1e5fa33b6c8b426c1e7117f6230e1db6ee0"
+    },
+    {
+      "published": "benchmarks/reports/后方经营_四种兵力投入实验方法_2026-10-29.md",
+      "source": "docs/后方经营_四种兵力投入实验方法_2026-10-29.md",
+      "original_sha256": "8c9bd6f100629b7033b8851a8b83471a0a7624813db558e26f0db86731e250b1",
+      "published_sha256": "7382ce6abd3cd851148b9435cdc36cd9b8a16c5a1ff0dc58bdf4868677e40092"
+    },
+    {
+      "published": "benchmarks/reports/后方经营_四种兵力投入测试结果_2026-10-29.md",
+      "source": "docs/后方经营_四种兵力投入测试结果_2026-10-29.md",
+      "original_sha256": "0689c5fce6d9970c7c072c0f0b0d0fbe48876e6214741248c26071eaf28fd9f7",
+      "published_sha256": "39530697cfafd96b912fac22c1d6a18ac3572ba7d1cdace064b5bd422faf89a2"
+    },
+    {
+      "published": "benchmarks/reports/定时护送_27与57巡剿门槛实验方法_2026-10-29.md",
+      "source": "docs/定时护送_27与57巡剿门槛实验方法_2026-10-29.md",
+      "original_sha256": "4e0c0b2b71701bffbbb877a3818a317eb80156716265c1940ff1724aca669471",
+      "published_sha256": "72b9e2c13699d2482ae450d12729ede679f79c98fc075b188f9bcd76c2483cc1"
+    },
+    {
+      "published": "benchmarks/reports/定时护送_27与57巡剿门槛测试结果_2026-10-29.md",
+      "source": "docs/定时护送_27与57巡剿门槛测试结果_2026-10-29.md",
+      "original_sha256": "18ea7fa0b985c14179ebb592cd267b0b1f3ded3db49345f292376cf22826bebd",
+      "published_sha256": "5e0dc1b4f5b5d9e15cf708e84cf5a1a5664e2acfaed61f13778b5585aa07de81"
+    },
+    {
+      "published": "benchmarks/reports/巡逻兵力与盗匪伤亡阈值_PC_2026-10-29.md",
+      "source": "docs/巡逻兵力与盗匪伤亡阈值_PC_2026-10-29.md",
+      "original_sha256": "d9069c059bb998f65064fbe00795299ce0dcd86534da63f5ec9cd6b1f5623bfe",
+      "published_sha256": "8bcb2b8f0cfb80fbcaf24ebf260d45c47053d966714d42ea3f88437d920c603d"
+    },
+    {
+      "published": "benchmarks/reports/战斗策略与阶段训练_2026-10-28.md",
+      "source": "docs/战斗策略与阶段训练_2026-10-28.md",
+      "original_sha256": "c8f77a0b163713feee14b613f838ecb744062b03c8afb1bc16707b9f7e1463e0",
+      "published_sha256": "afcf3f89503dfe8b270b72db23b876c0c44d4d497b66d580b5ff4dd277707f3c"
+    },
+    {
+      "published": "benchmarks/reports/战斗策略首轮测试结果_2026-10-28.md",
+      "source": "docs/战斗策略首轮测试结果_2026-10-28.md",
+      "original_sha256": "2eaa6fe80b7f6b983c21305670770b35e87f196344ddc40711a4bd8125dbebf8",
+      "published_sha256": "4739bb8afdb0ea324221d2bf59ba91a53b476896189dc62659886d8f5bdf265f"
+    },
+    {
+      "published": "benchmarks/reports/每城一队_巡逻兵力实验方法_2026-10-29.md",
+      "source": "docs/每城一队_巡逻兵力实验方法_2026-10-29.md",
+      "original_sha256": "6a8927ef3219c2a4046b2367799a79be585f3e310fcf219a13e0f9e914f35247",
+      "published_sha256": "f0be7bd04dd878c7c842a8562f8651e753eb9f37974cdea319e191b73eb3658a"
+    },
+    {
+      "published": "benchmarks/reports/每城一队_最佳出巡兵力测试结果_2026-10-29.md",
+      "source": "docs/每城一队_最佳出巡兵力测试结果_2026-10-29.md",
+      "original_sha256": "012b311bda9e7064058419474091a47713ba3ec7b7d9a47ddcd83daff771d731",
+      "published_sha256": "8b135d1c5407fe663db865e9d5972a35b15c40a42ad8d4b757ddf4b5a86710f3"
+    },
+    {
+      "published": "benchmarks/reports/每城三队_护送策略实验方法_2026-10-29.md",
+      "source": "docs/每城三队_护送策略实验方法_2026-10-29.md",
+      "original_sha256": "3f37e8db26d63083b0c5f94efd9b4dd3be40ef2623bcf78f76bae16a389c2424",
+      "published_sha256": "244a84d4cc44b3ffcaf1da12155c4afb2021fe96d831f26671a270a5e8f6d940"
+    },
+    {
+      "published": "benchmarks/reports/每城三队_护送策略测试结果_2026-10-29.md",
+      "source": "docs/每城三队_护送策略测试结果_2026-10-29.md",
+      "original_sha256": "417b604861693f823603752735d2b25ea6c1fbdbe518debaa59ab7b319a56963",
+      "published_sha256": "73ed95ebe71e9349074a60f3ebe8bc72db69eaefa6c9ff21fa0a74271e75376f"
+    },
+    {
+      "published": "benchmarks/reports/每城双队_P3_P5运输实验方法_2026-10-29.md",
+      "source": "docs/每城双队_P3_P5运输实验方法_2026-10-29.md",
+      "original_sha256": "7bce629aae5ed29b1a1ca6efb2bd4239cd1f9eb84cf2b890a82d115a82a08069",
+      "published_sha256": "6167c1690794abd3cca14349f11dbaca2efd6f6546a7808238ddf8ec2c052305"
+    },
+    {
+      "published": "benchmarks/reports/每城双队_P3_P5运输测试结果_2026-10-29.md",
+      "source": "docs/每城双队_P3_P5运输测试结果_2026-10-29.md",
+      "original_sha256": "2a1a0707c338f43963244202710d06df7e4b2b48baa27e5d64e2ac5a50719e9f",
+      "published_sha256": "0a0000e173d5fc4d61902035edca7fc683551c55e4374c1b599ca59ad8aa56d4"
+    },
+    {
+      "published": "benchmarks/reports/每家族两支部队_全策略对照_2026-10-28.md",
+      "source": "docs/每家族两支部队_全策略对照_2026-10-28.md",
+      "original_sha256": "28f80262f8da0478e949eda5e6c0308d7d610e6b4fe482c0a18854378b0fd0be",
+      "published_sha256": "0f420645cda5c3e9216e2557389b0e1a0455b1ae75d95c7e883cd0812d521b65"
+    },
+    {
+      "published": "benchmarks/reports/每家族四支部队_全策略对照_2026-10-28.md",
+      "source": "docs/每家族四支部队_全策略对照_2026-10-28.md",
+      "original_sha256": "c86a51c5f0c631c2340591d23003acca3b24f6b9c3b835d686b285a1f26446c7",
+      "published_sha256": "daa30e59e06c20a7043d3039246eb780504cbef065e6e5afe490831531ae5036"
+    },
+    {
+      "published": "benchmarks/reports/运输往返成功率_P3_P5测试结果_2026-10-29.md",
+      "source": "docs/运输往返成功率_P3_P5测试结果_2026-10-29.md",
+      "original_sha256": "1152afb044b5b6a0f5e2aa9377277d9752fc19cdca9b87c911132bebe68dbd8f",
+      "published_sha256": "8f23f4b511aa39459e4c74d68b10fb9f64f7804c2bf1238985acb7d589449495"
+    },
+    {
+      "published": "benchmarks/reports/运输往返成功率_兵力曲线实验_2026-10-29.md",
+      "source": "docs/运输往返成功率_兵力曲线实验_2026-10-29.md",
+      "original_sha256": "cff762c54ddc648772e94a130ecc84391138d2b44b2fa8511e89892ee6bde1b8",
+      "published_sha256": "ed8cc2cd9468f60812d2d9e6a766c62565144f1999605ff66bb105e015f4f37d"
+    },
+    {
+      "published": "benchmarks/reports/默认1v1并发基准_2026-10-28.md",
+      "source": "docs/默认1v1并发基准_2026-10-28.md",
+      "original_sha256": "3fbb175f205ee7caa2220b1b5e52fd5b48ece09fc6aaff9bdbbc862bdd8d0535",
+      "published_sha256": "9b6ef3741a903063ac53117db66c2dbbc2ac7cb7475007060a2adfe73f4e2547"
+    },
+    {
+      "published": "benchmarks/reports/默认策略100场胜率验证_2026-10-28.md",
+      "source": "docs/默认策略100场胜率验证_2026-10-28.md",
+      "original_sha256": "3df2e1b70f73a74a187c418c4369b912bfe280c20d12270749f9b3dd4093208b",
+      "published_sha256": "93a94a54e65e14e4eeb001614b9e099f7da1a0e0b232ada7a66586b2c5e18708"
+    },
+    {
+      "published": "benchmarks/reports/默认策略40场胜率验证_2026-10-28.md",
+      "source": "docs/默认策略40场胜率验证_2026-10-28.md",
+      "original_sha256": "4fb4a13485b3b431db0a1bbf64922522cc0decdf773fdcbc4fe6f4de1213d5b9",
+      "published_sha256": "4045720e0d3e4b6dd5dfcf91ef89313b5bbe710eb0f79249a968486ac57e2799"
+    }
+  ]
+}

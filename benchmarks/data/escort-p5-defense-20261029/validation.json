@@ -1,0 +1,15 @@
+{
+  "unit_checks": 5,
+  "unit_checks_passed": true,
+  "full_length_final_source_pilots": 2,
+  "pilot_blue_command_errors": 0,
+  "paired_seeds": 40,
+  "engine_and_default_policy_identical": true,
+  "final_source_matches_full_length_pilots": true,
+  "formal_games": 40,
+  "matched_default_games": 40,
+  "all_complete": true,
+  "summary_matches_individual_results": true,
+  "final_policy_rejected_commands": 0,
+  "replay_digest_matches": true
+}

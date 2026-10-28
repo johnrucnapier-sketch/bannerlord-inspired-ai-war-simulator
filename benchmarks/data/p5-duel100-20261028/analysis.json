@@ -1,0 +1,133 @@
+{
+  "baseline": {
+    "total": 100,
+    "counts": {
+      "blue": 34,
+      "red": 37,
+      "draw": 29
+    },
+    "all_game_shares": {
+      "blue": 0.34,
+      "red": 0.37,
+      "draw": 0.29
+    },
+    "end_reasons": {
+      "time_limit": 99,
+      "unification": 1
+    },
+    "decisive": {
+      "decisive_games": 71,
+      "red_share": 0.5211267605633803,
+      "red_wilson95": [
+        0.4068599735260268,
+        0.633224760888189
+      ],
+      "exact_two_sided_p": 0.8125886494061618
+    }
+  },
+  "p5": {
+    "total": 100,
+    "counts": {
+      "blue": 38,
+      "red": 39,
+      "draw": 23
+    },
+    "all_game_shares": {
+      "blue": 0.38,
+      "red": 0.39,
+      "draw": 0.23
+    },
+    "end_reasons": {
+      "time_limit": 99,
+      "unification": 1
+    },
+    "decisive": {
+      "decisive_games": 77,
+      "red_share": 0.5064935064935064,
+      "red_wilson95": [
+        0.39720009365287134,
+        0.6151697969278761
+      ],
+      "exact_two_sided_p": 1.0
+    }
+  },
+  "hosts": {
+    "mac": {
+      "counts": {
+        "red": 11,
+        "blue": 15,
+        "draw": 6
+      },
+      "seconds": 604.017,
+      "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]"
+    },
+    "pc": {
+      "counts": {
+        "blue": 10,
+        "draw": 4,
+        "red": 6
+      },
+      "seconds": 639.246,
+      "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]"
+    },
+    "rig": {
+      "counts": {
+        "blue": 13,
+        "red": 22,
+        "draw": 13
+      },
+      "seconds": 535.976,
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+    }
+  },
+  "population_baseline": {
+    "games": 100,
+    "blue_mean": 14089.32,
+    "red_mean": 14398.53,
+    "blue_ahead": 54,
+    "red_ahead": 46,
+    "tied": 0
+  },
+  "population_p5": {
+    "games": 100,
+    "blue_mean": 14789.81,
+    "red_mean": 14241.47,
+    "blue_ahead": 51,
+    "red_ahead": 49,
+    "tied": 0
+  },
+  "draw_population_p5": {
+    "games": 23,
+    "blue_mean": 16039.173913043478,
+    "red_mean": 15265.652173913044,
+    "blue_ahead": 11,
+    "red_ahead": 12,
+    "tied": 0
+  },
+  "transitions": {
+    "blue->red": 10,
+    "red->red": 14,
+    "draw->blue": 10,
+    "red->draw": 9,
+    "red->blue": 14,
+    "blue->blue": 14,
+    "draw->red": 15,
+    "draw->draw": 4,
+    "blue->draw": 10
+  },
+  "paired": {
+    "blue_win_gained": 24,
+    "blue_win_lost": 20,
+    "mcnemar_exact_p": 0.651587827208914,
+    "improved": 33,
+    "worsened": 35,
+    "unchanged": 32,
+    "blue_population_delta_mean": 700.49,
+    "blue_population_delta_median": 470.0,
+    "blue_population_increased": 52,
+    "blue_population_decreased": 48,
+    "same_full_horizon_games": 98,
+    "same_full_horizon_blue_population_delta_mean": 585.3877551020408
+  },
+  "caveat": "Same initial seeds; changed decisions can change subsequent random draws. These are coupled end-to-end outcomes, not identical exogenous event histories."
+}

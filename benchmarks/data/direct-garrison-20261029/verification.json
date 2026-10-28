@@ -1,0 +1,17 @@
+{
+  "games": 24,
+  "all_completed": true,
+  "all_on_rig": true,
+  "source_hash_match": true,
+  "same_seed_set": true,
+  "first_capture_pre_ownership_verified": true,
+  "city_recruit_pool_always_zero": true,
+  "blue_rejected_commands": 0,
+  "red_rejected_commands": 1,
+  "isolated_test_modules": 29,
+  "isolated_test_modules_passed": true,
+  "direct_rule_tests": 8,
+  "direct_rule_tests_passed": true,
+  "godot_load_passed": true,
+  "seconds": 317.4314017239958
+}

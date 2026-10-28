@@ -1,0 +1,107 @@
+{
+  "games": 40,
+  "command_errors": 0,
+  "trip_balance": true,
+  "paired_results": [
+    {
+      "seed": 7101,
+      "escort_minus_p5_rate": 0.028283746177829805,
+      "escort_minus_p5_trips": 125
+    },
+    {
+      "seed": 7102,
+      "escort_minus_p5_rate": 0.026424036142322915,
+      "escort_minus_p5_trips": 118
+    },
+    {
+      "seed": 7103,
+      "escort_minus_p5_rate": 0.03271180746441882,
+      "escort_minus_p5_trips": 144
+    },
+    {
+      "seed": 7104,
+      "escort_minus_p5_rate": 0.026458302619293383,
+      "escort_minus_p5_trips": 122
+    },
+    {
+      "seed": 7105,
+      "escort_minus_p5_rate": 0.027840050368210578,
+      "escort_minus_p5_trips": 126
+    },
+    {
+      "seed": 7106,
+      "escort_minus_p5_rate": 0.03252233790406511,
+      "escort_minus_p5_trips": 146
+    },
+    {
+      "seed": 7107,
+      "escort_minus_p5_rate": 0.03065761759887664,
+      "escort_minus_p5_trips": 142
+    },
+    {
+      "seed": 7108,
+      "escort_minus_p5_rate": 0.03179703758109931,
+      "escort_minus_p5_trips": 141
+    },
+    {
+      "seed": 7109,
+      "escort_minus_p5_rate": 0.026966987528641462,
+      "escort_minus_p5_trips": 128
+    },
+    {
+      "seed": 7110,
+      "escort_minus_p5_rate": 0.03619891051547508,
+      "escort_minus_p5_trips": 157
+    },
+    {
+      "seed": 8101,
+      "escort_minus_p5_rate": 0.024093761891008425,
+      "escort_minus_p5_trips": 110
+    },
+    {
+      "seed": 8102,
+      "escort_minus_p5_rate": 0.0359774837288338,
+      "escort_minus_p5_trips": 157
+    },
+    {
+      "seed": 8103,
+      "escort_minus_p5_rate": 0.02219101870858886,
+      "escort_minus_p5_trips": 97
+    },
+    {
+      "seed": 8104,
+      "escort_minus_p5_rate": 0.03603025245021618,
+      "escort_minus_p5_trips": 162
+    },
+    {
+      "seed": 8105,
+      "escort_minus_p5_rate": 0.027117047644796055,
+      "escort_minus_p5_trips": 121
+    },
+    {
+      "seed": 8106,
+      "escort_minus_p5_rate": 0.03439481055580129,
+      "escort_minus_p5_trips": 156
+    },
+    {
+      "seed": 8107,
+      "escort_minus_p5_rate": 0.032287581699346424,
+      "escort_minus_p5_trips": 147
+    },
+    {
+      "seed": 8108,
+      "escort_minus_p5_rate": 0.040960240871448006,
+      "escort_minus_p5_trips": 186
+    },
+    {
+      "seed": 8109,
+      "escort_minus_p5_rate": 0.032995088536116324,
+      "escort_minus_p5_trips": 151
+    },
+    {
+      "seed": 8110,
+      "escort_minus_p5_rate": 0.02175942840904488,
+      "escort_minus_p5_trips": 99
+    }
+  ]
+}

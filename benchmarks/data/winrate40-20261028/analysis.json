@@ -1,0 +1,48 @@
+{
+  "total": 40,
+  "counts": {
+    "blue": 17,
+    "red": 14,
+    "draw": 9
+  },
+  "all_game_shares": {
+    "blue": 0.425,
+    "red": 0.35,
+    "draw": 0.225
+  },
+  "end_reasons": {
+    "time_limit": 39,
+    "unification": 1
+  },
+  "decisive": {
+    "decisive_games": 31,
+    "red_share": 0.45161290322580644,
+    "red_wilson95": [
+      0.29161735980520015,
+      0.6222783236264549
+    ],
+    "exact_two_sided_p": 0.720100131817162
+  },
+  "hosts": {
+    "mac": {
+      "counts": {
+        "red": 8,
+        "blue": 7,
+        "draw": 5
+      },
+      "seconds": 422.22,
+      "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+      "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+    },
+    "pc": {
+      "counts": {
+        "blue": 10,
+        "red": 6,
+        "draw": 4
+      },
+      "seconds": 965.483,
+      "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.19045-SP0"
+    }
+  }
+}

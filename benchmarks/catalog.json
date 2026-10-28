@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "baseline": "v0.2.0",
+  "studies": [
+    {
+      "id": "patrol-strength-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 150,
+      "directory": "benchmarks/data/patrol-strength-20261029",
+      "source_configs": [],
+      "observed_settings": []
+    },
+    {
+      "id": "patrol-endurance-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 305,
+      "directory": "benchmarks/data/patrol-endurance-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/patrol-endurance-20261029/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "mode": "rural",
+          "days": 840,
+          "clan_party_cap": 2,
+          "rural_clans": 6
+        }
+      ]
+    },
+    {
+      "id": "transport-strength-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 246,
+      "directory": "benchmarks/data/transport-strength-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/transport-strength-20261029/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "mode": "rural",
+          "days": 840,
+          "clan_party_cap": 2,
+          "rural_clans": 6
+        }
+      ]
+    },
+    {
+      "id": "transport-dual-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 246,
+      "directory": "benchmarks/data/transport-dual-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/transport-dual-20261029/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "mode": "rural",
+          "days": 840,
+          "clan_party_cap": 4,
+          "rural_clans": 6
+        }
+      ]
+    },
+    {
+      "id": "transport-triple-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 70,
+      "directory": "benchmarks/data/transport-triple-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/transport-triple-20261029/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "mode": "rural",
+          "days": 840,
+          "clan_party_cap": 6,
+          "rural_clans": 6
+        }
+      ]
+    },
+    {
+      "id": "transport-clearance-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 100,
+      "directory": "benchmarks/data/transport-clearance-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/transport-clearance-20261029/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "mode": "rural",
+          "days": 840,
+          "clan_party_cap": 6,
+          "rural_clans": 6
+        }
+      ]
+    },
+    {
+      "id": "transport-hunter-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 70,
+      "directory": "benchmarks/data/transport-hunter-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/transport-hunter-20261029/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "mode": "rural",
+          "days": 840,
+          "clan_party_cap": 6,
+          "rural_clans": 6
+        }
+      ]
+    },
+    {
+      "id": "triple-growth-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 40,
+      "directory": "benchmarks/data/triple-growth-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/triple-growth-20261029/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "mode": "rural",
+          "days": 840,
+          "clan_party_cap": 6,
+          "rural_clans": 6
+        }
+      ]
+    },
+    {
+      "id": "rear-allocation-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 80,
+      "directory": "benchmarks/data/rear-allocation-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/rear-allocation-20261029/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "mode": "rural",
+          "days": 840,
+          "clan_party_cap": 6,
+          "rural_clans": 6
+        }
+      ]
+    },
+    {
+      "id": "escort-p5-defense-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 80,
+      "directory": "benchmarks/data/escort-p5-defense-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/escort-p5-defense-20261029/experiment/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        },
+        {
+          "path": "benchmarks/data/escort-p5-defense-20261029/baseline/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "days": 1680,
+          "clan_party_cap": 3
+        }
+      ]
+    },
+    {
+      "id": "escort-p5-defense-v2-20261029",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 24,
+      "directory": "benchmarks/data/escort-p5-defense-v2-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/escort-p5-defense-v2-20261029/experiment/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "days": 1680,
+          "clan_party_cap": 3
+        }
+      ]
+    },
+    {
+      "id": "direct-garrison-20261029",
+      "status": "frozen",
+      "compatibility": "current-v0.2.0",
+      "completed_records": 24,
+      "directory": "benchmarks/data/direct-garrison-20261029",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/direct-garrison-20261029/experiment/source/aiwar/config.json",
+          "sha256": "6b3c0c4dfb861b68677aa17aad764ca4eb24d302b3d2a59fd00f0ad25d668cd4",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": true
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "days": 1680,
+          "clan_party_cap": 3,
+          "direct_garrison_delivery": true,
+          "garrison_expansion_threshold": 400
+        }
+      ]
+    },
+    {
+      "id": "winrate40-20261028",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 40,
+      "directory": "benchmarks/data/winrate40-20261028",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/winrate40-20261028/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "days": 1680,
+          "clan_party_cap": 3
+        }
+      ]
+    },
+    {
+      "id": "winrate100-20261028",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 60,
+      "directory": "benchmarks/data/winrate100-20261028",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/winrate100-20261028/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "days": 1680,
+          "clan_party_cap": 3
+        }
+      ]
+    },
+    {
+      "id": "p5-duel100-20261028",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 100,
+      "directory": "benchmarks/data/p5-duel100-20261028",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/p5-duel100-20261028/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": [
+        {
+          "version": "0.1.6",
+          "days": 1680,
+          "clan_party_cap": 3
+        }
+      ]
+    },
+    {
+      "id": "war-strategies-20261028",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 108,
+      "directory": "benchmarks/data/war-strategies-20261028",
+      "source_configs": [
+        {
+          "path": "benchmarks/data/war-strategies-20261028/source/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        },
+        {
+          "path": "benchmarks/data/war-strategies-20261028/source-v2/aiwar/config.json",
+          "sha256": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+          "rule_version": "0.1.6",
+          "direct_garrison_delivery": false
+        }
+      ],
+      "observed_settings": []
+    },
+    {
+      "id": "p3-improvement",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 21,
+      "directory": "benchmarks/data/p3-improvement",
+      "source_configs": [],
+      "observed_settings": []
+    },
+    {
+      "id": "p5-improvement",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "completed_records": 12,
+      "directory": "benchmarks/data/p5-improvement",
+      "source_configs": [],
+      "observed_settings": []
+    },
+    {
+      "id": "early-comparisons",
+      "status": "frozen",
+      "compatibility": "historical-do-not-mix-with-current",
+      "directory": "benchmarks/data/early-comparisons",
+      "completed_records": null
+    }
+  ]
+}

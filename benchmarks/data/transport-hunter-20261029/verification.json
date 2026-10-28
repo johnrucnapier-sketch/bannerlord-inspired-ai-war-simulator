@@ -1,0 +1,10 @@
+{
+  "games": 70,
+  "screen": 50,
+  "holdout": 20,
+  "all_complete": true,
+  "unit_tests_passed": 3,
+  "command_errors": 0,
+  "h3_holdout_paired_solo_rate_wins": 10,
+  "role_attribution_verified": true
+}

@@ -1,0 +1,16 @@
+{
+  "screen_games": 50,
+  "holdout_games": 20,
+  "all_complete": true,
+  "command_errors": 0,
+  "unit_tests_passed": 3,
+  "production_rules_unchanged": true,
+  "initial_regulars_per_city": 80,
+  "initial_squads": [
+    27,
+    27,
+    26
+  ],
+  "target": 30,
+  "number_sweep_performed": false
+}

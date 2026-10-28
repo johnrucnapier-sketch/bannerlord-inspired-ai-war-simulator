@@ -1,0 +1,489 @@
+{
+  "stage": "holdout",
+  "workers": {
+    "rig": 20,
+    "mac": 2
+  },
+  "source_sha256": {
+    "aiwar/__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
+    "aiwar/__main__.py": "b77f1d39d07822ef3dc3fde7c948da839fc31dd92074d9c328fc20b65fc13465",
+    "aiwar/agent_example.py": "dc4a01dfb42e30959669227914756f9751ab71ff60c06693e053a2321514fa63",
+    "aiwar/agents.py": "f229c2b808e0394d6b340aac19647e71b40512d21b420809170cde828f47dc55",
+    "aiwar/config.json": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+    "aiwar/economy.py": "7921fd3ffc210dba407237a2c999043a16665f1e8909b1d10ae92e26606cec83",
+    "aiwar/engine.py": "98e2ec9c087c952740ba0ce02f8f5467a4ba46f54fa187837325e31f1f3b91d8",
+    "aiwar/experiments.py": "2609f274383a54a6fb3313ffc701d9dab16f590254bb790c80280b7987b939e4",
+    "aiwar/layout.py": "69b35b31e2d8a5ed291e70407d84918ee06379b585ecf5ee031dbd87682718d0",
+    "aiwar/match.py": "9fb8e79e994d31f38226728ce874af6299a3483b4f146245b49b6847b6a1c20d",
+    "aiwar/metrics.py": "2e3eeb1f6b3e4939badfbe1318303c74d7eb8dd183c6803d65169d1314eae343",
+    "aiwar/navigation.py": "a7f5cb51a490c32eae447e24f86257f930e8b25a9a80c30bb5ea7df5c9bb6d62",
+    "aiwar/patrols.py": "aeb17dfe3d030a8e2459eef169dfecc24ce78a170f5997f71b464f270787cf0a",
+    "aiwar/policies.py": "e6ff27604f04f9c8c4767638036197cc7fe7ca2fc56ed46ad889a1badc3d2d2c",
+    "aiwar/policies_legacy.py": "55063b6597d255bb654a52a15d45716a7fc66d85684915fdf27389ae59adefe0",
+    "aiwar/policies_v014.py": "99417964e56760392a7c0275ac3f41a1b9aadb43660406a47e36b7ddc47d1a63",
+    "aiwar/policies_v015.py": "49ff2674bcfef21e082a8772f28794e5fa905169e9e652578cb4cee25fa6aff4",
+    "aiwar/relief.py": "d9487223196dbc127de5b8af88f2c635db36a3dad4b5858bb4c057fc96a21517",
+    "aiwar/replay.py": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+    "aiwar/runner.py": "dddb495a5bdfb7813ccf2bbed3d0ddca83cb4f9b8ac1640b61621bfa996941a8",
+    "aiwar/sdk.py": "2332300d45de3fe8b9789768b8f26ba116c8e3087cb05f8bdcb0540dbabfb959",
+    "aiwar/server.py": "d994b0e323bfd06c2767a8e107d54c70c74e540b057b556579146c57a6aa3aff",
+    "aiwar/warfare.py": "6d0a6d56d1f6686207eed256c84b5a095310accba6ce0a0294f1b20af30996cc",
+    "scripts/transport_growth_policy.py": "97a9c274fc56caf2c81849a700ef83c94180815bf4f4ed592a1af650e8f06127",
+    "scripts/transport_growth_study.py": "11607107cad13c76f0ae3a08ebe32a7a6b82b256b8715ab0d365a8254de46767",
+    "scripts/transport_triple_policy.py": "7967544d8a7e255155bbe2be8c9c61c0defa19eaecbb282b3a4cffa66856a6f8"
+  },
+  "jobs": [
+    {
+      "id": "grow27-n57-s8101",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8101
+    },
+    {
+      "id": "grow27-n57-s8102",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8102
+    },
+    {
+      "id": "grow27-n57-s8103",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8103
+    },
+    {
+      "id": "grow27-n57-s8104",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8104
+    },
+    {
+      "id": "grow27-n57-s8105",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8105
+    },
+    {
+      "id": "grow27-n57-s8106",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8106
+    },
+    {
+      "id": "grow27-n57-s8107",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8107
+    },
+    {
+      "id": "grow27-n57-s8108",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8108
+    },
+    {
+      "id": "grow27-n57-s8109",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8109
+    },
+    {
+      "id": "grow27-n57-s8110",
+      "style": "grow27",
+      "target": 57,
+      "floor": 18,
+      "seed": 8110
+    },
+    {
+      "id": "grow57-n57-s8101",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8101
+    },
+    {
+      "id": "grow57-n57-s8102",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8102
+    },
+    {
+      "id": "grow57-n57-s8103",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8103
+    },
+    {
+      "id": "grow57-n57-s8104",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8104
+    },
+    {
+      "id": "grow57-n57-s8105",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8105
+    },
+    {
+      "id": "grow57-n57-s8106",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8106
+    },
+    {
+      "id": "grow57-n57-s8107",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8107
+    },
+    {
+      "id": "grow57-n57-s8108",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8108
+    },
+    {
+      "id": "grow57-n57-s8109",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8109
+    },
+    {
+      "id": "grow57-n57-s8110",
+      "style": "grow57",
+      "target": 57,
+      "floor": 18,
+      "seed": 8110
+    },
+    {
+      "id": "hybrid-n30-s8101",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8101
+    },
+    {
+      "id": "hybrid-n30-s8102",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8102
+    },
+    {
+      "id": "hybrid-n30-s8103",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8103
+    },
+    {
+      "id": "hybrid-n30-s8104",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8104
+    },
+    {
+      "id": "hybrid-n30-s8105",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8105
+    },
+    {
+      "id": "hybrid-n30-s8106",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8106
+    },
+    {
+      "id": "hybrid-n30-s8107",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8107
+    },
+    {
+      "id": "hybrid-n30-s8108",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8108
+    },
+    {
+      "id": "hybrid-n30-s8109",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8109
+    },
+    {
+      "id": "hybrid-n30-s8110",
+      "style": "hybrid",
+      "target": 30,
+      "floor": 18,
+      "seed": 8110
+    },
+    {
+      "id": "timed-n30-s8110",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8110
+    },
+    {
+      "id": "escort-n30-s8108",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8108
+    },
+    {
+      "id": "escort-n30-s8106",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8106
+    },
+    {
+      "id": "escort-n30-s8101",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8101
+    },
+    {
+      "id": "escort-n30-s8107",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8107
+    },
+    {
+      "id": "escort-n30-s8109",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8109
+    },
+    {
+      "id": "timed-n30-s8103",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8103
+    },
+    {
+      "id": "timed-n30-s8104",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8104
+    },
+    {
+      "id": "timed-n30-s8105",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8105
+    },
+    {
+      "id": "timed-n30-s8102",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8102
+    },
+    {
+      "id": "escort-n30-s8102",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8102
+    },
+    {
+      "id": "escort-n30-s8105",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8105
+    },
+    {
+      "id": "escort-n30-s8104",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8104
+    },
+    {
+      "id": "escort-n30-s8103",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8103
+    },
+    {
+      "id": "escort-n30-s8110",
+      "style": "escort",
+      "target": 30,
+      "floor": 18,
+      "seed": 8110
+    },
+    {
+      "id": "timed-n30-s8109",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8109
+    },
+    {
+      "id": "timed-n30-s8107",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8107
+    },
+    {
+      "id": "timed-n30-s8101",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8101
+    },
+    {
+      "id": "timed-n30-s8106",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8106
+    },
+    {
+      "id": "timed-n30-s8108",
+      "style": "timed",
+      "target": 30,
+      "floor": 18,
+      "seed": 8108
+    }
+  ],
+  "reused_results": [
+    {
+      "id": "timed-n30-s8110",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8110/result.json",
+      "sha256": "9ed101b1e43643a4e5576c60a5d729ac73bedfecf5502542062ef70152fe4834"
+    },
+    {
+      "id": "escort-n30-s8108",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8108/result.json",
+      "sha256": "152b93b0bfad39ed25edcee001b92f935542fbb8fc83547ede82ab8a3daa240e"
+    },
+    {
+      "id": "escort-n30-s8106",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8106/result.json",
+      "sha256": "9c0519de9be77fe7e61556274bc2e639ddcb7616ecaa7e06b396e26752e5f968"
+    },
+    {
+      "id": "escort-n30-s8101",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8101/result.json",
+      "sha256": "f6db3998ea9bdef7f0532c3b325cd6bd4b57513f83500810dc1388b42c98f2b5"
+    },
+    {
+      "id": "escort-n30-s8107",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8107/result.json",
+      "sha256": "716551f699b15ec10b05446b5bc73f2865555a39eb14b87d9bba8a9ff2f56bf2"
+    },
+    {
+      "id": "escort-n30-s8109",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8109/result.json",
+      "sha256": "b633858c4c562b7dede1ef895bdf7c8cb2c5746ad46b404321b460f5a6ceebf4"
+    },
+    {
+      "id": "timed-n30-s8103",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8103/result.json",
+      "sha256": "7b0436b2f61dc6590019442cc0a35edaa98e3107f190cc6e04cc7a92d21121a1"
+    },
+    {
+      "id": "timed-n30-s8104",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8104/result.json",
+      "sha256": "9454f7c8fba4c14ed96c1a1aab933416e91a88ca0b7aa1b80769b5c87206bc25"
+    },
+    {
+      "id": "timed-n30-s8105",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8105/result.json",
+      "sha256": "380d510e9feb5cd4edf8349e657e390df14b0d6d500b93ae002ee73a9c2c5ae7"
+    },
+    {
+      "id": "timed-n30-s8102",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8102/result.json",
+      "sha256": "67db2775408b55d588b415dacbe1bcb586c5491b54011ae0b58ad48e0e1cf425"
+    },
+    {
+      "id": "escort-n30-s8102",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8102/result.json",
+      "sha256": "9c1f51fe6aa4ed15824fe18bc8e70cc6b4c2951171cb4df91b92e1942a6697b1"
+    },
+    {
+      "id": "escort-n30-s8105",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8105/result.json",
+      "sha256": "60c52a683800a64096347ebb61775d61874b2327090053a00e48977ce2999ec2"
+    },
+    {
+      "id": "escort-n30-s8104",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8104/result.json",
+      "sha256": "325b2b9a365aeb1ed46e1d54d4f7192a85a76d2178e731082b0769aafc297d89"
+    },
+    {
+      "id": "escort-n30-s8103",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8103/result.json",
+      "sha256": "2f35bc6abc568e3a2028aeff97b2a854559e33cca4f1adccce141f27a17b6af6"
+    },
+    {
+      "id": "escort-n30-s8110",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/escort-n30-s8110/result.json",
+      "sha256": "faeec564dd18dfe9b7669da736b99753a4df676c9a635c3d3ccaf70584f9dd77"
+    },
+    {
+      "id": "timed-n30-s8109",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8109/result.json",
+      "sha256": "37381b846e4bceaefe931d32203104873b51febd099eed9c3dc78145b6992651"
+    },
+    {
+      "id": "timed-n30-s8107",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8107/result.json",
+      "sha256": "0663118419eaa98f73cdbd1b6691b56855cfc4c268dad42561c760033a082970"
+    },
+    {
+      "id": "timed-n30-s8101",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8101/result.json",
+      "sha256": "c066a07b1f137af28877ae1166be7e324b1e7ebc967d394f4d4a3393c07cded0"
+    },
+    {
+      "id": "timed-n30-s8106",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8106/result.json",
+      "sha256": "195b1297c3b101d3068cdcff4dcd3fbc46d3980118d8dbb9fe607e51fb9d0c97"
+    },
+    {
+      "id": "timed-n30-s8108",
+      "source": "artifacts/transport-triple-20261029/holdout/rig/timed-n30-s8108/result.json",
+      "sha256": "9301f2db3a78f673dd3a134c1ce4bd9be8a6e3f19171aa586dd84199903617a6"
+    }
+  ]
+}

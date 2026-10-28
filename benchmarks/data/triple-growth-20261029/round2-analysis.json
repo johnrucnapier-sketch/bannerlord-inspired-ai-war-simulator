@@ -1,0 +1,42 @@
+[
+  {
+    "style": "timed57",
+    "name": "A 定时护送",
+    "games": 10,
+    "success_rate": 0.9934407096171802,
+    "success_mean": 4255.9,
+    "failed_mean": 28.1,
+    "pending_mean": 36,
+    "loss_mean": 0,
+    "wound_events_mean": 0,
+    "bandits_mean": 34.957857142857144,
+    "late_bandits_mean": 35.47857142857143,
+    "kills_mean": 0,
+    "population_mean": 36878,
+    "party_food_mean": 159589.485,
+    "garrison_food_mean": 0.0,
+    "standard_food_mean": 159589.485,
+    "full57_squads_mean": 32.02,
+    "upgrades_mean": 35.8
+  },
+  {
+    "style": "p557",
+    "name": "B 三队P5",
+    "games": 10,
+    "success_rate": 0.9626607435118073,
+    "success_mean": 4117.3,
+    "failed_mean": 159.7,
+    "pending_mean": 36,
+    "loss_mean": 234.8,
+    "wound_events_mean": 3709.9,
+    "bandits_mean": 5.807380952380952,
+    "late_bandits_mean": 5.711904761904762,
+    "kills_mean": 1672,
+    "population_mean": 34230.8,
+    "party_food_mean": 153799.33000000002,
+    "garrison_food_mean": 9279.09,
+    "standard_food_mean": 163815.885,
+    "full57_squads_mean": 28.173214285714288,
+    "upgrades_mean": 36
+  }
+]

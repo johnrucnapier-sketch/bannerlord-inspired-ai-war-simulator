@@ -1,0 +1,22 @@
+{
+  "unit_checks": 8,
+  "unit_checks_passed": true,
+  "full_20_year_pilots": 4,
+  "pilot_errors": 0,
+  "economy_routes_and_growth_reused": true,
+  "engine_unchanged": true,
+  "measurement_physics_equivalence": true,
+  "capture_pre_hour_test": true,
+  "formal_host": "rig",
+  "formal_seeds": 24,
+  "formal_all_complete": true,
+  "formal_errors": 0,
+  "formal_physics_code_matches_old": true,
+  "formal_manifest_and_summary_match": true,
+  "all_pre_capture_city_counts": [
+    6,
+    6
+  ],
+  "zero_healthy_fix": "original 24 seeds all rerun; previous batch excluded",
+  "seconds": 333.8973767510033
+}

@@ -1,0 +1,11 @@
+{
+  "configurations": 100,
+  "new_games": 50,
+  "reused_games": 50,
+  "reused_hashes_verified": true,
+  "all_complete": true,
+  "unit_tests_passed": 3,
+  "command_errors": 0,
+  "diagnostic_seed": 7101,
+  "diagnostic_physics_digests_match": true
+}

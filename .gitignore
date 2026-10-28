@@ -1,0 +1,15 @@
+.venv/
+**/.venv/
+**/.tools/
+**/__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+runs/
+**/.godot/
+.DS_Store
+.env
+.env.*
+*.save.json
+artifacts/

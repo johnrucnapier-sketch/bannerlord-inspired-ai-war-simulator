@@ -1,0 +1,44 @@
+{
+  "seed": 1327243828,
+  "result": {
+    "winner": 1,
+    "reason": "time_limit",
+    "cities": {
+      "0": 1,
+      "1": 11
+    },
+    "hour": 40320
+  },
+  "physics_matches": true,
+  "counts": {
+    "cmd_transfer": 710,
+    "cmd_create": 17,
+    "cmd_set_strength": 661,
+    "cmd_move": 13504,
+    "battle_skirmish": 841,
+    "battle_ambush": 2081,
+    "cmd_recruit": 38,
+    "cmd_stop": 856,
+    "cmd_attack": 1841,
+    "mission_refit_party_hours": 8562,
+    "mission_stage_party_hours": 6846,
+    "mission_field_party_hours": 5772,
+    "cmd_assemble": 65,
+    "cmd_siege": 23,
+    "mission_return_party_hours": 8514,
+    "cmd_disband": 62,
+    "battle_siege": 10,
+    "battle_relief_field": 3,
+    "battle_field": 1
+  },
+  "campaign_ends": {
+    "total": 213,
+    "campaign_hours": 8856,
+    "low_food_any_active": 1,
+    "no_active": 2,
+    "recent_battle": 2
+  },
+  "first_city_loss_hour": 5238,
+  "first_p5_switch_hour": 2922,
+  "all_initial_six_switch_hour": 3378
+}

@@ -1,0 +1,237 @@
+{
+  "source_sha256": {
+    "aiwar/__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
+    "aiwar/__main__.py": "b77f1d39d07822ef3dc3fde7c948da839fc31dd92074d9c328fc20b65fc13465",
+    "aiwar/agent_example.py": "dc4a01dfb42e30959669227914756f9751ab71ff60c06693e053a2321514fa63",
+    "aiwar/agents.py": "f229c2b808e0394d6b340aac19647e71b40512d21b420809170cde828f47dc55",
+    "aiwar/config.json": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+    "aiwar/economy.py": "7921fd3ffc210dba407237a2c999043a16665f1e8909b1d10ae92e26606cec83",
+    "aiwar/engine.py": "98e2ec9c087c952740ba0ce02f8f5467a4ba46f54fa187837325e31f1f3b91d8",
+    "aiwar/experiments.py": "2609f274383a54a6fb3313ffc701d9dab16f590254bb790c80280b7987b939e4",
+    "aiwar/layout.py": "69b35b31e2d8a5ed291e70407d84918ee06379b585ecf5ee031dbd87682718d0",
+    "aiwar/match.py": "9fb8e79e994d31f38226728ce874af6299a3483b4f146245b49b6847b6a1c20d",
+    "aiwar/metrics.py": "2e3eeb1f6b3e4939badfbe1318303c74d7eb8dd183c6803d65169d1314eae343",
+    "aiwar/navigation.py": "a7f5cb51a490c32eae447e24f86257f930e8b25a9a80c30bb5ea7df5c9bb6d62",
+    "aiwar/patrols.py": "aeb17dfe3d030a8e2459eef169dfecc24ce78a170f5997f71b464f270787cf0a",
+    "aiwar/policies.py": "e6ff27604f04f9c8c4767638036197cc7fe7ca2fc56ed46ad889a1badc3d2d2c",
+    "aiwar/policies_legacy.py": "55063b6597d255bb654a52a15d45716a7fc66d85684915fdf27389ae59adefe0",
+    "aiwar/policies_v014.py": "99417964e56760392a7c0275ac3f41a1b9aadb43660406a47e36b7ddc47d1a63",
+    "aiwar/policies_v015.py": "49ff2674bcfef21e082a8772f28794e5fa905169e9e652578cb4cee25fa6aff4",
+    "aiwar/relief.py": "d9487223196dbc127de5b8af88f2c635db36a3dad4b5858bb4c057fc96a21517",
+    "aiwar/replay.py": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+    "aiwar/runner.py": "dddb495a5bdfb7813ccf2bbed3d0ddca83cb4f9b8ac1640b61621bfa996941a8",
+    "aiwar/sdk.py": "2332300d45de3fe8b9789768b8f26ba116c8e3087cb05f8bdcb0540dbabfb959",
+    "aiwar/server.py": "d994b0e323bfd06c2767a8e107d54c70c74e540b057b556579146c57a6aa3aff",
+    "aiwar/warfare.py": "6d0a6d56d1f6686207eed256c84b5a095310accba6ce0a0294f1b20af30996cc",
+    "scripts/escort_p5_defense_policy.py": "35ed55db8eab59daf7fa6475d8304db52e013ce4088a6c750f7ff574cc846dd7",
+    "scripts/escort_p5_defense_study.py": "9c18ae209eddd9d5ee9cd86c7741f4a6a4d6ad00f06b89806ccaf00ef0787f2c",
+    "scripts/transport_growth_policy.py": "97a9c274fc56caf2c81849a700ef83c94180815bf4f4ed592a1af650e8f06127",
+    "scripts/transport_triple_policy.py": "7967544d8a7e255155bbe2be8c9c61c0defa19eaecbb282b3a4cffa66856a6f8"
+  },
+  "jobs": [
+    {
+      "id": "march-2088460572",
+      "seed": 2088460572,
+      "style": "march"
+    },
+    {
+      "id": "march-1327243828",
+      "seed": 1327243828,
+      "style": "march"
+    },
+    {
+      "id": "march-1199329012",
+      "seed": 1199329012,
+      "style": "march"
+    },
+    {
+      "id": "march-1479552164",
+      "seed": 1479552164,
+      "style": "march"
+    },
+    {
+      "id": "march-1555985896",
+      "seed": 1555985896,
+      "style": "march"
+    },
+    {
+      "id": "march-1253421050",
+      "seed": 1253421050,
+      "style": "march"
+    },
+    {
+      "id": "march-2013042981",
+      "seed": 2013042981,
+      "style": "march"
+    },
+    {
+      "id": "march-97563383",
+      "seed": 97563383,
+      "style": "march"
+    },
+    {
+      "id": "march-1241774772",
+      "seed": 1241774772,
+      "style": "march"
+    },
+    {
+      "id": "march-1468188361",
+      "seed": 1468188361,
+      "style": "march"
+    },
+    {
+      "id": "march-455561258",
+      "seed": 455561258,
+      "style": "march"
+    },
+    {
+      "id": "march-80735816",
+      "seed": 80735816,
+      "style": "march"
+    },
+    {
+      "id": "march-1072134541",
+      "seed": 1072134541,
+      "style": "march"
+    },
+    {
+      "id": "march-1161127665",
+      "seed": 1161127665,
+      "style": "march"
+    },
+    {
+      "id": "march-304847128",
+      "seed": 304847128,
+      "style": "march"
+    },
+    {
+      "id": "march-1764887916",
+      "seed": 1764887916,
+      "style": "march"
+    },
+    {
+      "id": "march-564474925",
+      "seed": 564474925,
+      "style": "march"
+    },
+    {
+      "id": "march-15517151",
+      "seed": 15517151,
+      "style": "march"
+    },
+    {
+      "id": "march-986496812",
+      "seed": 986496812,
+      "style": "march"
+    },
+    {
+      "id": "march-2084892231",
+      "seed": 2084892231,
+      "style": "march"
+    },
+    {
+      "id": "march-500792651",
+      "seed": 500792651,
+      "style": "march"
+    },
+    {
+      "id": "march-1280858948",
+      "seed": 1280858948,
+      "style": "march"
+    },
+    {
+      "id": "march-1777274006",
+      "seed": 1777274006,
+      "style": "march"
+    },
+    {
+      "id": "march-464809217",
+      "seed": 464809217,
+      "style": "march"
+    },
+    {
+      "id": "march-1256019940",
+      "seed": 1256019940,
+      "style": "march"
+    },
+    {
+      "id": "march-1409572645",
+      "seed": 1409572645,
+      "style": "march"
+    },
+    {
+      "id": "march-1668151337",
+      "seed": 1668151337,
+      "style": "march"
+    },
+    {
+      "id": "march-1580167424",
+      "seed": 1580167424,
+      "style": "march"
+    },
+    {
+      "id": "march-1664929189",
+      "seed": 1664929189,
+      "style": "march"
+    },
+    {
+      "id": "march-1973104562",
+      "seed": 1973104562,
+      "style": "march"
+    },
+    {
+      "id": "march-71324799",
+      "seed": 71324799,
+      "style": "march"
+    },
+    {
+      "id": "march-1256437516",
+      "seed": 1256437516,
+      "style": "march"
+    },
+    {
+      "id": "march-1823917747",
+      "seed": 1823917747,
+      "style": "march"
+    },
+    {
+      "id": "march-2829661",
+      "seed": 2829661,
+      "style": "march"
+    },
+    {
+      "id": "march-457158937",
+      "seed": 457158937,
+      "style": "march"
+    },
+    {
+      "id": "march-986132089",
+      "seed": 986132089,
+      "style": "march"
+    },
+    {
+      "id": "march-874601590",
+      "seed": 874601590,
+      "style": "march"
+    },
+    {
+      "id": "march-757721409",
+      "seed": 757721409,
+      "style": "march"
+    },
+    {
+      "id": "march-1468950039",
+      "seed": 1468950039,
+      "style": "march"
+    },
+    {
+      "id": "march-1416938985",
+      "seed": 1416938985,
+      "style": "march"
+    }
+  ],
+  "workers": {
+    "mac": 2,
+    "rig": 16
+  }
+}

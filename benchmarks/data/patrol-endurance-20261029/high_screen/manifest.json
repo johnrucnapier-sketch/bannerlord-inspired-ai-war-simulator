@@ -1,0 +1,1409 @@
+{
+  "stage": "high_screen",
+  "source_sha256": {
+    "aiwar/__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
+    "aiwar/__main__.py": "b77f1d39d07822ef3dc3fde7c948da839fc31dd92074d9c328fc20b65fc13465",
+    "aiwar/agent_example.py": "dc4a01dfb42e30959669227914756f9751ab71ff60c06693e053a2321514fa63",
+    "aiwar/agents.py": "f229c2b808e0394d6b340aac19647e71b40512d21b420809170cde828f47dc55",
+    "aiwar/config.json": "64ff99560c3e6c1ede74d39dc12b775d3da842fd0499f685037341f009d15b5e",
+    "aiwar/economy.py": "7921fd3ffc210dba407237a2c999043a16665f1e8909b1d10ae92e26606cec83",
+    "aiwar/engine.py": "98e2ec9c087c952740ba0ce02f8f5467a4ba46f54fa187837325e31f1f3b91d8",
+    "aiwar/experiments.py": "2609f274383a54a6fb3313ffc701d9dab16f590254bb790c80280b7987b939e4",
+    "aiwar/layout.py": "69b35b31e2d8a5ed291e70407d84918ee06379b585ecf5ee031dbd87682718d0",
+    "aiwar/match.py": "9fb8e79e994d31f38226728ce874af6299a3483b4f146245b49b6847b6a1c20d",
+    "aiwar/metrics.py": "2e3eeb1f6b3e4939badfbe1318303c74d7eb8dd183c6803d65169d1314eae343",
+    "aiwar/navigation.py": "a7f5cb51a490c32eae447e24f86257f930e8b25a9a80c30bb5ea7df5c9bb6d62",
+    "aiwar/patrols.py": "aeb17dfe3d030a8e2459eef169dfecc24ce78a170f5997f71b464f270787cf0a",
+    "aiwar/policies.py": "e6ff27604f04f9c8c4767638036197cc7fe7ca2fc56ed46ad889a1badc3d2d2c",
+    "aiwar/policies_legacy.py": "55063b6597d255bb654a52a15d45716a7fc66d85684915fdf27389ae59adefe0",
+    "aiwar/policies_v014.py": "99417964e56760392a7c0275ac3f41a1b9aadb43660406a47e36b7ddc47d1a63",
+    "aiwar/policies_v015.py": "49ff2674bcfef21e082a8772f28794e5fa905169e9e652578cb4cee25fa6aff4",
+    "aiwar/relief.py": "d9487223196dbc127de5b8af88f2c635db36a3dad4b5858bb4c057fc96a21517",
+    "aiwar/replay.py": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+    "aiwar/runner.py": "dddb495a5bdfb7813ccf2bbed3d0ddca83cb4f9b8ac1640b61621bfa996941a8",
+    "aiwar/sdk.py": "2332300d45de3fe8b9789768b8f26ba116c8e3087cb05f8bdcb0540dbabfb959",
+    "aiwar/server.py": "d994b0e323bfd06c2767a8e107d54c70c74e540b057b556579146c57a6aa3aff",
+    "aiwar/warfare.py": "6d0a6d56d1f6686207eed256c84b5a095310accba6ce0a0294f1b20af30996cc",
+    "scripts/patrol_strength_policy.py": "85b6419830002544d5aa9fe8e35d20dbc75e866551d57c87ccc66b5ebf402320",
+    "scripts/patrol_strength_study.py": "767c84afcdcada70cc079e8da3888bb920e38a9bc3a970cfb3bdc0b38f8db9ce"
+  },
+  "workers": {
+    "mac": 8,
+    "rig": 24
+  },
+  "jobs": [
+    {
+      "id": "high-n127-s5101",
+      "target": 127,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n86-s5101",
+      "target": 86,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n67-s5102",
+      "target": 67,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n121-s5102",
+      "target": 121,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n107-s5102",
+      "target": 107,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n132-s5101",
+      "target": 132,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n54-s5101",
+      "target": 54,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n150-s5101",
+      "target": 150,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n116-s5101",
+      "target": 116,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n143-s5102",
+      "target": 143,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n126-s5101",
+      "target": 126,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n145-s5101",
+      "target": 145,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n124-s5101",
+      "target": 124,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n99-s5101",
+      "target": 99,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n75-s5102",
+      "target": 75,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n76-s5101",
+      "target": 76,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n135-s5102",
+      "target": 135,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n112-s5101",
+      "target": 112,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n83-s5102",
+      "target": 83,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n62-s5102",
+      "target": 62,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n144-s5102",
+      "target": 144,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n68-s5102",
+      "target": 68,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n71-s5102",
+      "target": 71,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n120-s5102",
+      "target": 120,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n141-s5101",
+      "target": 141,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n79-s5101",
+      "target": 79,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n131-s5101",
+      "target": 131,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n86-s5102",
+      "target": 86,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n103-s5102",
+      "target": 103,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n56-s5101",
+      "target": 56,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n101-s5101",
+      "target": 101,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n106-s5101",
+      "target": 106,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n140-s5101",
+      "target": 140,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n82-s5102",
+      "target": 82,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n78-s5102",
+      "target": 78,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n92-s5101",
+      "target": 92,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n108-s5102",
+      "target": 108,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n89-s5102",
+      "target": 89,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n116-s5102",
+      "target": 116,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n91-s5101",
+      "target": 91,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n55-s5102",
+      "target": 55,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n97-s5102",
+      "target": 97,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n99-s5102",
+      "target": 99,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n150-s5102",
+      "target": 150,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n148-s5101",
+      "target": 148,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n89-s5101",
+      "target": 89,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n131-s5102",
+      "target": 131,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n113-s5102",
+      "target": 113,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n110-s5102",
+      "target": 110,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n104-s5102",
+      "target": 104,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n105-s5102",
+      "target": 105,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n118-s5101",
+      "target": 118,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n64-s5101",
+      "target": 64,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n142-s5101",
+      "target": 142,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n55-s5101",
+      "target": 55,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n80-s5102",
+      "target": 80,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n119-s5101",
+      "target": 119,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n61-s5102",
+      "target": 61,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n122-s5101",
+      "target": 122,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n57-s5102",
+      "target": 57,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n93-s5102",
+      "target": 93,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n126-s5102",
+      "target": 126,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n100-s5101",
+      "target": 100,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n109-s5102",
+      "target": 109,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n139-s5101",
+      "target": 139,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n85-s5102",
+      "target": 85,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n69-s5101",
+      "target": 69,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n94-s5102",
+      "target": 94,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n139-s5102",
+      "target": 139,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n65-s5101",
+      "target": 65,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n80-s5101",
+      "target": 80,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n73-s5101",
+      "target": 73,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n149-s5101",
+      "target": 149,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n103-s5101",
+      "target": 103,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n111-s5102",
+      "target": 111,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n58-s5101",
+      "target": 58,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n119-s5102",
+      "target": 119,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n134-s5102",
+      "target": 134,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n66-s5101",
+      "target": 66,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n62-s5101",
+      "target": 62,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n128-s5102",
+      "target": 128,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n105-s5101",
+      "target": 105,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n59-s5102",
+      "target": 59,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n81-s5101",
+      "target": 81,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n127-s5102",
+      "target": 127,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n141-s5102",
+      "target": 141,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n78-s5101",
+      "target": 78,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n113-s5101",
+      "target": 113,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n129-s5101",
+      "target": 129,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n75-s5101",
+      "target": 75,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n63-s5102",
+      "target": 63,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n83-s5101",
+      "target": 83,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n147-s5101",
+      "target": 147,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n146-s5102",
+      "target": 146,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n114-s5102",
+      "target": 114,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n138-s5102",
+      "target": 138,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n100-s5102",
+      "target": 100,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n143-s5101",
+      "target": 143,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n59-s5101",
+      "target": 59,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n94-s5101",
+      "target": 94,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n136-s5102",
+      "target": 136,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n122-s5102",
+      "target": 122,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n96-s5101",
+      "target": 96,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n76-s5102",
+      "target": 76,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n149-s5102",
+      "target": 149,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n56-s5102",
+      "target": 56,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n88-s5101",
+      "target": 88,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n109-s5101",
+      "target": 109,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n124-s5102",
+      "target": 124,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n111-s5101",
+      "target": 111,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n87-s5101",
+      "target": 87,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n118-s5102",
+      "target": 118,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n70-s5101",
+      "target": 70,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n91-s5102",
+      "target": 91,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n114-s5101",
+      "target": 114,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n108-s5101",
+      "target": 108,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n121-s5101",
+      "target": 121,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n74-s5101",
+      "target": 74,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n102-s5102",
+      "target": 102,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n68-s5101",
+      "target": 68,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n71-s5101",
+      "target": 71,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n93-s5101",
+      "target": 93,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n81-s5102",
+      "target": 81,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n67-s5101",
+      "target": 67,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n60-s5102",
+      "target": 60,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n95-s5102",
+      "target": 95,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n98-s5101",
+      "target": 98,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n137-s5102",
+      "target": 137,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n101-s5102",
+      "target": 101,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n137-s5101",
+      "target": 137,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n130-s5102",
+      "target": 130,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n136-s5101",
+      "target": 136,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n84-s5101",
+      "target": 84,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n130-s5101",
+      "target": 130,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n60-s5101",
+      "target": 60,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n133-s5102",
+      "target": 133,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n134-s5101",
+      "target": 134,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n117-s5102",
+      "target": 117,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n128-s5101",
+      "target": 128,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n85-s5101",
+      "target": 85,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n145-s5102",
+      "target": 145,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n66-s5102",
+      "target": 66,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n140-s5102",
+      "target": 140,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n70-s5102",
+      "target": 70,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n79-s5102",
+      "target": 79,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n115-s5101",
+      "target": 115,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n146-s5101",
+      "target": 146,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n77-s5101",
+      "target": 77,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n63-s5101",
+      "target": 63,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n112-s5102",
+      "target": 112,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n54-s5102",
+      "target": 54,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n133-s5101",
+      "target": 133,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n73-s5102",
+      "target": 73,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n125-s5101",
+      "target": 125,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n102-s5101",
+      "target": 102,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n92-s5102",
+      "target": 92,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n84-s5102",
+      "target": 84,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n132-s5102",
+      "target": 132,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n77-s5102",
+      "target": 77,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n117-s5101",
+      "target": 117,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n104-s5101",
+      "target": 104,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n144-s5101",
+      "target": 144,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n115-s5102",
+      "target": 115,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n61-s5101",
+      "target": 61,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n65-s5102",
+      "target": 65,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n95-s5101",
+      "target": 95,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n107-s5101",
+      "target": 107,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n123-s5101",
+      "target": 123,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n110-s5101",
+      "target": 110,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n98-s5102",
+      "target": 98,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n142-s5102",
+      "target": 142,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n90-s5101",
+      "target": 90,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n57-s5101",
+      "target": 57,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n64-s5102",
+      "target": 64,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n74-s5102",
+      "target": 74,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n72-s5102",
+      "target": 72,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n138-s5101",
+      "target": 138,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n72-s5101",
+      "target": 72,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n148-s5102",
+      "target": 148,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n90-s5102",
+      "target": 90,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n97-s5101",
+      "target": 97,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n69-s5102",
+      "target": 69,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n88-s5102",
+      "target": 88,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n135-s5101",
+      "target": 135,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n87-s5102",
+      "target": 87,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n129-s5102",
+      "target": 129,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n120-s5101",
+      "target": 120,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n147-s5102",
+      "target": 147,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n58-s5102",
+      "target": 58,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n106-s5102",
+      "target": 106,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n96-s5102",
+      "target": 96,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n125-s5102",
+      "target": 125,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n82-s5101",
+      "target": 82,
+      "floor": 54,
+      "seed": 5101,
+      "stage": "high_screen"
+    },
+    {
+      "id": "high-n123-s5102",
+      "target": 123,
+      "floor": 54,
+      "seed": 5102,
+      "stage": "high_screen"
+    }
+  ],
+  "screen_seeds": [
+    5101,
+    5102
+  ],
+  "validation_seeds": [
+    6101,
+    6102,
+    6103
+  ],
+  "primary_metric": "ten-year rural population; report paired differences, resource demand, casualties and return reasons separately",
+  "conditions": "12cities36villages6clans; clan cap2; exactly one assigned party per city; target healthy at departure, wounded unloaded, 30-day full food, garrison reserve20, actual city resources; fixed P5 compact city-village routes; six-hour decisions",
+  "next_stage": "Top5 population candidates plus54-person reference on seeds6101,6102,6103; Mac small validation",
+  "allocation": "All large sweeps on RIG; Mac small validation; PC excluded by user.",
+  "repair": "Check actual garrison location for troop transfers. Failed pilot batch preserved, same predefined seeds restarted.",
+  "completed_low_round": "72 screen +18 top5/reference validation +3 budget-knee validation; best population target48"
+}

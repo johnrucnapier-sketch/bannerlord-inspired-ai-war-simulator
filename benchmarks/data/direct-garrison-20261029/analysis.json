@@ -1,0 +1,171 @@
+{
+  "old": {
+    "games": 24,
+    "blue": 9,
+    "red": 12,
+    "draw": 3,
+    "blue_win_rate": 0.375,
+    "blue_cities_mean": 6,
+    "blue_errors": 0,
+    "red_errors": 13264
+  },
+  "new": {
+    "games": 24,
+    "blue": 5,
+    "red": 18,
+    "draw": 1,
+    "blue_win_rate": 0.20833333333333334,
+    "blue_cities_mean": 2.7916666666666665,
+    "blue_errors": 0,
+    "red_errors": 1
+  },
+  "old_first": {
+    "games": 24,
+    "no_capture": 0,
+    "mean_hour": 7488.083333333333,
+    "median_hour": 7605.5,
+    "min_hour": 395,
+    "max_hour": 14227,
+    "first_conqueror": {
+      "0": 13,
+      "1": 11
+    },
+    "means": {
+      "population": {
+        "blue": 8563.291666666666,
+        "red": 6222.916666666667,
+        "difference": 2340.374999999999,
+        "relative": 0.37608972212922653
+      },
+      "regular_total": {
+        "blue": 1238.0416666666667,
+        "red": 1333,
+        "difference": -94.95833333333326,
+        "relative": -0.07123655913978488
+      },
+      "regular_healthy": {
+        "blue": 1109.2916666666667,
+        "red": 1218,
+        "difference": -108.70833333333326,
+        "relative": -0.08925150519978098
+      },
+      "regular_wounded": {
+        "blue": 128.75,
+        "red": 115,
+        "difference": 13.75,
+        "relative": 0.11956521739130443
+      },
+      "field": {
+        "blue": 1175.3333333333333,
+        "red": 653.7083333333334,
+        "difference": 521.6249999999999,
+        "relative": 0.7979476066033524
+      },
+      "garrison": {
+        "blue": 62.708333333333336,
+        "red": 679.2916666666666,
+        "difference": -616.5833333333333,
+        "relative": -0.9076857020180334
+      },
+      "militia": {
+        "blue": 1130.2083333333333,
+        "red": 1124.5416666666667,
+        "difference": 5.666666666666515,
+        "relative": 0.00503908999962932
+      },
+      "city_recruits": {
+        "blue": 284.5833333333333,
+        "red": 97.20833333333333,
+        "difference": 187.375,
+        "relative": 1.9275610801543075
+      },
+      "village_recruits": {
+        "blue": 1.875,
+        "red": 10.541666666666666,
+        "difference": -8.666666666666666,
+        "relative": -0.8221343873517787
+      },
+      "transit_recruits": {
+        "blue": 27.708333333333332,
+        "red": 17.791666666666668,
+        "difference": 9.916666666666664,
+        "relative": 0.5573770491803276
+      }
+    }
+  },
+  "new_first": {
+    "games": 24,
+    "no_capture": 0,
+    "mean_hour": 4464.625,
+    "median_hour": 4312.0,
+    "min_hour": 396,
+    "max_hour": 9382,
+    "first_conqueror": {
+      "1": 21,
+      "0": 3
+    },
+    "means": {
+      "population": {
+        "blue": 6644.333333333333,
+        "red": 5363.791666666667,
+        "difference": 1280.541666666666,
+        "relative": 0.2387381438814271
+      },
+      "regular_total": {
+        "blue": 1216.2916666666667,
+        "red": 883.125,
+        "difference": 333.16666666666674,
+        "relative": 0.3772587874498703
+      },
+      "regular_healthy": {
+        "blue": 1165.5,
+        "red": 715.5416666666666,
+        "difference": 449.95833333333337,
+        "relative": 0.6288359634309673
+      },
+      "regular_wounded": {
+        "blue": 50.791666666666664,
+        "red": 167.58333333333334,
+        "difference": -116.79166666666669,
+        "relative": -0.6969169567379414
+      },
+      "field": {
+        "blue": 1032.4166666666667,
+        "red": 684.3333333333334,
+        "difference": 348.08333333333337,
+        "relative": 0.5086458840720895
+      },
+      "garrison": {
+        "blue": 183.875,
+        "red": 198.79166666666666,
+        "difference": -14.916666666666657,
+        "relative": -0.07503667994131202
+      },
+      "militia": {
+        "blue": 1113.7083333333333,
+        "red": 1144.5416666666667,
+        "difference": -30.833333333333485,
+        "relative": -0.02693945902653916
+      },
+      "city_recruits": {
+        "blue": 0,
+        "red": 0,
+        "difference": 0,
+        "relative": null
+      },
+      "village_recruits": {
+        "blue": 1.5416666666666667,
+        "red": 1.7916666666666667,
+        "difference": -0.25,
+        "relative": -0.13953488372093026
+      },
+      "transit_recruits": {
+        "blue": 32.875,
+        "red": 22.541666666666668,
+        "difference": 10.333333333333332,
+        "relative": 0.45841035120147877
+      }
+    }
+  },
+  "blue_win_change_pp": -16.666666666666664
+}

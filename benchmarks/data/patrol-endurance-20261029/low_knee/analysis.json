@@ -1,0 +1,36 @@
+{
+  "stage": "low_knee",
+  "games": 3,
+  "ranking": [
+    {
+      "floor": 18,
+      "target": 30,
+      "games": 3,
+      "population_mean": 21553.333333333332,
+      "population_by_seed": {
+        "6102": 22860,
+        "6103": 22175,
+        "6101": 19625
+      },
+      "dead_mean": 1063.3333333333333,
+      "wound_events_mean": 5266.333333333333,
+      "destroyed_mean": 3,
+      "engagements_mean": 1355,
+      "zero_death_engagements_mean": 410.6666666666667,
+      "below_floor_engagements_mean": 0.3333333333333333,
+      "food_demand_mean": 29521066.666666668,
+      "hungry_party_days_mean": 0,
+      "health_returns_mean": 98,
+      "food_returns_mean": 1,
+      "refit_wait_hours_mean": 6768,
+      "soldier_wait_hours_mean": 1074,
+      "food_wait_hours_mean": 2710,
+      "outing_hours_mean": 114.92110874200426,
+      "away_hours_mean": 218694,
+      "cart_losses_mean": 766.3333333333334
+    }
+  ],
+  "top5": [
+    30
+  ]
+}

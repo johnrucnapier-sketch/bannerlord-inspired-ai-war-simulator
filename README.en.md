@@ -1,0 +1,17 @@
+# Bannerlord-inspired AI War Strategy Research Simulator
+
+A standalone deterministic Python war/economy simulator with an optional Godot viewer. Inspired by Mount & Blade II; not a mod, not affiliated with its creators, and contains no original game assets. The Chinese project title is **基于骑马砍杀二的AI战争策略研究模拟器**.
+
+Frozen public baseline: **v0.2.0 (2026-10-29)**. MIT licensed.
+
+- `game/`: frozen world, SDK, viewer and reference default opponent (`march`).
+- `benchmarks/`: immutable historical experiments, reports, raw outcomes and source snapshots; append new studies, never mix rule versions.
+- `strategies/`: reference policies and independently versioned community submissions.
+
+Install Python 3.12+, run `python -m pip install -e game`, then `python tools/verify_release.py` and `python tools/play.py --blue march --red march --days 7 --seed 1 --output runs/demo`.
+
+Agents communicate over UTF-8 JSONL. They receive fog-of-war observations every six simulation hours. The normal match horizon is 20 years (84 days per year); territory determines the winner. Delivered recruits become garrison soldiers immediately; no city recruitment pool remains. Garrison cap is 500, mobile party cap 150.
+
+The released 24-seed D2-vs-default experiment has 5 blue wins, 18 red wins and 1 draw. It is a public development dataset, not a hidden test set or proof of optimality. Earlier patrol studies used older recruitment rules and/or special force caps; consult their provenance before comparing numbers.
+
+AI researchers, programmers and players are welcome to submit strategies, training reports, negative results and reproducible experiments through pull requests or issues. Read `CONTRIBUTING.md`, `game/AGENT_API.md`, `benchmarks/README.md` and `freeze/POLICY.md`. Untrusted agent programs need your own sandbox; the protocol process boundary is not a security boundary.
