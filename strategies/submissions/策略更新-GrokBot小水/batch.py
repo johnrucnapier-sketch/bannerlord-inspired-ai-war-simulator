@@ -42,7 +42,7 @@ if __name__=='__main__':
     a=argparse.ArgumentParser();a.add_argument('label');a.add_argument('cmd');a.add_argument('--seeds',default='0:12');a.add_argument('--days',type=int,default=1680)
     a.add_argument('--sides',default='blue');a.add_argument('-j',type=int,default=6);x=a.parse_args()
     i,j=map(int,x.seeds.split(':'));seeds=SEEDS[i:j]
-    if x.cmd not in ('march','d2','p5','p3','idle'):x.cmd=json.dumps([PY,str(ROOT/'strategies/submissions/grokbot-blue'/x.cmd/'agent.py')])
+    if x.cmd not in ('march','d2','p5','p3','idle'):x.cmd=json.dumps([PY,str(ROOT/'strategies/submissions/策略更新-GrokBot小水'/x.cmd/'agent.py')])
     jobs=[(x.label,x.cmd,s,seed,x.days) for s in x.sides.split(',') for seed in seeds]
     t=time.time()
     with ThreadPoolExecutor(x.j) as ex:

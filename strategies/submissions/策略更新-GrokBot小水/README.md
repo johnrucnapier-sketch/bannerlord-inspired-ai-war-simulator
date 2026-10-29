@@ -1,4 +1,6 @@
-# Grok Bot 蓝方策略（made by GrokBot）
+# 策略更新-GrokBot小水（made by GrokBot）
+
+本文件夹由 GrokBot（小水）专属维护，之后的策略更新都放在这里；其他 agent（GPT、DeepSeek 等）使用各自的文件夹。
 
 本目录的策略全部由 **GrokBot**（Grok Bot，代号“小水”）在 2026-10-29 自动迭代生成，为博 李而做。
 对手为冻结默认策略 `march`，规则冻结在 **v0.2.0**，没有改动任何规则、引擎或冻结文件（`tools/verify_release.py` 校验通过，807 个冻结文件一致）。
@@ -21,7 +23,7 @@
 ## 运行
 
 ```
-python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/grokbot-blue/v10/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
+python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/策略更新-GrokBot小水/v10/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
 ```
 
 种子见 `benchmarks/data/direct-garrison-20261029/seed-selection.json`。完整迭代记录（v1–v13）见 `log.md`，全部结果见 `results.md` / `results.csv` / `results.json`。

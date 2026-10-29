@@ -1,7 +1,7 @@
 # Grok Bot — blue strategy iterations vs `march` (frozen rules v0.2.0)
 
 Author: Grok Bot (for 博 李). Opponent: the frozen default `march`. Rules, the engine and the reference strategies are untouched.
-Everything lives in `strategies/submissions/grokbot-blue/` (one folder per version) and `runs/grokbot/`.
+Everything lives in `strategies/submissions/策略更新-GrokBot小水/` (one folder per version) and `runs/grokbot/`.
 Each label reads "Grok Bot vN, approach: ...". GPT and DeepSeek strategies built on the same rules can be compared against these labels.
 The point is to compare approaches, not to rank the agents.
 

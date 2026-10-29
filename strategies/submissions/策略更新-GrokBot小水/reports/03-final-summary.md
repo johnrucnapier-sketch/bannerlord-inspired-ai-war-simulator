@@ -39,5 +39,5 @@ Grok Bot v10，思路：开局突袭 + 巡逻队保村庄经济 + 集中大军�
 
 ## 运行方式
 ```
-python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/grokbot-blue/v10/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
+python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/策略更新-GrokBot小水/v10/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
 ```
