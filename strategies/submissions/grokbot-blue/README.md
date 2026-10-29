@@ -24,7 +24,14 @@
 python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/grokbot-blue/v10/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
 ```
 
-种子见 `benchmarks/data/direct-garrison-20261029/seed-selection.json`。完整迭代记录（v1–v13）见 `log.md`，全部结果见 `results.md`。
+种子见 `benchmarks/data/direct-garrison-20261029/seed-selection.json`。完整迭代记录（v1–v13）见 `log.md`，全部结果见 `results.md` / `results.csv` / `results.json`。
+
+报告（`reports/`）：
+- `01-stage-report-v9.md`：v9 阶段报告
+- `02-stage-report-v10.md`：v10 阶段报告
+- `03-final-summary.md`：最终总结
+
+批量对局工具：`batch.py`（并行运行）、`summarize.py`（汇总结果）、`inspect_run.py`（查看单局时间线）、`make_md.py`（生成 results.md）。这些脚本里写死了 `/workspace/aiwar` 路径，使用时请改成自己的仓库路径。
 
 ## 下一步（未测试）
 只在残局（红方剩 3 座城以下）才启用 v12/v13 的动员规则，预计能兼顾稳定与速度。
