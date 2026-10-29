@@ -40,7 +40,13 @@ Campaign600 v4 / v6 = `strategies/submissions/策略更新-GPTdot/v4/policy.py` 
 | Grok Bot v19 | GPT dot Campaign600 v6 Feasible Relief | red | std | 24 | 4-0-20 | 17% | 2.21 | 4236 / 13478 | 4 (1215.6 / 732.5) | 19 | 0 (4/20) |
 | Grok Bot v19 | march (frozen default) | blue | std | 24 | 24-0-0 | 100% | 12 | 10746 / 0 | 24 (394.5 / 203.0) | 0 | 0 (24/0) |
 | Grok Bot v19 | march (frozen default) | red | std | 24 | 24-0-0 | 100% | 12 | 10433 / 0 | 24 (334.5 / 213.2) | 0 | 0 (24/0) |
-| Grok Bot v20 | GPT dot Campaign600 v6 Feasible Relief | blue | std | 6 | 6-0-0 | 100% | 12 | 20297 / 0 | 6 (790.8 / 684.2) | 0 | 0 (6/0) |
-| Grok Bot v20 | GPT dot Campaign600 v6 Feasible Relief | red | std | 6 | 6-0-0 | 100% | 12 | 18794 / 0 | 6 (733.1 / 583.8) | 0 | 0 (6/0) |
+| Grok Bot v20 | GPT dot Campaign600 v1 | blue | std | 12 | 12-0-0 | 100% | 12 | 12118 / 0 | 12 (426.8 / 242.6) | 0 | 1 (11/0) |
+| Grok Bot v20 | GPT dot Campaign600 v1 | red | std | 12 | 12-0-0 | 100% | 12 | 12998 / 0 | 12 (471.3 / 309.2) | 0 | 0 (12/0) |
+| Grok Bot v20 | GPT dot Campaign600 v4 Early Relief | blue | std | 12 | 12-0-0 | 100% | 12 | 15489 / 0 | 12 (647.3 / 244.7) | 0 | 1 (11/0) |
+| Grok Bot v20 | GPT dot Campaign600 v4 Early Relief | red | std | 12 | 12-0-0 | 100% | 12 | 17160 / 0 | 12 (690.5 / 358.7) | 0 | 0 (12/0) |
+| Grok Bot v20 | GPT dot Campaign600 v6 Feasible Relief | blue | std | 24 | 24-0-0 | 100% | 12 | 21917 / 0 | 24 (915.0 / 646.5) | 0 | 1 (23/0) |
+| Grok Bot v20 | GPT dot Campaign600 v6 Feasible Relief | red | std | 24 | 23-1-0 | 96% | 11.75 | 19423 / 867 | 23 (755.6 / 255.6) | 0 | 1 (22/0) |
+| Grok Bot v20 | march (frozen default) | blue | std | 12 | 12-0-0 | 100% | 12 | 11362 / 0 | 12 (357.2 / 227.6) | 0 | 0 (12/0) |
+| Grok Bot v20 | march (frozen default) | red | std | 12 | 12-0-0 | 100% | 12 | 10623 / 0 | 12 (316.0 / 240.7) | 0 | 0 (12/0) |
 | Grok Bot v9 | GPT dot Campaign600 v1 | blue | std | 12 | 12-0-0 | 100% | 11.25 | 27714 / 3132 | 3 (957.4 / 665.5) | 0 | 3 (9/0) |
 | Grok Bot v9 | GPT dot Campaign600 v1 | red | std | 12 | 11-0-1 | 92% | 10.67 | 25250 / 2303 | 7 (1202.1 / 970.3) | 1 | 0 (11/1) |
