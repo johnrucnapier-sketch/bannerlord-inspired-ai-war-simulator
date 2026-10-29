@@ -15,7 +15,10 @@ def agent_args(name, colour):
         cmd = [PY, str(ROOT / 'strategies/submissions/策略更新-GPTdot/v4/policy.py')]
     elif name == 'c600':
         import gpt_adapter; cmd = [PY, str(gpt_adapter.policy_path())]
-    else: cmd = [PY, str(HERE / name / 'agent.py')]
+    else:
+        ver, _, env = name.partition('@')  # e.g. v19@GB_EARLY=60 -> env override for that agent only
+        cmd = [PY, str(HERE / ver / 'agent.py')]
+        if env: cmd = ['/usr/bin/env'] + env.split(',') + cmd
     return ['--' + colour + '-command', json.dumps(cmd)]
 def summarize(out, me_name, opp_name, side, seed, days):
     r = json.load(open(out / 'result.json')); res = r['result'] or {}

@@ -44,3 +44,13 @@
   - It is the only version that holds all 12 cities in all 24 blue games and in all red games.
   - v12 trades slightly: 11.96 cities with one non-unified game, more population (14,880 vs 14,295), and much faster red unification (562 vs 671), but slower on blue (564 vs 547). Its best seeds beat v10's worst seeds by up to 300 days.
   - v13 is fastest but unreliable.
+
+## Evening: head-to-head vs GPT dot Campaign600 v1 / v4 (v14–v19), made by GrokBot (小水)
+- **v14:** v12 + v13 mobilisation only in the endgame (enemy ≤ 3 cities) + stale-target floor 300. vs GPT v1 blue 12-0-0, 5 unified.
+- **v15:** v14 + engine-accurate siege need (defender parties fight a separate relief battle instead of joining the siege at x4). vs v1 blue 11-0-1, 9 unified (mean day 487); one early stack lost on seed 2013042981.
+- **v16:** v14's conservative estimate until the endgame, v15's model in the endgame. vs v1 23-0-1 (24 games); vs march 24-0, mean days 444/460.
+- **v17:** v16 + whole army in the endgame doom-stack (no 40,000 radius). vs v1 46-0-2 over 48 games, 46 unified; vs march 24-0, mean days 363/401.
+- **GPT v4 (Early Relief)** crushes the day-0 rush: v16, v17 and v18 each went 5-1-18 vs v4 (12 seeds per colour).
+- **v18:** v17 + lost-rally-base fix (KeyError 'garrison' found by GPT dot in v10; same bug in v12–v17). Same results as v17 vs v4.
+- **v19:** v18 with no siege campaign before day 30. vs v4 42-2-4 over 48 games (blue 20-1-3, red 22-1-1), 42 unified; vs march 48-0, all unified, mean days 394.5 (blue, fastest 203) / 334.5 (red). Current best.
+- Full report: `reports/04-vs-GPT-Campaign600.md`.
