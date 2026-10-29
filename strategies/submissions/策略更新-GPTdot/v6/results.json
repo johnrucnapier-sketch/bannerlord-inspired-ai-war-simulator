@@ -1,0 +1,1313 @@
+{
+  "schema_version": 1,
+  "status": "EXPERIMENTAL_INCOMPLETE_EVALUATION",
+  "baseline": "v0.2.0",
+  "repo_commit": "7210b888088f54a40802cdc76b80677a01166fc2",
+  "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+  "opponent_sha256": "98197d519160dd29f358e648c069bdae0aad5073edabec634b06bfe2b8349116",
+  "frozen_manifest_sha256": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+  "expected_effective_config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "measured_config_hash_recovery_note": "Expected identity retained; original per-row measured hashes were lost and remain null.",
+  "all_40_main_attempts_listed": true,
+  "raw_artifacts_available": false,
+  "original_final_archive_audit_completed": false,
+  "source_recovery": {
+    "exact_preregistered_policy_hash_match": true,
+    "policy_bytes": 49379,
+    "method": "Pinned public v4 plus original author patch chain retained in task conversation; matched target SHA256 on first reconstruction.",
+    "reconstructed_test_sha256": "0cf06bf5b75303bf3b72543af9c8a4b496270e928ae7bacd58f611baac83820c",
+    "original_test_sha256_available": false,
+    "fresh_reconstructed_synthetic_tests_passed": 51
+  },
+  "phase_summaries": [
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "planned": 8,
+      "observed_wins": 0,
+      "observed_ties": 0,
+      "observed_losses": 6,
+      "no_verdict_aborts": 2,
+      "runtime_clean_rows": 3,
+      "workers": 8,
+      "host_python": "3.12.14",
+      "both_agent_python": "3.13.5",
+      "protocol_errors": 177,
+      "tracebacks": 168,
+      "command_rejections": 0,
+      "decision_timeouts": 10,
+      "our_timeouts": 6,
+      "opponent_timeouts": 4,
+      "other_protocol_errors": 167
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "planned": 8,
+      "observed_wins": 8,
+      "observed_ties": 0,
+      "observed_losses": 0,
+      "no_verdict_aborts": 0,
+      "runtime_clean_rows": 6,
+      "workers": 4,
+      "host_python": "3.12.14",
+      "both_agent_python": "3.12.14",
+      "decision_timeouts": 2,
+      "tracebacks": 0,
+      "command_rejections": 0,
+      "our_recovery_notes": 1
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "planned": 24,
+      "known_terminal": 21,
+      "unknown": 3,
+      "observed_wins": 19,
+      "observed_ties": 0,
+      "observed_losses": 2,
+      "runtime_clean_known_rows": 16,
+      "workers": 2,
+      "host_python": "3.12.14",
+      "both_agent_python": "3.12.14",
+      "known_decision_timeouts": 8,
+      "known_tracebacks": 0,
+      "our_known_recoveries": 4,
+      "by_side": {
+        "blue": {
+          "wins": 10,
+          "losses": 0,
+          "unknown": 2
+        },
+        "red": {
+          "wins": 9,
+          "losses": 2,
+          "unknown": 1
+        }
+      },
+      "posthoc_all_fault_completed_games_as_loss": {
+        "wins": 15,
+        "ties": 0,
+        "losses": 6,
+        "known_denominator": 21,
+        "unknown": 3,
+        "not_observed_winrate": true,
+        "not_final": true
+      },
+      "confirmed_command_rejections": 2,
+      "final_command_rejection_total_available": false
+    }
+  ],
+  "protocol": {
+    "days": 1680,
+    "decision_hours": 6,
+    "decision_timeout_seconds": 2,
+    "official_isolated_JSONL": true,
+    "cleared_environment": "Clean environment; every GB_* override absent.",
+    "resource_limits": {
+      "cpu_seconds_per_process": 2400,
+      "address_space_bytes_per_process": 2147483648,
+      "wall_seconds_whole_game_group": 2700
+    },
+    "runtime_amendment": "Prospective worker reduction 8→4→2; host/both agents pinned to same Python3.12.14 after baseline. Same2s allowance both sides; not policy-only ablation."
+  },
+  "preregistration": {
+    "plan_sha256": "8f4bee6cfb30cd53f8e8d1b0a947feaa8f48fa5d2cd70eee0792413a9a158700",
+    "manifest_sha256": "48788264a0ca0805c260f74d23bf6812660dd768c0fd8e193b0be41a904362fb",
+    "seeds": [
+      2068903524,
+      1055177082,
+      660681239,
+      1916494980,
+      821436527,
+      855250420,
+      1476545417,
+      803144531,
+      23489444,
+      1698489847,
+      1232181665,
+      785517304
+    ],
+    "alpha": 0.0125,
+    "statistical_unit": "seed pair",
+    "tests": [
+      "exact one-sided paired sign",
+      "exact one-sided paired score sign-flip"
+    ],
+    "score": "win=1, tie=.5, loss=0; ties remain in denominator",
+    "required_all_24_complete": true,
+    "required_no_runtime_faults_either_policy": true,
+    "all_24_terminal_established": false,
+    "clean_runtime_pass": false,
+    "statistical_gate_evaluated_on_full_batch": false,
+    "preregistered_success": false,
+    "seed_exclusions": "277 recoverable prior published seeds plus4baseline/development seeds; older private archives absent before this study; stronger exclusion cannot be certified.",
+    "no_automatic_extra_confirmation": true
+  },
+  "runtime_faults": [
+    {
+      "seed": 660681239,
+      "our_side": 1,
+      "timeouts": {
+        "grok": [
+          4218
+        ]
+      }
+    },
+    {
+      "seed": 1916494980,
+      "our_side": 0,
+      "timeouts": {
+        "gptdot": [
+          8652
+        ]
+      }
+    },
+    {
+      "seed": 1916494980,
+      "our_side": 1,
+      "timeouts": {
+        "gptdot": [
+          7902
+        ],
+        "grok": [
+          7902
+        ]
+      }
+    },
+    {
+      "seed": 855250420,
+      "our_side": 1,
+      "timeouts": {
+        "gptdot": [
+          15228,
+          26160
+        ],
+        "grok": [
+          15228
+        ]
+      }
+    },
+    {
+      "seed": 23489444,
+      "our_side": 0,
+      "timeouts": {
+        "grok": [
+          12648
+        ]
+      }
+    }
+  ],
+  "command_rejections": [
+    {
+      "seed": 2068903524,
+      "our_side": 1,
+      "policy": "Grok v19",
+      "hour": 7632,
+      "reason": "兵力来源不可用"
+    },
+    {
+      "seed": 1916494980,
+      "our_side": 0,
+      "policy": "Grok v19",
+      "hour": 10476,
+      "reason": "兵力来源不可用"
+    }
+  ],
+  "infrastructure": {
+    "disconnect_utc": "2026-10-29T16:25:47Z",
+    "last_monitor_terminal_utc": "2026-10-29T16:25:28Z",
+    "last_original_source_check_utc": "2026-10-29T16:22:41Z",
+    "last_original_locked_files_matched": 812,
+    "remaining": {
+      "1232181665-blue": "last seen in flight",
+      "785517304-blue": "last seen in flight",
+      "785517304-red": "not observed started"
+    },
+    "no_replacement_matches_launched": true,
+    "original_process_end_states_unknown": true
+  },
+  "rows": [
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "seed": 28100165,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "loss",
+      "end_hour": 9057,
+      "end_reason": null,
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Terminal reason not individually recovered. Some timeout hours unknown; counts retained.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "seed": 28100165,
+      "our_side": 1,
+      "color": "red",
+      "status": "no_verdict_host_abort",
+      "observed_outcome": null,
+      "end_hour": null,
+      "end_reason": null,
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "gptdot": [
+          7476
+        ]
+      },
+      "source_policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Terminal reason not individually recovered. Some timeout hours unknown; counts retained.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 2,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 71,
+        "tracebacks": 71,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": false,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "seed": 1372041675,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "loss",
+      "end_hour": 8027,
+      "end_reason": null,
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Terminal reason not individually recovered. Some timeout hours unknown; counts retained.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "seed": 1372041675,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "loss",
+      "end_hour": 15212,
+      "end_reason": null,
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "grok": [
+          8682
+        ]
+      },
+      "source_policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Terminal reason not individually recovered. Some timeout hours unknown; counts retained.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 1,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "seed": 587250828,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "loss",
+      "end_hour": 12042,
+      "end_reason": null,
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Terminal reason not individually recovered. Some timeout hours unknown; counts retained.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "seed": 587250828,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "loss",
+      "end_hour": 13826,
+      "end_reason": null,
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "grok": [
+          8370
+        ]
+      },
+      "source_policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Terminal reason not individually recovered. Some timeout hours unknown; counts retained.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 1,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "seed": 1044775984,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "loss",
+      "end_hour": 10489,
+      "end_reason": null,
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "gptdot": [
+          9948
+        ],
+        "grok": [
+          8814,
+          9948
+        ]
+      },
+      "source_policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Terminal reason not individually recovered. Some timeout hours unknown; counts retained.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 2,
+        "opponent_timeouts": 2,
+        "other_protocol_errors": 89,
+        "tracebacks": 90,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": false,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "baseline-v4-v19-4pairs",
+      "seed": 1044775984,
+      "our_side": 1,
+      "color": "red",
+      "status": "no_verdict_host_abort",
+      "observed_outcome": null,
+      "end_hour": null,
+      "end_reason": null,
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "gptdot": [
+          7656
+        ]
+      },
+      "source_policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Terminal reason not individually recovered. Some timeout hours unknown; counts retained.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 2,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 7,
+        "tracebacks": 7,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": false,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "seed": 28100165,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 13083,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Retained terminal/fault details shown, not a fresh log audit.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "seed": 28100165,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 40320,
+      "end_reason": "time_limit",
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "grok": [
+          30510
+        ]
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Retained terminal/fault details shown, not a fresh log audit.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 1,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": {
+        "blue": 5,
+        "red": 7
+      }
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "seed": 1372041675,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 14996,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Retained terminal/fault details shown, not a fresh log audit.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "seed": 1372041675,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 11596,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Retained terminal/fault details shown, not a fresh log audit.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "seed": 587250828,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 12622,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Retained terminal/fault details shown, not a fresh log audit.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "seed": 587250828,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 16751,
+      "end_reason": "unification",
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "gptdot": [
+          5148
+        ]
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Retained terminal/fault details shown, not a fresh log audit.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 1,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "seed": 1044775984,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 18231,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Retained terminal/fault details shown, not a fresh log audit.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-development-4pairs-r1",
+      "seed": 1044775984,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 11393,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts unavailable; per-row physics/config hashes and CPU absent. Retained terminal/fault details shown, not a fresh log audit.",
+      "evidence": "Retained research checkpoint; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 2068903524,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 10381,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 2068903524,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 10453,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 1
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1055177082,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 18333,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1055177082,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 15809,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 660681239,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 17291,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 660681239,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 13151,
+      "end_reason": "unification",
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "grok": [
+          4218
+        ]
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 1,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1916494980,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 12843,
+      "end_reason": "unification",
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "gptdot": [
+          8652
+        ]
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 1,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 1
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1916494980,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 19030,
+      "end_reason": "unification",
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "gptdot": [
+          7902
+        ],
+        "grok": [
+          7902
+        ]
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 1,
+        "opponent_timeouts": 1,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 821436527,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 11946,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 821436527,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 12071,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 855250420,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 23116,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 855250420,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "loss",
+      "end_hour": 36235,
+      "end_reason": "unification",
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "gptdot": [
+          15228,
+          26160
+        ],
+        "grok": [
+          15228
+        ]
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 2,
+        "opponent_timeouts": 1,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1476545417,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 13867,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1476545417,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 12139,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 803144531,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 14058,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 803144531,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 11866,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 23489444,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 22694,
+      "end_reason": "unification",
+      "runtime_fault": true,
+      "decision_timeout_hours": {
+        "grok": [
+          12648
+        ]
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 1,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 23489444,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "loss",
+      "end_hour": 36965,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1698489847,
+      "our_side": 0,
+      "color": "blue",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 15839,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1698489847,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 10713,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun. Command-rejection count for this row was not retained.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": null
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1232181665,
+      "our_side": 0,
+      "color": "blue",
+      "status": "unknown_after_executor_loss",
+      "observed_outcome": null,
+      "end_hour": null,
+      "end_reason": null,
+      "runtime_fault": null,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": null,
+      "timeout_hours_complete": null,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 1232181665,
+      "our_side": 1,
+      "color": "red",
+      "status": "retained_terminal",
+      "observed_outcome": "win",
+      "end_hour": 12461,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {},
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun. Command-rejection count for this row was not retained.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": null
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 785517304,
+      "our_side": 0,
+      "color": "blue",
+      "status": "unknown_after_executor_loss",
+      "observed_outcome": null,
+      "end_hour": null,
+      "end_reason": null,
+      "runtime_fault": null,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": null,
+      "timeout_hours_complete": null,
+      "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-independent-attempt1-12pairs",
+      "seed": 785517304,
+      "our_side": 1,
+      "color": "red",
+      "status": "unknown_after_executor_loss",
+      "observed_outcome": null,
+      "end_hour": null,
+      "end_reason": null,
+      "runtime_fault": null,
+      "decision_timeout_hours": null,
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": null,
+      "measured_config_sha256": null,
+      "missing_fields": "Original raw artifacts and per-row hashes unavailable; unknown outcomes were not invented or rerun.",
+      "evidence": "Terminal/fault monitor records retained in task conversation; not a fresh raw-log audit",
+      "known_error_counts": null,
+      "timeout_hours_complete": null,
+      "terminal_city_counts": null
+    }
+  ]
+}

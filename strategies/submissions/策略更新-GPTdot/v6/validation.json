@@ -1,0 +1,40 @@
+{
+  "status": "EXPERIMENTAL_PARTIAL_NOT_CONFIRMED",
+  "exact_policy_hash_proven": true,
+  "policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+  "policy_bytes": 49379,
+  "original_test_hash_available": false,
+  "reconstructed_tests_sha256": "0cf06bf5b75303bf3b72543af9c8a4b496270e928ae7bacd58f611baac83820c",
+  "reconstructed_synthetic_tests_passed": 51,
+  "reconstructed_tests_python": "3.12.14",
+  "restored_repo_commit": "7210b888088f54a40802cdc76b80677a01166fc2",
+  "current_frozen_verification_passed": true,
+  "frozen_files": 807,
+  "frozen_manifest_sha256": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+  "original_raw_match_artifacts_recovered": false,
+  "final_24_game_audit_performed": false,
+  "all_24_terminal_established": false,
+  "clean_runtime_criterion_passed": false,
+  "preregistered_success": false,
+  "unknown_outcomes": 3,
+  "source_recovered_from_public_base_and_retained_original_patches": true,
+  "matches_run_after_recovery": 0,
+  "publication_performed_by_builder": false,
+  "expected_public_files": 9,
+  "packet_reviewed_utc": "2026-10-29T16:41:19Z",
+  "user_continuation_commands_provided": true,
+  "user_continuation_jobs": [
+    [
+      1232181665,
+      0
+    ],
+    [
+      785517304,
+      0
+    ],
+    [
+      785517304,
+      1
+    ]
+  ]
+}
