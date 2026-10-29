@@ -1,0 +1,48 @@
+{
+  "scope": "Focused packaging/integration only; no new strength study or long research run.",
+  "freeze": {
+    "files": 807,
+    "result": "passed"
+  },
+  "submission_unit_tests": {
+    "count": 6,
+    "result": "passed in full checkout and extracted runtime bundle"
+  },
+  "protocol_smokes": [
+    {
+      "days": 7,
+      "seed": 1,
+      "candidate_side": "blue",
+      "opponent": "march",
+      "status": "completed",
+      "agent_errors": [
+        0,
+        0
+      ]
+    },
+    {
+      "days": 7,
+      "seed": 1,
+      "candidate_side": "red",
+      "opponent": "d2 through custom JSONL argv",
+      "status": "completed",
+      "agent_errors": [
+        0,
+        0
+      ]
+    },
+    {
+      "days": 7,
+      "seed": 1,
+      "candidate_side": "blue",
+      "opponent": "march",
+      "environment": "extracted portable bundle",
+      "status": "completed",
+      "agent_errors": [
+        0,
+        0
+      ]
+    }
+  ],
+  "privacy": "Allowlisted publication payload checked for personal emails, credentials, machine paths and internal coordination notes. All original data/ and selected policy bytes retained."
+}

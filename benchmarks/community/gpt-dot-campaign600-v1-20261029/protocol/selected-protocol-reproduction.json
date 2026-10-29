@@ -1,0 +1,108 @@
+{
+  "created_utc": "2026-10-29T03:08:11.898564+00:00",
+  "days": 1680,
+  "derivation": "Allowlisted protocol audit summary; process argv, raw log/save contents and private paths excluded.",
+  "planned": 2,
+  "policy_sha256": "1aed9815302f846238d4756c378b7161ba2170869008205a20662b1a96ba6c44",
+  "purpose": "SDK/JSONL and command replay reproducibility, not independent strength games",
+  "results": [
+    {
+      "action_outcome_trace_equal": true,
+      "agent_errors": [
+        0,
+        0
+      ],
+      "command_counts": [
+        15371,
+        5825
+      ],
+      "decisions": [
+        3456,
+        3456
+      ],
+      "end_utc": "2026-10-29T03:14:46.786231+00:00",
+      "exact_physics_equal": true,
+      "exact_result_equal": true,
+      "invalid_commands": [
+        0,
+        0
+      ],
+      "physics_digest": "db5c176a45ebd175a96c3306d4f0008cd8038412f8d41bf0b84f5a695b7027bf",
+      "protocol_process": {
+        "log_sha256": "14c607c82ebf20e602537b8d55650644914c49398b42ee41942991e8f4313f25",
+        "returncode": 0,
+        "wall_seconds": 284.3419295170006
+      },
+      "replay_process": {
+        "log_sha256": "7e085fe399fe597058dfdbef1c6c489d84c78312ac15176872c6a3e504bcb3f2",
+        "returncode": 0,
+        "wall_seconds": 99.86722485799964
+      },
+      "result": {
+        "cities": {
+          "0": 12,
+          "1": 0
+        },
+        "hour": 20733,
+        "reason": "unification",
+        "winner": 0
+      },
+      "sdk_physics_digest": "db5c176a45ebd175a96c3306d4f0008cd8038412f8d41bf0b84f5a695b7027bf",
+      "side": 0,
+      "status": "passed"
+    },
+    {
+      "action_outcome_trace_equal": true,
+      "agent_errors": [
+        0,
+        0
+      ],
+      "command_counts": [
+        4637,
+        11869
+      ],
+      "decisions": [
+        1853,
+        1853
+      ],
+      "end_utc": "2026-10-29T03:18:14.940269+00:00",
+      "exact_physics_equal": true,
+      "exact_result_equal": true,
+      "invalid_commands": [
+        0,
+        0
+      ],
+      "physics_digest": "d47cf837997b3fef6e1eded04a496ea248f3d4afae94d89ce3a83d1df08a1add",
+      "protocol_process": {
+        "log_sha256": "4240d296909002832b948271b774d116d326b6a0b3ac3c9dd0d51bf8b45c30b2",
+        "returncode": 0,
+        "wall_seconds": 147.35177185300017
+      },
+      "replay_process": {
+        "log_sha256": "c1ef194a417bd1407e7521b1fb24930b7cad1c354a29d2863387cc9cad145f7b",
+        "returncode": 0,
+        "wall_seconds": 53.67396526799985
+      },
+      "result": {
+        "cities": {
+          "0": 0,
+          "1": 12
+        },
+        "hour": 11115,
+        "reason": "unification",
+        "winner": 1
+      },
+      "sdk_physics_digest": "d47cf837997b3fef6e1eded04a496ea248f3d4afae94d89ce3a83d1df08a1add",
+      "side": 1,
+      "status": "passed"
+    }
+  ],
+  "seed": 2088460572,
+  "sides": [
+    0,
+    1
+  ],
+  "source_manifest_sha256": "55696a5a1c9be9bc7e35f8721707f466a2471a9f02813a2a9b1138040f3ae1a2",
+  "status": "passed",
+  "timeout_seconds": 2
+}

@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-29T03:24:10.652286+00:00",
+  "days": 1680,
+  "derivation": "Allowlisted protocol audit summary; process argv, raw log/save contents and private paths excluded.",
+  "planned": 1,
+  "policy_sha256": "1aed9815302f846238d4756c378b7161ba2170869008205a20662b1a96ba6c44",
+  "purpose": "SDK/JSONL and command replay reproducibility, not independent strength games",
+  "results": [
+    {
+      "action_outcome_trace_equal": true,
+      "agent_errors": [
+        0,
+        0
+      ],
+      "command_counts": [
+        21611,
+        15589
+      ],
+      "decisions": [
+        6720,
+        6720
+      ],
+      "end_utc": "2026-10-29T03:35:35.944865+00:00",
+      "exact_physics_equal": true,
+      "exact_result_equal": true,
+      "invalid_commands": [
+        0,
+        0
+      ],
+      "physics_digest": "b97054d053d6a9a8dcc25f726928633012622e197f9dc2a3d195e0391d549485",
+      "protocol_process": {
+        "log_sha256": "653e818aa0c059955ef78cbe33a02bb98d3577209d62850beb26404a3b811b78",
+        "returncode": 0,
+        "wall_seconds": 490.5592191570013
+      },
+      "replay_process": {
+        "log_sha256": "6018c79504db7e45439db18ab88685e7e83608a3c405101c36a912d53b0c3b85",
+        "returncode": 0,
+        "wall_seconds": 173.6081898090015
+      },
+      "result": {
+        "cities": {
+          "0": 6,
+          "1": 6
+        },
+        "hour": 40320,
+        "reason": "time_limit",
+        "winner": null
+      },
+      "sdk_physics_digest": "b97054d053d6a9a8dcc25f726928633012622e197f9dc2a3d195e0391d549485",
+      "side": 0,
+      "status": "passed"
+    }
+  ],
+  "seed": 1253421050,
+  "sides": [
+    0
+  ],
+  "source_manifest_sha256": "42bb7f6bccc851b5c83ccb5a983dd1fe1f3057ef13ce13d86d89f60053cdb243",
+  "status": "passed",
+  "timeout_seconds": 2
+}

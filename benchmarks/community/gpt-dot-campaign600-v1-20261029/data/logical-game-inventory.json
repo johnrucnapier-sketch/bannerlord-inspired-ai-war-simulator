@@ -1,0 +1,15 @@
+{
+  "additional_observed_partial_wall_lower_bound_seconds": 497.17177826400075,
+  "competitive_attempts": 618,
+  "competitive_completed_attempts": 616,
+  "competitive_unique_logical_games": 616,
+  "completed_known_cpu_observations": 616,
+  "completed_known_cpu_seconds": 125328.259182598,
+  "completed_known_wall_seconds_sum": 131465.46721937705,
+  "cost_note": "Only known completed competitive SDK attempt costs are summed. Excludes unknown partial CPU and separately documented protocol/replay/helper costs. Summed worker wall is not elapsed time. Short smokes and derived composed views are not extra competitive samples.",
+  "infrastructure_interrupted_attempts": 2,
+  "partial_cpu_seconds": "unknown for interrupted attempts",
+  "sdk_attempts": 628,
+  "sdk_short_smoke_attempts": 10,
+  "sdk_unique_logical_games": 626
+}
