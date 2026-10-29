@@ -1,0 +1,29 @@
+{
+  "attempts": [
+    {
+      "logical_job_id": "recovery-confirmation-v1-24-paired:1542817744:1",
+      "original_batch": "recovery-confirmation-v1-24-paired",
+      "original_raw_status": "running",
+      "original_status": "infrastructure_interrupted",
+      "provenance_sha256": "7eb0b9e6c881aabac5504306d88ee7f429548e4c1254314ed6edc30f1e8ce76c",
+      "resolved": true,
+      "retry_batch": "recovery-retry-v1-final-red",
+      "retry_status": "completed",
+      "seed": 1542817744,
+      "side": 1
+    },
+    {
+      "logical_job_id": "recovery-confirmation-candidate-24-paired:1542817744:1",
+      "original_batch": "recovery-confirmation-candidate-24-paired",
+      "original_raw_status": "running",
+      "original_status": "infrastructure_interrupted",
+      "provenance_sha256": "7eb0b9e6c881aabac5504306d88ee7f429548e4c1254314ed6edc30f1e8ce76c",
+      "resolved": true,
+      "retry_batch": "recovery-retry-candidate-final-red",
+      "retry_status": "completed",
+      "seed": 1542817744,
+      "side": 1
+    }
+  ],
+  "scope": "Exactly registered infrastructure retries; no seed replacement or added strength samples."
+}

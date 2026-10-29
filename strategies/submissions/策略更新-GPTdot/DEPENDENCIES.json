@@ -1,0 +1,134 @@
+{
+  "entrypoints": [
+    "strategies/submissions/策略更新-GPTdot/policy.py",
+    "tools/play.py",
+    "strategies/agent.py",
+    "game/aiwar/replay.py"
+  ],
+  "local_python_files": [
+    "game/aiwar/__init__.py",
+    "game/aiwar/economy.py",
+    "game/aiwar/engine.py",
+    "game/aiwar/layout.py",
+    "game/aiwar/match.py",
+    "game/aiwar/navigation.py",
+    "game/aiwar/patrols.py",
+    "game/aiwar/policies.py",
+    "game/aiwar/policies_legacy.py",
+    "game/aiwar/policies_v014.py",
+    "game/aiwar/policies_v015.py",
+    "game/aiwar/relief.py",
+    "game/aiwar/replay.py",
+    "game/aiwar/sdk.py",
+    "game/aiwar/warfare.py",
+    "strategies/agent.py",
+    "strategies/reference/v0.2.0/scripts/__init__.py",
+    "strategies/reference/v0.2.0/scripts/escort_p5_defense_policy.py",
+    "strategies/reference/v0.2.0/scripts/escort_p5_defense_v2_policy.py",
+    "strategies/reference/v0.2.0/scripts/transport_growth_policy.py",
+    "strategies/reference/v0.2.0/scripts/transport_triple_policy.py",
+    "strategies/submissions/策略更新-GPTdot/policy.py",
+    "tools/play.py"
+  ],
+  "nonlocal_import_roots": [
+    "__future__",
+    "argparse",
+    "collections",
+    "concurrent",
+    "copy",
+    "dataclasses",
+    "fractions",
+    "hashlib",
+    "heapq",
+    "json",
+    "math",
+    "pathlib",
+    "random",
+    "subprocess",
+    "sys",
+    "threading"
+  ],
+  "nonstdlib_import_roots": [],
+  "method": "AST transitive local import closure, including imports inside functions; external roots checked against sys.stdlib_module_names",
+  "reviewed_dynamic_dependencies": "No dynamic module loaders occur in the included runtime closure; engine config.json is separately included. tools/play.py invokes strategies/agent.py, explicitly included as an entrypoint.",
+  "excluded_optional_dependency": "websockets is used only by the omitted optional aiwar/server.py path",
+  "edges": {
+    "game/aiwar/__init__.py": [],
+    "game/aiwar/economy.py": [],
+    "game/aiwar/engine.py": [
+      "game/aiwar/__init__.py",
+      "game/aiwar/economy.py",
+      "game/aiwar/layout.py",
+      "game/aiwar/navigation.py"
+    ],
+    "game/aiwar/layout.py": [],
+    "game/aiwar/match.py": [
+      "game/aiwar/sdk.py"
+    ],
+    "game/aiwar/navigation.py": [],
+    "game/aiwar/patrols.py": [
+      "game/aiwar/navigation.py"
+    ],
+    "game/aiwar/policies.py": [
+      "game/aiwar/patrols.py",
+      "game/aiwar/policies_legacy.py",
+      "game/aiwar/policies_v014.py",
+      "game/aiwar/policies_v015.py",
+      "game/aiwar/relief.py",
+      "game/aiwar/warfare.py"
+    ],
+    "game/aiwar/policies_legacy.py": [],
+    "game/aiwar/policies_v014.py": [
+      "game/aiwar/policies_legacy.py"
+    ],
+    "game/aiwar/policies_v015.py": [
+      "game/aiwar/navigation.py",
+      "game/aiwar/policies_legacy.py",
+      "game/aiwar/policies_v014.py"
+    ],
+    "game/aiwar/relief.py": [
+      "game/aiwar/navigation.py"
+    ],
+    "game/aiwar/replay.py": [
+      "game/aiwar/engine.py"
+    ],
+    "game/aiwar/sdk.py": [
+      "game/aiwar/engine.py"
+    ],
+    "game/aiwar/warfare.py": [
+      "game/aiwar/navigation.py",
+      "game/aiwar/policies.py"
+    ],
+    "strategies/agent.py": [
+      "game/aiwar/policies.py",
+      "strategies/reference/v0.2.0/scripts/escort_p5_defense_v2_policy.py"
+    ],
+    "strategies/reference/v0.2.0/scripts/__init__.py": [],
+    "strategies/reference/v0.2.0/scripts/escort_p5_defense_policy.py": [
+      "game/aiwar/relief.py",
+      "strategies/reference/v0.2.0/scripts/transport_growth_policy.py"
+    ],
+    "strategies/reference/v0.2.0/scripts/escort_p5_defense_v2_policy.py": [
+      "game/aiwar/navigation.py",
+      "game/aiwar/relief.py",
+      "strategies/reference/v0.2.0/scripts/escort_p5_defense_policy.py",
+      "strategies/reference/v0.2.0/scripts/transport_growth_policy.py"
+    ],
+    "strategies/reference/v0.2.0/scripts/transport_growth_policy.py": [
+      "game/aiwar/navigation.py",
+      "strategies/reference/v0.2.0/scripts/transport_triple_policy.py"
+    ],
+    "strategies/reference/v0.2.0/scripts/transport_triple_policy.py": [
+      "game/aiwar/navigation.py"
+    ],
+    "strategies/submissions/策略更新-GPTdot/policy.py": [
+      "game/aiwar/navigation.py",
+      "game/aiwar/relief.py",
+      "strategies/reference/v0.2.0/scripts/escort_p5_defense_v2_policy.py",
+      "strategies/reference/v0.2.0/scripts/transport_growth_policy.py"
+    ],
+    "tools/play.py": [
+      "game/aiwar/match.py"
+    ]
+  }
+}

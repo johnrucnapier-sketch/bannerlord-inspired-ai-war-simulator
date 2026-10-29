@@ -1,0 +1,496 @@
+[
+  {
+    "batch": "baseline-development-4-paired",
+    "outcomes": {
+      "L": 6,
+      "W": 2
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "baseline-validation-4-paired",
+    "outcomes": {
+      "L": 6,
+      "W": 2
+    },
+    "phase": "validation",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "baseline-validation-extra4-paired",
+    "outcomes": {
+      "L": 7,
+      "W": 1
+    },
+    "phase": "validation",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v1-development-4-paired",
+    "outcomes": {
+      "L": 3,
+      "W": 5
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v1-guarded-development-4-paired",
+    "outcomes": {
+      "L": 3,
+      "W": 5
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v1-guarded-v2-validation-4-paired",
+    "outcomes": {
+      "L": 6,
+      "W": 2
+    },
+    "phase": "validation",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v1-guarded-v2-validation-extra4-paired",
+    "outcomes": {
+      "L": 7,
+      "W": 1
+    },
+    "phase": "validation",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v1-ordered-development-4-paired",
+    "outcomes": {
+      "L": 4,
+      "W": 4
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v1-repaired-development-4-paired",
+    "outcomes": {
+      "L": 4,
+      "W": 4
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v1-sdk-smoke",
+    "outcomes": {
+      "D": 1
+    },
+    "phase": "reproduction",
+    "planned": 1,
+    "status_counts": {
+      "completed": 1
+    }
+  },
+  {
+    "batch": "campaign-v2-ordered-development-4-paired",
+    "outcomes": {
+      "L": 7,
+      "W": 1
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v3-fog-repaired-development-4-paired",
+    "outcomes": {
+      "L": 5,
+      "W": 3
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v4-ratio21-development-4-paired",
+    "outcomes": {
+      "L": 8
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v5-directstage-development-4-paired",
+    "outcomes": {
+      "D": 1,
+      "L": 5,
+      "W": 2
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v6-threatgate-development-4-paired",
+    "outcomes": {
+      "D": 1,
+      "L": 3,
+      "W": 4
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v6-threatgate-validation-4-paired",
+    "outcomes": {
+      "L": 6,
+      "W": 2
+    },
+    "phase": "validation",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v7-min600-development-4-paired",
+    "outcomes": {
+      "W": 8
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v7-min600-validation-4-paired",
+    "outcomes": {
+      "D": 2,
+      "W": 6
+    },
+    "phase": "validation",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v7-min600-validation-extra4-paired",
+    "outcomes": {
+      "L": 1,
+      "W": 7
+    },
+    "phase": "validation",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v8-guarded-fog-development-4-paired",
+    "outcomes": {
+      "D": 1,
+      "L": 2,
+      "W": 5
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "campaign-v8-guarded-fog-validation-8-paired",
+    "outcomes": {
+      "L": 13,
+      "W": 3
+    },
+    "phase": "validation",
+    "planned": 16,
+    "status_counts": {
+      "completed": 16
+    }
+  },
+  {
+    "batch": "campaign-v9-adaptive-development-4-paired",
+    "outcomes": {
+      "L": 6,
+      "W": 2
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "economy-v1-development-4-paired",
+    "outcomes": {
+      "L": 6,
+      "W": 2
+    },
+    "phase": "development",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "exploratory-offense-window-development-4-paired",
+    "outcomes": {
+      "W": 8
+    },
+    "phase": "post-confirmatory-exploratory-selection",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "exploratory-offense-window-validation-8-paired",
+    "outcomes": {
+      "D": 1,
+      "L": 1,
+      "W": 14
+    },
+    "phase": "post-confirmatory-exploratory-selection",
+    "planned": 16,
+    "status_counts": {
+      "completed": 16
+    }
+  },
+  {
+    "batch": "exploratory-recovery-floor-development-4-paired",
+    "outcomes": {
+      "W": 8
+    },
+    "phase": "post-confirmatory-exploratory-selection",
+    "planned": 8,
+    "status_counts": {
+      "completed": 8
+    }
+  },
+  {
+    "batch": "exploratory-recovery-floor-validation-8-paired",
+    "outcomes": {
+      "D": 2,
+      "L": 1,
+      "W": 13
+    },
+    "phase": "post-confirmatory-exploratory-selection",
+    "planned": 16,
+    "status_counts": {
+      "completed": 16
+    }
+  },
+  {
+    "batch": "heldout-baseline-48-paired",
+    "outcomes": {
+      "D": 3,
+      "L": 73,
+      "W": 20
+    },
+    "phase": "primary-heldout",
+    "planned": 96,
+    "status_counts": {
+      "completed": 96
+    }
+  },
+  {
+    "batch": "heldout-candidate-48-paired",
+    "outcomes": {
+      "D": 1,
+      "L": 9,
+      "W": 86
+    },
+    "phase": "primary-heldout",
+    "planned": 96,
+    "status_counts": {
+      "completed": 96
+    }
+  },
+  {
+    "batch": "paired-scheduler-smoke7-baseline-1-paired",
+    "outcomes": {
+      "D": 2
+    },
+    "phase": "reproduction",
+    "planned": 2,
+    "status_counts": {
+      "completed": 2
+    }
+  },
+  {
+    "batch": "paired-scheduler-smoke7-candidate-1-paired",
+    "outcomes": {
+      "D": 2
+    },
+    "phase": "reproduction",
+    "planned": 2,
+    "status_counts": {
+      "completed": 2
+    }
+  },
+  {
+    "batch": "paired-scheduler-smoke7-final-baseline-1-paired",
+    "outcomes": {
+      "D": 2
+    },
+    "phase": "reproduction",
+    "planned": 2,
+    "status_counts": {
+      "completed": 2
+    }
+  },
+  {
+    "batch": "paired-scheduler-smoke7-final-candidate-1-paired",
+    "outcomes": {
+      "D": 2
+    },
+    "phase": "reproduction",
+    "planned": 2,
+    "status_counts": {
+      "completed": 2
+    }
+  },
+  {
+    "batch": "recovery-confirmation-candidate-24-paired",
+    "outcomes": {
+      "D": 1,
+      "L": 2,
+      "W": 44,
+      "not_scored": 1
+    },
+    "phase": "post-confirmatory-exploratory-confirmation",
+    "planned": 48,
+    "status_counts": {
+      "completed": 47,
+      "infrastructure_interrupted": 1
+    }
+  },
+  {
+    "batch": "recovery-confirmation-v1-24-paired",
+    "outcomes": {
+      "D": 1,
+      "L": 2,
+      "W": 44,
+      "not_scored": 1
+    },
+    "phase": "post-confirmatory-exploratory-confirmation",
+    "planned": 48,
+    "status_counts": {
+      "completed": 47,
+      "infrastructure_interrupted": 1
+    }
+  },
+  {
+    "batch": "recovery-retry-candidate-final-red",
+    "outcomes": {
+      "W": 1
+    },
+    "phase": "post-confirmatory-exploratory-confirmation",
+    "planned": 1,
+    "status_counts": {
+      "completed": 1
+    }
+  },
+  {
+    "batch": "recovery-retry-v1-final-red",
+    "outcomes": {
+      "W": 1
+    },
+    "phase": "post-confirmatory-exploratory-confirmation",
+    "planned": 1,
+    "status_counts": {
+      "completed": 1
+    }
+  },
+  {
+    "batch": "sdk-smoke-reproduction",
+    "outcomes": {
+      "D": 1
+    },
+    "phase": "reproduction",
+    "planned": 1,
+    "status_counts": {
+      "completed": 1
+    }
+  },
+  {
+    "batch": "supplemental-d2-vs-w4-16-paired",
+    "outcomes": {
+      "D": 5,
+      "L": 17,
+      "W": 10
+    },
+    "phase": "supplemental-secondary",
+    "planned": 32,
+    "status_counts": {
+      "completed": 32
+    }
+  },
+  {
+    "batch": "supplemental-v7-vs-d2-16-paired",
+    "outcomes": {
+      "D": 1,
+      "L": 3,
+      "W": 28
+    },
+    "phase": "supplemental-secondary",
+    "planned": 32,
+    "status_counts": {
+      "completed": 32
+    }
+  },
+  {
+    "batch": "supplemental-v7-vs-w4-16-paired",
+    "outcomes": {
+      "W": 32
+    },
+    "phase": "supplemental-secondary",
+    "planned": 32,
+    "status_counts": {
+      "completed": 32
+    }
+  }
+]

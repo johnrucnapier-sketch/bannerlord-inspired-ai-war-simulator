@@ -1,0 +1,59 @@
+{
+  "scope": "Focused packaging/integration only; no new strength study or long research run.",
+  "freeze": {
+    "files": 807,
+    "result": "passed"
+  },
+  "submission_unit_tests": {
+    "count": 6,
+    "result": "passed in full checkout and extracted runtime bundle"
+  },
+  "protocol_smokes": [
+    {
+      "days": 7,
+      "seed": 1,
+      "candidate_side": "blue",
+      "opponent": "march",
+      "status": "completed",
+      "agent_errors": [
+        0,
+        0
+      ]
+    },
+    {
+      "days": 7,
+      "seed": 1,
+      "candidate_side": "red",
+      "opponent": "d2 through custom JSONL argv",
+      "status": "completed",
+      "agent_errors": [
+        0,
+        0
+      ]
+    },
+    {
+      "days": 7,
+      "seed": 1,
+      "candidate_side": "blue",
+      "opponent": "march",
+      "environment": "extracted portable bundle",
+      "status": "completed",
+      "agent_errors": [
+        0,
+        0
+      ]
+    }
+  ],
+  "privacy": "Allowlisted publication payload checked for personal emails, credentials, machine paths and internal coordination notes. All original data/ and selected policy bytes retained.",
+  "dedicated_folder_relocation": {
+    "policy_bytes_unchanged": true,
+    "policy_sha256": "1aed9815302f846238d4756c378b7161ba2170869008205a20662b1a96ba6c44",
+    "same_depth_import_layout": true,
+    "seven_day_blue_vs_march_result_identical": true,
+    "seven_day_red_vs_custom_d2_result_identical": true,
+    "agent_errors": [
+      0,
+      0
+    ]
+  }
+}
