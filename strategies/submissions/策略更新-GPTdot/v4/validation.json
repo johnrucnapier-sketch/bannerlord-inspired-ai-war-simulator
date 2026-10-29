@@ -1,0 +1,181 @@
+{
+  "checked_utc": "2026-10-29T12:21:00.706122+00:00",
+  "frozen_files_verified": 807,
+  "synthetic_tests_passed": 28,
+  "public_layout_validation": {
+    "checked_utc": "2026-10-29T11:54:11.875599+00:00",
+    "base_public_main_commit": "c7366fd1d2ef59a777c300593ddb5f25c6a92058",
+    "policy_sha256": "8a9c21a86bbe85615fc230e5192b84b2908dcadbb7e7802efb2da470f3dea701",
+    "policy_path": "strategies/submissions/策略更新-GPTdot/v4/policy.py",
+    "frozen_files_verified": 807,
+    "synthetic_tests_passed": 28,
+    "official_7day_agent_errors": [
+      0,
+      0
+    ],
+    "tracebacks": 0,
+    "strength_evidence": false,
+    "scope": "Fresh archive of public normalized main plus only v4 files; no private harness or old submission path needed."
+  },
+  "official_prefix_parity": {
+    "checked_utc": "2026-10-29T11:37:30.663236+00:00",
+    "result": "passed",
+    "records": [
+      {
+        "seed": 622648812,
+        "side": 0,
+        "stream": 0,
+        "identical_decisions": 160
+      },
+      {
+        "seed": 622648812,
+        "side": 0,
+        "stream": 1,
+        "identical_decisions": 160
+      },
+      {
+        "seed": 622648812,
+        "side": 1,
+        "stream": 0,
+        "identical_decisions": 160
+      },
+      {
+        "seed": 622648812,
+        "side": 1,
+        "stream": 1,
+        "identical_decisions": 160
+      }
+    ]
+  },
+  "runtime": {
+    "recorded_utc": "2026-10-29T11:52:56.919286+00:00",
+    "python_version": "3.12.14",
+    "python_implementation": "CPython",
+    "os_family": "Linux",
+    "architecture": "x86_64",
+    "agent_environment": {
+      "PATH": "/usr/local/bin:/usr/bin:/bin",
+      "LANG": "C.UTF-8",
+      "PYTHONUTF8": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "grok_environment_overrides_cleared": [
+      "GB_MARGIN",
+      "GB_SMARGIN",
+      "GB_GUARD",
+      "GB_HOLD",
+      "GB_EARLY"
+    ],
+    "paid_api_calls": 0,
+    "source_changes_scope": "New strategy and experiment files only; all 807 frozen files verified."
+  },
+  "replay_audits": [
+    {
+      "start_utc": "2026-10-29T11:54:57.932888+00:00",
+      "match_id": "seed-1371627020-side-0",
+      "seed": 1371627020,
+      "our_side": 0,
+      "input_save_sha256": "cec5d8cc4bfb42679c1a116ee4bd8a7754d5083912e94ef71d643ef858f87bdb",
+      "expected_physics_digest": "489e59405ca20fd1125158038937cd6d633ec5e5fe5ace9c0b50e6a71ab00758",
+      "replayer_sha256": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+      "audit_script_sha256": "65166dd8778b7ec5d33dc2998f811754593c455759c429475949f9ca37122126",
+      "status": "passed",
+      "purpose": "Exact final physics from unchanged frozen command-journal replay; not an extra independent game.",
+      "actual_physics_digest": "489e59405ca20fd1125158038937cd6d633ec5e5fe5ace9c0b50e6a71ab00758",
+      "hour": 9648,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 12,
+          "1": 0
+        },
+        "hour": 9648
+      },
+      "end_utc": "2026-10-29T11:55:45.115729+00:00",
+      "wall_seconds": 47.18287262900412,
+      "cpu_seconds": 42.428415497
+    },
+    {
+      "start_utc": "2026-10-29T11:55:45.191165+00:00",
+      "match_id": "seed-1371627020-side-1",
+      "seed": 1371627020,
+      "our_side": 1,
+      "input_save_sha256": "1a3400df536fa6b653654e0537bd68357b26f4a755687414c7805912429a97f9",
+      "expected_physics_digest": "ba22ff2c73f9f969ce1291f6e245d1d7a4dc326f9e24afc78d401aa1400091c0",
+      "replayer_sha256": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+      "audit_script_sha256": "65166dd8778b7ec5d33dc2998f811754593c455759c429475949f9ca37122126",
+      "status": "passed",
+      "purpose": "Exact final physics from unchanged frozen command-journal replay; not an extra independent game.",
+      "actual_physics_digest": "ba22ff2c73f9f969ce1291f6e245d1d7a4dc326f9e24afc78d401aa1400091c0",
+      "hour": 9729,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 12,
+          "1": 0
+        },
+        "hour": 9729
+      },
+      "end_utc": "2026-10-29T11:56:28.161917+00:00",
+      "wall_seconds": 42.97078816200519,
+      "cpu_seconds": 39.195305608000005
+    }
+  ],
+  "fault_diagnosis": {
+    "checked_utc": "2026-10-29T12:21:00.243511+00:00",
+    "affected_seed": 2009186702,
+    "our_side": "red",
+    "opponent_side": "blue",
+    "exception": "KeyError: 'garrison'",
+    "exception_count": 159,
+    "first_error_hour": 10938,
+    "last_error_hour": 11886,
+    "first_request_id": "0:10938",
+    "campaign_target": "c13",
+    "campaign_base": "c03",
+    "cause": "The rally base c03 changed from Grok blue to v4 red. The official observation correctly removed the own-city garrison identifier. Grok v10 checked campaign target/frontier/roster but not base ownership, then indexed base[\"garrison\"] at line245. Its main loop caught the exception and emitted an empty command list; previously issued game orders could continue.",
+    "independent_logged_observation_replay": {
+      "requests": 2309,
+      "command_mismatches": 0,
+      "exceptions_reproduced": 159
+    },
+    "full_official_host_retry": {
+      "completed_utc": "2026-10-29T12:17:16.067380+00:00",
+      "result": {
+        "winner": 1,
+        "reason": "unification",
+        "cities": {
+          "0": 0,
+          "1": 12
+        },
+        "hour": 13850
+      },
+      "physics_digest": "2b9e8f852a982825c458aa9a30946ee2269ab9d4720465f149d187b3aca8f7ec",
+      "matches_original_physics": true,
+      "agent_errors": [
+        0,
+        0
+      ],
+      "traceback_counts": [
+        159,
+        0
+      ],
+      "exception_types": [
+        "KeyError: 'garrison'"
+      ],
+      "wall_seconds": 143.72377473500092,
+      "cpu_seconds": 148.598386,
+      "count_as_new_independent_game": false
+    },
+    "pinned_opponent_changed": false,
+    "our_policy_changed": false,
+    "clean_runtime_criterion_met": false,
+    "interpretation": "Original scores are retained. Fault-as-loss analysis is post-hoc sensitivity, not a retroactive clean confirmation. The first alpha allocation remains spent.",
+    "corrected_opponent_sensitivity": "Potentially useful to assess behavior after the base-ownership bug is fixed, but it would be a separately identified opponent/source and study. No corrected-opponent test was run or mixed into these results."
+  },
+  "frozen_policy_v1_sha256": "1aed9815302f846238d4756c378b7161ba2170869008205a20662b1a96ba6c44",
+  "source_scope": "Only new v4 submission files; v1, Grok and all frozen files unchanged.",
+  "review": "Independent source audit found no seed-specific branches, hidden-world access, network/API calls or external process execution. D1/D2 economy methods remain inherited."
+}
