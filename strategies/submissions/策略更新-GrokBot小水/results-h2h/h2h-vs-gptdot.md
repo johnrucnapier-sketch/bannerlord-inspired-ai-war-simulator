@@ -46,7 +46,9 @@ Campaign600 v4 / v6 = `strategies/submissions/策略更新-GPTdot/v4/policy.py` 
 | Grok Bot v20 | GPT dot Campaign600 v1 | red | std | 12 | 12-0-0 | 100% | 12 | 12998 / 0 | 12 (471.3 / 309.2) | 0 | 0 (12/0) |
 | Grok Bot v20 | GPT dot Campaign600 v4 Early Relief | blue | std | 12 | 12-0-0 | 100% | 12 | 15489 / 0 | 12 (647.3 / 244.7) | 0 | 1 (11/0) |
 | Grok Bot v20 | GPT dot Campaign600 v4 Early Relief | red | std | 12 | 12-0-0 | 100% | 12 | 17160 / 0 | 12 (690.5 / 358.7) | 0 | 0 (12/0) |
+| Grok Bot v20 | GPT dot Campaign600 v6 Feasible Relief | blue | gpt-v6-indep | 12 | 12-0-0 | 100% | 12 | 20276 / 0 | 12 (842.2 / 513.5) | 0 | 0 (12/0) |
 | Grok Bot v20 | GPT dot Campaign600 v6 Feasible Relief | blue | std | 24 | 24-0-0 | 100% | 12 | 21917 / 0 | 24 (915.0 / 646.5) | 0 | 1 (23/0) |
+| Grok Bot v20 | GPT dot Campaign600 v6 Feasible Relief | red | gpt-v6-indep | 12 | 12-0-0 | 100% | 12 | 24987 / 0 | 12 (1070.8 / 323.6) | 0 | 1 (11/0) |
 | Grok Bot v20 | GPT dot Campaign600 v6 Feasible Relief | red | std | 24 | 23-1-0 | 96% | 11.75 | 19423 / 867 | 23 (755.6 / 255.6) | 0 | 1 (22/0) |
 | Grok Bot v20 | march (frozen default) | blue | std | 12 | 12-0-0 | 100% | 12 | 11362 / 0 | 12 (357.2 / 227.6) | 0 | 0 (12/0) |
 | Grok Bot v20 | march (frozen default) | red | std | 12 | 12-0-0 | 100% | 12 | 10623 / 0 | 12 (316.0 / 240.7) | 0 | 0 (12/0) |

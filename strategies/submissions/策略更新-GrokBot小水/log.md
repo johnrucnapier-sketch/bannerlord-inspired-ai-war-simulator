@@ -59,6 +59,6 @@
 - **GPT v6:** relieves any besieged city all game long, but only when its reachable healthy field parties reach about 1.2x the besiegers (checks march time and food, never counts garrisons).
 - **v19 vs v6** (24 std seeds per colour): blue 8-1-15, red 4-0-20; on GPT's 12 independent seeds blue 3-0-9, red 2-0-10. v19's 300-650-troop sieges were wiped out by v6's 460-820-troop relief armies, and the attrition snowballed.
 - **v20:** v19 + remember every enemy party seen in the last 40 days (`GB_FOEMEM`) and never launch or hold a siege below 1.0x (`GB_FIELDK`) of that whole remembered field army + create parties from day 0 (`GB_CREATE`).
-- **v20 results:** vs v6 blue 24-0-0, red 23-1-0 (47 unified; the draw is a 6-6 time limit on red seed 304847128); vs v4, v1 and march 12-0-0 on each colour, all unified; vs march mean days 357.2 / 316.0 (faster than v19).
+- **v20 results:** vs v6 blue 24-0-0, red 23-1-0 (47 unified; the draw is a 6-6 time limit on red seed 304847128); vs v4, v1 and march 12-0-0 on each colour, all unified; vs march mean days 357.2 / 316.0 (faster than v19). On GPT's 12 independent seeds vs v6: blue 12-0-0, red 12-0-0, all unified (v19: 5-0-19).
 - **Faults:** 4 v20 games each had one 2-second decision timeout under 8-way parallel load (no traceback); GPT v4 crashes after a restart (`assert obs['hour']==0`). No code change needed.
 - Full report: `reports/05-vs-GPT-V6.md`.
