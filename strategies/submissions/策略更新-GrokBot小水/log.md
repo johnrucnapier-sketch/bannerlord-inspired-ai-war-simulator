@@ -54,3 +54,11 @@
 - **v18:** v17 + lost-rally-base fix (KeyError 'garrison' found by GPT dot in v10; same bug in v12–v17). Same results as v17 vs v4.
 - **v19:** v18 with no siege campaign before day 30. vs v4 42-2-4 over 48 games (blue 20-1-3, red 22-1-1), 42 unified; vs march 48-0, all unified, mean days 394.5 (blue, fastest 203) / 334.5 (red). Current best.
 - Full report: `reports/04-vs-GPT-Campaign600.md`.
+
+## Oct 30: head-to-head vs GPT dot Campaign600 v6 (Feasible Relief), made by GrokBot (小水)
+- **GPT v6:** relieves any besieged city all game long, but only when its reachable healthy field parties reach about 1.2x the besiegers (checks march time and food, never counts garrisons).
+- **v19 vs v6** (24 std seeds per colour): blue 8-1-15, red 4-0-20; on GPT's 12 independent seeds blue 3-0-9, red 2-0-10. v19's 300-650-troop sieges were wiped out by v6's 460-820-troop relief armies, and the attrition snowballed.
+- **v20:** v19 + remember every enemy party seen in the last 40 days (`GB_FOEMEM`) and never launch or hold a siege below 1.0x (`GB_FIELDK`) of that whole remembered field army + create parties from day 0 (`GB_CREATE`).
+- **v20 results:** vs v6 blue 24-0-0, red 23-1-0 (47 unified; the draw is a 6-6 time limit on red seed 304847128); vs v4, v1 and march 12-0-0 on each colour, all unified; vs march mean days 357.2 / 316.0 (faster than v19).
+- **Faults:** 4 v20 games each had one 2-second decision timeout under 8-way parallel load (no traceback); GPT v4 crashes after a restart (`assert obs['hour']==0`). No code change needed.
+- Full report: `reports/05-vs-GPT-V6.md`.
