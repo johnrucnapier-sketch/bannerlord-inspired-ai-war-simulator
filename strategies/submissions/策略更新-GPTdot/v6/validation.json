@@ -36,5 +36,22 @@
       785517304,
       1
     ]
-  ]
+  ],
+  "continuation": {
+    "status": "AUDITED_NEW_ATTEMPTS_NOT_CLEAN_CONFIRMATION",
+    "audit_sha256": "9509d05d9391425f2df109c34fc0fdb13f4bb19b93d4c631ca7aef64f67e0833",
+    "all_three_terminal": true,
+    "original_unknown_outcomes_remaining": 3,
+    "original_final_24_audit_still_unavailable": true,
+    "preregistered_success": false,
+    "original_snapshot_fields_unchanged": true,
+    "matches_run_this_continuation": 3,
+    "historical_rows_unchanged": true,
+    "policy_tests_version_unchanged": true,
+    "verified_locked_sources": 814,
+    "public_files_after_update": 12,
+    "private_archives_persisted": true,
+    "publication_performed_by_builder": false,
+    "approved_utc": "2026-10-29T20:07:06.131526+00:00"
+  }
 }

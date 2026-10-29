@@ -1308,6 +1308,455 @@
       "known_error_counts": null,
       "timeout_hours_complete": null,
       "terminal_city_counts": null
+    },
+    {
+      "phase": "v6-recovery-completion-3",
+      "seed": 1232181665,
+      "our_side": 0,
+      "color": "blue",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "end_hour": 37482,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {
+        "gptdot": [],
+        "grok": []
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": "7f312f30520b20d460788c8f83fa938cafbdde2415ca983e11e564befe3d0ea3",
+      "measured_config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "missing_fields": "",
+      "evidence": "New official JSONL attempt; compact record and raw archive identities retained.",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 0
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": {
+        "0": 0,
+        "1": 12
+      },
+      "attempt_id": "seed-1232181665-side-0",
+      "expected_effective_config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "official_record": "continuation-records/seed-1232181665-side-0.json",
+      "original_unknown_outcome_recovered": false,
+      "host_and_agent_cpu_seconds": 411.933782,
+      "wall_seconds": 400.1898333219997
+    },
+    {
+      "phase": "v6-recovery-completion-3",
+      "seed": 785517304,
+      "our_side": 0,
+      "color": "blue",
+      "status": "completed",
+      "observed_outcome": "win",
+      "end_hour": 15839,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {
+        "gptdot": [],
+        "grok": []
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": "7fb13fef7cc5a3b83b4c9cf87e1bc05775a4b5954e41cc2ad9602c5cccb69f42",
+      "measured_config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "missing_fields": "",
+      "evidence": "New official JSONL attempt; compact record and raw archive identities retained.",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 1
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": {
+        "0": 12,
+        "1": 0
+      },
+      "attempt_id": "seed-785517304-side-0",
+      "expected_effective_config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "official_record": "continuation-records/seed-785517304-side-0.json",
+      "original_unknown_outcome_recovered": false,
+      "host_and_agent_cpu_seconds": 170.651095,
+      "wall_seconds": 170.108153721
+    },
+    {
+      "phase": "v6-recovery-completion-3",
+      "seed": 785517304,
+      "our_side": 1,
+      "color": "red",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "end_hour": 34308,
+      "end_reason": "unification",
+      "runtime_fault": false,
+      "decision_timeout_hours": {
+        "gptdot": [],
+        "grok": []
+      },
+      "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "measured_physics_digest": "3455740c50dc0121770010ba543201e781d1ef41e446aaa78b1aab5a176450ef",
+      "measured_config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "missing_fields": "",
+      "evidence": "New official JSONL attempt; compact record and raw archive identities retained.",
+      "known_error_counts": {
+        "our_timeouts": 0,
+        "opponent_timeouts": 0,
+        "other_protocol_errors": 0,
+        "tracebacks": 0,
+        "command_rejections": 3
+      },
+      "timeout_hours_complete": true,
+      "terminal_city_counts": {
+        "0": 12,
+        "1": 0
+      },
+      "attempt_id": "seed-785517304-side-1",
+      "expected_effective_config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "official_record": "continuation-records/seed-785517304-side-1.json",
+      "original_unknown_outcome_recovered": false,
+      "host_and_agent_cpu_seconds": 361.346205,
+      "wall_seconds": 350.1440247959997
     }
-  ]
+  ],
+  "continuation": {
+    "phase": "v6-recovery-completion-3",
+    "repo_commit": "16e67a6f0cccb5f1f31308bae4559621301dff1e",
+    "plan_sha256": "395b5de22a6540d11a7785310e882a6ab60af63b5357906191f6cf458b35fa07",
+    "audit_sha256": "9509d05d9391425f2df109c34fc0fdb13f4bb19b93d4c631ca7aef64f67e0833",
+    "original_packet_sha256": {
+      "README.md": "7072cbffcc525a0842b52d00794166aa02088d36f82b1582465500c79f8719d4",
+      "REPORT.md": "df6945f0b7dfb064af3575409415b448d870af855b942ff28df50ffa5ce45d81",
+      "results.json": "da1bc90f6cfd69079d12c7cdf9264c73b5d791580427eb9524d04bc538f33e49",
+      "test_policy.py": "0cf06bf5b75303bf3b72543af9c8a4b496270e928ae7bacd58f611baac83820c",
+      "policy.py": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+      "validation.json": "0f52b944863e2ddc990c6a8dd50db96e98e1070fd358cde5ec08c6f47658e127",
+      "VERSION": "27c818f05c89a0245de1d7aaa9575fa6af0ffb28340ad30fb535b3d4dda130d8",
+      "results.csv": "f8f07af80c2c3e177aa95e2db4ebe4357e19fc1de14b1872a180c32c072eba05",
+      "SHA256SUMS.txt": "f3fcaaf20b903364dc468d91d352e5e418fff3f0ff6e2364a6746e33bfd7144b"
+    },
+    "original_top_level_metadata_is_historical": true,
+    "original_40_rows_unchanged": true,
+    "original_independent_attempts": 24,
+    "new_attempts": 3,
+    "independent_plus_recovery_attempts": 27,
+    "all_main_attempts": 43,
+    "original_unknown_outcomes_remaining": 3,
+    "original_raw_artifacts_recovered": false,
+    "original_preregistered_success": false,
+    "all_three_terminal": true,
+    "max_workers": 2,
+    "python_version": "3.12.14",
+    "decision_timeout_seconds": 2,
+    "resource_limits": {
+      "cpu_per_process_seconds": 2400,
+      "address_space_per_process_bytes": 2147483648,
+      "whole_group_wall_seconds": 2700
+    },
+    "sources_verified": 814,
+    "summary": {
+      "attempts": 3,
+      "completed": 3,
+      "no_verdict_or_unknown": 0,
+      "observed": {
+        "win": 1,
+        "tie": 0,
+        "loss": 2
+      },
+      "observed_win_fraction": 0.3333333333333333,
+      "runtime_fault_completed": 0,
+      "posthoc_all_fault_completed_games_as_loss": {
+        "win": 1,
+        "tie": 0,
+        "loss": 2
+      },
+      "sensitivity_denominator": 3,
+      "ties_retained_in_denominator": true,
+      "sensitivity_is_not_observed_outcome": true,
+      "not_preregistered_success": true,
+      "protocol_error_count": 0,
+      "decision_timeout_count": 0,
+      "traceback_count": 0,
+      "recovery_note_count": 0,
+      "command_rejections_ours": 0,
+      "command_rejections_opponent": 4
+    },
+    "logical_24_slot_descriptive_view": {
+      "description": "Descriptive 24-slot selection: 21 historical observations plus 3 new attempts; not the original independent batch.",
+      "original_unknown_outcomes_recovered": false,
+      "preregistered_success": false,
+      "rows": [
+        {
+          "seed": 2068903524,
+          "our_side": 0,
+          "original_row_index": 16,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 2068903524,
+          "our_side": 1,
+          "original_row_index": 17,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 1055177082,
+          "our_side": 0,
+          "original_row_index": 18,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 1055177082,
+          "our_side": 1,
+          "original_row_index": 19,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 660681239,
+          "our_side": 0,
+          "original_row_index": 20,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 660681239,
+          "our_side": 1,
+          "original_row_index": 21,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": true
+        },
+        {
+          "seed": 1916494980,
+          "our_side": 0,
+          "original_row_index": 22,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": true
+        },
+        {
+          "seed": 1916494980,
+          "our_side": 1,
+          "original_row_index": 23,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": true
+        },
+        {
+          "seed": 821436527,
+          "our_side": 0,
+          "original_row_index": 24,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 821436527,
+          "our_side": 1,
+          "original_row_index": 25,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 855250420,
+          "our_side": 0,
+          "original_row_index": 26,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 855250420,
+          "our_side": 1,
+          "original_row_index": 27,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "loss",
+          "runtime_fault": true
+        },
+        {
+          "seed": 1476545417,
+          "our_side": 0,
+          "original_row_index": 28,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 1476545417,
+          "our_side": 1,
+          "original_row_index": 29,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 803144531,
+          "our_side": 0,
+          "original_row_index": 30,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 803144531,
+          "our_side": 1,
+          "original_row_index": 31,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 23489444,
+          "our_side": 0,
+          "original_row_index": 32,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": true
+        },
+        {
+          "seed": 23489444,
+          "our_side": 1,
+          "original_row_index": 33,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "loss",
+          "runtime_fault": false
+        },
+        {
+          "seed": 1698489847,
+          "our_side": 0,
+          "original_row_index": 34,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 1698489847,
+          "our_side": 1,
+          "original_row_index": 35,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 1232181665,
+          "our_side": 0,
+          "original_row_index": 36,
+          "selected_attempt_phase": "v6-recovery-completion-3",
+          "selected_attempt_id": "seed-1232181665-side-0",
+          "provenance": "new recovery attempt, original outcome remains unknown",
+          "observed_outcome": "loss",
+          "runtime_fault": false
+        },
+        {
+          "seed": 1232181665,
+          "our_side": 1,
+          "original_row_index": 37,
+          "selected_attempt_phase": "v6-independent-attempt1-12pairs",
+          "selected_attempt_id": null,
+          "provenance": "retained historical terminal checkpoint",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 785517304,
+          "our_side": 0,
+          "original_row_index": 38,
+          "selected_attempt_phase": "v6-recovery-completion-3",
+          "selected_attempt_id": "seed-785517304-side-0",
+          "provenance": "new recovery attempt, original outcome remains unknown",
+          "observed_outcome": "win",
+          "runtime_fault": false
+        },
+        {
+          "seed": 785517304,
+          "our_side": 1,
+          "original_row_index": 39,
+          "selected_attempt_phase": "v6-recovery-completion-3",
+          "selected_attempt_id": "seed-785517304-side-1",
+          "provenance": "new recovery attempt, original outcome remains unknown",
+          "observed_outcome": "loss",
+          "runtime_fault": false
+        }
+      ],
+      "summary": {
+        "attempts": 24,
+        "completed": 24,
+        "no_verdict_or_unknown": 0,
+        "observed": {
+          "win": 20,
+          "tie": 0,
+          "loss": 4
+        },
+        "observed_win_fraction": 0.8333333333333334,
+        "runtime_fault_completed": 5,
+        "posthoc_all_fault_completed_games_as_loss": {
+          "win": 16,
+          "tie": 0,
+          "loss": 8
+        },
+        "sensitivity_denominator": 24,
+        "ties_retained_in_denominator": true,
+        "sensitivity_is_not_observed_outcome": true,
+        "not_preregistered_success": true
+      }
+    },
+    "original_rows_canonical_sha256": "8a4984be8cbdfd42b686cb0a0bf42262b8629c113c58149d5761ff7c5f45a4a6",
+    "new_raw_artifacts_privately_persisted": true,
+    "no_automatic_retries_or_further_matches": true,
+    "note": "Original 40 rows and preregistration failure remain unchanged. This is not recovery of the missing original outcomes, a new independent test, or a p-value success claim."
+  }
 }

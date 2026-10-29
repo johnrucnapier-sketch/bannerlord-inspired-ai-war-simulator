@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "phase": "v6-recovery-completion-3",
+  "attempt_id": "seed-785517304-side-0",
+  "seed": 785517304,
+  "our_side": 0,
+  "provenance": "New authorized recovery attempt for an original unknown slot; not a recovered original outcome.",
+  "status": "completed",
+  "returncode": 0,
+  "winner": 0,
+  "observed_outcome": "win",
+  "result": {
+    "protocol_version": 1,
+    "rule_version": "0.1.6",
+    "seed": 785517304,
+    "hour": 15839,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 15839
+    },
+    "config": {
+      "version": "0.1.6",
+      "days": 1680,
+      "decision_hours": 6,
+      "population": 200,
+      "growth": 1,
+      "village_crew": 20,
+      "initial_soldiers": 30,
+      "initial_garrison": 50,
+      "initial_city_food": 300000,
+      "warehouse": 3000000,
+      "party_cap": 150,
+      "garrison_cap": 500,
+      "clan_party_cap": 3,
+      "field_ration": 100,
+      "city_ration": 50,
+      "carry_days": 30,
+      "city_crew": 20,
+      "city_cargo": 940000,
+      "city_reserve": 60000,
+      "battle_prepare": 24,
+      "battle_scale": 300,
+      "battle_max_days": 7,
+      "raid_hours": 24,
+      "raid_shutdown": 168,
+      "bandit_cap": 36,
+      "bandit_size": 20,
+      "bandit_lifetime": 1008,
+      "speeds": {
+        "party": 500,
+        "army": 250,
+        "village_cart": 250,
+        "city_cart": 250,
+        "bandit": 375,
+        "militia": 0
+      },
+      "vision": {
+        "party": 8000,
+        "garrison": 10000,
+        "village_cart": 4000,
+        "city_cart": 4000,
+        "bandit": 6000,
+        "militia": 10000
+      },
+      "bandit_spawn_min": 18,
+      "bandit_spawn_max": 30,
+      "bandit_ambush_prepare": 1,
+      "bandit_ambush_hours": 5,
+      "bandit_skirmish_prepare": 2,
+      "bandit_skirmish_hours": 8,
+      "frontier_only": true,
+      "protect_village_carts": true,
+      "regular_vs_bandit": 3,
+      "auto_city_service": true,
+      "expansion_reserve": 30,
+      "militia_initial": 100,
+      "militia_cap": 200,
+      "militia_growth": 1,
+      "siege_prepare_hours": 72,
+      "external_relief": true,
+      "direct_garrison_delivery": true,
+      "garrison_expansion_threshold": 400,
+      "mode": "duel"
+    },
+    "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+    "physics_digest": "7fb13fef7cc5a3b83b4c9cf87e1bc05775a4b5954e41cc2ad9602c5cccb69f42",
+    "stats": {
+      "war_dead": 12637,
+      "starved": 0,
+      "defeated_removed": 34469,
+      "food_lost": 730163050,
+      "recruits_lost": 1060,
+      "bandit_spawns": 1315,
+      "bandits_killed": 1239,
+      "bandit_cart_losses": 740,
+      "bandit_food_lost": 710338000,
+      "bandit_recruits_lost": 1057,
+      "delivered_food": 242173400,
+      "delivered_recruits": 7316,
+      "bandit_flights": 5541
+    },
+    "totals": [
+      {
+        "nation": 0,
+        "population": 15729,
+        "village_population": 15053,
+        "transport_population": 676,
+        "military": 5119,
+        "healthy": 4984,
+        "wounded": 135,
+        "militia": 1530,
+        "garrison": 2039,
+        "field": 1550,
+        "parties": 18,
+        "logistics": 0,
+        "cities": 12,
+        "armies": 1
+      },
+      {
+        "nation": 1,
+        "population": 0,
+        "village_population": 0,
+        "transport_population": 0,
+        "military": 0,
+        "healthy": 0,
+        "wounded": 0,
+        "militia": 0,
+        "garrison": 0,
+        "field": 0,
+        "parties": 0,
+        "logistics": 0,
+        "cities": 0,
+        "armies": 0
+      }
+    ],
+    "captures": [
+      {
+        "hour": 12625,
+        "city": "c11",
+        "from": 1,
+        "to": 0
+      },
+      {
+        "hour": 13956,
+        "city": "c15",
+        "from": 1,
+        "to": 0
+      },
+      {
+        "hour": 14286,
+        "city": "c13",
+        "from": 1,
+        "to": 0
+      },
+      {
+        "hour": 14970,
+        "city": "c14",
+        "from": 1,
+        "to": 0
+      },
+      {
+        "hour": 15364,
+        "city": "c10",
+        "from": 1,
+        "to": 0
+      },
+      {
+        "hour": 15839,
+        "city": "c12",
+        "from": 1,
+        "to": 0
+      }
+    ]
+  },
+  "official_match_source_sha256": {
+    "__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
+    "__main__.py": "b77f1d39d07822ef3dc3fde7c948da839fc31dd92074d9c328fc20b65fc13465",
+    "agent_example.py": "dc4a01dfb42e30959669227914756f9751ab71ff60c06693e053a2321514fa63",
+    "agents.py": "f229c2b808e0394d6b340aac19647e71b40512d21b420809170cde828f47dc55",
+    "economy.py": "7921fd3ffc210dba407237a2c999043a16665f1e8909b1d10ae92e26606cec83",
+    "engine.py": "bf2026f6dfe675662cc88716f24b6077914f6918318dc9c974363ebcebaf45d0",
+    "experiments.py": "2609f274383a54a6fb3313ffc701d9dab16f590254bb790c80280b7987b939e4",
+    "layout.py": "69b35b31e2d8a5ed291e70407d84918ee06379b585ecf5ee031dbd87682718d0",
+    "match.py": "9fb8e79e994d31f38226728ce874af6299a3483b4f146245b49b6847b6a1c20d",
+    "metrics.py": "2e3eeb1f6b3e4939badfbe1318303c74d7eb8dd183c6803d65169d1314eae343",
+    "navigation.py": "a7f5cb51a490c32eae447e24f86257f930e8b25a9a80c30bb5ea7df5c9bb6d62",
+    "patrols.py": "aeb17dfe3d030a8e2459eef169dfecc24ce78a170f5997f71b464f270787cf0a",
+    "policies.py": "1de261468d80b886d6ac7c9ea25c9a3b2e2482648b0e0d1f862589a26d040751",
+    "policies_legacy.py": "55063b6597d255bb654a52a15d45716a7fc66d85684915fdf27389ae59adefe0",
+    "policies_v014.py": "99417964e56760392a7c0275ac3f41a1b9aadb43660406a47e36b7ddc47d1a63",
+    "policies_v015.py": "49ff2674bcfef21e082a8772f28794e5fa905169e9e652578cb4cee25fa6aff4",
+    "relief.py": "d9487223196dbc127de5b8af88f2c635db36a3dad4b5858bb4c057fc96a21517",
+    "replay.py": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+    "runner.py": "dddb495a5bdfb7813ccf2bbed3d0ddca83cb4f9b8ac1640b61621bfa996941a8",
+    "sdk.py": "2332300d45de3fe8b9789768b8f26ba116c8e3087cb05f8bdcb0540dbabfb959",
+    "server.py": "d994b0e323bfd06c2767a8e107d54c70c74e540b057b556579146c57a6aa3aff",
+    "warfare.py": "6d0a6d56d1f6686207eed256c84b5a095310accba6ce0a0294f1b20af30996cc"
+  },
+  "source_policy_sha256": "f8e10fca279b479151746c3d324496dfd77ba9f99375b4dc356f10ab73fbae75",
+  "opponent_sha256": "98197d519160dd29f358e648c069bdae0aad5073edabec634b06bfe2b8349116",
+  "frozen_manifest_sha256": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+  "python_version": "3.12.14",
+  "decision_timeout_seconds": 2,
+  "days": 1680,
+  "decision_hours": 6,
+  "wall_seconds": 170.108153721,
+  "host_and_agent_cpu_seconds": 170.651095,
+  "max_rss_kib": 43908,
+  "resource_accounting_note": "wait4 host+reaped children; may undercount orphaned children on fatal host failure. maxRSS is not concurrent aggregate memory.",
+  "protocol_errors": [
+    [],
+    []
+  ],
+  "command_rejections": [
+    [],
+    [
+      {
+        "hour": 12996,
+        "error": "兵力来源不可用"
+      }
+    ]
+  ],
+  "stderr": [
+    {
+      "nation": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tracebacks": 0,
+      "exception_lines": [],
+      "recovery_notes": []
+    },
+    {
+      "nation": 1,
+      "bytes": 6379,
+      "sha256": "dca5a330e38800d25284119df33243b98b8c426e46c9282314d4d928a06202ff",
+      "tracebacks": 0,
+      "exception_lines": [],
+      "recovery_notes": []
+    }
+  ],
+  "streams": [
+    {
+      "nation": 0,
+      "decisions": 2640,
+      "terminal_lines": 1,
+      "malformed_lines": 0
+    },
+    {
+      "nation": 1,
+      "decisions": 2640,
+      "terminal_lines": 1,
+      "malformed_lines": 0
+    }
+  ],
+  "runtime_fault": false,
+  "source_integrity_after_attempt": true,
+  "completed_utc": "2026-10-29T19:57:46.329887+00:00",
+  "raw_archives": [
+    {
+      "file": "agent-0.stderr.log.gz",
+      "bytes": 20,
+      "sha256": "ac73670af3abed54ac6fb4695131f4099be9fbe39d6076c5d0264a6bbdae9d83",
+      "original_bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "agent-1.stderr.log.gz",
+      "bytes": 1380,
+      "sha256": "b202f8e0626a159a5006d68e7bf0d178eea5b69e53eefb36cd3623cf2b35ee81",
+      "original_bytes": 6379,
+      "original_sha256": "dca5a330e38800d25284119df33243b98b8c426e46c9282314d4d928a06202ff"
+    },
+    {
+      "file": "challenge.json.gz",
+      "bytes": 191,
+      "sha256": "5721cc1fef4749a1b4b2bb3dd615217d6e69547177306328af767c2862e4ee55",
+      "original_bytes": 254,
+      "original_sha256": "78594045ffa0c9245bc051491ae54deed2c20522dedae43dabf1c0c146765913"
+    },
+    {
+      "file": "final.save.json.gz",
+      "bytes": 156585,
+      "sha256": "92717eef934581ca2d325e7e4480d492a865c4eeff15215d08b083df292b798e",
+      "original_bytes": 2341729,
+      "original_sha256": "d93886daa87ff80257c1ef13d8f5850463e83fff0b22f77ff600ab25a2429396"
+    },
+    {
+      "file": "match.json.gz",
+      "bytes": 1331,
+      "sha256": "6d749dee294f1abed2d2068872c62435d609d43d8a330fc7825d01906d7704bc",
+      "original_bytes": 2458,
+      "original_sha256": "b3a072480aa09b767e4a43a31df10f5bd2cb415a08b48bdcea225c292de63ef7"
+    },
+    {
+      "file": "nation-0.jsonl.gz",
+      "bytes": 18819905,
+      "sha256": "00ecf4a67462db1846a56de23837ac7dd77dfee7347b6839cf825214b46b5dfd",
+      "original_bytes": 179882089,
+      "original_sha256": "56556c58a83b71935bb16df0ad752aa349709ad2d26fb82a65b61f69681123ee"
+    },
+    {
+      "file": "nation-1.jsonl.gz",
+      "bytes": 16325746,
+      "sha256": "54af2022ef51d2b98773bd6950ba623126be22df5cbc34ae901b9f7562636cd9",
+      "original_bytes": 153004960,
+      "original_sha256": "569d4b9c176853dc2d7c5f5a04963f13cffec7bbf5ebcc943c54af1f9db98007"
+    },
+    {
+      "file": "result.json.gz",
+      "bytes": 1134,
+      "sha256": "2396e444f76496e74f3697095c098c037800528446193465dad586c00c3e7ee9",
+      "original_bytes": 3581,
+      "original_sha256": "9aad5d0d66bcff7c46e5e9eade33b30b299993201c16fdc4dbd6581c156c159d"
+    }
+  ],
+  "official_record_sha256": "23bfdb657b66b62b36a0e08b81fb73b3bc6d19bba92537281c407f622eba89ce",
+  "original_unknown_outcome_recovered": false,
+  "raw_observations_and_saves_in_public_packet": false,
+  "error_message_private_paths_redacted": true,
+  "private_archive": {
+    "sha256": "7023434a6f825392bf14647cc4884d1b00f11eae0faf4d4eab2b1ff662883095",
+    "bytes": 35446108,
+    "persisted_inventory_confirmed": true
+  },
+  "audited": true,
+  "audit_completed_utc": "2026-10-29T20:07:06.131526+00:00"
+}
