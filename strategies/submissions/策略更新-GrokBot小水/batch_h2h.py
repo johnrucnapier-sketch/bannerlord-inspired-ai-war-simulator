@@ -1,7 +1,7 @@
 """Grok Bot (小水) head-to-head runner: <me> vs <opponent>, full matches, both colours.
-Agents: 'march'/'d2'/... (built-in), 'c600' (GPT dot Campaign600 v1, loaded unmodified via gpt_adapter.py),
+Agents: 'march'/'d2'/... (built-in), 'c600' (GPT dot Campaign600 v1, loaded unmodified via gpt_adapter.py), 'c600v4'/'c600v6' (GPT dot v4/v6 in place),
 or a version dir name in this folder (e.g. v10). Results -> runs/grokbot/h2h.jsonl.
-Usage: python batch_h2h.py v10 c600 --sides blue,red --seeds 0:24 -j 8"""
+Usage: python batch_h2h.py v10 c600 --sides blue,red --seeds 0:24 -j 8   (or --seeds list:SEED,SEED,...)"""
 import argparse, json, subprocess, time, gzip
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
@@ -11,8 +11,8 @@ SEEDS = json.load(open(ROOT / 'benchmarks/data/direct-garrison-20261029/seed-sel
 BUILTIN = ('march', 'd2', 'p5', 'p3', 'idle')
 def agent_args(name, colour):
     if name in BUILTIN: return ['--' + colour, name]
-    if name == 'c600v4':
-        cmd = [PY, str(ROOT / 'strategies/submissions/策略更新-GPTdot/v4/policy.py')]
+    if name in ('c600v4', 'c600v5', 'c600v6'):  # GPT dot versions, run in place, unmodified
+        cmd = [PY, str(ROOT / 'strategies/submissions/策略更新-GPTdot' / name[4:] / 'policy.py')]
     elif name == 'c600':
         import gpt_adapter; cmd = [PY, str(gpt_adapter.policy_path())]
     else:
@@ -44,8 +44,11 @@ def run(job):
 if __name__ == '__main__':
     a = argparse.ArgumentParser(); a.add_argument('me'); a.add_argument('opp'); a.add_argument('--seeds', default='0:12')
     a.add_argument('--days', type=int, default=1680); a.add_argument('--sides', default='blue,red'); a.add_argument('-j', type=int, default=8); x = a.parse_args()
-    i, j = map(int, x.seeds.split(':'))
-    jobs = [(x.me, x.opp, s, seed, x.days) for s in x.sides.split(',') for seed in SEEDS[i:j]]
+    if x.seeds.startswith('list:'):  # explicit seeds, e.g. list:2068903524,1055177082 (GPT dot v6 independent set)
+        seeds = [int(v) for v in x.seeds[5:].split(',')]
+    else:
+        i, j = map(int, x.seeds.split(':')); seeds = SEEDS[i:j]
+    jobs = [(x.me, x.opp, s, seed, x.days) for s in x.sides.split(',') for seed in seeds]
     t = time.time()
     with ThreadPoolExecutor(x.j) as ex: res = list(ex.map(run, jobs))
     (ROOT / 'runs/grokbot').mkdir(exist_ok=True)
