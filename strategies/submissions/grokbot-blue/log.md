@@ -1,0 +1,46 @@
+- **v1 → v2:** v1 split its army into many tiny parties that couldn't take a city. v2 merged everything into one stack, but its estimates were too pessimistic: it waited 100+ days while bandits ruined the villages.
+- **v3:** added per-city anti-bandit patrols, plus fixes for a cmap KeyError and relief staging. Full runs: 5-7, 4.92 cities. Population was still poor.
+- **v4:** a passive bait-fortress trap. It lost ground and was dropped.
+- **v5 (new architecture):**
+  - The frozen `aiwar.patrols` p5 logic drives the patrol layer, so every spare party patrols villages and hunts bandits.
+  - One campaign stack does rally → march → siege, launching only when strength ≥ 1.5 × sqrt(H_D·P_D/2) + 20.
+  - All parties within 45000 relieve a besieged city at 1.3×.
+  - Result: 9-3, population about 12k.
+- **v6:** adds a day-0 rush on the nearest city with no party creation during the rush, a less pessimistic stale estimate, and a scouting march. Result: 10-2, 9.5 cities, population about 17k.
+- **v7:** the stack holds each conquest for 60 days at refill target 1. Result: 19-5 on 24 seeds. The hold30 and hold120 sweeps each went 11-1 on 12 seeds.
+- **v8:** fixes a bug where a lost city still flagged as ours in stale scouting triggered a LAUNCH/END loop every tick. Also filters invalid transfers. The 12-seed result of 8-4 is within the noise.
+- **v9:** before a siege, it remembers enemy field parties seen in the last 8 days and requires enough strength to beat the expected march relief. Result: 19-5 on 24 seeds, 9.46 cities, unification at about day 568 (faster than v7). As red it went 12-0.
+- **Parameter sweeps on v9:**
+  - GB_GUARD 1.3 was slightly worse (18-6).
+  - **GB_MARGIN 1.7 / GB_SMARGIN 1.55 went 22-2, with 10.71 cities and population about 15.7k.** There were 2 agent exceptions when the rally base was lost.
+- **v10:** analysing the losses showed march gathering about 370 troops near a frontier city around day 115. Our scattered 10 patrols (about 358 total) could never reach the 1.3× relief threshold, so we lost the city and the game snowballed. v10 pre-emptively moves nearby parties *into* the threatened city: defenders count 4× in a siege, and march only judges a target by garrison + militia/2. On the 4 hardest seeds, all 4 losses turned into leads at day 400.
+- **v11:** v10 + margins 1.7/1.55 + re-basing the rally if the base city is lost (the KeyError fix).
+- **Full results:**
+  - v10 went **24-0 as blue, unifying all 24 games (mean day 547, fastest day 311)**, and 12-0 as red.
+  - v11 went 24-0 but unified only 19 games (11.79 cities). Its higher margins make the late game too cautious. v10 is the base for later versions.
+- **Updated baseline:** march vs march over 24 seeds went 12-11-1, with 6.17 cities.
+- **v12:** analysed v10's slowest unifications (days 727–924). Every delay was the *last* red city, which had about 320 garrison + 200 militia and needed a stack of about 1,050.
+  - The cause: the roster stopped adding parties once the parties' current healthy met the requirement. Parties cap at 150 troops, so a 5-party roster maxed out at 750. It then rallied, aborted and relaunched for hundreds of days while 2,000+ troops sat in patrols.
+  - The fix: size the roster by capacity, sum(min(150, healthy + garrison share)), and let a full-but-short rally pull in more parties (2 per tick, up to 16).
+  - Dev run on the 5 slowest seeds: unification days 820→519, 924→635, 757→655, 727→631, 755→738.
+- **Disk incident (about 11:45):** the box disk filled up with 110 GB of raw nation-*.jsonl protocol logs, which killed a few background runs.
+  - Raw logs of completed runs are now gzipped, which is reversible. batch.py gzips new ones automatically.
+  - Only the 5 incomplete dev-v12a runs were removed.
+- **v12 full results:**
+  - Blue: 24-0, but only 23 of 24 unified, mean day 564 (v10: 547). Red: 12-0, all unified, mean day 562 (v10: 671).
+  - Per seed, v12 was much faster on 12 seeds (up to −302 days) and much slower on 5 (+250 to +517). Seed 1072134541 never unified and ended 11-1.
+  - The stall: on that seed, after day 526 v12 never launched again. It had 1,855 troops in 18 parties and about 4,400 in garrisons, but the last city needed about 1,140.
+  - Why: one keeper party was reserved for each own city, 10 of 18 parties. The launch potential also counted garrison surplus only at the base.
+- **v13 (from v12):** to mobilise the whole empire for the doom-stack, it:
+  - keeps keepers only for cities bordering an enemy city;
+  - counts garrison surplus within 40,000 of the base as potential, capped at 150 per roster party;
+  - lets an under-strength rallying party detour to the nearest city with spare garrison to top up.
+- **v13 full results:**
+  - Blue: 21-3, 10.67 cities, 21 unified with mean day 468 (fastest 280). Red: 7-5, 7.00 cities.
+  - When it wins it is the fastest version: 1280858948 went 924→341 and 1072134541 never→497. But the 3 blue losses and 5 red losses are early-game collapses.
+  - Cause: the mobilisation rules are active from day 15. Stale-target rallies keep aborting and pull every patrol and keeper away, so march takes c13 back and rolls up the home cities.
+  - The next fix would be to enable the v13 rules only in the endgame, for example when the enemy holds 3 or fewer cities. That is untested, and we stopped at the version cap.
+- **Final pick, by the user's priority (score/cities → population → unification speed → win rate): Grok Bot v10.**
+  - It is the only version that holds all 12 cities in all 24 blue games and in all red games.
+  - v12 trades slightly: 11.96 cities with one non-unified game, more population (14,880 vs 14,295), and much faster red unification (562 vs 671), but slower on blue (564 vs 547). Its best seeds beat v10's worst seeds by up to 300 days.
+  - v13 is fastest but unreliable.
