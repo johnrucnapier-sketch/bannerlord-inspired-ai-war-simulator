@@ -54,8 +54,10 @@ Campaign600 v4 / v6 = `strategies/submissions/策略更新-GPTdot/v4/policy.py` 
 | Grok Bot v20 | march (frozen default) | red | std | 12 | 12-0-0 | 100% | 12 | 10623 / 0 | 12 (316.0 / 240.7) | 0 | 0 (12/0) |
 | Grok Bot v20 | Grok Bot v20 | blue | self | 6 | 6-0-0 | 100% | 12 | 13890 / 0 | 6 (524.7 / 251.6) | 0 | 0 (6/0) |
 | Grok Bot v20 | Grok Bot v20 | blue | std | 24 | 12-0-12 | 50% | 6.21 | 6312 / 7539 | 12 (481.9 / 252.6) | 11 | 0 (12/12) |
-| Grok Bot v21 | march (frozen default) | blue | std | 4 | 4-0-0 | 100% | 12 | 9534 / 0 | 4 (321.5 / 291.2) | 0 | 0 (4/0) |
-| Grok Bot v21 | march (frozen default) | red | std | 4 | 4-0-0 | 100% | 12 | 9741 / 0 | 4 (398.3 / 372.8) | 0 | 0 (4/0) |
+| Grok Bot v21 | GPT dot Campaign600 v6 Feasible Relief | blue | gpt-v6-indep | 12 | 11-0-1 | 92% | 11 | 13974 / 946 | 11 (658.4 / 370.2) | 1 | 2 (10/0) |
+| Grok Bot v21 | GPT dot Campaign600 v6 Feasible Relief | red | gpt-v6-indep | 12 | 11-1-0 | 92% | 11.5 | 13991 / 726 | 11 (613.5 / 327.7) | 0 | 0 (11/0) |
+| Grok Bot v21 | march (frozen default) | blue | std | 12 | 12-0-0 | 100% | 12 | 9667 / 0 | 12 (351.9 / 291.2) | 0 | 0 (12/0) |
+| Grok Bot v21 | march (frozen default) | red | std | 12 | 12-0-0 | 100% | 12 | 9207 / 0 | 12 (354.0 / 282.0) | 0 | 0 (12/0) |
 | Grok Bot v21 | Grok Bot v20 | blue | std | 2 | 2-0-0 | 100% | 12 | 19040 / 0 | 2 (820.2 / 697.0) | 0 | 0 (2/0) |
 | Grok Bot v21 | Grok Bot v20 | red | std | 2 | 2-0-0 | 100% | 12 | 17594 / 0 | 2 (712.4 / 645.3) | 0 | 0 (2/0) |
 | Grok Bot v21a-feint | march (frozen default) | blue | std | 3 | 3-0-0 | 100% | 12 | 9936 / 0 | 3 (337.1 / 241.0) | 0 | 0 (3/0) |
@@ -74,8 +76,12 @@ Campaign600 v4 / v6 = `strategies/submissions/策略更新-GPTdot/v4/policy.py` 
 | Grok Bot v21c-combo | Grok Bot v20 | blue | std | 12 | 12-0-0 | 100% | 12 | 15088 / 0 | 12 (594.3 / 378.9) | 0 | 0 (12/0) |
 | Grok Bot v21c-combo | Grok Bot v20 | red | self | 6 | 4-0-2 | 67% | 8 | 7393 / 3394 | 4 (477.9 / 356.6) | 2 | 0 (4/2) |
 | Grok Bot v21c-combo | Grok Bot v20 | red | std | 12 | 12-0-0 | 100% | 12 | 15428 / 0 | 12 (739.8 / 260.3) | 0 | 0 (12/0) |
+| Grok Bot v22 | GPT dot Campaign600 v6 Feasible Relief | blue | gpt-v6-indep | 12 | 12-0-0 | 100% | 12 | 13918 / 0 | 12 (623.1 / 305.3) | 0 | 0 (12/0) |
 | Grok Bot v22 | GPT dot Campaign600 v6 Feasible Relief | blue | std | 12 | 12-0-0 | 100% | 12 | 14377 / 0 | 12 (627.5 / 369.2) | 0 | 0 (12/0) |
+| Grok Bot v22 | GPT dot Campaign600 v6 Feasible Relief | red | gpt-v6-indep | 12 | 12-0-0 | 100% | 12 | 14309 / 0 | 12 (602.3 / 365.5) | 0 | 0 (12/0) |
 | Grok Bot v22 | GPT dot Campaign600 v6 Feasible Relief | red | std | 12 | 12-0-0 | 100% | 12 | 14974 / 0 | 12 (643.5 / 350.8) | 0 | 0 (12/0) |
+| Grok Bot v22 | march (frozen default) | blue | std | 12 | 12-0-0 | 100% | 12 | 9522 / 0 | 12 (344.4 / 274.6) | 0 | 0 (12/0) |
+| Grok Bot v22 | march (frozen default) | red | std | 12 | 12-0-0 | 100% | 12 | 9886 / 0 | 12 (337.8 / 263.6) | 0 | 0 (12/0) |
 | Grok Bot v22 | Grok Bot v20 | red | std | 1 | 1-0-0 | 100% | 12 | 15276 / 0 | 1 (573.0 / 573.0) | 0 | 0 (1/0) |
 | Grok Bot v22 | Grok Bot v21 | blue | self | 6 | 6-0-0 | 100% | 12 | 13136 / 0 | 6 (810.5 / 423.2) | 0 | 0 (6/0) |
 | Grok Bot v22 | Grok Bot v21 | blue | std | 12 | 9-0-3 | 75% | 9 | 10004 / 2673 | 9 (1001.7 / 388.4) | 3 | 0 (9/3) |

@@ -87,3 +87,13 @@
 - Measured starvation in existing games with `analyze_famine.py`. v21 starves more than v20 (0.8 vs 0.4 starved city-days per 1000 vs v20; 4.5 vs V6, with 7 cities lost after starving). The main cause is party stacks eating a city empty (rally / hunter refit / empty patrols); bandits and cart losses come second.
 - First v22 build (food watch, convoys, evacuation, bandit rescue, protection, food-aware hunter home): s2088460572 c10 still starved, because a 2300-troop rally drained 1.8M food in one day. Added rally staging outside the base. These early runs are kept in `runs/grokbot/h2h-v22pre/`.
 - Results so far (W-D-L): v22 vs v21 26-0-10 (std + self, both colours); v22 vs V6 24-0-0 (std). Draft report 07.
+
+## Oct 30 (afternoon): v22 final results → promoted, made by GrokBot (小水)
+
+- Results (W-D-L):
+  - v22 vs v21: 26-0-10 over 36 games (blue 15/18, red 11/18);
+  - v22 vs V6: 24-0-0 on std (mean unification day 627.5 / 643.5 vs v21's 675.0 / 748.4) and 24-0-0 on GPT's 12 independent seeds (v21 there: 22-1-1);
+  - v22 vs march: 24-0-0 (day 344 / 338; v21 24-0-0 at 352 / 354; v21 vs march is now filled to 12 seeds per side).
+- Starvation, head-to-head: 2.8 vs 8.1 starved city-days per 1000; 8 vs 26 cities lost after starving; stack-caused episodes 7 vs 69. Vs V6 (std): 0.4 vs 4.5 per 1000, and cities lost after starving 0 vs 7.
+- Known side effect: some field hunger in sieges after a staged rally (about 28 estimated deaths per game vs march).
+- The optional v22 vs v20 run was skipped. v22 promoted as the main version; report 07 finalized.

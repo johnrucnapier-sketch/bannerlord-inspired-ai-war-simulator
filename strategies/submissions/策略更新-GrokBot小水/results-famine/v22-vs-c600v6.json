@@ -1,5 +1,44 @@
 [
  {
+  "seed": 1055177082,
+  "side": "blue",
+  "win": true,
+  "day": 861.1,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 1,
+   "cart_lost": 512,
+   "city_days": 5599,
+   "bandit_near": 0.29,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 177,
+   "starve_dead_est": 408,
+   "zero_food_days": 0,
+   "risk_days": 29,
+   "cart_lost": 483,
+   "city_days": 4745,
+   "bandit_near": 0.29,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 455
+ },
+ {
   "seed": 1199329012,
   "side": "blue",
   "win": true,
@@ -87,6 +126,161 @@
    ]
   },
   "engine_starved_total": 394
+ },
+ {
+  "seed": 1232181665,
+  "side": "blue",
+  "win": true,
+  "day": 1137.5,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 5,
+   "risk_days": 9,
+   "cart_lost": 618,
+   "city_days": 7028,
+   "bandit_near": 0.29,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 44,
+   "starve_field": 103,
+   "starve_dead_est": 796,
+   "zero_food_days": 122,
+   "risk_days": 183,
+   "cart_lost": 699,
+   "city_days": 6628,
+   "bandit_near": 0.3,
+   "ep_stack": 0,
+   "ep_bandit": 4,
+   "ep_other": 3,
+   "episodes": 7,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c01",
+     "first": 692,
+     "last": 695,
+     "garrison0": 15,
+     "days": 4,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 300,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 3,
+     "cause": "bandit",
+     "garrison1": 11
+    },
+    {
+     "city": "c01",
+     "first": 727,
+     "last": 730,
+     "garrison0": 106,
+     "days": 4,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 300,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 76
+    },
+    {
+     "city": "c01",
+     "first": 779,
+     "last": 782,
+     "garrison0": 13,
+     "days": 4,
+     "parties": 2,
+     "party_troops": 48,
+     "party_max10": 68,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c01",
+     "first": 789,
+     "last": 793,
+     "garrison0": 0,
+     "days": 5,
+     "parties": 2,
+     "party_troops": 41,
+     "party_max10": 399,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 1,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c01",
+     "first": 797,
+     "last": 800,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 2,
+     "party_troops": 23,
+     "party_max10": 196,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 1,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c01",
+     "first": 817,
+     "last": 826,
+     "garrison0": 0,
+     "days": 10,
+     "parties": 2,
+     "party_troops": 15,
+     "party_max10": 17,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 4,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c01",
+     "first": 833,
+     "last": 842,
+     "garrison0": 0,
+     "days": 10,
+     "parties": 2,
+     "party_troops": 5,
+     "party_max10": 305,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 1,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0
+    }
+   ]
+  },
+  "engine_starved_total": 836
  },
  {
   "seed": 1241774772,
@@ -402,6 +596,45 @@
   "engine_starved_total": 481
  },
  {
+  "seed": 1476545417,
+  "side": "blue",
+  "win": true,
+  "day": 335.0,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 1,
+   "cart_lost": 244,
+   "city_days": 2272,
+   "bandit_near": 0.44,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 59,
+   "starve_dead_est": 107,
+   "zero_food_days": 0,
+   "risk_days": 24,
+   "cart_lost": 299,
+   "city_days": 1748,
+   "bandit_near": 0.74,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 121
+ },
+ {
   "seed": 1479552164,
   "side": "blue",
   "win": true,
@@ -480,6 +713,230 @@
   "engine_starved_total": 257
  },
  {
+  "seed": 1698489847,
+  "side": "blue",
+  "win": true,
+  "day": 618.0,
+  "me": {
+   "starve_city_days": 30,
+   "starve_field": 17,
+   "starve_dead_est": 282,
+   "zero_food_days": 78,
+   "risk_days": 99,
+   "cart_lost": 392,
+   "city_days": 4319,
+   "bandit_near": 0.29,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 4,
+   "episodes": 4,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c15",
+     "first": 364,
+     "last": 366,
+     "garrison0": 4,
+     "days": 3,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 384,
+     "tags": {},
+     "bandits": 1,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 3
+    },
+    {
+     "city": "c15",
+     "first": 380,
+     "last": 387,
+     "garrison0": 23,
+     "days": 8,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 46,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 10
+    },
+    {
+     "city": "c15",
+     "first": 399,
+     "last": 408,
+     "garrison0": 3,
+     "days": 10,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 0,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 3
+    },
+    {
+     "city": "c14",
+     "first": 421,
+     "last": 429,
+     "garrison0": 40,
+     "days": 8,
+     "parties": 1,
+     "party_troops": 36,
+     "party_max10": 131,
+     "tags": {
+      "none": 1
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 11
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 169,
+   "starve_field": 119,
+   "starve_dead_est": 1059,
+   "zero_food_days": 192,
+   "risk_days": 263,
+   "cart_lost": 399,
+   "city_days": 3097,
+   "bandit_near": 0.66,
+   "ep_stack": 0,
+   "ep_bandit": 4,
+   "ep_other": 1,
+   "episodes": 5,
+   "dead_cities": 5,
+   "episode_list": [
+    {
+     "city": "c14",
+     "first": 232,
+     "last": 369,
+     "garrison0": 0,
+     "days": 138,
+     "parties": 3,
+     "party_troops": 56,
+     "party_max10": 62,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 3,
+     "cause": "bandit",
+     "garrison1": 0,
+     "lost": 370
+    },
+    {
+     "city": "c15",
+     "first": 295,
+     "last": 306,
+     "garrison0": 0,
+     "days": 11,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 22,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0,
+     "lost": 365
+    },
+    {
+     "city": "c15",
+     "first": 313,
+     "last": 317,
+     "garrison0": 0,
+     "days": 5,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 114,
+     "tags": {},
+     "bandits": 2,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0,
+     "lost": 365
+    },
+    {
+     "city": "c15",
+     "first": 329,
+     "last": 331,
+     "garrison0": 0,
+     "days": 3,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 84,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0,
+     "lost": 365
+    },
+    {
+     "city": "c15",
+     "first": 355,
+     "last": 362,
+     "garrison0": 0,
+     "days": 8,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 0,
+     "tags": {},
+     "bandits": 1,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 0,
+     "lost": 365
+    }
+   ]
+  },
+  "engine_starved_total": 1254
+ },
+ {
+  "seed": 1916494980,
+  "side": "blue",
+  "win": true,
+  "day": 653.2,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 369,
+   "city_days": 4234,
+   "bandit_near": 0.29,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 10,
+   "starve_dead_est": 36,
+   "zero_food_days": 2,
+   "risk_days": 59,
+   "cart_lost": 411,
+   "city_days": 3614,
+   "bandit_near": 0.4,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 40
+ },
+ {
   "seed": 2013042981,
   "side": "blue",
   "win": true,
@@ -519,6 +976,62 @@
   "engine_starved_total": 455
  },
  {
+  "seed": 2068903524,
+  "side": "blue",
+  "win": true,
+  "day": 425.5,
+  "me": {
+   "starve_city_days": 1,
+   "starve_field": 7,
+   "starve_dead_est": 35,
+   "zero_food_days": 1,
+   "risk_days": 3,
+   "cart_lost": 311,
+   "city_days": 2907,
+   "bandit_near": 0.32,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 5,
+   "starve_field": 101,
+   "starve_dead_est": 253,
+   "zero_food_days": 6,
+   "risk_days": 33,
+   "cart_lost": 263,
+   "city_days": 2205,
+   "bandit_near": 0.4,
+   "ep_stack": 0,
+   "ep_bandit": 1,
+   "ep_other": 0,
+   "episodes": 1,
+   "dead_cities": 1,
+   "episode_list": [
+    {
+     "city": "c11",
+     "first": 320,
+     "last": 324,
+     "garrison0": 11,
+     "days": 5,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 285,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 7,
+     "lost": 356
+    }
+   ]
+  },
+  "engine_starved_total": 320
+ },
+ {
   "seed": 2088460572,
   "side": "blue",
   "win": true,
@@ -556,6 +1069,166 @@
    "episode_list": []
   },
   "engine_starved_total": 302
+ },
+ {
+  "seed": 23489444,
+  "side": "blue",
+  "win": true,
+  "day": 647.0,
+  "me": {
+   "starve_city_days": 17,
+   "starve_field": 93,
+   "starve_dead_est": 661,
+   "zero_food_days": 17,
+   "risk_days": 19,
+   "cart_lost": 550,
+   "city_days": 4814,
+   "bandit_near": 0.36,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 1,
+   "episodes": 1,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c15",
+     "first": 476,
+     "last": 492,
+     "garrison0": 70,
+     "days": 17,
+     "parties": 1,
+     "party_troops": 45,
+     "party_max10": 45,
+     "tags": {
+      "none": 1
+     },
+     "bandits": 1,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 12
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 34,
+   "starve_field": 170,
+   "starve_dead_est": 811,
+   "zero_food_days": 205,
+   "risk_days": 289,
+   "cart_lost": 279,
+   "city_days": 2950,
+   "bandit_near": 0.34,
+   "ep_stack": 1,
+   "ep_bandit": 2,
+   "ep_other": 3,
+   "episodes": 6,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c15",
+     "first": 242,
+     "last": 247,
+     "garrison0": 0,
+     "days": 6,
+     "parties": 2,
+     "party_troops": 62,
+     "party_max10": 69,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 3,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c15",
+     "first": 250,
+     "last": 254,
+     "garrison0": 0,
+     "days": 5,
+     "parties": 2,
+     "party_troops": 32,
+     "party_max10": 69,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c15",
+     "first": 369,
+     "last": 374,
+     "garrison0": 0,
+     "days": 6,
+     "parties": 2,
+     "party_troops": 15,
+     "party_max10": 251,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c15",
+     "first": 381,
+     "last": 386,
+     "garrison0": 0,
+     "days": 6,
+     "parties": 2,
+     "party_troops": 9,
+     "party_max10": 13,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 4,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c15",
+     "first": 396,
+     "last": 398,
+     "garrison0": 0,
+     "days": 3,
+     "parties": 2,
+     "party_troops": 6,
+     "party_max10": 575,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c15",
+     "first": 405,
+     "last": 408,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 2,
+     "party_troops": 5,
+     "party_max10": 390,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0
+    }
+   ]
+  },
+  "engine_starved_total": 1569
  },
  {
   "seed": 455561258,
@@ -745,6 +1418,191 @@
    ]
   },
   "engine_starved_total": 1635
+ },
+ {
+  "seed": 660681239,
+  "side": "blue",
+  "win": true,
+  "day": 607.0,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 5,
+   "cart_lost": 309,
+   "city_days": 3856,
+   "bandit_near": 0.23,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 75,
+   "starve_dead_est": 170,
+   "zero_food_days": 3,
+   "risk_days": 50,
+   "cart_lost": 452,
+   "city_days": 3428,
+   "bandit_near": 0.39,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 193
+ },
+ {
+  "seed": 785517304,
+  "side": "blue",
+  "win": true,
+  "day": 626.0,
+  "me": {
+   "starve_city_days": 6,
+   "starve_field": 0,
+   "starve_dead_est": 31,
+   "zero_food_days": 10,
+   "risk_days": 12,
+   "cart_lost": 343,
+   "city_days": 4048,
+   "bandit_near": 0.29,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 1,
+   "episodes": 1,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c13",
+     "first": 591,
+     "last": 595,
+     "garrison0": 53,
+     "days": 5,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 0,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 33
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 22,
+   "starve_field": 59,
+   "starve_dead_est": 398,
+   "zero_food_days": 87,
+   "risk_days": 144,
+   "cart_lost": 400,
+   "city_days": 3464,
+   "bandit_near": 0.4,
+   "ep_stack": 1,
+   "ep_bandit": 1,
+   "ep_other": 1,
+   "episodes": 3,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c11",
+     "first": 470,
+     "last": 478,
+     "garrison0": 3,
+     "days": 8,
+     "parties": 2,
+     "party_troops": 22,
+     "party_max10": 25,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 3
+    },
+    {
+     "city": "c11",
+     "first": 481,
+     "last": 485,
+     "garrison0": 3,
+     "days": 5,
+     "parties": 2,
+     "party_troops": 8,
+     "party_max10": 20,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 2
+    },
+    {
+     "city": "c11",
+     "first": 503,
+     "last": 506,
+     "garrison0": 2,
+     "days": 3,
+     "parties": 2,
+     "party_troops": 4,
+     "party_max10": 580,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 3,
+     "cause": "stack",
+     "garrison1": 2
+    }
+   ]
+  },
+  "engine_starved_total": 432
+ },
+ {
+  "seed": 803144531,
+  "side": "blue",
+  "win": true,
+  "day": 305.3,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 180,
+   "city_days": 2052,
+   "bandit_near": 0.29,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 22,
+   "starve_dead_est": 51,
+   "zero_food_days": 0,
+   "risk_days": 24,
+   "cart_lost": 190,
+   "city_days": 1620,
+   "bandit_near": 0.45,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 57
  },
  {
   "seed": 80735816,
@@ -942,6 +1800,173 @@
   "engine_starved_total": 1096
  },
  {
+  "seed": 821436527,
+  "side": "blue",
+  "win": true,
+  "day": 627.6,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 20,
+   "starve_dead_est": 87,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 406,
+   "city_days": 4218,
+   "bandit_near": 0.32,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 205,
+   "starve_dead_est": 450,
+   "zero_food_days": 0,
+   "risk_days": 24,
+   "cart_lost": 399,
+   "city_days": 3318,
+   "bandit_near": 0.49,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 595
+ },
+ {
+  "seed": 855250420,
+  "side": "blue",
+  "win": true,
+  "day": 633.6,
+  "me": {
+   "starve_city_days": 4,
+   "starve_field": 17,
+   "starve_dead_est": 330,
+   "zero_food_days": 8,
+   "risk_days": 8,
+   "cart_lost": 297,
+   "city_days": 4091,
+   "bandit_near": 0.23,
+   "ep_stack": 1,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 1,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c15",
+     "first": 599,
+     "last": 602,
+     "garrison0": 54,
+     "days": 4,
+     "parties": 3,
+     "party_troops": 296,
+     "party_max10": 1202,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "stack",
+     "garrison1": 54
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 20,
+   "starve_field": 119,
+   "starve_dead_est": 773,
+   "zero_food_days": 172,
+   "risk_days": 248,
+   "cart_lost": 394,
+   "city_days": 3517,
+   "bandit_near": 0.4,
+   "ep_stack": 2,
+   "ep_bandit": 1,
+   "ep_other": 1,
+   "episodes": 4,
+   "dead_cities": 2,
+   "episode_list": [
+    {
+     "city": "c15",
+     "first": 346,
+     "last": 352,
+     "garrison0": 0,
+     "days": 7,
+     "parties": 3,
+     "party_troops": 59,
+     "party_max10": 756,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c15",
+     "first": 398,
+     "last": 401,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 3,
+     "party_troops": 28,
+     "party_max10": 620,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c15",
+     "first": 586,
+     "last": 590,
+     "garrison0": 0,
+     "days": 5,
+     "parties": 4,
+     "party_troops": 141,
+     "party_max10": 175,
+     "tags": {
+      "none": 4
+     },
+     "bandits": 0,
+     "carts_lost10": 3,
+     "cause": "bandit",
+     "garrison1": 0,
+     "lost": 604
+    },
+    {
+     "city": "c15",
+     "first": 595,
+     "last": 597,
+     "garrison0": 0,
+     "days": 3,
+     "parties": 4,
+     "party_troops": 84,
+     "party_max10": 157,
+     "tags": {
+      "none": 4
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0,
+     "lost": 604
+    }
+   ]
+  },
+  "engine_starved_total": 1174
+ },
+ {
   "seed": 97563383,
   "side": "blue",
   "win": true,
@@ -981,6 +2006,115 @@
   "engine_starved_total": 84
  },
  {
+  "seed": 1055177082,
+  "side": "red",
+  "win": true,
+  "day": 543.7,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 6,
+   "risk_days": 6,
+   "cart_lost": 255,
+   "city_days": 3447,
+   "bandit_near": 0.22,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 38,
+   "starve_field": 115,
+   "starve_dead_est": 1800,
+   "zero_food_days": 239,
+   "risk_days": 272,
+   "cart_lost": 289,
+   "city_days": 3081,
+   "bandit_near": 0.37,
+   "ep_stack": 3,
+   "ep_bandit": 0,
+   "ep_other": 1,
+   "episodes": 4,
+   "dead_cities": 1,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 307,
+     "last": 310,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 3,
+     "party_troops": 48,
+     "party_max10": 616,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 343,
+     "last": 345,
+     "garrison0": 0,
+     "days": 3,
+     "parties": 4,
+     "party_troops": 165,
+     "party_max10": 298,
+     "tags": {
+      "none": 4
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 427,
+     "last": 430,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 8,
+     "party_troops": 749,
+     "party_max10": 902,
+     "tags": {
+      "none": 8
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 453,
+     "last": 478,
+     "garrison0": 0,
+     "days": 25,
+     "parties": 12,
+     "party_troops": 874,
+     "party_max10": 972,
+     "tags": {
+      "none": 12
+     },
+     "bandits": 1,
+     "carts_lost10": 2,
+     "cause": "stack",
+     "garrison1": 0,
+     "lost": 538
+    }
+   ]
+  },
+  "engine_starved_total": 1871
+ },
+ {
   "seed": 1199329012,
   "side": "red",
   "win": true,
@@ -1018,6 +2152,45 @@
    "episode_list": []
   },
   "engine_starved_total": 266
+ },
+ {
+  "seed": 1232181665,
+  "side": "red",
+  "win": true,
+  "day": 603.9,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 1,
+   "cart_lost": 407,
+   "city_days": 4111,
+   "bandit_near": 0.3,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 100,
+   "starve_dead_est": 212,
+   "zero_food_days": 0,
+   "risk_days": 24,
+   "cart_lost": 317,
+   "city_days": 3137,
+   "bandit_near": 0.32,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 237
  },
  {
   "seed": 1241774772,
@@ -1275,6 +2448,45 @@
   "engine_starved_total": 249
  },
  {
+  "seed": 1476545417,
+  "side": "red",
+  "win": true,
+  "day": 1129.9,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 1,
+   "starve_dead_est": 13,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 645,
+   "city_days": 7297,
+   "bandit_near": 0.28,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 163,
+   "starve_dead_est": 620,
+   "zero_food_days": 0,
+   "risk_days": 24,
+   "cart_lost": 487,
+   "city_days": 6263,
+   "bandit_near": 0.24,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 735
+ },
+ {
   "seed": 1479552164,
   "side": "red",
   "win": true,
@@ -1386,6 +2598,546 @@
    ]
   },
   "engine_starved_total": 299
+ },
+ {
+  "seed": 1698489847,
+  "side": "red",
+  "win": true,
+  "day": 640.7,
+  "me": {
+   "starve_city_days": 68,
+   "starve_field": 64,
+   "starve_dead_est": 491,
+   "zero_food_days": 93,
+   "risk_days": 111,
+   "cart_lost": 429,
+   "city_days": 4323,
+   "bandit_near": 0.32,
+   "ep_stack": 1,
+   "ep_bandit": 0,
+   "ep_other": 1,
+   "episodes": 2,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c04",
+     "first": 582,
+     "last": 588,
+     "garrison0": 10,
+     "days": 7,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 295,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 4
+    },
+    {
+     "city": "c05",
+     "first": 582,
+     "last": 640,
+     "garrison0": 2,
+     "days": 59,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 1254,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "stack",
+     "garrison1": 2
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 137,
+   "starve_field": 89,
+   "starve_dead_est": 1748,
+   "zero_food_days": 383,
+   "risk_days": 445,
+   "cart_lost": 413,
+   "city_days": 3369,
+   "bandit_near": 0.6,
+   "ep_stack": 5,
+   "ep_bandit": 10,
+   "ep_other": 1,
+   "episodes": 16,
+   "dead_cities": 5,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 339,
+     "last": 341,
+     "garrison0": 12,
+     "days": 3,
+     "parties": 2,
+     "party_troops": 40,
+     "party_max10": 426,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 3,
+     "cause": "stack",
+     "garrison1": 10
+    },
+    {
+     "city": "c05",
+     "first": 347,
+     "last": 353,
+     "garrison0": 9,
+     "days": 7,
+     "parties": 2,
+     "party_troops": 29,
+     "party_max10": 281,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 3,
+     "carts_lost10": 1,
+     "cause": "bandit",
+     "garrison1": 4
+    },
+    {
+     "city": "c05",
+     "first": 364,
+     "last": 367,
+     "garrison0": 4,
+     "days": 4,
+     "parties": 2,
+     "party_troops": 14,
+     "party_max10": 466,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 1,
+     "carts_lost10": 1,
+     "cause": "stack",
+     "garrison1": 4
+    },
+    {
+     "city": "c05",
+     "first": 382,
+     "last": 387,
+     "garrison0": 4,
+     "days": 6,
+     "parties": 2,
+     "party_troops": 8,
+     "party_max10": 516,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "stack",
+     "garrison1": 2
+    },
+    {
+     "city": "c05",
+     "first": 404,
+     "last": 429,
+     "garrison0": 2,
+     "days": 26,
+     "parties": 2,
+     "party_troops": 4,
+     "party_max10": 561,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 3,
+     "cause": "stack",
+     "garrison1": 1
+    },
+    {
+     "city": "c05",
+     "first": 441,
+     "last": 451,
+     "garrison0": 1,
+     "days": 11,
+     "parties": 2,
+     "party_troops": 2,
+     "party_max10": 152,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 1,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 1
+    },
+    {
+     "city": "c05",
+     "first": 462,
+     "last": 472,
+     "garrison0": 1,
+     "days": 10,
+     "parties": 2,
+     "party_troops": 2,
+     "party_max10": 2,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 3,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 3
+    },
+    {
+     "city": "c05",
+     "first": 480,
+     "last": 486,
+     "garrison0": 2,
+     "days": 7,
+     "parties": 2,
+     "party_troops": 2,
+     "party_max10": 298,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 4,
+     "carts_lost10": 3,
+     "cause": "bandit",
+     "garrison1": 2
+    },
+    {
+     "city": "c05",
+     "first": 490,
+     "last": 492,
+     "garrison0": 2,
+     "days": 3,
+     "parties": 2,
+     "party_troops": 2,
+     "party_max10": 302,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 2,
+     "carts_lost10": 1,
+     "cause": "bandit",
+     "garrison1": 2
+    },
+    {
+     "city": "c05",
+     "first": 558,
+     "last": 570,
+     "garrison0": 0,
+     "days": 13,
+     "parties": 5,
+     "party_troops": 208,
+     "party_max10": 451,
+     "tags": {
+      "none": 5
+     },
+     "bandits": 2,
+     "carts_lost10": 1,
+     "cause": "stack",
+     "garrison1": 0,
+     "lost": 583
+    },
+    {
+     "city": "c05",
+     "first": 575,
+     "last": 579,
+     "garrison0": 0,
+     "days": 5,
+     "parties": 5,
+     "party_troops": 51,
+     "party_max10": 207,
+     "tags": {
+      "none": 5
+     },
+     "bandits": 1,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0,
+     "lost": 583
+    },
+    {
+     "city": "c03",
+     "first": 398,
+     "last": 401,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 3,
+     "party_troops": 150,
+     "party_max10": 293,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c03",
+     "first": 405,
+     "last": 408,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 3,
+     "party_troops": 98,
+     "party_max10": 293,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c03",
+     "first": 412,
+     "last": 429,
+     "garrison0": 0,
+     "days": 17,
+     "parties": 3,
+     "party_troops": 64,
+     "party_max10": 109,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 4,
+     "cause": "bandit",
+     "garrison1": 0,
+     "lost": 484
+    },
+    {
+     "city": "c03",
+     "first": 462,
+     "last": 464,
+     "garrison0": 0,
+     "days": 3,
+     "parties": 3,
+     "party_troops": 8,
+     "party_max10": 159,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 0,
+     "lost": 484
+    },
+    {
+     "city": "c04",
+     "first": 565,
+     "last": 567,
+     "garrison0": 2,
+     "days": 3,
+     "parties": 2,
+     "party_troops": 24,
+     "party_max10": 27,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 4,
+     "carts_lost10": 0,
+     "cause": "bandit",
+     "garrison1": 2,
+     "lost": 572
+    }
+   ]
+  },
+  "engine_starved_total": 2084
+ },
+ {
+  "seed": 1916494980,
+  "side": "red",
+  "win": true,
+  "day": 565.5,
+  "me": {
+   "starve_city_days": 32,
+   "starve_field": 12,
+   "starve_dead_est": 406,
+   "zero_food_days": 48,
+   "risk_days": 48,
+   "cart_lost": 426,
+   "city_days": 4114,
+   "bandit_near": 0.28,
+   "ep_stack": 0,
+   "ep_bandit": 1,
+   "ep_other": 1,
+   "episodes": 2,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c04",
+     "first": 532,
+     "last": 555,
+     "garrison0": 75,
+     "days": 23,
+     "parties": 1,
+     "party_troops": 36,
+     "party_max10": 77,
+     "tags": {
+      "none": 1
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 3
+    },
+    {
+     "city": "c05",
+     "first": 534,
+     "last": 542,
+     "garrison0": 80,
+     "days": 9,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 0,
+     "tags": {},
+     "bandits": 2,
+     "carts_lost10": 0,
+     "cause": "bandit",
+     "garrison1": 0
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 46,
+   "starve_field": 66,
+   "starve_dead_est": 637,
+   "zero_food_days": 125,
+   "risk_days": 229,
+   "cart_lost": 413,
+   "city_days": 2678,
+   "bandit_near": 0.54,
+   "ep_stack": 0,
+   "ep_bandit": 4,
+   "ep_other": 3,
+   "episodes": 7,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 279,
+     "last": 281,
+     "garrison0": 1,
+     "days": 3,
+     "parties": 1,
+     "party_troops": 18,
+     "party_max10": 110,
+     "tags": {
+      "none": 1
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 1
+    },
+    {
+     "city": "c05",
+     "first": 310,
+     "last": 325,
+     "garrison0": 0,
+     "days": 16,
+     "parties": 3,
+     "party_troops": 112,
+     "party_max10": 125,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 3,
+     "carts_lost10": 1,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 329,
+     "last": 339,
+     "garrison0": 0,
+     "days": 11,
+     "parties": 3,
+     "party_troops": 21,
+     "party_max10": 43,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 2,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 355,
+     "last": 360,
+     "garrison0": 0,
+     "days": 6,
+     "parties": 3,
+     "party_troops": 6,
+     "party_max10": 7,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 378,
+     "last": 381,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 3,
+     "party_troops": 6,
+     "party_max10": 6,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 414,
+     "last": 416,
+     "garrison0": 0,
+     "days": 3,
+     "parties": 3,
+     "party_troops": 5,
+     "party_max10": 117,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 435,
+     "last": 437,
+     "garrison0": 0,
+     "days": 3,
+     "parties": 3,
+     "party_troops": 5,
+     "party_max10": 62,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 1,
+     "carts_lost10": 1,
+     "cause": "other",
+     "garrison1": 0
+    }
+   ]
+  },
+  "engine_starved_total": 1032
  },
  {
   "seed": 2013042981,
@@ -1528,6 +3280,45 @@
    ]
   },
   "engine_starved_total": 582
+ },
+ {
+  "seed": 2068903524,
+  "side": "red",
+  "win": true,
+  "day": 365.5,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 261,
+   "city_days": 2707,
+   "bandit_near": 0.31,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 148,
+   "starve_dead_est": 366,
+   "zero_food_days": 0,
+   "risk_days": 24,
+   "cart_lost": 228,
+   "city_days": 1685,
+   "bandit_near": 0.6,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 409
  },
  {
   "seed": 2088460572,
@@ -1687,6 +3478,45 @@
   "engine_starved_total": 1158
  },
  {
+  "seed": 23489444,
+  "side": "red",
+  "win": true,
+  "day": 564.3,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 3,
+   "risk_days": 7,
+   "cart_lost": 345,
+   "city_days": 3645,
+   "bandit_near": 0.3,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 114,
+   "starve_dead_est": 404,
+   "zero_food_days": 0,
+   "risk_days": 28,
+   "cart_lost": 342,
+   "city_days": 3135,
+   "bandit_near": 0.4,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 449
+ },
+ {
   "seed": 455561258,
   "side": "red",
   "win": true,
@@ -1726,6 +3556,338 @@
   "engine_starved_total": 195
  },
  {
+  "seed": 660681239,
+  "side": "red",
+  "win": true,
+  "day": 523.1,
+  "me": {
+   "starve_city_days": 4,
+   "starve_field": 11,
+   "starve_dead_est": 78,
+   "zero_food_days": 10,
+   "risk_days": 12,
+   "cart_lost": 286,
+   "city_days": 3631,
+   "bandit_near": 0.21,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 1,
+   "episodes": 1,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 489,
+     "last": 492,
+     "garrison0": 16,
+     "days": 4,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 0,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 10
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 45,
+   "starve_field": 38,
+   "starve_dead_est": 643,
+   "zero_food_days": 174,
+   "risk_days": 278,
+   "cart_lost": 390,
+   "city_days": 2657,
+   "bandit_near": 0.5,
+   "ep_stack": 0,
+   "ep_bandit": 3,
+   "ep_other": 1,
+   "episodes": 4,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c04",
+     "first": 333,
+     "last": 338,
+     "garrison0": 0,
+     "days": 6,
+     "parties": 2,
+     "party_troops": 37,
+     "party_max10": 94,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 1,
+     "carts_lost10": 3,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c04",
+     "first": 342,
+     "last": 362,
+     "garrison0": 0,
+     "days": 21,
+     "parties": 2,
+     "party_troops": 20,
+     "party_max10": 75,
+     "tags": {
+      "none": 2
+     },
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 468,
+     "last": 471,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 3,
+     "party_troops": 70,
+     "party_max10": 78,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 478,
+     "last": 488,
+     "garrison0": 0,
+     "days": 10,
+     "parties": 3,
+     "party_troops": 46,
+     "party_max10": 70,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 1,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0
+    }
+   ]
+  },
+  "engine_starved_total": 735
+ },
+ {
+  "seed": 785517304,
+  "side": "red",
+  "win": true,
+  "day": 656.4,
+  "me": {
+   "starve_city_days": 2,
+   "starve_field": 34,
+   "starve_dead_est": 373,
+   "zero_food_days": 9,
+   "risk_days": 9,
+   "cart_lost": 385,
+   "city_days": 4223,
+   "bandit_near": 0.32,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 63,
+   "starve_field": 35,
+   "starve_dead_est": 1253,
+   "zero_food_days": 280,
+   "risk_days": 353,
+   "cart_lost": 336,
+   "city_days": 3661,
+   "bandit_near": 0.4,
+   "ep_stack": 4,
+   "ep_bandit": 2,
+   "ep_other": 0,
+   "episodes": 6,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 300,
+     "last": 303,
+     "garrison0": 6,
+     "days": 4,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 534,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "stack",
+     "garrison1": 4
+    },
+    {
+     "city": "c05",
+     "first": 445,
+     "last": 448,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 732,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 474,
+     "last": 477,
+     "garrison0": 0,
+     "days": 4,
+     "parties": 1,
+     "party_troops": 14,
+     "party_max10": 532,
+     "tags": {
+      "none": 1
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 561,
+     "last": 569,
+     "garrison0": 0,
+     "days": 9,
+     "parties": 10,
+     "party_troops": 638,
+     "party_max10": 710,
+     "tags": {
+      "none": 10
+     },
+     "bandits": 2,
+     "carts_lost10": 2,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 581,
+     "last": 611,
+     "garrison0": 0,
+     "days": 30,
+     "parties": 6,
+     "party_troops": 108,
+     "party_max10": 270,
+     "tags": {
+      "none": 6
+     },
+     "bandits": 0,
+     "carts_lost10": 5,
+     "cause": "bandit",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 620,
+     "last": 626,
+     "garrison0": 0,
+     "days": 7,
+     "parties": 6,
+     "party_troops": 6,
+     "party_max10": 306,
+     "tags": {
+      "none": 6
+     },
+     "bandits": 2,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0
+    }
+   ]
+  },
+  "engine_starved_total": 1574
+ },
+ {
+  "seed": 803144531,
+  "side": "red",
+  "win": true,
+  "day": 660.8,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 1,
+   "cart_lost": 307,
+   "city_days": 4328,
+   "bandit_near": 0.21,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 13,
+   "starve_field": 80,
+   "starve_dead_est": 382,
+   "zero_food_days": 35,
+   "risk_days": 84,
+   "cart_lost": 349,
+   "city_days": 3604,
+   "bandit_near": 0.35,
+   "ep_stack": 2,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 2,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 413,
+     "last": 415,
+     "garrison0": 57,
+     "days": 3,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 682,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "stack",
+     "garrison1": 46
+    },
+    {
+     "city": "c05",
+     "first": 472,
+     "last": 478,
+     "garrison0": 14,
+     "days": 6,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 575,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "stack",
+     "garrison1": 9
+    }
+   ]
+  },
+  "engine_starved_total": 419
+ },
+ {
   "seed": 80735816,
   "side": "red",
   "win": true,
@@ -1763,6 +3925,151 @@
    "episode_list": []
   },
   "engine_starved_total": 295
+ },
+ {
+  "seed": 821436527,
+  "side": "red",
+  "win": true,
+  "day": 531.5,
+  "me": {
+   "starve_city_days": 6,
+   "starve_field": 0,
+   "starve_dead_est": 12,
+   "zero_food_days": 6,
+   "risk_days": 6,
+   "cart_lost": 265,
+   "city_days": 3397,
+   "bandit_near": 0.25,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 1,
+   "episodes": 1,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 491,
+     "last": 496,
+     "garrison0": 2,
+     "days": 6,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 0,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 0,
+     "cause": "other",
+     "garrison1": 1
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 29,
+   "starve_field": 70,
+   "starve_dead_est": 1063,
+   "zero_food_days": 159,
+   "risk_days": 199,
+   "cart_lost": 332,
+   "city_days": 2987,
+   "bandit_near": 0.34,
+   "ep_stack": 1,
+   "ep_bandit": 2,
+   "ep_other": 0,
+   "episodes": 3,
+   "dead_cities": 1,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 351,
+     "last": 356,
+     "garrison0": 9,
+     "days": 5,
+     "parties": 0,
+     "party_troops": 0,
+     "party_max10": 211,
+     "tags": {},
+     "bandits": 0,
+     "carts_lost10": 3,
+     "cause": "bandit",
+     "garrison1": 5
+    },
+    {
+     "city": "c05",
+     "first": 445,
+     "last": 457,
+     "garrison0": 0,
+     "days": 12,
+     "parties": 8,
+     "party_troops": 668,
+     "party_max10": 742,
+     "tags": {
+      "none": 8
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "stack",
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 476,
+     "last": 485,
+     "garrison0": 0,
+     "days": 10,
+     "parties": 3,
+     "party_troops": 18,
+     "party_max10": 20,
+     "tags": {
+      "none": 3
+     },
+     "bandits": 0,
+     "carts_lost10": 2,
+     "cause": "bandit",
+     "garrison1": 0,
+     "lost": 527
+    }
+   ]
+  },
+  "engine_starved_total": 1120
+ },
+ {
+  "seed": 855250420,
+  "side": "red",
+  "win": true,
+  "day": 442.7,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 15,
+   "starve_dead_est": 92,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 397,
+   "city_days": 3272,
+   "bandit_near": 0.32,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 183,
+   "starve_dead_est": 397,
+   "zero_food_days": 0,
+   "risk_days": 34,
+   "cart_lost": 227,
+   "city_days": 2044,
+   "bandit_near": 0.43,
+   "ep_stack": 0,
+   "ep_bandit": 0,
+   "ep_other": 0,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 547
  },
  {
   "seed": 97563383,
