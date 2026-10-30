@@ -50,6 +50,7 @@ python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions
 - `07-断粮预案-v22.md`：断粮预案，晋级 v22
 - `08-v23.md`：断粮预案改进、劫掠攻防（安全跟进/诱饵/谨慎防御）、猎兵安全回撤，晋级 v23
 - `09-v24-战术库.md`：局势评估层 + 按局面选择的战术库（截击、声东击西、围点打援、侧向回撤），触发统计与消融
+- `10-标准化评分.md`：标准化锚点评分（4 个通用锚点 v20 / v22 / c600v4 / c600v6 × 12 局 = 48 局）、计分公式、排行榜与一致性检验；工具 `score_suite.py`，排行榜 `results-score/leaderboard.md`
 
 批量对局工具：`batch_h2h.py`（对战批量，支持 `v23@GB_X=1` 形式的环境变量变体）、`raid_stats.py`（劫掠统计）、`tac_stats.py`（v24 战术触发与局势状态统计）、`summarize_h2h.py`（对战汇总）、`analyze_ops.py`（v21 佯攻与清剿证据）、`batch.py`（并行运行）、`summarize.py`（汇总结果）、`inspect_run.py`（查看单局时间线）、`make_md.py`（生成 results.md）。这些脚本里写死了 `/workspace/aiwar` 路径，使用时请改成自己的仓库路径。
 

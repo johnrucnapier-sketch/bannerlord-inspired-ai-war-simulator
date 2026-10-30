@@ -134,3 +134,8 @@
 - **Assessment check:** games that never entered "behind" went 29-1-0. Behind-state play does not yet rescue games.
 - **Status:** v23 stays main for now. Promotion of v24 is recommended, pending the owner's confirmation. Report 09.
 - **Oct 30 (late night):** 博 李 marked both v23 and v24 as released strong versions. The README now lists both.
+- **Oct 31 (early hours): standardized anchor score.** Report 10 and `score_suite.py`.
+  - Anchors: v20, v22, c600v4, c600v6; 6 seeds × 2 colours × 4 anchors = 48 games per version.
+  - Per-game tiers: unification win 1000–1500, no unification 250–750, unified by the opponent 0–250.
+  - Final scores: v23 1180±46, v24 1176±47, v22 1111±43, v21 1091±49, v20 872±56, c600v6 312±6, c600v4 287±10.
+  - The score order agrees with 17 of 18 head-to-head pairs (τ = 0.81).
