@@ -1,0 +1,226 @@
+[
+ {
+  "seed": 1327243828,
+  "side": "blue",
+  "win": true,
+  "day": 943.5,
+  "me": {
+   "starve_city_days": 4,
+   "starve_field": 0,
+   "starve_dead_est": 133,
+   "zero_food_days": 4,
+   "risk_days": 6,
+   "cart_lost": 522,
+   "city_days": 6134,
+   "bandit_near": 0.25,
+   "episodes": 1,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c10",
+     "first": 860,
+     "last": 863,
+     "garrison0": 198,
+     "days": 4,
+     "garrison1": 144
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 576,
+   "city_days": 5194,
+   "bandit_near": 0.24,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 147
+ },
+ {
+  "seed": 2088460572,
+  "side": "blue",
+  "win": true,
+  "day": 697.0,
+  "me": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 256,
+   "city_days": 4118,
+   "bandit_near": 0.19,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 0,
+   "risk_days": 0,
+   "cart_lost": 372,
+   "city_days": 4246,
+   "bandit_near": 0.18,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 0
+ },
+ {
+  "seed": 1327243828,
+  "side": "red",
+  "win": true,
+  "day": 779.4,
+  "me": {
+   "starve_city_days": 26,
+   "starve_field": 0,
+   "starve_dead_est": 176,
+   "zero_food_days": 32,
+   "risk_days": 72,
+   "cart_lost": 340,
+   "city_days": 4865,
+   "bandit_near": 0.21,
+   "episodes": 2,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 721,
+     "last": 723,
+     "garrison0": 135,
+     "days": 3,
+     "garrison1": 109
+    },
+    {
+     "city": "c05",
+     "first": 729,
+     "last": 751,
+     "garrison0": 98,
+     "days": 23,
+     "garrison1": 6
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 0,
+   "starve_field": 0,
+   "starve_dead_est": 0,
+   "zero_food_days": 9,
+   "risk_days": 12,
+   "cart_lost": 398,
+   "city_days": 4495,
+   "bandit_near": 0.19,
+   "episodes": 0,
+   "dead_cities": 0,
+   "episode_list": []
+  },
+  "engine_starved_total": 180
+ },
+ {
+  "seed": 2088460572,
+  "side": "red",
+  "win": true,
+  "day": 645.3,
+  "me": {
+   "starve_city_days": 9,
+   "starve_field": 0,
+   "starve_dead_est": 81,
+   "zero_food_days": 14,
+   "risk_days": 23,
+   "cart_lost": 336,
+   "city_days": 3867,
+   "bandit_near": 0.27,
+   "episodes": 2,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c13",
+     "first": 598,
+     "last": 601,
+     "garrison0": 105,
+     "days": 4,
+     "garrison1": 75
+    },
+    {
+     "city": "c13",
+     "first": 607,
+     "last": 611,
+     "garrison0": 68,
+     "days": 5,
+     "garrison1": 42
+    }
+   ]
+  },
+  "opp": {
+   "starve_city_days": 37,
+   "starve_field": 2,
+   "starve_dead_est": 530,
+   "zero_food_days": 140,
+   "risk_days": 163,
+   "cart_lost": 418,
+   "city_days": 3885,
+   "bandit_near": 0.23,
+   "episodes": 6,
+   "dead_cities": 0,
+   "episode_list": [
+    {
+     "city": "c05",
+     "first": 506,
+     "last": 513,
+     "garrison0": 0,
+     "days": 6,
+     "garrison1": 39
+    },
+    {
+     "city": "c05",
+     "first": 525,
+     "last": 527,
+     "garrison0": 54,
+     "days": 3,
+     "garrison1": 43
+    },
+    {
+     "city": "c05",
+     "first": 538,
+     "last": 540,
+     "garrison0": 0,
+     "days": 3,
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 546,
+     "last": 548,
+     "garrison0": 54,
+     "days": 3,
+     "garrison1": 43
+    },
+    {
+     "city": "c05",
+     "first": 600,
+     "last": 603,
+     "garrison0": 56,
+     "days": 3,
+     "garrison1": 0
+    },
+    {
+     "city": "c05",
+     "first": 622,
+     "last": 629,
+     "garrison0": 28,
+     "days": 8,
+     "garrison1": 0
+    }
+   ]
+  },
+  "engine_starved_total": 647
+ }
+]

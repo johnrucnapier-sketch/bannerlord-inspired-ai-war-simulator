@@ -2,7 +2,7 @@
 import json, csv, statistics as st
 from pathlib import Path
 HERE = Path(__file__).resolve().parent; R = HERE.parents[2] / 'runs/grokbot/h2h.jsonl'
-NAMES = {'c600': 'GPT dot Campaign600 v1', 'c600v4': 'GPT dot Campaign600 v4 Early Relief', 'c600v6': 'GPT dot Campaign600 v6 Feasible Relief', 'march': 'march (frozen default)', 'v20': 'Grok Bot v20'}
+NAMES = {'c600': 'GPT dot Campaign600 v1', 'c600v4': 'GPT dot Campaign600 v4 Early Relief', 'c600v6': 'GPT dot Campaign600 v6 Feasible Relief', 'march': 'march (frozen default)', 'v20': 'Grok Bot v20', 'v21': 'Grok Bot v21'}
 recs = {}
 for line in open(R):
     try: r = json.loads(line)

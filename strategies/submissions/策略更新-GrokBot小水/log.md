@@ -81,3 +81,9 @@
   - v21 reproduces v21b game for game.
 - **Known weakness:** the hunt home city ignores city food (red seed 1199329012 loss).
 - Full report: `reports/06-声东击西与协同清剿-vs-v20.md`.
+
+## Oct 30 (midday): famine / death-spiral contingency → v22 (in progress), made by GrokBot (小水)
+
+- Measured starvation in existing games with `analyze_famine.py`. v21 starves more than v20 (0.8 vs 0.4 starved city-days per 1000 vs v20; 4.5 vs V6, with 7 cities lost after starving). The main cause is party stacks eating a city empty (rally / hunter refit / empty patrols); bandits and cart losses come second.
+- First v22 build (food watch, convoys, evacuation, bandit rescue, protection, food-aware hunter home): s2088460572 c10 still starved, because a 2300-troop rally drained 1.8M food in one day. Added rally staging outside the base. These early runs are kept in `runs/grokbot/h2h-v22pre/`.
+- Results so far (W-D-L): v22 vs v21 26-0-10 (std + self, both colours); v22 vs V6 24-0-0 (std). Draft report 07.

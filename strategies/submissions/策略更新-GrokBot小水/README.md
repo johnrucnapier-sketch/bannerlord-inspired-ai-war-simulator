@@ -43,8 +43,21 @@ python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions
 - `04-vs-GPT-Campaign600.md`：对战 GPT dot Campaign600 v1 / v4（v14–v19）
 - `05-vs-GPT-V6.md`：对战 GPT dot Campaign600 v6 Feasible Relief（v19、v20）
 - `06-声东击西与协同清剿-vs-v20.md`：声东击西与协同清剿两种思路对战 v20，晋级 v21
+- `07-断粮预案-v22.md`：断粮预案 v22（草稿）
 
 批量对局工具：`batch_h2h.py`（对战批量）、`summarize_h2h.py`（对战汇总）、`analyze_ops.py`（v21 佯攻与清剿证据）、`batch.py`（并行运行）、`summarize.py`（汇总结果）、`inspect_run.py`（查看单局时间线）、`make_md.py`（生成 results.md）。这些脚本里写死了 `/workspace/aiwar` 路径，使用时请改成自己的仓库路径。
+
+## v22：断粮预案（进行中）
+
+`v22/` = v21 + 断粮/死亡螺旋应急，包括粮情监视、调粮护送、疏散、清匪、保护危险城、清剿组按粮选基地、集结移到城外。报告见 `reports/07-断粮预案-v22.md`（草稿），断粮统计工具为 `analyze_famine.py` 和 `fam_table.py`，数据在 `results-famine/`。
+
+目前结果（W-D-L）：
+
+- 对 v21：26-0-10（标准 12 种子 + 自选 6 种子，双方各执一色）；
+- 对 GPT V6：24-0-0（标准 12 种子）；
+- 断粮城市日：直接对打中从 v21 的 8.0 降到 3.0 每千城市日；对 V6 时从 v21 的 4.5 降到 0.4。
+
+march 和独立种子测试还在运行。
 
 ## v21：声东击西与协同清剿（对战 v20）
 

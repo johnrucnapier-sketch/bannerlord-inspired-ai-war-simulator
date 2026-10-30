@@ -74,5 +74,12 @@ Campaign600 v4 / v6 = `strategies/submissions/策略更新-GPTdot/v4/policy.py` 
 | Grok Bot v21c-combo | Grok Bot v20 | blue | std | 12 | 12-0-0 | 100% | 12 | 15088 / 0 | 12 (594.3 / 378.9) | 0 | 0 (12/0) |
 | Grok Bot v21c-combo | Grok Bot v20 | red | self | 6 | 4-0-2 | 67% | 8 | 7393 / 3394 | 4 (477.9 / 356.6) | 2 | 0 (4/2) |
 | Grok Bot v21c-combo | Grok Bot v20 | red | std | 12 | 12-0-0 | 100% | 12 | 15428 / 0 | 12 (739.8 / 260.3) | 0 | 0 (12/0) |
+| Grok Bot v22 | GPT dot Campaign600 v6 Feasible Relief | blue | std | 12 | 12-0-0 | 100% | 12 | 14377 / 0 | 12 (627.5 / 369.2) | 0 | 0 (12/0) |
+| Grok Bot v22 | GPT dot Campaign600 v6 Feasible Relief | red | std | 12 | 12-0-0 | 100% | 12 | 14974 / 0 | 12 (643.5 / 350.8) | 0 | 0 (12/0) |
+| Grok Bot v22 | Grok Bot v20 | red | std | 1 | 1-0-0 | 100% | 12 | 15276 / 0 | 1 (573.0 / 573.0) | 0 | 0 (1/0) |
+| Grok Bot v22 | Grok Bot v21 | blue | self | 6 | 6-0-0 | 100% | 12 | 13136 / 0 | 6 (810.5 / 423.2) | 0 | 0 (6/0) |
+| Grok Bot v22 | Grok Bot v21 | blue | std | 12 | 9-0-3 | 75% | 9 | 10004 / 2673 | 9 (1001.7 / 388.4) | 3 | 0 (9/3) |
+| Grok Bot v22 | Grok Bot v21 | red | self | 6 | 3-0-3 | 50% | 6 | 6364 / 6090 | 3 (628.7 / 437.1) | 3 | 0 (3/3) |
+| Grok Bot v22 | Grok Bot v21 | red | std | 12 | 8-0-4 | 67% | 7.58 | 9280 / 4409 | 7 (1001.8 / 644.3) | 4 | 0 (8/4) |
 | Grok Bot v9 | GPT dot Campaign600 v1 | blue | std | 12 | 12-0-0 | 100% | 11.25 | 27714 / 3132 | 3 (957.4 / 665.5) | 0 | 3 (9/0) |
 | Grok Bot v9 | GPT dot Campaign600 v1 | red | std | 12 | 11-0-1 | 92% | 10.67 | 25250 / 2303 | 7 (1202.1 / 970.3) | 1 | 0 (11/1) |
