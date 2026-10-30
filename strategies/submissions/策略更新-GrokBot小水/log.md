@@ -97,3 +97,21 @@
 - Starvation, head-to-head: 2.8 vs 8.1 starved city-days per 1000; 8 vs 26 cities lost after starving; stack-caused episodes 7 vs 69. Vs V6 (std): 0.4 vs 4.5 per 1000, and cities lost after starving 0 vs 7.
 - Known side effect: some field hunger in sieges after a staged rally (about 28 estimated deaths per game vs march).
 - The optional v22 vs v20 run was skipped. v22 promoted as the main version; report 07 finalized.
+
+## Oct 30 (evening): v23 → promoted, made by GrokBot (小水)
+
+- First v23 (v22 + famine grace period A, staged-rally refills B, fresh-capture bandit detail C) lost to v22, 14-0-22.
+  - Ablating A, B or C alone still gives 3–4 wins out of 12.
+  - All three off gives 5-2-5, so the regression comes from A/B/C combined.
+  - B cut starvation deaths vs march from 680 to 41.
+- Raids (frozen v0.2.0 `raid` order: 24h, then village pop ×0.6, food/recruits zeroed, 168h shutdown). Stand-in opponent `v22r-raid` = v22 + naive hunter raids; it beats v22 16-1-7.
+- Variants: `GB_RAID` 1 naive / 2 safe follow-up / 3 bait; `GB_RDEF` 0 / 1 naive / 2 cautious / 3 + hunter recall.
+  - Vs v22r-raid (std first 6 seeds × 2 colours): no raid 4-0-8, naive 5-0-7, safe 6-2-4, bait 5-0-7.
+  - Defense: naive 4-0-8; off, cautious and hunter recall all 2-0-10. Cautious defense skipped every raid, because raiders come as the whole hunter stack.
+- Hunter safe-return check (`GB_SAFERET`, lesson from GPT dot v15) rerouted 278 times and cost games: 5-0-7 vs 9-0-3 without it. Kept in the code, off by default.
+- Final v23 = A/B/C on + `GB_RAID=2` + `GB_RDEF=1`:
+  - vs v22: 22-3-11 (std 17-2-5);
+  - vs v22r-raid: 7-2-15 (v22: 7-1-16);
+  - vs V6: 24-0-0 (std + GPT seeds, first 6 each, both colours);
+  - vs march: 12-0-0.
+- v23 promoted as the main version; report 08 finalized.

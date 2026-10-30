@@ -11,7 +11,9 @@
 
 | 目录 | 标签与思路 | 蓝方对 march（完整 1680 天，胜-平-负即局数） | 红方对 march |
 |---|---|---|---|
-| `v22/`（**新主版本**） | Grok Bot v22, approach: v21 + 断粮预案（粮情监视、调粮护送、疏散、清匪、保护危险城、清剿组按粮选基地、集结移到城外） | 12-0-0，全部统一，平均第 344 天 | 12-0-0，平均第 338 天 |
+| `v23/`（**新主版本**） | Grok Bot v23, approach: v22 + 断粮预案改进（宽限期、城外集结补粮、新占城清匪）+ 猎兵组清场后整组安全劫掠敌村（`GB_RAID=2`）+ 村庄被劫掠时朴素救援（`GB_RDEF=1`）；安全回撤 `GB_SAFERET` 保留但默认关闭 | 6-0-0，平均第 381 天（标准前 6 种子） | 6-0-0，平均第 329 天 |
+| `v22r-raid/`（模拟对手） | v22 + 猎兵朴素劫掠，用来模拟 GPT dot 的劫掠版 | — | — |
+| `v22/`（上一主版本） | Grok Bot v22, approach: v21 + 断粮预案（粮情监视、调粮护送、疏散、清匪、保护危险城、清剿组按粮选基地、集结移到城外） | 12-0-0，全部统一，平均第 344 天 | 12-0-0，平均第 338 天 |
 | `v21/`（上一主版本） | Grok Bot v21, approach: v20 + 3 支部队（编制各 150）的协同清剿组，深入敌境猎杀巡逻队、小股部队和运粮车（声东击西代码保留但默认关闭） | 12-0-0，全部统一，平均第 352 天 | 12-0-0，平均第 354 天 |
 | `v20/`（上一主版本） | Grok Bot v20, approach: v19 + 防解围攻城（记住 40 天内见过的全部敌方野战军，攻城兵力不少于其总和）+ 第 0 天起建队，专门应对 GPT v6 的全程可行解围 | 12-0-0，全部统一，平均第 357.2 天（最快 228） | 12-0-0，全部统一，平均第 316.0 天 |
 | `v19/` | Grok Bot v19, approach: v18 + 取消开局突袭（第 30 天前不发起攻城战役），专门应对 GPT v4 的开局解围 | 24-0-0，平均 12.00 城，24 局全部统一，平均第 394.5 天（最快 203），人口 10746 | 24-0-0，全部统一，平均第 334.5 天（最快 213） |
@@ -32,7 +34,7 @@
 ## 运行
 
 ```
-python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/策略更新-GrokBot小水/v22/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
+python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/策略更新-GrokBot小水/v23/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
 ```
 
 种子见 `benchmarks/data/direct-garrison-20261029/seed-selection.json`。完整迭代记录（v1–v20）见 `log.md`，全部结果见 `results.md` / `results.csv` / `results.json`。
@@ -45,10 +47,26 @@ python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions
 - `05-vs-GPT-V6.md`：对战 GPT dot Campaign600 v6 Feasible Relief（v19、v20）
 - `06-声东击西与协同清剿-vs-v20.md`：声东击西与协同清剿两种思路对战 v20，晋级 v21
 - `07-断粮预案-v22.md`：断粮预案，晋级 v22
+- `08-v23.md`：断粮预案改进、劫掠攻防（安全跟进/诱饵/谨慎防御）、猎兵安全回撤，晋级 v23
 
-批量对局工具：`batch_h2h.py`（对战批量）、`summarize_h2h.py`（对战汇总）、`analyze_ops.py`（v21 佯攻与清剿证据）、`batch.py`（并行运行）、`summarize.py`（汇总结果）、`inspect_run.py`（查看单局时间线）、`make_md.py`（生成 results.md）。这些脚本里写死了 `/workspace/aiwar` 路径，使用时请改成自己的仓库路径。
+批量对局工具：`batch_h2h.py`（对战批量，支持 `v23@GB_X=1` 形式的环境变量变体）、`raid_stats.py`（劫掠统计）、`summarize_h2h.py`（对战汇总）、`analyze_ops.py`（v21 佯攻与清剿证据）、`batch.py`（并行运行）、`summarize.py`（汇总结果）、`inspect_run.py`（查看单局时间线）、`make_md.py`（生成 results.md）。这些脚本里写死了 `/workspace/aiwar` 路径，使用时请改成自己的仓库路径。
 
-## v22：断粮预案（主版本）
+## v23：断粮预案改进 + 安全劫掠（主版本）
+
+完整报告：`reports/08-v23.md`。
+
+| 我方 | 对手 | 结果（W-D-L） |
+|---|---|---|
+| v23 | v22（标准 12 种子 × 2 色） | 17-2-5 |
+| v23 | v22（合计，含自选 6 种子） | 22-3-11 |
+| v23 | v22r-raid（劫掠版 v22，标准 12 种子 × 2 色） | 7-2-15（v22 同条件 7-1-16） |
+| v23 | GPT V6（标准前 6 + 独立种子前 6，× 2 色） | 24-0-0 |
+| v23 | march（标准前 6 种子 × 2 色） | 12-0-0 |
+
+- 劫掠是当前规则下最强的单项战术：v22r-raid 对 v22 为 16-1-7。
+- 防御无法挡住整组劫掠者，以攻代守更有效。
+
+## v22：断粮预案（上一主版本）
 
 完整报告：`reports/07-断粮预案-v22.md`。断粮统计工具为 `analyze_famine.py` 和 `fam_table.py`，数据在 `results-famine/`。
 
