@@ -4,7 +4,9 @@ Every entrant plays the same 4 general-purpose anchors (Grok v20, v22; GPT dot c
   unification win at hour h      : 1000 + 500 * (1 - h/H)                  -> 1000..1500 (earlier = more)
   no unification by H (1680 days): 250 + 400 * city_share + 100 * (mil_share + pop_share)/2   -> 250..750
   unified by the opponent at h   : 250 * h/H                               -> 0..250 (survive longer = more)
-Version score = mean of the 48 game scores; error bar = standard error (sd / sqrt(n)).
+Version score = mean of the 48 game scores. Error bar = stratified standard error: the anchor mix is fixed, so only the
+within-anchor spread is noise: SE = sqrt(sum_a var_a / n_a) / n_anchors. Two versions are compared with a paired
+difference over identical (anchor, seed, colour) games (--check).
 Existing games are reused in either orientation (A-vs-B-blue-sS == B-vs-A as red); missing ones are run with batch_h2h.
 usage: score_suite.py ENTRANT [ENTRANT ...] [--run -j 4] [--md out.md] [--csv out.csv]"""
 import argparse, json, math, os, sys
@@ -73,10 +75,20 @@ def h2h(e, f):
             elif res.get('winner') == n: w += 1
             else: l += 1
     return w, dr, l
+def paired(e, f):
+    """mean score difference e - f over identical (anchor, seed, colour) games, with its standard error (stratified by anchor)"""
+    A = {(a, sd, sdd): x for a, sd, sdd, x in score(e)}; B = {(a, sd, sdd): x for a, sd, sdd, x in score(f)}
+    ms, vs = [], []
+    for a in ANCHORS:
+        dd = [A[k] - B[k] for k in A if k in B and k[0] == a]
+        if len(dd) < 2: continue
+        n, m, se = stats(dd); ms.append(m); vs.append(se ** 2)
+    if not ms: return 0, 0
+    return sum(ms) / len(ms), math.sqrt(sum(vs)) / len(ms)
 def check(board):
     """does the score order agree with direct head-to-head results?"""
     names = [b[0] for b in board]; sc = {b[0]: (b[2], b[3]) for b in board}
-    out = ['| 高分方 | 低分方 | 分差 | 直接对局（高分方 W-D-L） | 一致? |', '|---|---|---|---|---|']
+    out = ['| 高分方 | 低分方 | 配对分差 ± 标准误 | 直接对局（高分方 统一胜-未统一-被统一） | 一致? |', '|---|---|---|---|---|']
     agree = dis = 0; cope = {e: 0.0 for e in names}; cnt = {e: 0 for e in names}
     for i, e in enumerate(names):
         for f in names[i + 1:]:
@@ -85,8 +97,8 @@ def check(board):
             p = (w + dr / 2) / (w + dr + l); cope[e] += p - 0.5; cope[f] += 0.5 - p; cnt[e] += 1; cnt[f] += 1
             ok = 'tie' if abs(p - 0.5) < 1e-9 else ('yes' if p > 0.5 else 'NO')
             agree += ok == 'yes'; dis += ok == 'NO'
-            diff = sc[e][0] - sc[f][0]; sig = diff / math.hypot(sc[e][1], sc[f][1]) if sc[e][1] or sc[f][1] else 0
-            out.append(f'| {e} | {f} | {diff:.0f}（{sig:.1f}σ） | {w}-{dr}-{l} | {ok} |')
+            diff, dse = paired(e, f)
+            out.append(f'| {e} | {f} | {diff:.0f} ± {dse:.0f}（{diff / dse if dse else 0:.1f}σ） | {w}-{dr}-{l} | {ok} |')
     cope = {e: cope[e] / max(1, cnt[e]) for e in names}
     # Kendall tau between score order and Copeland (head-to-head) order
     co = sorted(names, key=lambda e: -cope[e]); pos = {e: i for i, e in enumerate(co)}
@@ -118,8 +130,11 @@ if __name__ == '__main__':
             for r in ex.map(batch_h2h.run, jobs): print(r.get('me'), r.get('opp'), r.get('side'), r.get('seed'), r.get('winner', r.get('error', '')[:200]), flush=True)
     board = []
     for e in x.entrants:
-        rows = score(e); n, m, se = stats([r[3] for r in rows])
+        rows = score(e); n, m, _ = stats([r[3] for r in rows])
         per = {a: stats([r[3] for r in rows if r[0] == a]) for a in ANCHORS}
+        k = [per[a] for a in ANCHORS if per[a][0]]
+        if len(k) == len(ANCHORS): m = sum(p[1] for p in k) / len(k)  # equal anchor weights
+        se = math.sqrt(sum(p[2] ** 2 for p in k)) / max(1, len(k))
         wdl = [0, 0, 0]
         for r in rows: wdl[0 if r[3] >= 1000 else 1 if r[3] >= 250 else 2] += 1
         board.append((e, n, m, se, per, wdl))
