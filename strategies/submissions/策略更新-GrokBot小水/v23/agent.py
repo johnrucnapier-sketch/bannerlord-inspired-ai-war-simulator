@@ -673,7 +673,7 @@ class Brain:
         need_days = d(C, back) / (500 * 24) + 4
         danger = sum(u['healthy'] for u in foes if u['kind'] == 'party' and d(u, C) < 10000)
         if min(fdays(u) for u in free) < need_days or tot < 0.6 * H.get('hp0', tot) or danger > 0.8 * tot or hour - H['t'] > 40 * 24:
-            H['state'] = 'refit'; H['t'] = hour; H['home'] = back['id'] if back['id'] in self.myids else H['home']
+            H['state'] = 'refit'; H['t'] = hour; H['home'] = back['id'] if back['id'] in self.myids else H['home']; H.pop('k0', None); H['raid'] = None
             print(f"d{hour//24} HUNT refit hp={tot} food={min(fdays(u) for u in free):.1f} danger={danger}", file=sys.stderr)
             for u in free: self.go(cmds, u, back, 'hunt_refit')
             return
@@ -684,13 +684,43 @@ class Brain:
             loc = sum(u['healthy'] for u in foes if u['kind'] == 'party' and d(u, t) < 6000)
             return loc <= P['hunt_ratio'] * tot and d(t, C) < 20000
         rv = H.get('raid')
-        if P['raid'] and rv and hour - rv[1] < 30 and not any(t['kind'] == 'party' and not t['battle'] and d(t, C) < 3000 for t in foes):
+        if P['raid'] == 3 and rv and hour - rv[1] < 30:
+            v = next((v for v in o['villages'] if v['id'] == rv[0]), None)
+            bait = units.get(rv[2]) if len(rv) > 2 else None
+            if v and v.get('nation') not in (n, None, -1) and bait and not bait['battle']:
+                if (bait.get('order') or {}).get('type') != 'raid': cmds.append(dict(type='raid', unit=bait['id'], target=v['id'], gb='hunt_bait'))
+                rel = [t for t in foes if t['kind'] == 'party' and not t['battle'] and d(t, v) < 9000 and t['healthy'] <= 1.2 * (tot - bait['healthy'])]
+                for u in free:
+                    if u['id'] == bait['id']: continue
+                    if rel:
+                        t = min(rel, key=lambda t: d(t, v))
+                        if (u.get('order') or {}).get('target') != t['id']: cmds.append(dict(type='attack', unit=u['id'], target=t['id'], gb='hunt_ambush'))
+                    elif d(u, v) > 2500: self.go(cmds, u, v, 'hunt_wait')
+                if rel and not H.get('sprung'): H['sprung'] = 1; self.st['bait_sprung'] = self.st.get('bait_sprung', 0) + 1; print(f"d{hour//24} HUNT ambush relief {[t['id'] for t in rel]}", file=sys.stderr)
+                return
+        if P['raid'] in (1, 2) and rv and hour - rv[1] < 30 and not any(t['kind'] == 'party' and not t['battle'] and d(t, C) < 3000 for t in foes):
             v = next((v for v in o['villages'] if v['id'] == rv[0]), None)
             if v and v.get('nation') not in (n, None, -1):
                 for u in free:
                     if (u.get('order') or {}).get('type') != 'raid': cmds.append(dict(type='raid', unit=u['id'], target=v['id'], gb='hunt_raid'))
                 return
         H['raid'] = None
+        if P['rdef'] >= 3:  # hunter group breaks raids on our villages when it clearly outmatches the raiding force
+            for v in o['villages']:
+                r = v.get('raid')
+                if v.get('nation') != n or not r: continue
+                e = next((t for t in foes if t['id'] == r.get('unit')), None)
+                if not e or d(e, C) > 30000: continue
+                grp = sum(t['healthy'] for t in foes if t['kind'] == 'party' and d(t, e) < 5000)
+                mem = sum(h for k, (h, x, y, t) in self.foe.items() if hour - t < 5 * 24 and math.hypot(x - e['x'], y - e['y']) < 15000 and not any(f['id'] == k for f in foes))
+                if grp + mem <= 0.7 * tot:
+                    if H.get('target') != e['id']:
+                        self.st['raid_hdef'] = self.st.get('raid_hdef', 0) + 1
+                        print(f"d{hour//24} HUNT defend {v['id']} raider {e['id']} grp={grp} mem={mem} our={tot} dist={int(d(e, C))}", file=sys.stderr)
+                    H['target'] = e['id']
+                    for u in free:
+                        if (u.get('order') or {}).get('target') != e['id']: cmds.append(dict(type='attack', unit=u['id'], target=e['id'], gb='hunt_defend'))
+                    return
         cur = next((t for t in foes if t['id'] == H.get('target')), None)
         if not cur or not ok_target(cur):
             ts = [t for t in foes if ok_target(t)]
@@ -709,13 +739,21 @@ class Brain:
         if not vs: return
         for v in vs:
             if d(v, C) < 2500: self.visited[v['id']] = hour
-        if P['raid'] and danger <= 0.5 * tot:
+        kills = self.st['kill_party'] + self.st['kill_cart']
+        if 'k0' not in H: H['k0'] = kills
+        ok_raid = danger <= 0.5 * tot
+        if P['raid'] == 2:  # safe follow-up: group already scored kills this sortie, nothing able to reach us within 24h
+            near = sum(t['healthy'] for t in foes if t['kind'] in ('party', 'village_cart') and d(t, C) < 12000)
+            mem = sum(h for k, (h, x, y, t) in self.foe.items() if hour - t < 3 * 24 and math.hypot(x - cx, y - cy) < 15000 and not any(f['id'] == k for f in foes))
+            ok_raid = kills > H['k0'] and near == 0 and mem <= 0.3 * tot and len(free) >= 2
+        if P['raid'] and ok_raid:
             rv = [v for v in vs if not v.get('stale') and d(v, C) < 1500 and v.get('disabled_until', 0) <= hour and hour - self.visited.get('raid:' + v['id'], -10**6) > 8 * 24
                   and not any(d(v, c) < 2500 for c in o['cities'])]
             if rv:
-                v = min(rv, key=lambda v: d(v, C)); H['raid'] = (v['id'], hour); self.visited['raid:' + v['id']] = hour; self.st['raids'] += 1
+                v = min(rv, key=lambda v: d(v, C)); H['raid'] = (v['id'], hour, min(free, key=lambda u: u['healthy'] if u['healthy'] >= 10 else 10**6)['id']); H['sprung'] = 0; self.visited['raid:' + v['id']] = hour; self.st['raids'] += 1
                 print(f"d{hour//24} HUNT raid {v['id']} pop={v.get('population')} hp={tot}", file=sys.stderr)
-                for u in free: cmds.append(dict(type='raid', unit=u['id'], target=v['id'], gb='hunt_raid'))
+                for u in free:
+                    if P['raid'] != 3 or u['id'] == H['raid'][2]: cmds.append(dict(type='raid', unit=u['id'], target=v['id'], gb='hunt_raid'))
                 return
         wp = cmap.get(H.get('wp')) if False else None
         cand = sorted(vs, key=lambda v: (hour - self.visited.get(v['id'], -10**6) < 10 * 24, d(v, C)))
@@ -860,6 +898,15 @@ class Brain:
                 have = [k for k, x in self.rdef.items() if x[0] == e['id']]
                 hp = sum(units[k]['healthy'] for k in have)
                 cand = sorted([u for u in parties if u['id'] in avail and u['id'] not in self.rdef and u['healthy'] >= 20 and d(u, e) < 12000], key=lambda u: d(u, e))
+                if P['rdef'] >= 2 and not have:  # cautious: only if clearly stronger than everything seen/remembered around the village (anti 围点打援)
+                    vis_near = {f['id']: f['healthy'] for f in vis.values() if f['kind'] == 'party' and d(f, v) < 15000}
+                    mem_near = sum(h for k, (h, x, y, t) in self.foe.items() if k not in vis_near and math.hypot(x - v['x'], y - v['y']) < 15000)
+                    enemy = sum(vis_near.values()) + mem_near
+                    if sum(u['healthy'] for u in cand) < 1.5 * enemy + 10:
+                        if self.__dict__.setdefault('rskip', {}).get(v['id'], -99) < r.get('start', 0):
+                            self.rskip[v['id']] = r.get('start', 0); self.st['raid_skip'] = self.st.get('raid_skip', 0) + 1
+                            print(f"d{hour//24} RAIDDEF skip {v['id']} raider={e['healthy']} enemy_near={enemy} ours={sum(u['healthy'] for u in cand)}", file=sys.stderr)
+                        continue
                 for u in cand:
                     if hp >= 1.3 * e['healthy'] + 10: break
                     self.rdef[u['id']] = (e['id'], hour); hp += u['healthy']; self.st['raid_def'] += 1
