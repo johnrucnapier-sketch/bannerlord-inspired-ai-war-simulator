@@ -23,8 +23,8 @@ def stats(me, opp, k=None):
         st = [l for l in t.splitlines() if ' STAT ' in l]
         if st:
             j = json.loads(st[-1].split(' STAT ', 1)[1])
-            for k, v in j.items():
-                if k.startswith(('s_', 'days_')): r[k] += v
+            for kk, vv in j.items():
+                if kk.startswith(('s_', 'days_')): r[kk] += vv
         for x in TAC:
             c = t.count(f'TAC {x} '); r[x] += c
             if x != 'intercept-skip' and c: fired[x][0] += 1; fired[x][1] += (w == n)
