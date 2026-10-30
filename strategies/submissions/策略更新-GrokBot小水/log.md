@@ -133,3 +133,4 @@
 - **Ablations vs v22r-raid (first 6 std seeds):** intercept off 7-0-5 (full 8-0-4). State gating off 8-0-4 too, but it unifies faster (682 vs 861 days).
 - **Assessment check:** games that never entered "behind" went 29-1-0. Behind-state play does not yet rescue games.
 - **Status:** v23 stays main for now. Promotion of v24 is recommended, pending the owner's confirmation. Report 09.
+- **Oct 30 (late night):** 博 李 marked both v23 and v24 as released strong versions. The README now lists both.
