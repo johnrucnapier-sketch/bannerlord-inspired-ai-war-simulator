@@ -87,7 +87,7 @@ def paired(e, f):
     return sum(ms) / len(ms), math.sqrt(sum(vs)) / len(ms)
 def check(board):
     """does the score order agree with direct head-to-head results?"""
-    names = [b[0] for b in board]; sc = {b[0]: (b[2], b[3]) for b in board}
+    board = [b for b in board if b[1]]; names = [b[0] for b in board]; sc = {b[0]: (b[2], b[3]) for b in board}
     out = ['| 高分方 | 低分方 | 配对分差 ± 标准误 | 直接对局（高分方 统一胜-未统一-被统一） | 一致? |', '|---|---|---|---|---|']
     agree = dis = 0; cope = {e: 0.0 for e in names}; cnt = {e: 0 for e in names}
     for i, e in enumerate(names):
