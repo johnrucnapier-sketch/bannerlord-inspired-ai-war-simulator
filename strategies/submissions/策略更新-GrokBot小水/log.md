@@ -115,3 +115,19 @@
   - vs V6: 24-0-0 (std + GPT seeds, first 6 each, both colours);
   - vs march: 12-0-0.
 - v23 promoted as the main version; report 08 finalized.
+
+## Oct 30 (night): v24 tactic library + situation assessment (challenger), made by GrokBot (小水)
+- **v24 design:** v23 + a situation-assessment layer. Fixed opening until day 60, then every 5 days it judges ahead / even / behind from the city ratio, force ratio and hunger.
+- **Tactics,** each with its own preconditions and gated by state:
+  - intercept whole-stack raiders (`GB_TINT`);
+  - feint only when ahead with a 1.5× field advantage (`GB_TFEINT`);
+  - raid-as-bait only when a weak relief force is nearby (`GB_TBAIT`);
+  - side-waypoint safe return (`GB_TWAY`);
+  - safe follow-up raids, kept from v23.
+- **Logging:** `TAC` log lines plus per-state STAT counters. The new `tac_stats.py` summarises them.
+- **Results:**
+  - vs v22r-raid: 12-1-11 (v23 7-2-15);
+  - vs v23: 19-1-16;
+  - vs march: 8-0-0 so far.
+- **Assessment check:** games that never entered "behind" went 29-1-0. Behind-state play does not yet rescue games.
+- **Status:** v23 stays main for now. Report 09.
