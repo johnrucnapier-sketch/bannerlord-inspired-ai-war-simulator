@@ -51,13 +51,62 @@ def score(e):
                 L = locate(e, a, side, seed)
                 if L: rows.append((a, side, seed, game_score(json.load(open(L[0] / 'result.json')), L[1])))
     return rows
+H2H_EXTRA = {('v24', 'v23'): ('v24', 'v23')}  # v24-vs-v23-* dirs were played against the released v23 code (plain name, valid)
+def h2h(e, f):
+    """all finished direct games e vs f (any seed, either orientation): (W, D, L) for e; unification wins only count as W/L"""
+    E, F = nm(e), nm(f); w = dr = l = 0
+    pairs = [(E, F, False), (F, E, True)]
+    if (e, f) in H2H_EXTRA: pairs.append(H2H_EXTRA[(e, f)] + (False,))
+    if (f, e) in H2H_EXTRA: pairs.append(H2H_EXTRA[(f, e)] + (True,))
+    for d in RUNS.glob(f'*-d{DAYS}'):
+        name = d.name
+        for X, Y, flip in pairs:
+            pre = f'{X}-vs-{Y}-'
+            if not name.startswith(pre) or not (d / 'result.json').exists(): continue
+            rest = name[len(pre):]
+            if rest.split('-')[0] not in ('blue', 'red') or rest.count('-') != 2: continue
+            n = 0 if rest.startswith('blue') else 1
+            if flip: n = 1 - n
+            if E == F: continue
+            res = json.load(open(d / 'result.json'))['result'] or {}
+            if res.get('reason') != 'unification': dr += 1
+            elif res.get('winner') == n: w += 1
+            else: l += 1
+    return w, dr, l
+def check(board):
+    """does the score order agree with direct head-to-head results?"""
+    names = [b[0] for b in board]; sc = {b[0]: (b[2], b[3]) for b in board}
+    out = ['| 高分方 | 低分方 | 分差 | 直接对局（高分方 W-D-L） | 一致? |', '|---|---|---|---|---|']
+    agree = dis = 0; cope = {e: 0.0 for e in names}; cnt = {e: 0 for e in names}
+    for i, e in enumerate(names):
+        for f in names[i + 1:]:
+            w, dr, l = h2h(e, f)
+            if w + dr + l < 6: continue
+            p = (w + dr / 2) / (w + dr + l); cope[e] += p - 0.5; cope[f] += 0.5 - p; cnt[e] += 1; cnt[f] += 1
+            ok = 'tie' if abs(p - 0.5) < 1e-9 else ('yes' if p > 0.5 else 'NO')
+            agree += ok == 'yes'; dis += ok == 'NO'
+            diff = sc[e][0] - sc[f][0]; sig = diff / math.hypot(sc[e][1], sc[f][1]) if sc[e][1] or sc[f][1] else 0
+            out.append(f'| {e} | {f} | {diff:.0f}（{sig:.1f}σ） | {w}-{dr}-{l} | {ok} |')
+    cope = {e: cope[e] / max(1, cnt[e]) for e in names}
+    # Kendall tau between score order and Copeland (head-to-head) order
+    co = sorted(names, key=lambda e: -cope[e]); pos = {e: i for i, e in enumerate(co)}
+    c = d_ = 0
+    for i in range(len(names)):
+        for j in range(i + 1, len(names)):
+            if cope[names[i]] == cope[names[j]]: continue
+            if pos[names[i]] < pos[names[j]]: c += 1
+            else: d_ += 1
+    tau = (c - d_) / max(1, c + d_)
+    out.append(''); out.append(f'一致 {agree} 对，不一致 {dis} 对；Kendall τ（总分排名 vs 直接对局 Copeland 排名）= {tau:.2f}；Copeland 排名：' + ' > '.join(co))
+    return '\n'.join(out)
+
 def stats(xs):
     n = len(xs); m = sum(xs) / n if n else 0
     sd = math.sqrt(sum((x - m) ** 2 for x in xs) / (n - 1)) if n > 1 else 0
     return n, m, sd / math.sqrt(n) if n else 0
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('entrants', nargs='+'); ap.add_argument('--run', action='store_true'); ap.add_argument('-j', type=int, default=4)
-    ap.add_argument('--md'); ap.add_argument('--csv'); x = ap.parse_args()
+    ap.add_argument('--md'); ap.add_argument('--csv'); ap.add_argument('--check', action='store_true'); x = ap.parse_args()
     if x.run:
         jobs, seen = [], set()
         for e in x.entrants:
@@ -79,6 +128,8 @@ if __name__ == '__main__':
     for i, (e, n, m, se, per, wdl) in enumerate(board, 1):
         lines.append(f'| {i} | {e} | {n}{"" if n == 48 else " (不全)"} | **{m:.0f}** | ±{se:.0f} | {wdl[0]}-{wdl[1]}-{wdl[2]} | ' + ' | '.join(f'{per[a][1]:.0f}±{per[a][2]:.0f} ({per[a][0]})' for a in ANCHORS) + ' |')
     print('\n'.join(lines))
+    if x.check:
+        ck = check(board); print(); print(ck); lines += ['', ck]
     if x.md: open(x.md, 'w').write('\n'.join(lines) + '\n')
     if x.csv:
         with open(x.csv, 'w') as f:
