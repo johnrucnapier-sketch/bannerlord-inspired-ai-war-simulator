@@ -128,6 +128,8 @@
 - **Results:**
   - vs v22r-raid: 12-1-11 (v23 7-2-15);
   - vs v23: 19-1-16;
-  - vs march: 8-0-0 so far.
+  - vs march: 12-0-0;
+  - vs GPT V6: 12-0-0 (mean day 608).
+- **Ablations vs v22r-raid (first 6 std seeds):** intercept off 7-0-5 (full 8-0-4). State gating off 8-0-4 too, but it unifies faster (682 vs 861 days).
 - **Assessment check:** games that never entered "behind" went 29-1-0. Behind-state play does not yet rescue games.
-- **Status:** v23 stays main for now. Report 09.
+- **Status:** v23 stays main for now. Promotion of v24 is recommended, pending the owner's confirmation. Report 09.
