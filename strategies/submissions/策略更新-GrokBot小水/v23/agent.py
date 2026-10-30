@@ -186,7 +186,7 @@ P = dict(margin=float(os.environ.get('GB_MARGIN', 1.5)), siege_margin=float(os.e
          feint=int(os.environ.get('GB_FEINT', 0)), screen=int(os.environ.get('GB_SCREEN', 120)), bait_dist=int(os.environ.get('GB_BAITD', 9000)),
          bait_hours=int(os.environ.get('GB_BAITH', 36)), feint_min=12000, feint_max=40000, opportunist=int(os.environ.get('GB_OPP', 1)),
          hunt=int(os.environ.get('GB_HUNT', 1)), hunt_k=int(os.environ.get('GB_HUNTK', 3)), hunt_day=int(os.environ.get('GB_HUNTD', 40)),
-         hunt_min=int(os.environ.get('GB_HUNTMIN', 9)), hunt_ratio=float(os.environ.get('GB_HUNTR', 0.6)), hunt_carts=int(os.environ.get('GB_HUNTC', 1)), raid=int(os.environ.get('GB_RAID', 0)), rdef=int(os.environ.get('GB_RDEF', 1)),
+         hunt_min=int(os.environ.get('GB_HUNTMIN', 9)), hunt_ratio=float(os.environ.get('GB_HUNTR', 0.6)), hunt_carts=int(os.environ.get('GB_HUNTC', 1)), raid=int(os.environ.get('GB_RAID', 0)), saferet=int(os.environ.get('GB_SAFERET', 0)), rdef=int(os.environ.get('GB_RDEF', 1)),
          fam=int(os.environ.get('GB_FAM', 1)), frisk=float(os.environ.get('GB_FRISK', 20)), fresc=int(os.environ.get('GB_FRESC', 2)), hfood=int(os.environ.get('GB_HFOOD', 1200000)), fconv=int(os.environ.get('GB_FCONV', 1)), stage=int(os.environ.get('GB_STAGE', 1)), rfood=int(os.environ.get('GB_RFOOD', 1500000)), famday=int(os.environ.get('GB_FAMDAY', 60)), sref=float(os.environ.get('GB_SREF', 15)), fresh=int(os.environ.get('GB_FRESH', 60)), freshn=int(os.environ.get('GB_FRESHN', 1)))
 
 class Brain:
@@ -233,6 +233,29 @@ class Brain:
     def army_floor(self):
         # whole remembered enemy field army (by party id, last GB_FOEMEM days) x GB_FIELDK
         return int(P['field_k'] * sum(v[0] for v in self.army.values()))
+
+    def path_danger(self, a, b, o, hour):
+        """(GPT dot v15 lesson) enemy strength near the straight path a->b: remembered/visible enemy parties within 6000
+        of the segment (last 5 days) + 300 per foreign battle within 4000 (battle zones attract relief armies)."""
+        ax, ay, bx, by = a['x'], a['y'], b['x'], b['y']; L2 = (bx - ax) ** 2 + (by - ay) ** 2 or 1
+        def sd(x, y):
+            t = max(0.0, min(1.0, ((x - ax) * (bx - ax) + (y - ay) * (by - ay)) / L2))
+            return math.hypot(x - ax - t * (bx - ax), y - ay - t * (by - ay))
+        h = sum(v[0] for k, v in self.foe.items() if hour - v[3] < 5 * 24 and sd(v[1], v[2]) < 6000 and math.hypot(v[1] - bx, v[2] - by) > 1500)
+        h += 300 * sum(1 for bt in o['battles'] if sd(bt['x'], bt['y']) < 4000 and math.hypot(bt['x'] - bx, bt['y'] - by) > 1500)
+        return h
+
+    def safe_home(self, C, home, cands, o, hour, tot):
+        """pick the return city: the given home if its path is safe, else the nearest city with a safe path, else least danger."""
+        if not P['saferet']: return home
+        lim = 0.6 * max(tot, 1)
+        if self.path_danger(C, home, o, hour) <= lim: return home
+        sc = sorted(cands, key=lambda m: (self.path_danger(C, m, o, hour) > lim, d(m, C) if self.path_danger(C, m, o, hour) <= lim else self.path_danger(C, m, o, hour)))
+        nh = sc[0] if sc else home
+        if nh['id'] != home['id']:
+            self.st['saferet'] = self.st.get('saferet', 0) + 1
+            print(f"d{hour//24} HUNT safe-return {home['id']}->{nh['id']} danger={self.path_danger(C, home, o, hour)}->{self.path_danger(C, nh, o, hour)} our={tot}", file=sys.stderr)
+        return nh
 
     def go(self, cmds, u, p, tag, **kw):
         od = u.get('order') or {}
@@ -640,6 +663,13 @@ class Brain:
                                key=lambda u: d(u, home))[:P['hunt_k'] - len(hs)]
                 for u in extra: H['ids'].append(u['id']); self.ops[u['id']] = 'hunt'
                 hs = [units[i] for i in H['ids']]; free = [u for u in hs if not u['battle'] and not u['army']]
+            if H['state'] == 'refit' and free and P['saferet'] and hour - H.get('sr_t', -99) >= 12:
+                H['sr_t'] = hour
+                Cx = {'x': sum(u['x'] for u in free) / len(free), 'y': sum(u['y'] for u in free) / len(free)}
+                if d(Cx, home) > 3000:
+                    ok = [m for m in mine if not any(b.get('city') == m['id'] for b in o['battles']) and m['id'] not in self.risk] or mine
+                    nh = self.safe_home(Cx, home, ok, o, hour, tot)
+                    if nh['id'] != home['id']: home = nh; H['home'] = nh['id']
             at = [u for u in free if d(u, home) <= 500 and not u['path']]
             for u in free:
                 if u not in at: self.go(cmds, u, home, 'hunt_' + H['state'])
@@ -673,7 +703,9 @@ class Brain:
         need_days = d(C, back) / (500 * 24) + 4
         danger = sum(u['healthy'] for u in foes if u['kind'] == 'party' and d(u, C) < 10000)
         if min(fdays(u) for u in free) < need_days or tot < 0.6 * H.get('hp0', tot) or danger > 0.8 * tot or hour - H['t'] > 40 * 24:
-            H['state'] = 'refit'; H['t'] = hour; H['home'] = back['id'] if back['id'] in self.myids else H['home']; H.pop('k0', None); H['raid'] = None
+            ok = [m for m in mine if not any(b.get('city') == m['id'] for b in o['battles'])] or mine
+            back = self.safe_home(C, back, ok, o, hour, tot)
+            H['state'] = 'refit'; H['t'] = hour; H['home'] = back['id'] if back['id'] in self.myids else H['home']; H.pop('k0', None); H['raid'] = None; H['sr_t'] = hour
             print(f"d{hour//24} HUNT refit hp={tot} food={min(fdays(u) for u in free):.1f} danger={danger}", file=sys.stderr)
             for u in free: self.go(cmds, u, back, 'hunt_refit')
             return
