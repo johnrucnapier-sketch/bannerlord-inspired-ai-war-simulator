@@ -10,6 +10,11 @@ Made by GrokBot (小水) for 博 李 (report 09).  Tactics (env flag, default):
   GB_RAID=2   safe follow-up raid (v23).
   GB_TWAY=1   safe return by side waypoint: if the straight return path is clearly dangerous (> our group), detour
               via a waypoint offset 12000 to the side away from the danger instead of switching cities.
+Situation-assessment layer (GB_TSTATE=1): fixed opening (v23 play) until day GB_OPEN=60, then every 5 days classify
+ahead / even / behind from city ratio, field-force ratio (own parties+garrisons vs remembered/visible enemy) and hunger,
+and choose tactics per state: ahead -> feint + safe raids + bait (widen the lead); even -> safe raids + bait + intercept;
+behind -> defensive interception with wider reach (30000, 1.2x) + harassment raids, no feint/bait (slow the enemy).
+State changes are logged as "TAC state a->b ..."; per-state tactic use as STAT s_<tactic>_<state>, days_<state>.
 Every firing is logged as "TAC <name> ..." with its situation, and counted in STAT (t_*).
 
 v23 header: Grok Bot v23, approach: v22 + famine grace period, staged-rally refills, fresh-capture bandit detail + safe follow-up village raids by the hunter group (GB_RAID=2) + raid defense (GB_RDEF=1); hunter safe-return path check available but off (GB_SAFERET=0, it lost games). Report 08.
@@ -200,7 +205,7 @@ P = dict(margin=float(os.environ.get('GB_MARGIN', 1.5)), siege_margin=float(os.e
          feint=int(os.environ.get('GB_FEINT', 0)), screen=int(os.environ.get('GB_SCREEN', 120)), bait_dist=int(os.environ.get('GB_BAITD', 9000)),
          bait_hours=int(os.environ.get('GB_BAITH', 36)), feint_min=12000, feint_max=40000, opportunist=int(os.environ.get('GB_OPP', 1)),
          hunt=int(os.environ.get('GB_HUNT', 1)), hunt_k=int(os.environ.get('GB_HUNTK', 3)), hunt_day=int(os.environ.get('GB_HUNTD', 40)),
-         hunt_min=int(os.environ.get('GB_HUNTMIN', 9)), hunt_ratio=float(os.environ.get('GB_HUNTR', 0.6)), hunt_carts=int(os.environ.get('GB_HUNTC', 1)), raid=int(os.environ.get('GB_RAID', 2)), tint=int(os.environ.get('GB_TINT', 1)), tfeint=int(os.environ.get('GB_TFEINT', 1)), tbait=int(os.environ.get('GB_TBAIT', 1)), tway=int(os.environ.get('GB_TWAY', 1)), saferet=int(os.environ.get('GB_SAFERET', 0)), rdef=int(os.environ.get('GB_RDEF', 1)),
+         hunt_min=int(os.environ.get('GB_HUNTMIN', 9)), hunt_ratio=float(os.environ.get('GB_HUNTR', 0.6)), hunt_carts=int(os.environ.get('GB_HUNTC', 1)), raid=int(os.environ.get('GB_RAID', 2)), tint=int(os.environ.get('GB_TINT', 1)), tfeint=int(os.environ.get('GB_TFEINT', 1)), tbait=int(os.environ.get('GB_TBAIT', 1)), tway=int(os.environ.get('GB_TWAY', 1)), tstate=int(os.environ.get('GB_TSTATE', 1)), open_day=int(os.environ.get('GB_OPEN', 60)), saferet=int(os.environ.get('GB_SAFERET', 0)), rdef=int(os.environ.get('GB_RDEF', 1)),
          fam=int(os.environ.get('GB_FAM', 1)), frisk=float(os.environ.get('GB_FRISK', 20)), fresc=int(os.environ.get('GB_FRESC', 2)), hfood=int(os.environ.get('GB_HFOOD', 1200000)), fconv=int(os.environ.get('GB_FCONV', 1)), stage=int(os.environ.get('GB_STAGE', 1)), rfood=int(os.environ.get('GB_RFOOD', 1500000)), famday=int(os.environ.get('GB_FAMDAY', 60)), sref=float(os.environ.get('GB_SREF', 15)), fresh=int(os.environ.get('GB_FRESH', 60)), freshn=int(os.environ.get('GB_FRESHN', 1)))
 
 class Brain:
@@ -209,7 +214,7 @@ class Brain:
         self.ops = {}; self.hunt = None; self.screen = None; self.hb = {}; self.prev = {}; self.visited = {}
         self.risk = {}; self.risk_t = {}; self.conv = {}; self.evac = {}; self.resc = {}; self.escort = {}; self.starve = set(); self.owned = {}; self.freshd = {}; self.fresh = set(); self.finfo = {}
         self.rdef = {}
-        self.icpt = {}
+        self.icpt = {}; self.sit = 'opening'; self.sit_t = -10**6
         self.st = dict(t_int=0, t_int_skip=0, t_feint=0, t_feint_skip=0, t_bait=0, t_way=0, raids=0, raid_def=0, fam_risk=0, fam_convoy=0, fam_evac=0, fam_rescue=0, fam_redirect=0, fam_starve_days=0, fam_srefill=0, fam_fresh=0, missions=0, hb=0, kill_party=0, kill_party_hp=0, kill_cart=0, kill_cart_hp=0, own_loss=0, own_dead=0, lost_battles=0, feints=0, switches=0, opp=0)
 
     def parts(self, c, o, hour):
@@ -278,7 +283,7 @@ class Brain:
             dw = self.path_danger(C, w, o, hour) + self.path_danger(w, home, o, hour)
             if best is None or dw < best[0]: best = (dw, w)
         if best[0] >= dg: return None
-        self.st['t_way'] += 1; best[1]['t'] = hour
+        self.st['t_way'] += 1; self.used('way'); best[1]['t'] = hour
         print(f"d{hour//24} TAC way {home['id']} danger={dg}->{best[0]} our={tot}", file=sys.stderr)
         return best[1]
 
@@ -312,10 +317,11 @@ class Brain:
             S = self.group_strength(o, e, hour)
             have = [k for k, x in self.icpt.items() if x[0] == e['id']]
             hp = sum(units[k]['healthy'] for k in have)
-            if hp >= 1.3 * S + 20: continue
+            beh = P['tstate'] and self.sit == 'behind'; R = 30000 if beh else 20000; q = 1.2 if beh else 1.3
+            if hp >= q * S + 20: continue
             pool = sorted([u for u in parties if not u['battle'] and u['id'] not in handled and u['id'] not in self.icpt and u['healthy'] >= 15 and fdays(u) >= 4
-                           and (u['id'] not in busy or (camp and camp['phase'] == 'rally')) and d(u, e) < 20000], key=lambda u: d(u, e))
-            if hp + sum(u['healthy'] for u in pool) < 1.3 * S + 20:
+                           and (u['id'] not in busy or (camp and camp['phase'] == 'rally')) and d(u, e) < R], key=lambda u: d(u, e))
+            if hp + sum(u['healthy'] for u in pool) < q * S + 20:
                 if r.get('start') == hour - hour % 6 or not have:
                     if self.__dict__.setdefault('iskip', {}).get(v['id']) != r.get('start'):
                         self.iskip[v['id']] = r.get('start'); self.st['t_int_skip'] += 1
@@ -323,14 +329,46 @@ class Brain:
                 continue
             team = []
             for u in pool:
-                if hp >= 1.5 * S + 20: break
+                if hp >= (q + 0.2) * S + 20: break
                 team.append(u); hp += u['healthy']
             for u in team: self.icpt[u['id']] = (e['id'], hour)
-            self.st['t_int'] += 1
-            print(f"d{hour//24} TAC intercept {v['id']} raider={e['id']} raiders={S} team={len(team)}+{len(have)} hp={hp} rally={sum(1 for u in team if u['id'] in busy)}", file=sys.stderr)
+            self.st['t_int'] += 1; self.used('intercept')
+            print(f"d{hour//24} TAC intercept [{self.sit}] {v['id']} raider={e['id']} raiders={S} team={len(team)}+{len(have)} hp={hp} rally={sum(1 for u in team if u['id'] in busy)}", file=sys.stderr)
         for pid, (eid, t) in self.icpt.items():
             u = units[pid]; handled.add(pid)
             if not u['battle'] and (u.get('order') or {}).get('target') != eid: cmds.append(dict(type='attack', unit=pid, target=eid, gb='intercept'))
+
+    def assess(self, o, units, mine, hour):
+        """situation assessment every 5 days after the fixed opening: ahead / even / behind"""
+        if hour - self.sit_t < 120: return
+        if self.sit_t >= 0: self.st['days_' + self.sit] = self.st.get('days_' + self.sit, 0) + (hour - self.sit_t) // 24
+        self.sit_t = hour
+        if hour < P['open_day'] * 24: return
+        n = o['nation']
+        enc = [c for c in o['cities'] if c.get('nation') not in (n, None, -1)]
+        myc = len(mine); cr = myc / max(1, len(enc))
+        own = [u for u in o['units'] if u['nation'] == n]
+        ours = sum(u['healthy'] for u in own)
+        eg = [u for u in o['units'] if u['nation'] not in (n, -1) and u['kind'] == 'garrison']
+        theirs = sum(h for (h, x, y, t) in self.foe.values()) + sum(u['healthy'] for u in eg) + 60 * max(0, len(enc) - len(eg))
+        fr = ours / max(1, theirs)
+        hung = sum(1 for u in own if u.get('hungry')) / max(1, len(own))
+        if (cr >= 1.3 and fr >= 1.0) or (fr >= 1.6 and cr >= 0.9): s = 'ahead'
+        elif (cr <= 0.77 and fr < 1.5) or (fr <= 0.6 and cr <= 1.0): s = 'behind'
+        else: s = 'even'
+        if hung > 0.3: s = {'ahead': 'even', 'even': 'behind'}.get(s, s)
+        if s != self.sit:
+            self.st['t_state'] = self.st.get('t_state', 0) + 1
+            print(f"d{hour//24} TAC state {self.sit}->{s} cities={myc}/{len(enc)} force={ours}/{theirs} hungry={hung:.2f}", file=sys.stderr)
+            self.sit = s
+
+    def allow(self, tac):
+        """per-state tactic choice; also counts use per state"""
+        if not P['tstate'] or self.sit == 'opening': return True
+        return {'feint': self.sit == 'ahead', 'bait': self.sit in ('ahead', 'even')}.get(tac, True)
+
+    def used(self, tac):
+        k = f's_{tac}_{self.sit}'; self.st[k] = self.st.get(k, 0) + 1
 
     def field_adv(self, o, hour):
         n = o['nation']
@@ -359,6 +397,7 @@ class Brain:
         if not mine: return []
         cmap = {c['id']: c for c in o['cities']}
         if P['fam']: self.food_watch(o, units, mine, hour)
+        self.assess(o, units, mine, hour)
         parties = sorted([u for u in o['units'] if u['nation'] == n and u['kind'] == 'party'], key=lambda u: u['id'])
         ration = o['limits']['field_ration']; cap = o['limits']['clan_party_cap']
         def fdays(u): return u['food'] / max(1, (u['healthy'] + u['wounded']) * ration)
@@ -625,11 +664,11 @@ class Brain:
     def cond_feint(self, o, cmap, cid, n, hour):
         if P['feint']: return self.pick_feint(o, cmap, cid, n)
         ours, theirs = self.field_adv(o, hour)
-        if ours < 1.5 * max(theirs, 1):
+        if ours < 1.5 * max(theirs, 1) or not self.allow('feint'):
             self.st['t_feint_skip'] += 1; return None
         f = self.pick_feint(o, cmap, cid, n)
         if f:
-            self.st['t_feint'] += 1
+            self.st['t_feint'] += 1; self.used('feint')
             print(f"d{hour//24} TAC feint {f} real={cid} ours={ours} theirs={theirs}", file=sys.stderr)
         return f
 
@@ -882,12 +921,12 @@ class Brain:
                   and not any(d(v, c) < 2500 for c in o['cities'])]
             if rv:
                 v = min(rv, key=lambda v: d(v, C)); H['raid'] = (v['id'], hour, min(free, key=lambda u: u['healthy'] if u['healthy'] >= 10 else 10**6)['id']); H['sprung'] = 0; H['rmode'] = P['raid']
-                if P['tbait'] and P['raid'] == 2 and len(free) >= 3:
+                if P['tbait'] and P['raid'] == 2 and len(free) >= 3 and self.allow('bait'):
                     rel = sum(h for k, (h, x, y, t) in self.foe.items() if hour - t < 5 * 24 and 12000 <= math.hypot(x - v['x'], y - v['y']) < 30000)
                     if 0.1 * tot <= rel <= 0.6 * tot:
-                        H['rmode'] = 3; self.st['t_bait'] += 1
+                        H['rmode'] = 3; self.st['t_bait'] += 1; self.used('bait')
                         print(f"d{hour//24} TAC bait {v['id']} relief_mem={rel} our={tot}", file=sys.stderr)
-                self.visited['raid:' + v['id']] = hour; self.st['raids'] += 1
+                self.visited['raid:' + v['id']] = hour; self.st['raids'] += 1; self.used('raid')
                 print(f"d{hour//24} HUNT raid {v['id']} pop={v.get('population')} hp={tot}", file=sys.stderr)
                 for u in free:
                     if H['rmode'] != 3 or u['id'] == H['raid'][2]: cmds.append(dict(type='raid', unit=u['id'], target=v['id'], gb='hunt_raid'))
