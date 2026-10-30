@@ -1,0 +1,1592 @@
+[
+ {
+  "seed": 1199329012,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 377.5833333333333,
+  "campaigns": 9,
+  "campaign_wins": 5,
+  "sieges": 6,
+  "aborts": 4,
+  "opp_guard_days": 171,
+  "feints": [],
+  "hunt": {
+   "sorties": 11,
+   "battles": 57,
+   "kill_party": 18,
+   "kill_party_hp": 781,
+   "kill_cart": 46,
+   "kill_cart_hp": 861,
+   "own_loss": 67,
+   "own_dead": 0,
+   "first_sortie": 134
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1979,
+    2012,
+    6,
+    6
+   ],
+   "200": [
+    2494,
+    1840,
+    7,
+    5
+   ],
+   "300": [
+    3168,
+    1451,
+    8,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 1241774772,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 775.25,
+  "campaigns": 16,
+  "campaign_wins": 7,
+  "sieges": 9,
+  "aborts": 8,
+  "opp_guard_days": 592,
+  "feints": [],
+  "hunt": {
+   "sorties": 37,
+   "battles": 210,
+   "kill_party": 57,
+   "kill_party_hp": 2562,
+   "kill_cart": 188,
+   "kill_cart_hp": 3525,
+   "own_loss": 105,
+   "own_dead": 0,
+   "first_sortie": 108
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1983,
+    1999,
+    6,
+    6
+   ],
+   "200": [
+    2092,
+    2308,
+    5,
+    7
+   ],
+   "300": [
+    2642,
+    2501,
+    5,
+    7
+   ],
+   "400": [
+    2936,
+    2748,
+    4,
+    8
+   ],
+   "500": [
+    2585,
+    2797,
+    5,
+    8
+   ],
+   "600": [
+    3542,
+    2368,
+    6,
+    6
+   ],
+   "700": [
+    4745,
+    1527,
+    8,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 1253421050,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 828.5833333333334,
+  "campaigns": 26,
+  "campaign_wins": 7,
+  "sieges": 10,
+  "aborts": 17,
+  "opp_guard_days": 608,
+  "feints": [],
+  "hunt": {
+   "sorties": 37,
+   "battles": 207,
+   "kill_party": 54,
+   "kill_party_hp": 2672,
+   "kill_cart": 188,
+   "kill_cart_hp": 3536,
+   "own_loss": 241,
+   "own_dead": 0,
+   "first_sortie": 130
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1924,
+    1957,
+    6,
+    6
+   ],
+   "200": [
+    2061,
+    2340,
+    5,
+    7
+   ],
+   "300": [
+    2531,
+    2574,
+    5,
+    7
+   ],
+   "400": [
+    2424,
+    2394,
+    6,
+    7
+   ],
+   "500": [
+    3367,
+    2658,
+    6,
+    6
+   ],
+   "600": [
+    4642,
+    2806,
+    6,
+    6
+   ],
+   "700": [
+    3809,
+    2999,
+    6,
+    6
+   ],
+   "800": [
+    4746,
+    1030,
+    10,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 1327243828,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 943.5,
+  "campaigns": 24,
+  "campaign_wins": 7,
+  "sieges": 10,
+  "aborts": 15,
+  "opp_guard_days": 702,
+  "feints": [],
+  "hunt": {
+   "sorties": 35,
+   "battles": 249,
+   "kill_party": 38,
+   "kill_party_hp": 1967,
+   "kill_cart": 229,
+   "kill_cart_hp": 4315,
+   "own_loss": 104,
+   "own_dead": 0,
+   "first_sortie": 154
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1961,
+    2009,
+    6,
+    6
+   ],
+   "200": [
+    1718,
+    2493,
+    4,
+    8
+   ],
+   "300": [
+    2084,
+    2821,
+    4,
+    8
+   ],
+   "400": [
+    2495,
+    2516,
+    6,
+    6
+   ],
+   "500": [
+    3255,
+    2542,
+    6,
+    6
+   ],
+   "600": [
+    4129,
+    2626,
+    7,
+    5
+   ],
+   "700": [
+    5248,
+    2166,
+    8,
+    4
+   ],
+   "800": [
+    6597,
+    2606,
+    8,
+    4
+   ],
+   "900": [
+    5677,
+    1640,
+    10,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 1468188361,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 528.375,
+  "campaigns": 12,
+  "campaign_wins": 6,
+  "sieges": 7,
+  "aborts": 6,
+  "opp_guard_days": 371,
+  "feints": [],
+  "hunt": {
+   "sorties": 15,
+   "battles": 128,
+   "kill_party": 30,
+   "kill_party_hp": 1219,
+   "kill_cart": 113,
+   "kill_cart_hp": 2145,
+   "own_loss": 50,
+   "own_dead": 0,
+   "first_sortie": 99
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1961,
+    1989,
+    6,
+    6
+   ],
+   "200": [
+    2045,
+    2281,
+    5,
+    7
+   ],
+   "300": [
+    2664,
+    2076,
+    6,
+    6
+   ],
+   "400": [
+    3547,
+    2033,
+    6,
+    6
+   ],
+   "500": [
+    4568,
+    898,
+    10,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 1479552164,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 428.625,
+  "campaigns": 9,
+  "campaign_wins": 5,
+  "sieges": 7,
+  "aborts": 3,
+  "opp_guard_days": 227,
+  "feints": [],
+  "hunt": {
+   "sorties": 12,
+   "battles": 92,
+   "kill_party": 19,
+   "kill_party_hp": 715,
+   "kill_cart": 84,
+   "kill_cart_hp": 1577,
+   "own_loss": 61,
+   "own_dead": 0,
+   "first_sortie": 129
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1950,
+    1982,
+    6,
+    6
+   ],
+   "200": [
+    2328,
+    1794,
+    7,
+    5
+   ],
+   "300": [
+    2487,
+    1787,
+    7,
+    5
+   ],
+   "400": [
+    3171,
+    972,
+    10,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 1555985896,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 494.0,
+  "campaigns": 15,
+  "campaign_wins": 6,
+  "sieges": 8,
+  "aborts": 8,
+  "opp_guard_days": 309,
+  "feints": [],
+  "hunt": {
+   "sorties": 15,
+   "battles": 96,
+   "kill_party": 41,
+   "kill_party_hp": 1268,
+   "kill_cart": 74,
+   "kill_cart_hp": 1390,
+   "own_loss": 129,
+   "own_dead": 0,
+   "first_sortie": 143
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1969,
+    1964,
+    6,
+    6
+   ],
+   "200": [
+    2063,
+    2175,
+    5,
+    7
+   ],
+   "300": [
+    2526,
+    2256,
+    5,
+    7
+   ],
+   "400": [
+    3158,
+    1718,
+    7,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2013042981,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 670.9583333333334,
+  "campaigns": 8,
+  "campaign_wins": 6,
+  "sieges": 7,
+  "aborts": 2,
+  "opp_guard_days": 471,
+  "feints": [],
+  "hunt": {
+   "sorties": 28,
+   "battles": 139,
+   "kill_party": 39,
+   "kill_party_hp": 1853,
+   "kill_cart": 117,
+   "kill_cart_hp": 2187,
+   "own_loss": 81,
+   "own_dead": 0,
+   "first_sortie": 119
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1962,
+    2008,
+    6,
+    6
+   ],
+   "200": [
+    2073,
+    2373,
+    5,
+    7
+   ],
+   "300": [
+    2589,
+    2650,
+    5,
+    7
+   ],
+   "400": [
+    3334,
+    2488,
+    6,
+    6
+   ],
+   "500": [
+    4461,
+    2612,
+    6,
+    6
+   ],
+   "600": [
+    5642,
+    2617,
+    7,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2088460572,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 696.9583333333334,
+  "campaigns": 8,
+  "campaign_wins": 6,
+  "sieges": 7,
+  "aborts": 2,
+  "opp_guard_days": 508,
+  "feints": [],
+  "hunt": {
+   "sorties": 27,
+   "battles": 155,
+   "kill_party": 37,
+   "kill_party_hp": 1865,
+   "kill_cart": 127,
+   "kill_cart_hp": 2367,
+   "own_loss": 85,
+   "own_dead": 0,
+   "first_sortie": 93
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1916,
+    1949,
+    6,
+    6
+   ],
+   "200": [
+    2095,
+    2126,
+    5,
+    7
+   ],
+   "300": [
+    2656,
+    2656,
+    5,
+    7
+   ],
+   "400": [
+    3381,
+    3087,
+    5,
+    7
+   ],
+   "500": [
+    4361,
+    3012,
+    6,
+    6
+   ],
+   "600": [
+    5651,
+    3310,
+    6,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 455561258,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 460.75,
+  "campaigns": 7,
+  "campaign_wins": 7,
+  "sieges": 8,
+  "aborts": 0,
+  "opp_guard_days": 282,
+  "feints": [],
+  "hunt": {
+   "sorties": 11,
+   "battles": 102,
+   "kill_party": 15,
+   "kill_party_hp": 596,
+   "kill_cart": 92,
+   "kill_cart_hp": 1750,
+   "own_loss": 23,
+   "own_dead": 0,
+   "first_sortie": 123
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1742,
+    1972,
+    5,
+    7
+   ],
+   "200": [
+    1760,
+    2398,
+    4,
+    8
+   ],
+   "300": [
+    2169,
+    2507,
+    5,
+    7
+   ],
+   "400": [
+    2925,
+    1543,
+    8,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 80735816,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 378.875,
+  "campaigns": 8,
+  "campaign_wins": 6,
+  "sieges": 7,
+  "aborts": 2,
+  "opp_guard_days": 180,
+  "feints": [],
+  "hunt": {
+   "sorties": 11,
+   "battles": 65,
+   "kill_party": 13,
+   "kill_party_hp": 518,
+   "kill_cart": 59,
+   "kill_cart_hp": 1095,
+   "own_loss": 51,
+   "own_dead": 0,
+   "first_sortie": 141
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1985,
+    1999,
+    6,
+    6
+   ],
+   "200": [
+    2133,
+    2248,
+    5,
+    7
+   ],
+   "300": [
+    2516,
+    1502,
+    8,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 97563383,
+  "side": "blue",
+  "win": true,
+  "reason": "unification",
+  "day": 622.75,
+  "campaigns": 11,
+  "campaign_wins": 8,
+  "sieges": 9,
+  "aborts": 3,
+  "opp_guard_days": 383,
+  "feints": [],
+  "hunt": {
+   "sorties": 20,
+   "battles": 140,
+   "kill_party": 13,
+   "kill_party_hp": 720,
+   "kill_cart": 133,
+   "kill_cart_hp": 2522,
+   "own_loss": 51,
+   "own_dead": 0,
+   "first_sortie": 186
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1989,
+    1992,
+    6,
+    6
+   ],
+   "200": [
+    2242,
+    1612,
+    8,
+    4
+   ],
+   "300": [
+    2450,
+    2091,
+    6,
+    6
+   ],
+   "400": [
+    3179,
+    2407,
+    6,
+    6
+   ],
+   "500": [
+    4012,
+    2757,
+    6,
+    6
+   ],
+   "600": [
+    5001,
+    1377,
+    10,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 1199329012,
+  "side": "red",
+  "win": false,
+  "reason": "unification",
+  "day": 622.25,
+  "campaigns": 11,
+  "campaign_wins": 2,
+  "sieges": 2,
+  "aborts": 9,
+  "opp_guard_days": 331,
+  "feints": [],
+  "hunt": {
+   "sorties": 36,
+   "battles": 110,
+   "kill_party": 7,
+   "kill_party_hp": 332,
+   "kill_cart": 106,
+   "kill_cart_hp": 2052,
+   "own_loss": 29,
+   "own_dead": 0,
+   "first_sortie": 101
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    2009,
+    1985,
+    6,
+    6
+   ],
+   "200": [
+    1735,
+    2440,
+    4,
+    8
+   ],
+   "300": [
+    2098,
+    2735,
+    4,
+    8
+   ],
+   "400": [
+    2559,
+    2855,
+    5,
+    7
+   ],
+   "500": [
+    2529,
+    3054,
+    5,
+    7
+   ],
+   "600": [
+    1181,
+    3952,
+    3,
+    11
+   ]
+  }
+ },
+ {
+  "seed": 1241774772,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 661.4166666666666,
+  "campaigns": 6,
+  "campaign_wins": 6,
+  "sieges": 7,
+  "aborts": 0,
+  "opp_guard_days": 500,
+  "feints": [],
+  "hunt": {
+   "sorties": 32,
+   "battles": 178,
+   "kill_party": 41,
+   "kill_party_hp": 2188,
+   "kill_cart": 165,
+   "kill_cart_hp": 3074,
+   "own_loss": 198,
+   "own_dead": 0,
+   "first_sortie": 101
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1992,
+    1995,
+    6,
+    6
+   ],
+   "200": [
+    2107,
+    2220,
+    5,
+    7
+   ],
+   "300": [
+    2627,
+    2614,
+    5,
+    7
+   ],
+   "400": [
+    3303,
+    2905,
+    5,
+    7
+   ],
+   "500": [
+    4168,
+    3054,
+    5,
+    7
+   ],
+   "600": [
+    4898,
+    1703,
+    7,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 1253421050,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 710.5416666666666,
+  "campaigns": 14,
+  "campaign_wins": 8,
+  "sieges": 9,
+  "aborts": 6,
+  "opp_guard_days": 528,
+  "feints": [],
+  "hunt": {
+   "sorties": 40,
+   "battles": 169,
+   "kill_party": 23,
+   "kill_party_hp": 1437,
+   "kill_cart": 180,
+   "kill_cart_hp": 3346,
+   "own_loss": 132,
+   "own_dead": 0,
+   "first_sortie": 129
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1999,
+    1977,
+    6,
+    6
+   ],
+   "200": [
+    2189,
+    2448,
+    6,
+    7
+   ],
+   "300": [
+    2566,
+    2855,
+    5,
+    7
+   ],
+   "400": [
+    3100,
+    2621,
+    6,
+    6
+   ],
+   "500": [
+    3343,
+    3172,
+    5,
+    7
+   ],
+   "600": [
+    4278,
+    3063,
+    6,
+    6
+   ],
+   "700": [
+    5238,
+    1288,
+    11,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 1327243828,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 779.375,
+  "campaigns": 15,
+  "campaign_wins": 7,
+  "sieges": 8,
+  "aborts": 8,
+  "opp_guard_days": 533,
+  "feints": [],
+  "hunt": {
+   "sorties": 34,
+   "battles": 162,
+   "kill_party": 41,
+   "kill_party_hp": 2652,
+   "kill_cart": 130,
+   "kill_cart_hp": 2407,
+   "own_loss": 179,
+   "own_dead": 0,
+   "first_sortie": 207
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    2009,
+    1965,
+    6,
+    6
+   ],
+   "200": [
+    1802,
+    1824,
+    6,
+    6
+   ],
+   "300": [
+    2369,
+    2340,
+    6,
+    6
+   ],
+   "400": [
+    3086,
+    2557,
+    6,
+    6
+   ],
+   "500": [
+    3970,
+    2859,
+    6,
+    6
+   ],
+   "600": [
+    5003,
+    2930,
+    6,
+    6
+   ],
+   "700": [
+    6169,
+    3085,
+    6,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 1468188361,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 827.7083333333334,
+  "campaigns": 18,
+  "campaign_wins": 7,
+  "sieges": 10,
+  "aborts": 9,
+  "opp_guard_days": 641,
+  "feints": [],
+  "hunt": {
+   "sorties": 42,
+   "battles": 193,
+   "kill_party": 25,
+   "kill_party_hp": 1719,
+   "kill_cart": 180,
+   "kill_cart_hp": 3410,
+   "own_loss": 121,
+   "own_dead": 0,
+   "first_sortie": 123
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1972,
+    1958,
+    6,
+    6
+   ],
+   "200": [
+    2138,
+    2498,
+    5,
+    7
+   ],
+   "300": [
+    2687,
+    2991,
+    5,
+    7
+   ],
+   "400": [
+    3408,
+    3547,
+    5,
+    7
+   ],
+   "500": [
+    4329,
+    4159,
+    5,
+    7
+   ],
+   "600": [
+    5351,
+    3665,
+    6,
+    6
+   ],
+   "700": [
+    5385,
+    2762,
+    8,
+    4
+   ],
+   "800": [
+    4375,
+    751,
+    11,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 1479552164,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 379.5833333333333,
+  "campaigns": 10,
+  "campaign_wins": 7,
+  "sieges": 8,
+  "aborts": 3,
+  "opp_guard_days": 215,
+  "feints": [],
+  "hunt": {
+   "sorties": 8,
+   "battles": 65,
+   "kill_party": 18,
+   "kill_party_hp": 713,
+   "kill_cart": 56,
+   "kill_cart_hp": 1059,
+   "own_loss": 45,
+   "own_dead": 0,
+   "first_sortie": 131
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1992,
+    1960,
+    6,
+    6
+   ],
+   "200": [
+    2203,
+    2159,
+    5,
+    7
+   ],
+   "300": [
+    2337,
+    1685,
+    7,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 1555985896,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 872.5416666666666,
+  "campaigns": 7,
+  "campaign_wins": 7,
+  "sieges": 8,
+  "aborts": 0,
+  "opp_guard_days": 683,
+  "feints": [],
+  "hunt": {
+   "sorties": 34,
+   "battles": 253,
+   "kill_party": 50,
+   "kill_party_hp": 2985,
+   "kill_cart": 227,
+   "kill_cart_hp": 4219,
+   "own_loss": 249,
+   "own_dead": 0,
+   "first_sortie": 122
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1952,
+    1985,
+    6,
+    6
+   ],
+   "200": [
+    1755,
+    2476,
+    4,
+    8
+   ],
+   "300": [
+    2165,
+    2859,
+    4,
+    8
+   ],
+   "400": [
+    2661,
+    3178,
+    5,
+    7
+   ],
+   "500": [
+    3490,
+    3470,
+    5,
+    7
+   ],
+   "600": [
+    4386,
+    3836,
+    5,
+    7
+   ],
+   "700": [
+    5126,
+    3038,
+    7,
+    5
+   ],
+   "800": [
+    5931,
+    3089,
+    7,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2013042981,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 260.2916666666667,
+  "campaigns": 8,
+  "campaign_wins": 5,
+  "sieges": 6,
+  "aborts": 3,
+  "opp_guard_days": 104,
+  "feints": [],
+  "hunt": {
+   "sorties": 3,
+   "battles": 24,
+   "kill_party": 3,
+   "kill_party_hp": 93,
+   "kill_cart": 23,
+   "kill_cart_hp": 431,
+   "own_loss": 4,
+   "own_dead": 0,
+   "first_sortie": 129
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1976,
+    1959,
+    6,
+    6
+   ],
+   "200": [
+    2385,
+    1000,
+    9,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 2088460572,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 645.3333333333334,
+  "campaigns": 9,
+  "campaign_wins": 7,
+  "sieges": 8,
+  "aborts": 2,
+  "opp_guard_days": 498,
+  "feints": [],
+  "hunt": {
+   "sorties": 21,
+   "battles": 158,
+   "kill_party": 17,
+   "kill_party_hp": 939,
+   "kill_cart": 151,
+   "kill_cart_hp": 2841,
+   "own_loss": 55,
+   "own_dead": 0,
+   "first_sortie": 94
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1982,
+    1979,
+    6,
+    6
+   ],
+   "200": [
+    2138,
+    2381,
+    5,
+    7
+   ],
+   "300": [
+    2697,
+    3031,
+    5,
+    7
+   ],
+   "400": [
+    3454,
+    3537,
+    5,
+    7
+   ],
+   "500": [
+    3628,
+    3209,
+    6,
+    6
+   ],
+   "600": [
+    4721,
+    1686,
+    9,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 455561258,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 875.0833333333334,
+  "campaigns": 18,
+  "campaign_wins": 8,
+  "sieges": 10,
+  "aborts": 9,
+  "opp_guard_days": 685,
+  "feints": [],
+  "hunt": {
+   "sorties": 41,
+   "battles": 224,
+   "kill_party": 50,
+   "kill_party_hp": 2963,
+   "kill_cart": 193,
+   "kill_cart_hp": 3610,
+   "own_loss": 203,
+   "own_dead": 0,
+   "first_sortie": 102
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1782,
+    1965,
+    5,
+    7
+   ],
+   "200": [
+    2155,
+    2264,
+    5,
+    7
+   ],
+   "300": [
+    2688,
+    2636,
+    5,
+    7
+   ],
+   "400": [
+    2582,
+    2775,
+    6,
+    6
+   ],
+   "500": [
+    2649,
+    3260,
+    4,
+    8
+   ],
+   "600": [
+    3461,
+    3818,
+    4,
+    8
+   ],
+   "700": [
+    4199,
+    3698,
+    5,
+    7
+   ],
+   "800": [
+    5135,
+    2327,
+    7,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 80735816,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 588.0416666666666,
+  "campaigns": 8,
+  "campaign_wins": 6,
+  "sieges": 7,
+  "aborts": 2,
+  "opp_guard_days": 427,
+  "feints": [],
+  "hunt": {
+   "sorties": 16,
+   "battles": 169,
+   "kill_party": 22,
+   "kill_party_hp": 806,
+   "kill_cart": 158,
+   "kill_cart_hp": 2942,
+   "own_loss": 12,
+   "own_dead": 0,
+   "first_sortie": 122
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1659,
+    1895,
+    5,
+    7
+   ],
+   "200": [
+    2090,
+    1573,
+    7,
+    5
+   ],
+   "300": [
+    2726,
+    1672,
+    7,
+    5
+   ],
+   "400": [
+    3452,
+    1712,
+    7,
+    5
+   ],
+   "500": [
+    4371,
+    1750,
+    7,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 97563383,
+  "side": "red",
+  "win": true,
+  "reason": "unification",
+  "day": 640.7083333333334,
+  "campaigns": 12,
+  "campaign_wins": 7,
+  "sieges": 8,
+  "aborts": 5,
+  "opp_guard_days": 456,
+  "feints": [],
+  "hunt": {
+   "sorties": 20,
+   "battles": 179,
+   "kill_party": 23,
+   "kill_party_hp": 1025,
+   "kill_cart": 169,
+   "kill_cart_hp": 3181,
+   "own_loss": 57,
+   "own_dead": 0,
+   "first_sortie": 128
+  },
+  "mil": {
+   "0": [
+    1080,
+    1080,
+    6,
+    6
+   ],
+   "100": [
+    1988,
+    2004,
+    6,
+    6
+   ],
+   "200": [
+    2148,
+    2182,
+    5,
+    7
+   ],
+   "300": [
+    2642,
+    2156,
+    6,
+    7
+   ],
+   "400": [
+    3450,
+    2180,
+    7,
+    6
+   ],
+   "500": [
+    4049,
+    2362,
+    7,
+    5
+   ],
+   "600": [
+    4814,
+    1066,
+    10,
+    3
+   ]
+  }
+ }
+]

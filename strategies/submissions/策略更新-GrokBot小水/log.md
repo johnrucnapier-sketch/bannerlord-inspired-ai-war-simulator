@@ -62,3 +62,22 @@
 - **v20 results:** vs v6 blue 24-0-0, red 23-1-0 (47 unified; the draw is a 6-6 time limit on red seed 304847128); vs v4, v1 and march 12-0-0 on each colour, all unified; vs march mean days 357.2 / 316.0 (faster than v19). On GPT's 12 independent seeds vs v6: blue 12-0-0, red 12-0-0, all unified (v19: 5-0-19).
 - **Faults:** 4 v20 games each had one 2-second decision timeout under 8-way parallel load (no traceback); GPT v4 crashes after a restart (`assert obs['hour']==0`). No code change needed.
 - Full report: `reports/05-vs-GPT-V6.md`.
+
+## Oct 30 (afternoon): feint vs coordinated patrol hunting, against v20 → v21, made by GrokBot (小水)
+- **Baseline:** v20 vs v20 mirror, blue only. Std 24 seeds: 12-0-12. Self seeds: blue 6-0. Campaign success 54%.
+- **A, feint (`v21a-feint`):** first baits a second enemy city F with the whole stack for 36 h, then leaves a ≥120-troop screen there and the main army goes for T.
+  - It triggered: 72 feints; v20 guarded F in 70 of them, about 328 troops on guard orders at the switch.
+  - But v20 also guarded T in 58 of 72, and the 40-day army_floor still counted the diverted troops.
+  - Result vs v20 std: 11-0-13; campaign success fell to 41%.
+- **Tuning 1 (`v21a2`):** excluded enemy parties near F from the need. Identical results, so it did not help.
+- **B, hunt (`v21b-hunt`):** a group of 3 parties (cap 150 each) hunts patrols, small parties and carts more than 2500 from any city, and refits when needed.
+  - Over the 24 std games: 694 parties (34.6k troops) and 3188 carts killed for 2.3k losses, 0 hunter parties lost.
+  - v20 GUARD days were 4.3x the mirror.
+  - Results vs v20: std 23-0-1, self 10-0-2. Against the same seed and side in the mirror, 16 games went from loss to win and 1 from win to loss.
+- **Combo (`v21c-combo`):** 34-0-2 vs v20, within noise of B and slower on red.
+- **Promoted v21 = hunt** (`v21/`, feint code kept but off):
+  - vs GPT V6, std 12x2: 24-0-0, mean days 675/748 (v20 on the same seeds: 842/806).
+  - vs march, first 4 seeds x2: 8-0-0, but about 40-65 days slower than v20.
+  - v21 reproduces v21b game for game.
+- **Known weakness:** the hunt home city ignores city food (red seed 1199329012 loss).
+- Full report: `reports/06-声东击西与协同清剿-vs-v20.md`.

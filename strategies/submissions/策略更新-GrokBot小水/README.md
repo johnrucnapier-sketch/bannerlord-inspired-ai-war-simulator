@@ -11,7 +11,8 @@
 
 | 目录 | 标签与思路 | 蓝方对 march（完整 1680 天，胜-平-负即局数） | 红方对 march |
 |---|---|---|---|
-| `v20/`（**最新最佳**） | Grok Bot v20, approach: v19 + 防解围攻城（记住 40 天内见过的全部敌方野战军，攻城兵力不少于其总和）+ 第 0 天起建队，专门应对 GPT v6 的全程可行解围 | 12-0-0，全部统一，平均第 357.2 天（最快 228） | 12-0-0，全部统一，平均第 316.0 天 |
+| `v21/`（**新主版本**） | Grok Bot v21, approach: v20 + 3 支部队（编制各 150）的协同清剿组，深入敌境猎杀巡逻队、小股部队和运粮车（声东击西代码保留但默认关闭） | 4-0-0（前 4 种子），全部统一，平均第 321.5 天 | 4-0-0，平均第 398.3 天 |
+| `v20/`（上一主版本） | Grok Bot v20, approach: v19 + 防解围攻城（记住 40 天内见过的全部敌方野战军，攻城兵力不少于其总和）+ 第 0 天起建队，专门应对 GPT v6 的全程可行解围 | 12-0-0，全部统一，平均第 357.2 天（最快 228） | 12-0-0，全部统一，平均第 316.0 天 |
 | `v19/` | Grok Bot v19, approach: v18 + 取消开局突袭（第 30 天前不发起攻城战役），专门应对 GPT v4 的开局解围 | 24-0-0，平均 12.00 城，24 局全部统一，平均第 394.5 天（最快 203），人口 10746 | 24-0-0，全部统一，平均第 334.5 天（最快 213） |
 | `v18/` | Grok Bot v18, approach: v17 + 集结基地丢失时改换基地（修复 KeyError 'garrison'） | 未单独测（对 GPT v4 与 v17 逐局相同） | — |
 | `v17/` | Grok Bot v17, approach: v16 + 残局全军编入主力 | 12-0-0，全部统一，平均第 363 天（最快 268） | 12-0-0，全部统一，平均第 401 天 |
@@ -30,7 +31,7 @@
 ## 运行
 
 ```
-python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/策略更新-GrokBot小水/v20/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
+python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions/策略更新-GrokBot小水/v21/agent.py"]' --red march --days 1680 --seed <种子> --output <新目录>
 ```
 
 种子见 `benchmarks/data/direct-garrison-20261029/seed-selection.json`。完整迭代记录（v1–v20）见 `log.md`，全部结果见 `results.md` / `results.csv` / `results.json`。
@@ -41,8 +42,23 @@ python tools/play.py --blue-command '[".venv/bin/python","strategies/submissions
 - `03-final-summary.md`：最终总结（对 march，v10）
 - `04-vs-GPT-Campaign600.md`：对战 GPT dot Campaign600 v1 / v4（v14–v19）
 - `05-vs-GPT-V6.md`：对战 GPT dot Campaign600 v6 Feasible Relief（v19、v20）
+- `06-声东击西与协同清剿-vs-v20.md`：声东击西与协同清剿两种思路对战 v20，晋级 v21
 
-批量对局工具：`batch.py`（并行运行）、`summarize.py`（汇总结果）、`inspect_run.py`（查看单局时间线）、`make_md.py`（生成 results.md）。这些脚本里写死了 `/workspace/aiwar` 路径，使用时请改成自己的仓库路径。
+批量对局工具：`batch_h2h.py`（对战批量）、`summarize_h2h.py`（对战汇总）、`analyze_ops.py`（v21 佯攻与清剿证据）、`batch.py`（并行运行）、`summarize.py`（汇总结果）、`inspect_run.py`（查看单局时间线）、`make_md.py`（生成 results.md）。这些脚本里写死了 `/workspace/aiwar` 路径，使用时请改成自己的仓库路径。
+
+## v21：声东击西与协同清剿（对战 v20）
+
+完整报告：`reports/06-声东击西与协同清剿-vs-v20.md`；逐局证据：`results-ops/*.json`（由 `analyze_ops.py` 生成）。实验目录：`v21a-feint/`（佯攻）、`v21a2-feint/`（佯攻调参 1）、`v21b-hunt/`（清剿）、`v21c-combo/`（两者结合）；`v21/` 是晋级的独立版本，等同于 `v21b-hunt`（逐局复现一致）。
+
+| 我方 | 对手 | 蓝方 | 红方 |
+|---|---|---|---|
+| v21（清剿） | v20（标准 12 种子） | 12-0-0，平均第 600.5 天 | 11-0-1，平均第 658.2 天 |
+| v21（清剿） | v20（自选 6 种子） | 6-0-0 | 4-0-2 |
+| v21（清剿） | GPT V6（标准 12 种子） | 12-0-0，平均第 675.0 天（v20：842.2） | 12-0-0，平均第 748.4 天（v20：806.0） |
+| v21（清剿） | march（前 4 种子） | 4-0-0 | 4-0-0 |
+| v21a 声东击西 | v20（标准 12 种子） | 5-0-7 | 6-0-6 |
+| v21c 组合 | v20（标准 + 自选） | 18-0-0 | 16-0-2 |
+| v20 镜像 | v20（标准 24 种子，执蓝） | 12-0-12 | — |
 
 ## 对战 GPT dot Campaign600 v6（Feasible Relief）
 
