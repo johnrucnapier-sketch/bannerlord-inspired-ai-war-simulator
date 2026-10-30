@@ -1,4 +1,4 @@
-"""Grok Bot v23, approach: v22 + famine grace period, staged-rally refills, fresh-capture bandit detail.
+"""Grok Bot v23, approach: v22 + famine grace period, staged-rally refills, fresh-capture bandit detail + safe follow-up village raids by the hunter group (GB_RAID=2) + raid defense (GB_RDEF=1); hunter safe-return path check available but off (GB_SAFERET=0, it lost games). Report 08.
 
 Made by GrokBot (小水) for 博 李.  Changes vs v22 (report 08):
   A. GB_FAMDAY (60): no famine risk flags / rescue / convoys before that day unless a city really is at food 0.
@@ -186,7 +186,7 @@ P = dict(margin=float(os.environ.get('GB_MARGIN', 1.5)), siege_margin=float(os.e
          feint=int(os.environ.get('GB_FEINT', 0)), screen=int(os.environ.get('GB_SCREEN', 120)), bait_dist=int(os.environ.get('GB_BAITD', 9000)),
          bait_hours=int(os.environ.get('GB_BAITH', 36)), feint_min=12000, feint_max=40000, opportunist=int(os.environ.get('GB_OPP', 1)),
          hunt=int(os.environ.get('GB_HUNT', 1)), hunt_k=int(os.environ.get('GB_HUNTK', 3)), hunt_day=int(os.environ.get('GB_HUNTD', 40)),
-         hunt_min=int(os.environ.get('GB_HUNTMIN', 9)), hunt_ratio=float(os.environ.get('GB_HUNTR', 0.6)), hunt_carts=int(os.environ.get('GB_HUNTC', 1)), raid=int(os.environ.get('GB_RAID', 0)), saferet=int(os.environ.get('GB_SAFERET', 0)), rdef=int(os.environ.get('GB_RDEF', 1)),
+         hunt_min=int(os.environ.get('GB_HUNTMIN', 9)), hunt_ratio=float(os.environ.get('GB_HUNTR', 0.6)), hunt_carts=int(os.environ.get('GB_HUNTC', 1)), raid=int(os.environ.get('GB_RAID', 2)), saferet=int(os.environ.get('GB_SAFERET', 0)), rdef=int(os.environ.get('GB_RDEF', 1)),
          fam=int(os.environ.get('GB_FAM', 1)), frisk=float(os.environ.get('GB_FRISK', 20)), fresc=int(os.environ.get('GB_FRESC', 2)), hfood=int(os.environ.get('GB_HFOOD', 1200000)), fconv=int(os.environ.get('GB_FCONV', 1)), stage=int(os.environ.get('GB_STAGE', 1)), rfood=int(os.environ.get('GB_RFOOD', 1500000)), famday=int(os.environ.get('GB_FAMDAY', 60)), sref=float(os.environ.get('GB_SREF', 15)), fresh=int(os.environ.get('GB_FRESH', 60)), freshn=int(os.environ.get('GB_FRESHN', 1)))
 
 class Brain:
