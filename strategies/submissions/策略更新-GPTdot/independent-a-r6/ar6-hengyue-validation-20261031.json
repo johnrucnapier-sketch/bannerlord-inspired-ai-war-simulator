@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "experiment": "ar6-hengyue-validation-20261031",
+  "candidate_publication_commit": "527633aeae7c44b8f79c22d99e1bdd4e4bcc4002",
+  "opponent_read_commit": "1ca94ea4c2ae5292434495cc1e0d6a1c775772d3",
+  "opponent_path": "strategies/submissions/hengyue/v1/agent.py",
+  "baseline": "v0.2.0",
+  "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "days": 1680,
+  "decision_hours": 6,
+  "timeout_seconds": 2,
+  "max_concurrent_matches": 1,
+  "resource_limits": {
+    "host_inherited_cpu_seconds": 2400,
+    "address_space_bytes": 2147483648,
+    "owned_process_group_wall_watchdog_seconds": 2700
+  },
+  "python": "3.12.14",
+  "source_sha256": {
+    "ar6": "27969520a45c16c60e4b68f65017e6b4cae6bc0b7992d092c610375bd97e1f88",
+    "hengyue-v1": "6d0bd4778c746e5cc7b608f2b37a17da226e07ff92b08d642d694ea902e6eede"
+  },
+  "frozen_manifest_sha256": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+  "seeds": [
+    "1790262250621921728",
+    "7773340717397762721",
+    "8631819709967572137",
+    "2587674424826760333"
+  ],
+  "seed_selection": "Two previously observed regression seeds plus two secrets.randbits(63) seeds drawn before any A-R6 outcomes; fresh seeds exclude recovered local-validation, A-R5 and Hengyue formal seeds.",
+  "seed_encoding": "decimal strings preserve63-bit precision",
+  "aggregate": {
+    "planned": 8,
+    "completed": 8,
+    "wins": 2,
+    "draws": 0,
+    "losses": 6,
+    "strict_wins": 2,
+    "not_run_or_unknown": 0,
+    "runtime_fault_games": 0,
+    "ar6_runtime_fault_games": 0,
+    "ar6_rejected_commands": 0,
+    "opponent_rejected_commands": 0
+  },
+  "by_seed_group": {
+    "known_regression": {
+      "planned": 4,
+      "completed": 4,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "strict_wins": 1,
+      "not_run_or_unknown": 0,
+      "runtime_fault_games": 0,
+      "ar6_runtime_fault_games": 0,
+      "ar6_rejected_commands": 0,
+      "opponent_rejected_commands": 0
+    },
+    "fresh_development": {
+      "planned": 4,
+      "completed": 4,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "strict_wins": 1,
+      "not_run_or_unknown": 0,
+      "runtime_fault_games": 0,
+      "ar6_runtime_fault_games": 0,
+      "ar6_rejected_commands": 0,
+      "opponent_rejected_commands": 0
+    }
+  },
+  "by_color": {
+    "blue": {
+      "planned": 4,
+      "completed": 4,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "strict_wins": 1,
+      "not_run_or_unknown": 0,
+      "runtime_fault_games": 0,
+      "ar6_runtime_fault_games": 0,
+      "ar6_rejected_commands": 0,
+      "opponent_rejected_commands": 0
+    },
+    "red": {
+      "planned": 4,
+      "completed": 4,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "strict_wins": 1,
+      "not_run_or_unknown": 0,
+      "runtime_fault_games": 0,
+      "ar6_runtime_fault_games": 0,
+      "ar6_rejected_commands": 0,
+      "opponent_rejected_commands": 0
+    }
+  },
+  "confirmation_gate_result": {
+    "criteria": {
+      "observed_wins_at_least": 6,
+      "strict_wins_at_least": 6,
+      "of_planned": 8,
+      "candidate_runtime_fault_games": 0,
+      "strict_definition": "Any runtime-fault-affected observed win is not a strict win; failures, unknowns and not-run slots cannot satisfy a win.",
+      "followup": "Only parent approval may authorize one eight-game fresh confirmation; no automatic continuation or additional candidates."
+    },
+    "passed": false,
+    "automatic_confirmation_authorized": false
+  },
+  "matches": [
+    {
+      "id": "Hengyue-V1-s1790262250621921728-ar6-side0",
+      "seed": "1790262250621921728",
+      "seed_group": "known_regression",
+      "ar6_side": "blue",
+      "opponent": "Hengyue-V1",
+      "status": "completed",
+      "observed_outcome": "win",
+      "reason": "unification",
+      "hour": 11345,
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "runtime_fault": false,
+      "ar6_runtime_fault": false,
+      "ar6_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar6_policy_exception_markers": 0,
+      "opponent_policy_exception_markers": 0,
+      "ar6_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar6_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "ed18265324c27c8770d01771a7531d3ec51fb9d602d80969d1aa3512c65a13c1",
+      "wall_seconds": 105.00328265600001,
+      "raw_archives": [
+        {
+          "filename": "Hengyue-V1-s1790262250621921728-ar6-side0.zip",
+          "bytes": 29656834,
+          "sha256": "174a012193046f934e1da1df6b1f041ac6205b5adff2a7faafe77e5207d297e1"
+        }
+      ]
+    },
+    {
+      "id": "Hengyue-V1-s1790262250621921728-ar6-side1",
+      "seed": "1790262250621921728",
+      "seed_group": "known_regression",
+      "ar6_side": "red",
+      "opponent": "Hengyue-V1",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 9781,
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "runtime_fault": false,
+      "ar6_runtime_fault": false,
+      "ar6_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar6_policy_exception_markers": 0,
+      "opponent_policy_exception_markers": 0,
+      "ar6_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar6_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "86afe295b8eb83efa4d95056d18c0de7a023e05798bf05bca7b69ad2f0554596",
+      "wall_seconds": 90.00245687000097,
+      "raw_archives": [
+        {
+          "filename": "Hengyue-V1-s1790262250621921728-ar6-side1.zip",
+          "bytes": 26246202,
+          "sha256": "d35f42a568ea50c95c6827027f8efa8bd89557732b9720937aca58d1c38927b9"
+        }
+      ]
+    },
+    {
+      "id": "Hengyue-V1-s7773340717397762721-ar6-side0",
+      "seed": "7773340717397762721",
+      "seed_group": "known_regression",
+      "ar6_side": "blue",
+      "opponent": "Hengyue-V1",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 12846,
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "runtime_fault": false,
+      "ar6_runtime_fault": false,
+      "ar6_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar6_policy_exception_markers": 0,
+      "opponent_policy_exception_markers": 0,
+      "ar6_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar6_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "a639fd6218bdde10e3e9f3c2ab2646c9d6984c29716ef207840890ee1fda9464",
+      "wall_seconds": 120.00358762199903,
+      "raw_archives": [
+        {
+          "filename": "Hengyue-V1-s7773340717397762721-ar6-side0.zip",
+          "bytes": 32885638,
+          "sha256": "03c04b15af21597d2526ac7d3973ae19131ddf2e1b31ac369d41ede9b2d67788"
+        }
+      ]
+    },
+    {
+      "id": "Hengyue-V1-s7773340717397762721-ar6-side1",
+      "seed": "7773340717397762721",
+      "seed_group": "known_regression",
+      "ar6_side": "red",
+      "opponent": "Hengyue-V1",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 9517,
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "runtime_fault": false,
+      "ar6_runtime_fault": false,
+      "ar6_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar6_policy_exception_markers": 0,
+      "opponent_policy_exception_markers": 0,
+      "ar6_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar6_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "89965cf251224156563f4fd7b7930153c9b5823af417444b4a68d178d0fe32b2",
+      "wall_seconds": 95.00263602999985,
+      "raw_archives": [
+        {
+          "filename": "Hengyue-V1-s7773340717397762721-ar6-side1.zip",
+          "bytes": 24318058,
+          "sha256": "d5896cc90d431187a6248e0963824257d8b876bd1c4ab4701ef5c478df2c70db"
+        }
+      ]
+    },
+    {
+      "id": "Hengyue-V1-s8631819709967572137-ar6-side0",
+      "seed": "8631819709967572137",
+      "seed_group": "fresh_development",
+      "ar6_side": "blue",
+      "opponent": "Hengyue-V1",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 7317,
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "runtime_fault": false,
+      "ar6_runtime_fault": false,
+      "ar6_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar6_policy_exception_markers": 0,
+      "opponent_policy_exception_markers": 0,
+      "ar6_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar6_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "899b96cd9d471ab8a9a2ac418197647d1186aa732f6aa5f3c8275419d1095c85",
+      "wall_seconds": 70.00240578000012,
+      "raw_archives": [
+        {
+          "filename": "Hengyue-V1-s8631819709967572137-ar6-side0.zip",
+          "bytes": 19020936,
+          "sha256": "2f73cb453ae72dae2f772421a053c34c8d1cab0ef00a06938e67039ef2be7e19"
+        }
+      ]
+    },
+    {
+      "id": "Hengyue-V1-s8631819709967572137-ar6-side1",
+      "seed": "8631819709967572137",
+      "seed_group": "fresh_development",
+      "ar6_side": "red",
+      "opponent": "Hengyue-V1",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 7973,
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "runtime_fault": false,
+      "ar6_runtime_fault": false,
+      "ar6_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar6_policy_exception_markers": 0,
+      "opponent_policy_exception_markers": 0,
+      "ar6_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar6_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "a7cd5282d0604f4d5b14e07954baa62630176a3bc1ebec10af69690cd05572b5",
+      "wall_seconds": 80.0074779229999,
+      "raw_archives": [
+        {
+          "filename": "Hengyue-V1-s8631819709967572137-ar6-side1.zip",
+          "bytes": 21199785,
+          "sha256": "9884c9b9a8849a2892f0f1327f753c105d1765db74f676537e8054b162d0ed87"
+        }
+      ]
+    },
+    {
+      "id": "Hengyue-V1-s2587674424826760333-ar6-side0",
+      "seed": "2587674424826760333",
+      "seed_group": "fresh_development",
+      "ar6_side": "blue",
+      "opponent": "Hengyue-V1",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 10031,
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "runtime_fault": false,
+      "ar6_runtime_fault": false,
+      "ar6_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar6_policy_exception_markers": 0,
+      "opponent_policy_exception_markers": 0,
+      "ar6_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar6_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "0e45d965049225c20d3365e7ce6f1c6bf70a929926664abd21a3ec9bb517ff21",
+      "wall_seconds": 105.00333845500063,
+      "raw_archives": [
+        {
+          "filename": "Hengyue-V1-s2587674424826760333-ar6-side0.zip",
+          "bytes": 27259430,
+          "sha256": "476f2892cff359ef246141801413e27df0cefd010bfe9c942e5c99e41d79dc28"
+        }
+      ]
+    },
+    {
+      "id": "Hengyue-V1-s2587674424826760333-ar6-side1",
+      "seed": "2587674424826760333",
+      "seed_group": "fresh_development",
+      "ar6_side": "red",
+      "opponent": "Hengyue-V1",
+      "status": "completed",
+      "observed_outcome": "win",
+      "reason": "unification",
+      "hour": 8030,
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "runtime_fault": false,
+      "ar6_runtime_fault": false,
+      "ar6_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar6_policy_exception_markers": 0,
+      "opponent_policy_exception_markers": 0,
+      "ar6_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar6_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "b254dd0767f8e4f04e52d12bda30ee329a513e79ef443474a819b6dcaf1a5772",
+      "wall_seconds": 80.00213784699918,
+      "raw_archives": [
+        {
+          "filename": "Hengyue-V1-s2587674424826760333-ar6-side1.zip",
+          "bytes": 21443599,
+          "sha256": "549512f05f97b37d144d987649fd0ce2cd0ab35b79dc7b559e6f41131599a655"
+        }
+      ]
+    }
+  ],
+  "plan_sha256": "7d0cc49cc8e59e53bf20a927d837d0d005113085bb599746e9a4d551b70947d5",
+  "limitations": [
+    "Two known regression seeds plus two fresh development seeds, each paired red/blue: not blind holdout data, not eight independent maps, and not proof of universal ranking.",
+    "No policy/parameter/world change during this batch and no automatic extra attempts.",
+    "Protocol/internal exception flags are separate from command rejection."
+  ]
+}
