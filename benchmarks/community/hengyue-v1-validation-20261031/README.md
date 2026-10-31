@@ -107,10 +107,10 @@
 
 | 无损包 | 局数 | 压缩MiB | 解包GiB | 用途 |
 |---|---:|---:|---:|---|
-| [hengyue-v1-gptdot-a-r3-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-gptdot-a-r3-20261031.tar.zst) | 12 | 22.01 | 2.59 | formal |
-| [hengyue-v1-grok-v25-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-grok-v25-20261031.tar.zst) | 12 | 19.93 | 2.28 | formal |
-| [hengyue-v1-grok-v23-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-grok-v23-20261031.tar.zst) | 12 | 18.40 | 2.04 | formal |
-| [hengyue-v1-march-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-march-20261031.tar.zst) | 12 | 16.73 | 1.80 | formal |
+| [hengyue-v1-gptdot-a-r3-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/hengyue-v1-validation-20261031) | 12 | 22.01 | 2.59 | formal |
+| [hengyue-v1-grok-v25-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/hengyue-v1-validation-20261031) | 12 | 19.93 | 2.28 | formal |
+| [hengyue-v1-grok-v23-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/hengyue-v1-validation-20261031) | 12 | 18.40 | 2.04 | formal |
+| [hengyue-v1-march-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/hengyue-v1-validation-20261031) | 12 | 16.73 | 1.80 | formal |
 | [hengyue-v1-development-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-development-20261031.tar.zst) | 30 | 2.07 | 0.03 | development |
 | [hengyue-v1-three-losses-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-three-losses-20261031.tar.zst) | 3 | 4.66 | 0.50 | failure_subset |
 
@@ -122,7 +122,7 @@ python benchmarks/community/hengyue-v1-validation-20261031/download_data.py --pa
 python benchmarks/community/hengyue-v1-validation-20261031/extract_data.py --archive ./hengyue-download/hengyue-v1-three-losses-20261031.tar.zst --output ./hengyue-losses
 ```
 
-`--package`还支持gptdot-a-r3、grok-v25、grok-v23、march、development、all。直接链接下载完整包；下载脚本使用16 MiB分片，复用已验证分片，验证拼接后的完整SHA256，不自动执行策略或模拟。解压需要系统zstd或Python zstandard。全量数据展开约9 GiB，空间有限时先取败局包或单一对手。
+`--package`还支持gptdot-a-r3、grok-v25、grok-v23、march、development、all。开发/败局小包可直接下载；正式包沿用16 MiB分片发布，下载脚本复用已验证分片，验证拼接后的完整SHA256，不自动执行策略或模拟。解压需要系统zstd或Python zstandard。全量数据展开约9 GiB，空间有限时先取败局包或单一对手。
 
 原nation JSONL从gzip解出后字节不变，再用Zstandard归档；`file-manifest.json`同时记录本地原文件哈希、归档内文件哈希、字节数与转换类型。只有含私人路径的协议元数据/文本被规范化；观察、命令、回执和模拟器终态不改写。原summary中的raw_log_sha256指发布前文件；公开包校验以file-manifest.json为准。既有复盘行号继续对应解压后的nation-N.jsonl。全知终态仅用于离线复盘，不能作为策略运行输入。
 

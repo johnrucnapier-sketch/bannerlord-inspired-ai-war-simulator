@@ -20,7 +20,8 @@
         "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-gptdot-a-r3-20261031.tar.zst.part01"
       }
     ],
-    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+    "release_url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/hengyue-v1-validation-20261031",
+    "transport": "verified parts; reconstruct archive with download_data.py"
   },
   {
     "name": "hengyue-v1-grok-v25-20261031.tar.zst",
@@ -43,7 +44,8 @@
         "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-grok-v25-20261031.tar.zst.part01"
       }
     ],
-    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-grok-v25-20261031.tar.zst"
+    "release_url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/hengyue-v1-validation-20261031",
+    "transport": "verified parts; reconstruct archive with download_data.py"
   },
   {
     "name": "hengyue-v1-grok-v23-20261031.tar.zst",
@@ -66,7 +68,8 @@
         "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-grok-v23-20261031.tar.zst.part01"
       }
     ],
-    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-grok-v23-20261031.tar.zst"
+    "release_url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/hengyue-v1-validation-20261031",
+    "transport": "verified parts; reconstruct archive with download_data.py"
   },
   {
     "name": "hengyue-v1-march-20261031.tar.zst",
@@ -89,7 +92,8 @@
         "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-march-20261031.tar.zst.part01"
       }
     ],
-    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/hengyue-v1-validation-20261031/hengyue-v1-march-20261031.tar.zst"
+    "release_url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/hengyue-v1-validation-20261031",
+    "transport": "verified parts; reconstruct archive with download_data.py"
   },
   {
     "name": "hengyue-v1-development-20261031.tar.zst",
