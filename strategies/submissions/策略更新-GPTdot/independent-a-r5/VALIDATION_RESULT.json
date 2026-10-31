@@ -1,0 +1,28 @@
+{
+  "source_sha256": "21f1c90b2ff2dc3844d63ce57ef150aafd729de0dcbe587d82aadbfa10e8ea2c",
+  "baseline_sha256": "818d5834ec12545cd632163a0dd5986ababf79fc893cbdb896d3cfe7c0f6e65e",
+  "frozen_count": 807,
+  "frozen_mismatches": [],
+  "opening_exact_match": {
+    "0": true,
+    "1": true
+  },
+  "tests": 26,
+  "failures": 0,
+  "errors": 0,
+  "protocol": [
+    {
+      "hour": 0,
+      "seconds": 0.044404,
+      "request_id_correct": true,
+      "stderr": ""
+    },
+    {
+      "hour": 1,
+      "seconds": 0.036295,
+      "request_id_correct": true,
+      "stderr": ""
+    }
+  ],
+  "scope": "Small deterministic fixtures only; not evidence of win rate or comparative strength."
+}

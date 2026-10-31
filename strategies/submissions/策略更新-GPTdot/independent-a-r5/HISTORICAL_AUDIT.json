@@ -1,0 +1,239 @@
+{
+  "source_sha256": "21f1c90b2ff2dc3844d63ce57ef150aafd729de0dcbe587d82aadbfa10e8ea2c",
+  "baseline_sha256": "818d5834ec12545cd632163a0dd5986ababf79fc893cbdb896d3cfe7c0f6e65e",
+  "scope": "One-step recorded observations and small protocol fixtures; no replayed trajectories or matches.",
+  "frozen_count": 807,
+  "frozen_mismatches": [],
+  "opening_exact_match": {
+    "0": true,
+    "1": true
+  },
+  "historical": {
+    "5898": {
+      "elapsed_seconds": 0.022027,
+      "command_count": 17,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "5904": {
+      "elapsed_seconds": 0.021759,
+      "command_count": 17,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "5910": {
+      "elapsed_seconds": 0.014811,
+      "command_count": 0,
+      "approaching": 15,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "5916": {
+      "elapsed_seconds": 0.019074,
+      "command_count": 17,
+      "approaching": 15,
+      "approach_stopped": 15,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "5922": {
+      "elapsed_seconds": 0.017319,
+      "command_count": 15,
+      "approaching": 15,
+      "approach_stopped": 15,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "5928": {
+      "elapsed_seconds": 0.021833,
+      "command_count": 1,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "5934": {
+      "elapsed_seconds": 0.023111,
+      "command_count": 1,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "5940": {
+      "elapsed_seconds": 0.021456,
+      "command_count": 1,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "6036": {
+      "elapsed_seconds": 0.0185,
+      "command_count": 3,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "6054": {
+      "elapsed_seconds": 0.019543,
+      "command_count": 3,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "6060": {
+      "elapsed_seconds": 0.014343,
+      "command_count": 7,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7584": {
+      "elapsed_seconds": 0.01773,
+      "command_count": 10,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7590": {
+      "elapsed_seconds": 0.018083,
+      "command_count": 10,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7596": {
+      "elapsed_seconds": 0.010713,
+      "command_count": 14,
+      "approaching": 7,
+      "approach_stopped": 7,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7602": {
+      "elapsed_seconds": 0.012366,
+      "command_count": 10,
+      "approaching": 7,
+      "approach_stopped": 7,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7608": {
+      "elapsed_seconds": 0.010339,
+      "command_count": 7,
+      "approaching": 7,
+      "approach_stopped": 7,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7614": {
+      "elapsed_seconds": 0.016242,
+      "command_count": 3,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7620": {
+      "elapsed_seconds": 0.017223,
+      "command_count": 3,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7626": {
+      "elapsed_seconds": 0.015863,
+      "command_count": 3,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7710": {
+      "elapsed_seconds": 0.015557,
+      "command_count": 2,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7722": {
+      "elapsed_seconds": 0.016497,
+      "command_count": 2,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "7728": {
+      "elapsed_seconds": 0.013929,
+      "command_count": 2,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 0
+    },
+    "14520": {
+      "elapsed_seconds": 0.015091,
+      "command_count": 20,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 10
+    },
+    "14880": {
+      "elapsed_seconds": 0.020772,
+      "command_count": 17,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 15
+    },
+    "15360": {
+      "elapsed_seconds": 0.021853,
+      "command_count": 18,
+      "approaching": 0,
+      "approach_stopped": 0,
+      "invalid_schema": 0,
+      "stranded_notes": 15
+    }
+  },
+  "protocol": [
+    {
+      "hour": 5922,
+      "elapsed_seconds": 0.051346,
+      "stderr": "",
+      "request_id_correct": true
+    },
+    {
+      "hour": 7602,
+      "elapsed_seconds": 0.05037,
+      "stderr": "",
+      "request_id_correct": true
+    },
+    {
+      "hour": 7608,
+      "elapsed_seconds": 0.051624,
+      "stderr": "",
+      "request_id_correct": true
+    },
+    {
+      "hour": 14880,
+      "elapsed_seconds": 0.061698,
+      "stderr": "",
+      "request_id_correct": true
+    }
+  ]
+}
