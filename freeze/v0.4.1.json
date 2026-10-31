@@ -7,12 +7,12 @@
   "map_data_distributed": false,
   "map_identity": "SHA-256 of navigation.json, settlements.json and clans.json recorded in each run",
   "files": {
-    ".github/workflows/third-training-mode.yml": "9bc137614c7685b72304cbdaf7f68916ec5441f1685ba5fc5479b0f1c2ecb58b",
+    ".github/workflows/third-training-mode.yml": "0a130e6a4034550ab41ea25e26c3bcfd542efe82d7a13cfb07a0ce99b42ebce0",
     "tools/verify_training.py": "b50b8c78530bd32e299c03c2c808aeaf80002b8b7cd23dae6f1df0010768d087",
     "training/README.md": "af79ab9f9c9e3600668ef71d4b8c8ae23da43f3b194c297ff830a6fd7843e5cd",
     "training/realmap-v0.4.1/AGENT_API.md": "c4a81917ac08f6fc21f4bae7a715d9dcacbd252b93075d30c2235e7869974195",
     "training/realmap-v0.4.1/MAP_DATA.md": "d6f74534f6ee4de15ae60751ad908bff489ea908a00faee1610ddbb51b51f71b",
-    "training/realmap-v0.4.1/README.md": "53e7e0a2837496645d40d54ba3960bef1fcdbc39adfa705d8c8ba740a2c0a685",
+    "training/realmap-v0.4.1/README.md": "36a12fee45448e4edce8f2e6db2507530de6054c5e15813a32beb071416ba8be",
     "training/realmap-v0.4.1/RULES.md": "1581940dce60fd420c50b0f397d909dfbe83c16cec24d61e59f6567aee691cf9",
     "training/realmap-v0.4.1/VALIDATION.md": "dd880e55c37bfe6c249ce074481a508cdd4c890d517ad6c7be96bdcaff1cedcb",
     "training/realmap-v0.4.1/aiwar/__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
@@ -74,6 +74,7 @@
     "training/realmap-v0.4.1/tests/test_warfare.py": "131dcbf07cb737c374d0c5dcd1dac8be9a993e543cceab7bc1e0b56becf6f6b1",
     "training/realmap-v0.4.1/tools/import_map.py": "e1e94e38a159e80d955c13c033a2279d28df4dd80b61b4a90ed1c93255f63f94",
     "training/realmap-v0.4.1/tools/make_test_map.py": "a5b1c762ff4bfbae2995aee79968d7bef0aa10d661fe660f00e24523a8a26a21",
-    "training/realmap-v0.4.1/validation.json": "575e58df0bd2db1470ae9f3434ce1d31ab0b4b5b74ef12d8ce8792536e7d72ea"
+    "training/realmap-v0.4.1/validation.json": "575e58df0bd2db1470ae9f3434ce1d31ab0b4b5b74ef12d8ce8792536e7d72ea",
+    ".gitattributes": "03711f634339d97fc4d2ad86463d23fff813a66a7e0464f7d8963276182182b6"
   }
 }

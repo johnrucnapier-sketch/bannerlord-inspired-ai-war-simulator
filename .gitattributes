@@ -4,3 +4,6 @@ benchmarks/** -whitespace
 strategies/reference/** -whitespace
 *.png binary
 *.gz binary
+
+# Frozen manifests hash exact repository bytes on every platform.
+* -text

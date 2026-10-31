@@ -1,9 +1,9 @@
 name: Third training mode
 on:
   push:
-    paths: ['training/**', 'freeze/v0.4.1.json', 'tools/verify_training.py', '.github/workflows/third-training-mode.yml']
+    paths: ['training/**', 'freeze/v0.4.1.json', 'tools/verify_training.py', '.gitattributes', '.github/workflows/third-training-mode.yml']
   pull_request:
-    paths: ['training/**', 'freeze/v0.4.1.json', 'tools/verify_training.py', '.github/workflows/third-training-mode.yml']
+    paths: ['training/**', 'freeze/v0.4.1.json', 'tools/verify_training.py', '.gitattributes', '.github/workflows/third-training-mode.yml']
 permissions:
   contents: read
 jobs:
