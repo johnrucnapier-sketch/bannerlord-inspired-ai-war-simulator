@@ -1,6 +1,6 @@
 """Grok Bot (小水) head-to-head runner: <me> vs <opponent>, full matches, both colours.
 Agents: 'march'/'d2'/... (built-in), 'c600' (GPT dot Campaign600 v1, loaded unmodified via gpt_adapter.py), 'c600v4'/'c600v6' (GPT dot v4/v6 in place),
-or a version dir name in this folder (e.g. v10). Results -> runs/grokbot/h2h.jsonl.
+'ar3' (GPT dot independent A-R3), or a version dir name in this folder (e.g. v10). Results -> runs/grokbot/h2h.jsonl.
 Usage: python batch_h2h.py v10 c600 --sides blue,red --seeds 0:24 -j 8   (or --seeds list:SEED,SEED,...)"""
 import argparse, json, subprocess, time, gzip
 from pathlib import Path
@@ -8,11 +8,15 @@ from concurrent.futures import ThreadPoolExecutor
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]; PY = str(ROOT / '.venv/bin/python')
 SEEDS = json.load(open(ROOT / 'benchmarks/data/direct-garrison-20261029/seed-selection.json'))['seeds']
+import os
+LITE = os.environ.get('GB_LITE') == '1'  # GB_LITE=1: drop nation logs / final save after the game (disk)
 BUILTIN = ('march', 'd2', 'p5', 'p3', 'idle')
 def agent_args(name, colour):
     if name in BUILTIN: return ['--' + colour, name]
     if name in ('c600v4', 'c600v5', 'c600v6'):  # GPT dot versions, run in place, unmodified
         cmd = [PY, str(ROOT / 'strategies/submissions/策略更新-GPTdot' / name[4:] / 'policy.py')]
+    elif name == 'ar3':  # GPT dot independent A-R3 (read-only, run in place unmodified, as in its local validation)
+        cmd = [PY, '-S', str(ROOT / 'strategies/submissions/策略更新-GPTdot/independent-a-r3/agent.py')]
     elif name == 'c600':
         import gpt_adapter; cmd = [PY, str(gpt_adapter.policy_path())]
     else:
@@ -39,7 +43,8 @@ def run(job):
     args = [PY, str(ROOT / 'tools/play.py'), '--seed', str(seed), '--days', str(days), '--output', str(out)] + agent_args(me_name, side) + agent_args(opp_name, other)
     p = subprocess.run(args, cwd=ROOT, capture_output=True, text=True)
     if p.returncode: return dict(me=me_name, opp=opp_name, side=side, seed=seed, error=p.stderr[-800:])
-    subprocess.run(f'gzip -1 {out}/nation-*.jsonl', shell=True)
+    if LITE: subprocess.run(f'rm -f {out}/nation-*.jsonl {out}/final.save.json', shell=True)  # keep result.json + stderr only
+    else: subprocess.run(f'gzip -1 {out}/nation-*.jsonl', shell=True)
     return summarize(out, me_name, opp_name, side, seed, days)
 if __name__ == '__main__':
     a = argparse.ArgumentParser(); a.add_argument('me'); a.add_argument('opp'); a.add_argument('--seeds', default='0:12')

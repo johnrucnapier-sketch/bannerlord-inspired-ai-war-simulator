@@ -15,6 +15,7 @@ from concurrent.futures import ThreadPoolExecutor
 HERE = Path(__file__).resolve().parent; ROOT = HERE.parents[2]; RUNS = ROOT / 'runs/grokbot/h2h'
 sys.path.insert(0, str(HERE)); import batch_h2h
 ANCHORS = ['v20', 'v22', 'c600v4', 'c600v6']
+if os.environ.get('GB_ANCHORS'): ANCHORS = os.environ['GB_ANCHORS'].split(',')  # e.g. GB_ANCHORS=v20,v22,c600v4,c600v6,ar3 (A-R3 as an extra anchor)
 SEEDS = batch_h2h.SEEDS[:6]; H = 1680 * 24; DAYS = 1680
 ALIAS = {'v23': 'v23@GB_RAID=2'}  # run-dir name of the released v23 (identical to its defaults; plain v23-* dirs predate them)
 def nm(x): return ALIAS.get(x, x)
