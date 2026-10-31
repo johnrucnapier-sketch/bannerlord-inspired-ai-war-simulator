@@ -1,0 +1,80 @@
+[
+  {
+    "name": "a-r3-v20-round1-20261031.tar",
+    "bytes": 1208576000,
+    "sha256": "658a46e88f3ad54dc04a8c5153243625e6b116653bdffe77c9cad7b557df25db",
+    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v20-round1-20261031.tar",
+    "games": 24,
+    "opponent": "v20",
+    "round": 1,
+    "formal": true
+  },
+  {
+    "name": "a-r3-v21-round1-20261031.tar",
+    "bytes": 1218385920,
+    "sha256": "85c0dc8be9a83193d5523cf87478adbfa39cec09f0bea89c5052ef998c4d5b33",
+    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v21-round1-20261031.tar",
+    "games": 24,
+    "opponent": "v21",
+    "round": 1,
+    "formal": true
+  },
+  {
+    "name": "a-r3-v21-round2-20261031.tar",
+    "bytes": 1183283200,
+    "sha256": "5717c08d3d7ee1271e672a5fdad9c39244f44dc284b8322dc16925285d6b8e67",
+    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v21-round2-20261031.tar",
+    "games": 24,
+    "opponent": "v21",
+    "round": 2,
+    "formal": true
+  },
+  {
+    "name": "a-r3-v22-round1-20261031.tar",
+    "bytes": 1043660800,
+    "sha256": "6ae33b68587c68312aff372f6b4bde9f1b3dcee7a1fd0e62499a68e3f49b19fd",
+    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v22-round1-20261031.tar",
+    "games": 24,
+    "opponent": "v22",
+    "round": 1,
+    "formal": true
+  },
+  {
+    "name": "a-r3-v22-round2-20261031.tar",
+    "bytes": 1211320320,
+    "sha256": "54acfd82825aa4de873cf57274b461bbdd92c902bfee63cf4bc3a7b31c8e4961",
+    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v22-round2-20261031.tar",
+    "games": 24,
+    "opponent": "v22",
+    "round": 2,
+    "formal": true
+  },
+  {
+    "name": "a-r3-v23-round1-20261031.tar",
+    "bytes": 1082951680,
+    "sha256": "120432e877c276c9d35fa06527f2547944d851caa51d7b5698e5978ac96d93ff",
+    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v23-round1-20261031.tar",
+    "games": 24,
+    "opponent": "v23",
+    "round": 1,
+    "formal": true
+  },
+  {
+    "name": "a-r3-v24-round1-20261031.tar",
+    "bytes": 932577280,
+    "sha256": "7b466cddb96baf93e8dfe8af795036f1b8655eb7e601995285f9eba1f7a7b0fb",
+    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v24-round1-20261031.tar",
+    "games": 24,
+    "opponent": "v24",
+    "round": 1,
+    "formal": true
+  },
+  {
+    "name": "a-r3-calibration-20261031.tar",
+    "bytes": 68782080,
+    "sha256": "9c7816155ff617bf1fff3adc03035f72d3a7b4c3605662a8a46a8d77b41b4dfa",
+    "url": "https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-calibration-20261031.tar",
+    "games": 12,
+    "formal": false
+  }
+]

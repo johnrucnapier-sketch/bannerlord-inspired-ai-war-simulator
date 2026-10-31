@@ -1,0 +1,47 @@
+{
+  "index": 21,
+  "seed": 2132858661,
+  "side": "blue",
+  "opponent": "v22",
+  "days": 1680,
+  "elapsed": 171.43640854698606,
+  "returncode": 0,
+  "result": {
+    "winner": 1,
+    "reason": "unification",
+    "cities": {
+      "0": 0,
+      "1": 12
+    },
+    "hour": 14079
+  },
+  "physics_digest": "0aa475a4dfc7f33e72eb1f3f2fd7cd0d3f4c9cfe348cb0d4df7cf31ca2e6ff5e",
+  "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "agent_errors": [
+    0,
+    0
+  ],
+  "score_gpt": 87.2953869047619,
+  "score_grok": 1325.4092261904761,
+  "win": false,
+  "faults": [],
+  "command_rejections": [
+    0,
+    0
+  ],
+  "internal_exceptions": [
+    {
+      "nation": 0,
+      "traceback_count": 0
+    },
+    {
+      "nation": 1,
+      "traceback_count": 0
+    }
+  ],
+  "worker": "rig",
+  "python_version": "3.12.3",
+  "run_id": "v22-i21-blue-s2132858661-d1680",
+  "formal": true,
+  "asset": "a-r3-v22-round2-20261031.tar"
+}

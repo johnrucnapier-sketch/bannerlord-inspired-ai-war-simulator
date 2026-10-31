@@ -1,0 +1,540 @@
+{
+  "protocol_version": 1,
+  "rule_version": "0.1.6",
+  "seed": 119526798,
+  "hour": 30605,
+  "result": {
+    "winner": 1,
+    "reason": "unification",
+    "cities": {
+      "0": 0,
+      "1": 12
+    },
+    "hour": 30605
+  },
+  "config": {
+    "version": "0.1.6",
+    "days": 1680,
+    "decision_hours": 6,
+    "population": 200,
+    "growth": 1,
+    "village_crew": 20,
+    "initial_soldiers": 30,
+    "initial_garrison": 50,
+    "initial_city_food": 300000,
+    "warehouse": 3000000,
+    "party_cap": 150,
+    "garrison_cap": 500,
+    "clan_party_cap": 3,
+    "field_ration": 100,
+    "city_ration": 50,
+    "carry_days": 30,
+    "city_crew": 20,
+    "city_cargo": 940000,
+    "city_reserve": 60000,
+    "battle_prepare": 24,
+    "battle_scale": 300,
+    "battle_max_days": 7,
+    "raid_hours": 24,
+    "raid_shutdown": 168,
+    "bandit_cap": 36,
+    "bandit_size": 20,
+    "bandit_lifetime": 1008,
+    "speeds": {
+      "party": 500,
+      "army": 250,
+      "village_cart": 250,
+      "city_cart": 250,
+      "bandit": 375,
+      "militia": 0
+    },
+    "vision": {
+      "party": 8000,
+      "garrison": 10000,
+      "village_cart": 4000,
+      "city_cart": 4000,
+      "bandit": 6000,
+      "militia": 10000
+    },
+    "bandit_spawn_min": 18,
+    "bandit_spawn_max": 30,
+    "bandit_ambush_prepare": 1,
+    "bandit_ambush_hours": 5,
+    "bandit_skirmish_prepare": 2,
+    "bandit_skirmish_hours": 8,
+    "frontier_only": true,
+    "protect_village_carts": true,
+    "regular_vs_bandit": 3,
+    "auto_city_service": true,
+    "expansion_reserve": 30,
+    "militia_initial": 100,
+    "militia_cap": 200,
+    "militia_growth": 1,
+    "siege_prepare_hours": 72,
+    "external_relief": true,
+    "direct_garrison_delivery": true,
+    "garrison_expansion_threshold": 400,
+    "mode": "duel"
+  },
+  "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "physics_digest": "4f79a1c0bed8f0017d2a7c4360b9cc9a2826764013aa0126d90cb8a11e3bf59f",
+  "stats": {
+    "war_dead": 27019,
+    "starved": 848,
+    "defeated_removed": 69639,
+    "food_lost": 1270904950,
+    "recruits_lost": 2934,
+    "bandit_spawns": 2235,
+    "bandits_killed": 1670,
+    "bandit_cart_losses": 2012,
+    "bandit_food_lost": 1210920100,
+    "bandit_recruits_lost": 2778,
+    "delivered_food": 372503800,
+    "delivered_recruits": 11001,
+    "bandit_flights": 8481
+  },
+  "totals": [
+    {
+      "nation": 0,
+      "population": 0,
+      "village_population": 0,
+      "transport_population": 0,
+      "military": 485,
+      "healthy": 480,
+      "wounded": 5,
+      "militia": 0,
+      "garrison": 0,
+      "field": 485,
+      "parties": 11,
+      "logistics": 0,
+      "cities": 0,
+      "armies": 0
+    },
+    {
+      "nation": 1,
+      "population": 10629,
+      "village_population": 10152,
+      "transport_population": 477,
+      "military": 2978,
+      "healthy": 2728,
+      "wounded": 250,
+      "militia": 1637,
+      "garrison": 248,
+      "field": 1093,
+      "parties": 18,
+      "logistics": 0,
+      "cities": 12,
+      "armies": 0
+    }
+  ],
+  "captures": [
+    {
+      "hour": 617,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 1156,
+      "city": "c04",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 1635,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 1989,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 2628,
+      "city": "c02",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 2876,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 3028,
+      "city": "c04",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 4476,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 5283,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 6950,
+      "city": "c13",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 7239,
+      "city": "c15",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 7441,
+      "city": "c01",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 8187,
+      "city": "c15",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 8500,
+      "city": "c13",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 11830,
+      "city": "c02",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 17632,
+      "city": "c03",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 17937,
+      "city": "c10",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 18231,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 18636,
+      "city": "c10",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 18657,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 18937,
+      "city": "c13",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 19229,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 19521,
+      "city": "c13",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 19847,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 19992,
+      "city": "c13",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 20481,
+      "city": "c01",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 20656,
+      "city": "c13",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 21014,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 21193,
+      "city": "c15",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 21293,
+      "city": "c01",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 21547,
+      "city": "c14",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 21572,
+      "city": "c15",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 21884,
+      "city": "c00",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 22068,
+      "city": "c15",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 22203,
+      "city": "c02",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 22206,
+      "city": "c01",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 22341,
+      "city": "c03",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 22536,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 22779,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 22842,
+      "city": "c01",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 22927,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 23070,
+      "city": "c13",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 23124,
+      "city": "c15",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 23243,
+      "city": "c03",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 23371,
+      "city": "c01",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 23516,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 23526,
+      "city": "c15",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 23759,
+      "city": "c03",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 23908,
+      "city": "c01",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 24033,
+      "city": "c10",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 24186,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 24339,
+      "city": "c01",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 24468,
+      "city": "c13",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 24754,
+      "city": "c01",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 24776,
+      "city": "c12",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 25036,
+      "city": "c15",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 25397,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 25688,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 25997,
+      "city": "c10",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 26964,
+      "city": "c14",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 27172,
+      "city": "c10",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 27629,
+      "city": "c12",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 27944,
+      "city": "c10",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 29071,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 29224,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 29752,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 30272,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 30605,
+      "city": "c04",
+      "from": 0,
+      "to": 1
+    }
+  ]
+}

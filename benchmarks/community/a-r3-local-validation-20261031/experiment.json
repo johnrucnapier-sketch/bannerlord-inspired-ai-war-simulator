@@ -1,0 +1,53 @@
+{
+  "commit": "77f763fa461a82ef9b6e2102bf2c9e6d62670987",
+  "baseline": "v0.2.0",
+  "days": 1680,
+  "timeout": 2,
+  "first": 24,
+  "max": 48,
+  "extension": "8 < wins+draws/2 < 16 in initial 24, or agent errors/failure affecting conclusion",
+  "hashes": {
+    "freeze/v0.2.0.json": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+    "strategies/submissions/策略更新-GPTdot/independent-a-r3/agent.py": "818d5834ec12545cd632163a0dd5986ababf79fc893cbdb896d3cfe7c0f6e65e",
+    "strategies/submissions/策略更新-GrokBot小水/score_suite.py": "350757597bca5b420f0a8cc07d58e666bdf73d2b9ecee5ac95a0ac3a8b579346",
+    "strategies/submissions/策略更新-GrokBot小水/v20/agent.py": "ddc9f77d78c390c00643ee6a5ef1bc05bd569cc5d21c03465477e25483efc33c",
+    "strategies/submissions/策略更新-GrokBot小水/v21/agent.py": "65317458c9889c4b27cf6819b196f6ff8ffb92857f68f577de16b36e711faf37",
+    "strategies/submissions/策略更新-GrokBot小水/v22/agent.py": "30e3ee3d6d34f80f4c956c54f27cba1c1fb49d03b54e1821727c414c57b88cfe",
+    "strategies/submissions/策略更新-GrokBot小水/v23/agent.py": "23761bafb1e996d5091052b9f5ec5a51fb66a113ca2cd5239b37d6bd60f468e5",
+    "strategies/submissions/策略更新-GrokBot小水/v24/agent.py": "a8cd2dabd2d66e98f96e4246bae4f562f2f2a95b1b5b64d0453a73cdfb669c67"
+  },
+  "seeds": {
+    "selection": "preregistered fresh random seeds; same 24 pairs across opponents; first 12 main, next 12 extension",
+    "seeds": [
+      60947610,
+      549308449,
+      475163105,
+      567252128,
+      21462426,
+      705074451,
+      2052643505,
+      623479383,
+      119526798,
+      1978498092,
+      1628009501,
+      1903971585,
+      2025008619,
+      1726246682,
+      252565395,
+      852136624,
+      1263819167,
+      519911378,
+      30693680,
+      238519751,
+      151764629,
+      2132858661,
+      1675816856,
+      345226652
+    ]
+  },
+  "workers": {
+    "mac": 4,
+    "rig": 8
+  },
+  "started": 1793412348.894997
+}

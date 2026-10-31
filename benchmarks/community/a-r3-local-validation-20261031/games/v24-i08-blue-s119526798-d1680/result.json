@@ -1,0 +1,168 @@
+{
+  "protocol_version": 1,
+  "rule_version": "0.1.6",
+  "seed": 119526798,
+  "hour": 7740,
+  "result": {
+    "winner": 0,
+    "reason": "unification",
+    "cities": {
+      "0": 12,
+      "1": 0
+    },
+    "hour": 7740
+  },
+  "config": {
+    "version": "0.1.6",
+    "days": 1680,
+    "decision_hours": 6,
+    "population": 200,
+    "growth": 1,
+    "village_crew": 20,
+    "initial_soldiers": 30,
+    "initial_garrison": 50,
+    "initial_city_food": 300000,
+    "warehouse": 3000000,
+    "party_cap": 150,
+    "garrison_cap": 500,
+    "clan_party_cap": 3,
+    "field_ration": 100,
+    "city_ration": 50,
+    "carry_days": 30,
+    "city_crew": 20,
+    "city_cargo": 940000,
+    "city_reserve": 60000,
+    "battle_prepare": 24,
+    "battle_scale": 300,
+    "battle_max_days": 7,
+    "raid_hours": 24,
+    "raid_shutdown": 168,
+    "bandit_cap": 36,
+    "bandit_size": 20,
+    "bandit_lifetime": 1008,
+    "speeds": {
+      "party": 500,
+      "army": 250,
+      "village_cart": 250,
+      "city_cart": 250,
+      "bandit": 375,
+      "militia": 0
+    },
+    "vision": {
+      "party": 8000,
+      "garrison": 10000,
+      "village_cart": 4000,
+      "city_cart": 4000,
+      "bandit": 6000,
+      "militia": 10000
+    },
+    "bandit_spawn_min": 18,
+    "bandit_spawn_max": 30,
+    "bandit_ambush_prepare": 1,
+    "bandit_ambush_hours": 5,
+    "bandit_skirmish_prepare": 2,
+    "bandit_skirmish_hours": 8,
+    "frontier_only": true,
+    "protect_village_carts": true,
+    "regular_vs_bandit": 3,
+    "auto_city_service": true,
+    "expansion_reserve": 30,
+    "militia_initial": 100,
+    "militia_cap": 200,
+    "militia_growth": 1,
+    "siege_prepare_hours": 72,
+    "external_relief": true,
+    "direct_garrison_delivery": true,
+    "garrison_expansion_threshold": 400,
+    "mode": "duel"
+  },
+  "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "physics_digest": "2d23e7f08e7a8e0199042e7c446e5c9956dcc7027042bca4135363d4cad5cc4d",
+  "stats": {
+    "war_dead": 6635,
+    "starved": 12,
+    "defeated_removed": 16645,
+    "food_lost": 162193550,
+    "recruits_lost": 434,
+    "bandit_spawns": 506,
+    "bandits_killed": 343,
+    "bandit_cart_losses": 602,
+    "bandit_food_lost": 144834300,
+    "bandit_recruits_lost": 408,
+    "delivered_food": 86083550,
+    "delivered_recruits": 1401,
+    "bandit_flights": 2875
+  },
+  "totals": [
+    {
+      "nation": 0,
+      "population": 4860,
+      "village_population": 4485,
+      "transport_population": 375,
+      "military": 3210,
+      "healthy": 2833,
+      "wounded": 377,
+      "militia": 2136,
+      "garrison": 403,
+      "field": 671,
+      "parties": 18,
+      "logistics": 0,
+      "cities": 12,
+      "armies": 0
+    },
+    {
+      "nation": 1,
+      "population": 0,
+      "village_population": 0,
+      "transport_population": 0,
+      "military": 252,
+      "healthy": 249,
+      "wounded": 3,
+      "militia": 0,
+      "garrison": 0,
+      "field": 252,
+      "parties": 3,
+      "logistics": 0,
+      "cities": 0,
+      "armies": 0
+    }
+  ],
+  "captures": [
+    {
+      "hour": 271,
+      "city": "c13",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 1085,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 2280,
+      "city": "c12",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 2905,
+      "city": "c14",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 4482,
+      "city": "c10",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 7740,
+      "city": "c15",
+      "from": 1,
+      "to": 0
+    }
+  ]
+}

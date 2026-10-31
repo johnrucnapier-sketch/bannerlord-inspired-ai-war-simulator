@@ -1,0 +1,977 @@
+[
+  {
+    "run_id": "v20-i00-blue-s60947610-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:9768",
+    "command": {
+      "type": "transfer",
+      "unit": "g15",
+      "target": "u00017",
+      "count": 68,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v20-i00-blue-s60947610-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:9768",
+    "command": {
+      "type": "transfer",
+      "unit": "g15",
+      "target": "u01103",
+      "count": 10
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v20-i00-blue-s60947610-d1680",
+    "nation": 1,
+    "agent": "Grok v20",
+    "request_id": "1:7800",
+    "command": {
+      "type": "transfer",
+      "unit": "g11",
+      "target": "u00033",
+      "count": 31
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v20-i01-blue-s549308449-d1680",
+    "nation": 1,
+    "agent": "Grok v20",
+    "request_id": "1:9060",
+    "command": {
+      "type": "transfer",
+      "unit": "g05",
+      "target": "u00041",
+      "count": 23
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11688",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11694",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11700",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11706",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11712",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11718",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11724",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11730",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11736",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11742",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v20-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:11754",
+    "command": {
+      "type": "move",
+      "unit": "u03046",
+      "x": 50988,
+      "y": 39307,
+      "relief_action": "wait",
+      "relief_city": "c03"
+    },
+    "outcome": {
+      "ok": false,
+      "error": "目的地不可达"
+    }
+  },
+  {
+    "run_id": "v21-i04-blue-s21462426-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:16224",
+    "command": {
+      "type": "transfer",
+      "unit": "g12",
+      "target": "u04025",
+      "count": 6,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i04-blue-s21462426-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:16584",
+    "command": {
+      "type": "transfer",
+      "unit": "g10",
+      "target": "u04027",
+      "count": 70,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i04-blue-s21462426-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:16584",
+    "command": {
+      "type": "transfer",
+      "unit": "g10",
+      "target": "u04020",
+      "count": 25
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i04-blue-s21462426-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:16608",
+    "command": {
+      "type": "transfer",
+      "unit": "g10",
+      "target": "u04025",
+      "count": 55,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i08-red-s119526798-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:22728",
+    "command": {
+      "type": "transfer",
+      "unit": "g03",
+      "target": "u04091",
+      "count": 28,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i09-red-s1978498092-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:14112",
+    "command": {
+      "type": "transfer",
+      "unit": "g03",
+      "target": "u03441",
+      "count": 3
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i13-blue-s1726246682-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:36456",
+    "command": {
+      "type": "transfer",
+      "unit": "g12",
+      "target": "u08285",
+      "count": 26,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i13-blue-s1726246682-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:36912",
+    "command": {
+      "type": "transfer",
+      "unit": "g01",
+      "target": "u08274",
+      "count": 31,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i22-red-s1675816856-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:24480",
+    "command": {
+      "type": "transfer",
+      "unit": "g15",
+      "target": "u01335",
+      "count": 65,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i22-red-s1675816856-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:24480",
+    "command": {
+      "type": "transfer",
+      "unit": "g15",
+      "target": "u06072",
+      "count": 20
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v21-i22-red-s1675816856-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:24504",
+    "command": {
+      "type": "transfer",
+      "unit": "g15",
+      "target": "u01335",
+      "count": 45,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v22-i01-red-s549308449-d1680",
+    "nation": 0,
+    "agent": "Grok v22",
+    "request_id": "0:18372",
+    "command": {
+      "type": "dispatch",
+      "city": "c00",
+      "destination": "c02",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i01-red-s549308449-d1680",
+    "nation": 0,
+    "agent": "Grok v22",
+    "request_id": "0:20748",
+    "command": {
+      "type": "dispatch",
+      "city": "c00",
+      "destination": "c01",
+      "food": 223800
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i01-red-s549308449-d1680",
+    "nation": 0,
+    "agent": "Grok v22",
+    "request_id": "0:29796",
+    "command": {
+      "type": "dispatch",
+      "city": "c14",
+      "destination": "c12",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i02-blue-s475163105-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:228",
+    "command": {
+      "type": "dispatch",
+      "city": "c12",
+      "destination": "c10",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i04-blue-s21462426-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:228",
+    "command": {
+      "type": "dispatch",
+      "city": "c12",
+      "destination": "c13",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i11-blue-s1903971585-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:26148",
+    "command": {
+      "type": "dispatch",
+      "city": "c13",
+      "destination": "c12",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "驻军或粮食不足"
+    }
+  },
+  {
+    "run_id": "v22-i12-red-s2025008619-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:31800",
+    "command": {
+      "type": "transfer",
+      "unit": "g13",
+      "target": "u07007",
+      "count": 18,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v22-i13-red-s1726246682-d1680",
+    "nation": 0,
+    "agent": "Grok v22",
+    "request_id": "0:22644",
+    "command": {
+      "type": "set_strength",
+      "unit": "u04365",
+      "target": 40
+    },
+    "outcome": {
+      "ok": false,
+      "error": "部队不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:17142",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c13",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:21060",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c10",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:21294",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c10",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:21510",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c05",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:21786",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c05",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:21786",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c10",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22020",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c05",
+      "food": 270450
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22020",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c13",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22272",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c13",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22272",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c10",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22488",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c13",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22488",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c05",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22740",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c13",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22740",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c05",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:22992",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c05",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i16-blue-s1263819167-d1680",
+    "nation": 1,
+    "agent": "Grok v22",
+    "request_id": "1:26784",
+    "command": {
+      "type": "dispatch",
+      "city": "c11",
+      "destination": "c13",
+      "food": 235850
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v22-i22-red-s1675816856-d1680",
+    "nation": 0,
+    "agent": "Grok v22",
+    "request_id": "0:7800",
+    "command": {
+      "type": "transfer",
+      "unit": "g04",
+      "target": "u01927",
+      "count": 56
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v22-i23-blue-s345226652-d1680",
+    "nation": 0,
+    "agent": "A-R3",
+    "request_id": "0:17520",
+    "command": {
+      "type": "transfer",
+      "unit": "g14",
+      "target": "u04226",
+      "count": 4,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v23-i03-red-s567252128-d1680",
+    "nation": 0,
+    "agent": "Grok v23",
+    "request_id": "0:13536",
+    "command": {
+      "type": "dispatch",
+      "city": "c15",
+      "destination": "c01",
+      "food": 208750
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v23-i05-blue-s705074451-d1680",
+    "nation": 1,
+    "agent": "Grok v23",
+    "request_id": "1:37362",
+    "command": {
+      "type": "dispatch",
+      "city": "c15",
+      "destination": "c14",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v23-i05-blue-s705074451-d1680",
+    "nation": 1,
+    "agent": "Grok v23",
+    "request_id": "1:37608",
+    "command": {
+      "type": "dispatch",
+      "city": "c15",
+      "destination": "c14",
+      "food": 200000
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v23-i05-red-s705074451-d1680",
+    "nation": 1,
+    "agent": "A-R3",
+    "request_id": "1:25272",
+    "command": {
+      "type": "transfer",
+      "unit": "g13",
+      "target": "u04378",
+      "count": 10,
+      "wounded": true
+    },
+    "outcome": {
+      "ok": false,
+      "error": "人数或容量无效"
+    }
+  },
+  {
+    "run_id": "v23-i08-red-s119526798-d1680",
+    "nation": 0,
+    "agent": "Grok v23",
+    "request_id": "0:8112",
+    "command": {
+      "type": "set_strength",
+      "unit": "u00049",
+      "target": 40
+    },
+    "outcome": {
+      "ok": false,
+      "error": "部队不可用"
+    }
+  },
+  {
+    "run_id": "v24-i03-red-s567252128-d1680",
+    "nation": 0,
+    "agent": "Grok v24",
+    "request_id": "0:13536",
+    "command": {
+      "type": "dispatch",
+      "city": "c15",
+      "destination": "c01",
+      "food": 208750
+    },
+    "outcome": {
+      "ok": false,
+      "error": "运粮目的地或名额不可用"
+    }
+  },
+  {
+    "run_id": "v24-i08-red-s119526798-d1680",
+    "nation": 0,
+    "agent": "Grok v24",
+    "request_id": "0:8112",
+    "command": {
+      "type": "set_strength",
+      "unit": "u00049",
+      "target": 40
+    },
+    "outcome": {
+      "ok": false,
+      "error": "部队不可用"
+    }
+  }
+]

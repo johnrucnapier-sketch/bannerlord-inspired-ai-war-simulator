@@ -1,0 +1,12 @@
+{
+  "initial_formal_games": 120,
+  "final_formal_games": 168,
+  "reason": "Host agent_errors=0 did not detect internally caught exceptions. Full stderr publication review found 116 Grok v21 and 142 Grok v22 KeyError tracebacks in one first-round game each. Added 24 preregistered new-seed swapped-side games for each affected version, preserving all initial data and source.",
+  "internal_exception_games": [
+    "v21-i05-red-s705074451-d1680",
+    "v22-i02-red-s475163105-d1680",
+    "v22-i12-red-s2025008619-d1680"
+  ],
+  "first_round_unchanged": true,
+  "strategies_unchanged": true
+}

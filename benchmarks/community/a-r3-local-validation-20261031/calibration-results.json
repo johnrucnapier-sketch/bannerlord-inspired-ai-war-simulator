@@ -1,0 +1,554 @@
+[
+  {
+    "index": 0,
+    "seed": 60947610,
+    "side": "blue",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 15.68021733360365,
+    "returncode": 0,
+    "result": {
+      "winner": null,
+      "reason": "time_limit",
+      "cities": {
+        "0": 6,
+        "1": 6
+      },
+      "hour": 2016
+    },
+    "physics_digest": "2d6661544e2bc64d86df73fa82670224d8c8aa5d106791b3a30a94d5cb48ed85",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 499.72014874764966,
+    "score_grok": 500.27985125235034,
+    "win": null,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "mac",
+    "python_version": "3.12.10",
+    "run_id": "v20-i00-blue-s60947610-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 0,
+    "seed": 60947610,
+    "side": "red",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 15.876733665820211,
+    "returncode": 0,
+    "result": {
+      "winner": 1,
+      "reason": "time_limit",
+      "cities": {
+        "0": 4,
+        "1": 8
+      },
+      "hour": 2016
+    },
+    "physics_digest": "1015beb633336a895929c40dbe01bf2576ce48553c981a945980ec7bef78c6c7",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 576.3902257056648,
+    "score_grok": 423.60977429433535,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "mac",
+    "python_version": "3.12.10",
+    "run_id": "v20-i00-red-s60947610-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "seed": 549308449,
+    "side": "blue",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 15.53211558284238,
+    "returncode": 0,
+    "result": {
+      "winner": 0,
+      "reason": "time_limit",
+      "cities": {
+        "0": 7,
+        "1": 5
+      },
+      "hour": 2016
+    },
+    "physics_digest": "25189bdfd550fa0b03ed49c8d101ec2d729a95171b4b8ff8b6e72a209e39e349",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 539.7080912605422,
+    "score_grok": 460.2919087394577,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "mac",
+    "python_version": "3.12.10",
+    "run_id": "v20-i01-blue-s549308449-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "seed": 549308449,
+    "side": "red",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 14.921698415651917,
+    "returncode": 0,
+    "result": {
+      "winner": 1,
+      "reason": "time_limit",
+      "cities": {
+        "0": 4,
+        "1": 8
+      },
+      "hour": 2016
+    },
+    "physics_digest": "dd09dd48b684858d7a241ba3bafd68346af28cc7ac3aa52be175add2d603ac23",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 576.5504292280255,
+    "score_grok": 423.44957077197466,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "mac",
+    "python_version": "3.12.10",
+    "run_id": "v20-i01-red-s549308449-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 0,
+    "seed": 60947610,
+    "side": "blue",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 23.611616868991405,
+    "returncode": 0,
+    "result": {
+      "winner": null,
+      "reason": "time_limit",
+      "cities": {
+        "0": 6,
+        "1": 6
+      },
+      "hour": 2016
+    },
+    "physics_digest": "2d6661544e2bc64d86df73fa82670224d8c8aa5d106791b3a30a94d5cb48ed85",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 499.72014874764966,
+    "score_grok": 500.27985125235034,
+    "win": null,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "rig",
+    "python_version": "3.12.3",
+    "run_id": "v20-i00-blue-s60947610-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 0,
+    "seed": 60947610,
+    "side": "red",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 25.012551207008073,
+    "returncode": 0,
+    "result": {
+      "winner": 1,
+      "reason": "time_limit",
+      "cities": {
+        "0": 4,
+        "1": 8
+      },
+      "hour": 2016
+    },
+    "physics_digest": "1015beb633336a895929c40dbe01bf2576ce48553c981a945980ec7bef78c6c7",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 576.3902257056648,
+    "score_grok": 423.60977429433535,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "rig",
+    "python_version": "3.12.3",
+    "run_id": "v20-i00-red-s60947610-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "seed": 549308449,
+    "side": "blue",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 24.12833886698354,
+    "returncode": 0,
+    "result": {
+      "winner": 0,
+      "reason": "time_limit",
+      "cities": {
+        "0": 7,
+        "1": 5
+      },
+      "hour": 2016
+    },
+    "physics_digest": "25189bdfd550fa0b03ed49c8d101ec2d729a95171b4b8ff8b6e72a209e39e349",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 539.7080912605422,
+    "score_grok": 460.2919087394577,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "rig",
+    "python_version": "3.12.3",
+    "run_id": "v20-i01-blue-s549308449-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "seed": 549308449,
+    "side": "red",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 23.902152310009114,
+    "returncode": 0,
+    "result": {
+      "winner": 1,
+      "reason": "time_limit",
+      "cities": {
+        "0": 4,
+        "1": 8
+      },
+      "hour": 2016
+    },
+    "physics_digest": "dd09dd48b684858d7a241ba3bafd68346af28cc7ac3aa52be175add2d603ac23",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 576.5504292280255,
+    "score_grok": 423.44957077197466,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "rig",
+    "python_version": "3.12.3",
+    "run_id": "v20-i01-red-s549308449-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "seed": 475163105,
+    "side": "blue",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 23.6545885289961,
+    "returncode": 0,
+    "result": {
+      "winner": 0,
+      "reason": "time_limit",
+      "cities": {
+        "0": 8,
+        "1": 4
+      },
+      "hour": 2016
+    },
+    "physics_digest": "394660e783d46f09e5bb0bb6a91094d97e1858416b380d678eb6a7e2957485f3",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 575.465775178206,
+    "score_grok": 424.53422482179417,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "rig",
+    "python_version": "3.12.3",
+    "run_id": "v20-i02-blue-s475163105-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "seed": 475163105,
+    "side": "red",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 24.226127116999123,
+    "returncode": 0,
+    "result": {
+      "winner": null,
+      "reason": "time_limit",
+      "cities": {
+        "0": 6,
+        "1": 6
+      },
+      "hour": 2016
+    },
+    "physics_digest": "77a13a37e419c7a24d21580451a4ed1c8aeeafbf1cd63db687b57b2e85a0f265",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 499.06681773943143,
+    "score_grok": 500.93318226056857,
+    "win": null,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "rig",
+    "python_version": "3.12.3",
+    "run_id": "v20-i02-red-s475163105-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "seed": 567252128,
+    "side": "blue",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 23.80382783000823,
+    "returncode": 0,
+    "result": {
+      "winner": 0,
+      "reason": "time_limit",
+      "cities": {
+        "0": 7,
+        "1": 5
+      },
+      "hour": 2016
+    },
+    "physics_digest": "b313a9bbcf3f015ef0215cdee225eddbaa051328a13ce2a5190ae762bfa49f5e",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 536.2434699794352,
+    "score_grok": 463.75653002056487,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "rig",
+    "python_version": "3.12.3",
+    "run_id": "v20-i03-blue-s567252128-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "seed": 567252128,
+    "side": "red",
+    "opponent": "v20",
+    "days": 84,
+    "elapsed": 24.450937201996567,
+    "returncode": 0,
+    "result": {
+      "winner": 1,
+      "reason": "time_limit",
+      "cities": {
+        "0": 5,
+        "1": 7
+      },
+      "hour": 2016
+    },
+    "physics_digest": "9dfb295fbd18e66eec5bcf0e43a9c57d23f3af50f8c11e6f2be4edfc29a07972",
+    "config_sha256": "4b8411ba53552a8cfcbbddd05233018bd516a131256dff9ce982f98c61a3a20c",
+    "agent_errors": [
+      0,
+      0
+    ],
+    "score_gpt": 535.9203224120587,
+    "score_grok": 464.0796775879413,
+    "win": true,
+    "faults": [],
+    "command_rejections": [
+      0,
+      0
+    ],
+    "worker": "rig",
+    "python_version": "3.12.3",
+    "run_id": "v20-i03-red-s567252128-d84",
+    "formal": false,
+    "internal_exceptions": [
+      {
+        "nation": 0,
+        "traceback_count": 0
+      },
+      {
+        "nation": 1,
+        "traceback_count": 0
+      }
+    ]
+  }
+]

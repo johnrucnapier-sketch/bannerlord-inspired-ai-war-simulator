@@ -1,0 +1,336 @@
+{
+  "protocol_version": 1,
+  "rule_version": "0.1.6",
+  "seed": 2025008619,
+  "hour": 36734,
+  "result": {
+    "winner": 1,
+    "reason": "unification",
+    "cities": {
+      "0": 0,
+      "1": 12
+    },
+    "hour": 36734
+  },
+  "config": {
+    "version": "0.1.6",
+    "days": 1680,
+    "decision_hours": 6,
+    "population": 200,
+    "growth": 1,
+    "village_crew": 20,
+    "initial_soldiers": 30,
+    "initial_garrison": 50,
+    "initial_city_food": 300000,
+    "warehouse": 3000000,
+    "party_cap": 150,
+    "garrison_cap": 500,
+    "clan_party_cap": 3,
+    "field_ration": 100,
+    "city_ration": 50,
+    "carry_days": 30,
+    "city_crew": 20,
+    "city_cargo": 940000,
+    "city_reserve": 60000,
+    "battle_prepare": 24,
+    "battle_scale": 300,
+    "battle_max_days": 7,
+    "raid_hours": 24,
+    "raid_shutdown": 168,
+    "bandit_cap": 36,
+    "bandit_size": 20,
+    "bandit_lifetime": 1008,
+    "speeds": {
+      "party": 500,
+      "army": 250,
+      "village_cart": 250,
+      "city_cart": 250,
+      "bandit": 375,
+      "militia": 0
+    },
+    "vision": {
+      "party": 8000,
+      "garrison": 10000,
+      "village_cart": 4000,
+      "city_cart": 4000,
+      "bandit": 6000,
+      "militia": 10000
+    },
+    "bandit_spawn_min": 18,
+    "bandit_spawn_max": 30,
+    "bandit_ambush_prepare": 1,
+    "bandit_ambush_hours": 5,
+    "bandit_skirmish_prepare": 2,
+    "bandit_skirmish_hours": 8,
+    "frontier_only": true,
+    "protect_village_carts": true,
+    "regular_vs_bandit": 3,
+    "auto_city_service": true,
+    "expansion_reserve": 30,
+    "militia_initial": 100,
+    "militia_cap": 200,
+    "militia_growth": 1,
+    "siege_prepare_hours": 72,
+    "external_relief": true,
+    "direct_garrison_delivery": true,
+    "garrison_expansion_threshold": 400,
+    "mode": "duel"
+  },
+  "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "physics_digest": "5ec960da4e5112ba7e47ba51b0073ce94216ce13bc96db44551ce48638429b36",
+  "stats": {
+    "war_dead": 25302,
+    "starved": 7195,
+    "defeated_removed": 66374,
+    "food_lost": 1362571850,
+    "recruits_lost": 2676,
+    "bandit_spawns": 2264,
+    "bandits_killed": 1405,
+    "bandit_cart_losses": 2109,
+    "bandit_food_lost": 1218720600,
+    "bandit_recruits_lost": 2334,
+    "delivered_food": 557088100,
+    "delivered_recruits": 14157,
+    "bandit_flights": 10825
+  },
+  "totals": [
+    {
+      "nation": 0,
+      "population": 0,
+      "village_population": 0,
+      "transport_population": 0,
+      "military": 2300,
+      "healthy": 2298,
+      "wounded": 2,
+      "militia": 0,
+      "garrison": 0,
+      "field": 2300,
+      "parties": 18,
+      "logistics": 0,
+      "cities": 0,
+      "armies": 0
+    },
+    {
+      "nation": 1,
+      "population": 12205,
+      "village_population": 11865,
+      "transport_population": 340,
+      "military": 4940,
+      "healthy": 4910,
+      "wounded": 30,
+      "militia": 1584,
+      "garrison": 1274,
+      "field": 2082,
+      "parties": 18,
+      "logistics": 0,
+      "cities": 12,
+      "armies": 0
+    }
+  ],
+  "captures": [
+    {
+      "hour": 572,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 2737,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 5263,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 6420,
+      "city": "c01",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 13321,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 13954,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 14926,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 15184,
+      "city": "c03",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 15524,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 15654,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 15662,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 15926,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 15941,
+      "city": "c10",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 16215,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 16292,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 16449,
+      "city": "c13",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 16490,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 16842,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 17284,
+      "city": "c15",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 17341,
+      "city": "c10",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 17631,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 17999,
+      "city": "c13",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 18718,
+      "city": "c15",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 19502,
+      "city": "c02",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 19904,
+      "city": "c00",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 29031,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 29285,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 29509,
+      "city": "c02",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 30003,
+      "city": "c02",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 30232,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 30369,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 31219,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 31738,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 36734,
+      "city": "c04",
+      "from": 0,
+      "to": 1
+    }
+  ]
+}

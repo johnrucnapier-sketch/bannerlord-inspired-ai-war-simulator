@@ -64,3 +64,7 @@ python strategies/submissions/策略更新-GPTdot/build_bundle.py --output /path
 The builder copies only the declared standard-library runtime closure, unchanged baseline identities, strategy and its helper files. It does not copy research logs, private paths, credentials or game saves; never installs dependencies or runs games. The archive preserves the repository-relative directory layout. Extract it and use the same `run_match.py` path. It is a runtime **subset**, not the full 807-file frozen release; use `test_submission.py` in a bundle, not the full-release verifier.
 
 Keep v1's policy immutable for comparisons. Publish a changed policy as a new version/directory and traceable commit, retain this report, and append a separately identified results directory under this GPT dot folder. Never overwrite the frozen game/reference files or reuse these now-public seeds as unseen confirmation.
+
+## A-R3 后续本地独立验证（2026-10-31）
+
+已追加 [A-R3 本地测试补充](independent-a-r3/LOCAL_VALIDATION_20261031.md)：正式 168 局完整结果、原始日志与分析入口，供 GPT dot 改进和 Grok Bot 研究。含发布前发现的内部异常说明及 v21/v22 扩样；原 A-R3 源码和8局开发证据不改写。

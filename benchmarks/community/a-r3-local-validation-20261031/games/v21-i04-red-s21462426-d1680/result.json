@@ -1,0 +1,216 @@
+{
+  "protocol_version": 1,
+  "rule_version": "0.1.6",
+  "seed": 21462426,
+  "hour": 40320,
+  "result": {
+    "winner": 1,
+    "reason": "time_limit",
+    "cities": {
+      "0": 2,
+      "1": 10
+    },
+    "hour": 40320
+  },
+  "config": {
+    "version": "0.1.6",
+    "days": 1680,
+    "decision_hours": 6,
+    "population": 200,
+    "growth": 1,
+    "village_crew": 20,
+    "initial_soldiers": 30,
+    "initial_garrison": 50,
+    "initial_city_food": 300000,
+    "warehouse": 3000000,
+    "party_cap": 150,
+    "garrison_cap": 500,
+    "clan_party_cap": 3,
+    "field_ration": 100,
+    "city_ration": 50,
+    "carry_days": 30,
+    "city_crew": 20,
+    "city_cargo": 940000,
+    "city_reserve": 60000,
+    "battle_prepare": 24,
+    "battle_scale": 300,
+    "battle_max_days": 7,
+    "raid_hours": 24,
+    "raid_shutdown": 168,
+    "bandit_cap": 36,
+    "bandit_size": 20,
+    "bandit_lifetime": 1008,
+    "speeds": {
+      "party": 500,
+      "army": 250,
+      "village_cart": 250,
+      "city_cart": 250,
+      "bandit": 375,
+      "militia": 0
+    },
+    "vision": {
+      "party": 8000,
+      "garrison": 10000,
+      "village_cart": 4000,
+      "city_cart": 4000,
+      "bandit": 6000,
+      "militia": 10000
+    },
+    "bandit_spawn_min": 18,
+    "bandit_spawn_max": 30,
+    "bandit_ambush_prepare": 1,
+    "bandit_ambush_hours": 5,
+    "bandit_skirmish_prepare": 2,
+    "bandit_skirmish_hours": 8,
+    "frontier_only": true,
+    "protect_village_carts": true,
+    "regular_vs_bandit": 3,
+    "auto_city_service": true,
+    "expansion_reserve": 30,
+    "militia_initial": 100,
+    "militia_cap": 200,
+    "militia_growth": 1,
+    "siege_prepare_hours": 72,
+    "external_relief": true,
+    "direct_garrison_delivery": true,
+    "garrison_expansion_threshold": 400,
+    "mode": "duel"
+  },
+  "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "physics_digest": "8509eabb8cb0bf92f21ee22796c9cf815f9320fa28814cfae6a72d0656bc2f3c",
+  "stats": {
+    "war_dead": 25678,
+    "starved": 3929,
+    "defeated_removed": 72135,
+    "food_lost": 1404032500,
+    "recruits_lost": 8828,
+    "bandit_spawns": 2308,
+    "bandits_killed": 1381,
+    "bandit_cart_losses": 2582,
+    "bandit_food_lost": 1377837300,
+    "bandit_recruits_lost": 8756,
+    "delivered_food": 468682900,
+    "delivered_recruits": 6840,
+    "bandit_flights": 18060
+  },
+  "totals": [
+    {
+      "nation": 0,
+      "population": 1031,
+      "village_population": 911,
+      "transport_population": 120,
+      "military": 540,
+      "healthy": 536,
+      "wounded": 4,
+      "militia": 400,
+      "garrison": 65,
+      "field": 75,
+      "parties": 4,
+      "logistics": 0,
+      "cities": 2,
+      "armies": 0
+    },
+    {
+      "nation": 1,
+      "population": 11492,
+      "village_population": 11092,
+      "transport_population": 400,
+      "military": 5897,
+      "healthy": 5897,
+      "wounded": 0,
+      "militia": 1842,
+      "garrison": 3261,
+      "field": 774,
+      "parties": 18,
+      "logistics": 20,
+      "cities": 10,
+      "armies": 0
+    }
+  ],
+  "captures": [
+    {
+      "hour": 613,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 1544,
+      "city": "c04",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 2292,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 8568,
+      "city": "c04",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 8782,
+      "city": "c05",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 8942,
+      "city": "c11",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 9756,
+      "city": "c01",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 10090,
+      "city": "c00",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 10241,
+      "city": "c13",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "hour": 10588,
+      "city": "c02",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 10884,
+      "city": "c04",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 11170,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 12223,
+      "city": "c11",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 17920,
+      "city": "c03",
+      "from": 1,
+      "to": 0
+    }
+  ]
+}
