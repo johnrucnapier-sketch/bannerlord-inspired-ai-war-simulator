@@ -1,6 +1,6 @@
 """Grok Bot (小水) head-to-head runner: <me> vs <opponent>, full matches, both colours.
 Agents: 'march'/'d2'/... (built-in), 'c600' (GPT dot Campaign600 v1, loaded unmodified via gpt_adapter.py), 'c600v4'/'c600v6' (GPT dot v4/v6 in place),
-'ar3' (GPT dot independent A-R3), or a version dir name in this folder (e.g. v10). Results -> runs/grokbot/h2h.jsonl.
+'ar3'/'ar5'/'ar6' (GPT dot independent A-R3 / A-R5 / A-R6), 'hy' (HengYue V1), or a version dir name in this folder (e.g. v10). Results -> runs/grokbot/h2h.jsonl.
 Usage: python batch_h2h.py v10 c600 --sides blue,red --seeds 0:24 -j 8   (or --seeds list:SEED,SEED,...)"""
 import argparse, json, subprocess, time, gzip
 from pathlib import Path
@@ -17,6 +17,12 @@ def agent_args(name, colour):
         cmd = [PY, str(ROOT / 'strategies/submissions/策略更新-GPTdot' / name[4:] / 'policy.py')]
     elif name == 'ar3':  # GPT dot independent A-R3 (read-only, run in place unmodified, as in its local validation)
         cmd = [PY, '-S', str(ROOT / 'strategies/submissions/策略更新-GPTdot/independent-a-r3/agent.py')]
+    elif name == 'ar5':  # GPT dot independent A-R5 Adaptive Columns (read-only, run in place unmodified)
+        cmd = [PY, '-S', str(ROOT / 'strategies/submissions/策略更新-GPTdot/independent-a-r5/agent.py')]
+    elif name == 'ar6':  # GPT dot independent A-R6 Capacity Columns (read-only, run in place unmodified)
+        cmd = [PY, '-S', str(ROOT / 'strategies/submissions/策略更新-GPTdot/independent-a-r6/agent.py')]
+    elif name == 'hy':  # HengYue V1 (third agent, read-only, run in place unmodified)
+        cmd = [PY, '-S', str(ROOT / 'strategies/submissions/hengyue/v1/agent.py')]
     elif name == 'c600':
         import gpt_adapter; cmd = [PY, str(gpt_adapter.policy_path())]
     else:
