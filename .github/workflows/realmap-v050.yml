@@ -1,0 +1,36 @@
+name: Ready-to-run realmap v0.5.0
+on:
+  push:
+    paths: ['training/realmap-v0.5.0/**', 'freeze/v0.5.0.json', 'tools/verify_training_v050.py', '.github/workflows/realmap-v050.yml']
+  pull_request:
+    paths: ['training/realmap-v0.5.0/**', 'freeze/v0.5.0.json', 'tools/verify_training_v050.py', '.github/workflows/realmap-v050.yml']
+permissions:
+  contents: read
+jobs:
+  realmap:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: '1'
+    defaults:
+      run:
+        working-directory: training/realmap-v0.5.0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - run: python ../../tools/verify_training_v050.py
+      - name: Test packaged rules and baseline on bundled real map
+        run: python scripts/check_tests_isolated.py
+      - name: Verify real-map CLI default without any map import
+        run: python -m aiwar --mode realmap --days 1 --check --output runs/default-cli.json
+      - name: Verify default JSONL agents
+        run: python tools/play.py --days 1 --output runs/default-jsonl
+      - name: Replay the JSONL result
+        run: python -m aiwar.replay runs/default-jsonl/final.save.json

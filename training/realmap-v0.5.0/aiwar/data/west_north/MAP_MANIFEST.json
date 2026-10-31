@@ -1,0 +1,20 @@
+{
+  "source_game": "Bannerlord 1.5.6 / War Sails 1.3.6",
+  "coordinate_scale": 1000,
+  "runtime_nations": [
+    "empire_w",
+    "empire"
+  ],
+  "runtime_counts": {
+    "towns": 12,
+    "castles": 17,
+    "villages": 63,
+    "clans": 18
+  },
+  "source_data_license": "See DATA_NOTICE.md; not covered by project MIT claim",
+  "files": {
+    "navigation.json": "2597f93f32f4e5422c27c9ba641b2f71ada8ad23576688d7286daa8b39aff5db",
+    "settlements.json": "2f7caf23538be0aea6cbed65b62398149497e36d06e0b6fcca48cfa7338b1b40",
+    "clans.json": "b64f08b58bcf1da8fcc12caa43eedd04f87adba73819facf176d4be7025dda7c"
+  }
+}

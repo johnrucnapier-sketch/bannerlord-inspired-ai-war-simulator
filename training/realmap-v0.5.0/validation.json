@@ -1,0 +1,270 @@
+{
+  "release": "v0.5.0",
+  "world_rule_baseline": "v0.4.1-castles-cavalry",
+  "default_realmap_policy": "vanilla_v1",
+  "policy_sha256": "854caf7a835be2e95d2008a60c4d1a29f8f9554e38191c7dd79ebdfcaa872ca7",
+  "local_suite": {
+    "modules": 35,
+    "tests": 209,
+    "failures": 0
+  },
+  "public_suite": {
+    "modules": 22,
+    "tests": 160,
+    "failures": 0,
+    "skipped_private_fixture": 1
+  },
+  "functional_games": [
+    {
+      "seed": 7,
+      "styles": [
+        "vanilla_v1",
+        "vanilla_v1"
+      ],
+      "hours": 2016,
+      "seconds": 51.28,
+      "errors": {},
+      "commands": {
+        "vanilla_v1:set_strength": 112,
+        "vanilla_v1:move": 1527,
+        "vanilla_v1:attack": 147,
+        "vanilla_v1:set_composition": 19,
+        "vanilla_v1:dispatch": 40,
+        "vanilla_v1:assemble": 23,
+        "vanilla_v1:disband": 22,
+        "vanilla_v1:siege": 10,
+        "vanilla_v1:create": 3
+      },
+      "peak_armies": 4,
+      "assemblies": 23,
+      "muster_commands": 88,
+      "stats": {
+        "war_dead": 2291,
+        "starved": 10,
+        "defeated_removed": 5710,
+        "food_lost": 28005600,
+        "recruits_lost": 167,
+        "bandit_spawns": 170,
+        "bandits_killed": 138,
+        "bandit_cart_losses": 160,
+        "bandit_food_lost": 23010750,
+        "bandit_recruits_lost": 142,
+        "delivered_food": 103883622,
+        "delivered_recruits": 833,
+        "bandit_flights": 201,
+        "cavalry_trained": 272,
+        "supply_dispatches": 40,
+        "supply_delivered_food": 4752972,
+        "supply_fetched_food": 1655250
+      },
+      "result": {
+        "winner": 1,
+        "reason": "time_limit",
+        "cities": {
+          "0": 13,
+          "1": 16
+        },
+        "hour": 2016
+      },
+      "digest": "351511999989094a738825decb0c23989b5b627b188030400d8a7b5945cc40fc",
+      "replay_ok": true
+    },
+    {
+      "seed": 19,
+      "styles": [
+        "vanilla_v1",
+        "vanilla_v1"
+      ],
+      "hours": 1008,
+      "seconds": 23.83,
+      "errors": {},
+      "commands": {
+        "vanilla_v1:set_strength": 109,
+        "vanilla_v1:move": 682,
+        "vanilla_v1:attack": 54,
+        "vanilla_v1:set_composition": 6,
+        "vanilla_v1:dispatch": 28,
+        "vanilla_v1:assemble": 11,
+        "vanilla_v1:disband": 11,
+        "vanilla_v1:siege": 4,
+        "vanilla_v1:create": 1
+      },
+      "peak_armies": 4,
+      "assemblies": 11,
+      "muster_commands": 48,
+      "stats": {
+        "war_dead": 979,
+        "starved": 0,
+        "defeated_removed": 2385,
+        "food_lost": 10126900,
+        "recruits_lost": 57,
+        "bandit_spawns": 83,
+        "bandits_killed": 60,
+        "bandit_cart_losses": 58,
+        "bandit_food_lost": 7124000,
+        "bandit_recruits_lost": 47,
+        "delivered_food": 51379000,
+        "delivered_recruits": 368,
+        "bandit_flights": 92,
+        "cavalry_trained": 109,
+        "supply_dispatches": 28,
+        "supply_delivered_food": 2921200,
+        "supply_fetched_food": 1149600
+      },
+      "result": {
+        "winner": 1,
+        "reason": "time_limit",
+        "cities": {
+          "0": 13,
+          "1": 16
+        },
+        "hour": 1008
+      },
+      "digest": "9d8f923ed94bd6d4d94365c857e3981055383a3ab93a63d3191412850588f3b5"
+    },
+    {
+      "seed": 31,
+      "styles": [
+        "vanilla_v1",
+        "march"
+      ],
+      "hours": 1008,
+      "seconds": 19.63,
+      "errors": {},
+      "commands": {
+        "vanilla_v1:set_strength": 54,
+        "vanilla_v1:move": 360,
+        "march:move": 990,
+        "march:set_strength": 63,
+        "vanilla_v1:attack": 35,
+        "march:set_composition": 10,
+        "march:attack": 27,
+        "vanilla_v1:set_composition": 2,
+        "march:assemble": 3,
+        "march:stop": 40,
+        "vanilla_v1:dispatch": 9,
+        "vanilla_v1:assemble": 4,
+        "march:disband": 3,
+        "march:dispatch": 15,
+        "vanilla_v1:disband": 4,
+        "vanilla_v1:siege": 2
+      },
+      "peak_armies": 3,
+      "assemblies": 7,
+      "muster_commands": 18,
+      "stats": {
+        "war_dead": 972,
+        "starved": 74,
+        "defeated_removed": 2434,
+        "food_lost": 10489800,
+        "recruits_lost": 61,
+        "bandit_spawns": 84,
+        "bandits_killed": 64,
+        "bandit_cart_losses": 66,
+        "bandit_food_lost": 9374000,
+        "bandit_recruits_lost": 59,
+        "delivered_food": 50256000,
+        "delivered_recruits": 358,
+        "bandit_flights": 84,
+        "cavalry_trained": 136,
+        "supply_dispatches": 24,
+        "supply_delivered_food": 5640350,
+        "supply_fetched_food": 129300
+      },
+      "result": {
+        "winner": 0,
+        "reason": "time_limit",
+        "cities": {
+          "0": 16,
+          "1": 13
+        },
+        "hour": 1008
+      },
+      "digest": "8b09c883f26adabfef263faa0fb6d2e931dc6cb948dceab47c0e4fab96b81f71"
+    },
+    {
+      "seed": 31,
+      "styles": [
+        "march",
+        "vanilla_v1"
+      ],
+      "hours": 1008,
+      "seconds": 20.08,
+      "errors": {},
+      "commands": {
+        "march:move": 1143,
+        "march:set_strength": 66,
+        "vanilla_v1:set_strength": 54,
+        "vanilla_v1:move": 338,
+        "march:set_composition": 11,
+        "march:assemble": 5,
+        "march:attack": 28,
+        "vanilla_v1:set_composition": 6,
+        "vanilla_v1:attack": 24,
+        "march:stop": 69,
+        "march:dispatch": 12,
+        "march:disband": 4,
+        "vanilla_v1:assemble": 4,
+        "vanilla_v1:dispatch": 9,
+        "vanilla_v1:disband": 3,
+        "vanilla_v1:siege": 2
+      },
+      "peak_armies": 3,
+      "assemblies": 9,
+      "muster_commands": 18,
+      "stats": {
+        "war_dead": 881,
+        "starved": 20,
+        "defeated_removed": 2128,
+        "food_lost": 8643400,
+        "recruits_lost": 53,
+        "bandit_spawns": 84,
+        "bandits_killed": 56,
+        "bandit_cart_losses": 56,
+        "bandit_food_lost": 7597000,
+        "bandit_recruits_lost": 50,
+        "delivered_food": 51890000,
+        "delivered_recruits": 370,
+        "bandit_flights": 81,
+        "cavalry_trained": 144,
+        "supply_dispatches": 21,
+        "supply_delivered_food": 3790550,
+        "supply_fetched_food": 1040700
+      },
+      "result": {
+        "winner": 1,
+        "reason": "time_limit",
+        "cities": {
+          "0": 13,
+          "1": 16
+        },
+        "hour": 1008
+      },
+      "digest": "22bb7c4be7772f7264c3ec50c69b1a528cea5e050547ec4482f67721731a3e5e"
+    }
+  ],
+  "protocol": {
+    "days": 1,
+    "seed": 5,
+    "agent_errors": [
+      0,
+      0
+    ],
+    "invalid_commands": 0,
+    "replay_ok": true
+  },
+  "viewer": {
+    "version": "Godot 4.7.2",
+    "hour": 25,
+    "settlements": 29,
+    "default_styles": [
+      "vanilla_v1",
+      "vanilla_v1"
+    ]
+  },
+  "wheel_contains_map": true,
+  "limitations": [
+    "Short functional runs, not a win-rate or full 10-year evaluation",
+    "Windows GUI not tested on a game PC"
+  ]
+}

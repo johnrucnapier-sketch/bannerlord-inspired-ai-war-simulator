@@ -15,6 +15,6 @@ runs/
 artifacts/
 
 # Locally imported game-derived maps are never part of a source release.
-training/realmap-v*/aiwar/data/west_north/*.json
-training/realmap-v*/godot/assets/realmap_*.png
+training/realmap-v0.4.1/aiwar/data/west_north/*.json
+training/realmap-v0.4.1/godot/assets/realmap_*.png
 training/realmap-v*/godot/assets/*.import
