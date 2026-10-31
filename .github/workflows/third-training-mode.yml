@@ -1,0 +1,37 @@
+name: Third training mode
+on:
+  push:
+    paths: ['training/**', 'freeze/v0.4.1.json', 'tools/verify_training.py', '.github/workflows/third-training-mode.yml']
+  pull_request:
+    paths: ['training/**', 'freeze/v0.4.1.json', 'tools/verify_training.py', '.github/workflows/third-training-mode.yml']
+permissions:
+  contents: read
+jobs:
+  rules:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: '1'
+    defaults:
+      run:
+        working-directory: training/realmap-v0.4.1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - run: python ../../tools/verify_release.py
+      - run: python ../../tools/verify_training.py
+      - run: python tools/make_test_map.py --output runs/test-map
+      - name: Isolated rule modules on original synthetic map
+        shell: python
+        run: |
+          import os, subprocess, sys
+          from pathlib import Path
+          os.environ['AIWAR_MAP_DIR'] = str(Path('runs/test-map').resolve())
+          subprocess.run([sys.executable, 'scripts/check_tests_isolated.py'], check=True)

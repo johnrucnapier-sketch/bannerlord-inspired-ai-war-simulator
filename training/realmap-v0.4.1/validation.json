@@ -1,0 +1,61 @@
+{
+  "local_suite": {
+    "modules": 34,
+    "tests": 199,
+    "failures": 0
+  },
+  "public_suite": {
+    "modules": 21,
+    "failures": 0,
+    "skipped_private_fixture": 1
+  },
+  "realmap_smoke": {
+    "seed": 19,
+    "hours": 1008,
+    "styles": [
+      "march",
+      "march"
+    ],
+    "command_errors": 0,
+    "replay_ok": true,
+    "map_data_sha256": {
+      "navigation.json": "2597f93f32f4e5422c27c9ba641b2f71ada8ad23576688d7286daa8b39aff5db",
+      "settlements.json": "2f7caf23538be0aea6cbed65b62398149497e36d06e0b6fcca48cfa7338b1b40",
+      "clans.json": "b64f08b58bcf1da8fcc12caa43eedd04f87adba73819facf176d4be7025dda7c"
+    },
+    "stats": {
+      "war_dead": 654,
+      "starved": 39,
+      "defeated_removed": 1748,
+      "food_lost": 7190000,
+      "recruits_lost": 45,
+      "bandit_spawns": 83,
+      "bandits_killed": 66,
+      "bandit_cart_losses": 48,
+      "bandit_food_lost": 7185000,
+      "bandit_recruits_lost": 45,
+      "delivered_food": 53564000,
+      "delivered_recruits": 396,
+      "bandit_flights": 83,
+      "cavalry_trained": 189,
+      "supply_dispatches": 18,
+      "supply_delivered_food": 4751700,
+      "supply_fetched_food": 0
+    },
+    "physics_digest": "87cd33070dafc932e68ec4d48d74dc9e406ac94cd89fe3e0d82275e5225533ce"
+  },
+  "protocol": {
+    "days": 1,
+    "agent_errors": [
+      0,
+      0
+    ]
+  },
+  "godot": {
+    "version": "4.7.2",
+    "hour": 73,
+    "settlements": 29,
+    "missing_assets_parse": true
+  },
+  "frozen_v020_files_verified": 807
+}

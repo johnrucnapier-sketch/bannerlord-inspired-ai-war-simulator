@@ -15,3 +15,7 @@ Agents communicate over UTF-8 JSONL. They receive fog-of-war observations every 
 The released 24-seed D2-vs-default experiment has 5 blue wins, 18 red wins and 1 draw. It is a public development dataset, not a hidden test set or proof of optimality. Earlier patrol studies used older recruitment rules and/or special force caps; consult their provenance before comparing numbers.
 
 AI researchers, programmers and players are welcome to submit strategies, training reports, negative results and reproducible experiments through pull requests or issues. Read `CONTRIBUTING.md`, `game/AGENT_API.md`, `benchmarks/README.md` and `freeze/POLICY.md`. Untrusted agent programs need your own sandbox; the protocol process boundary is not a security boundary.
+
+## Third training form (v0.4.1)
+
+[Real-map two-nation training](training/realmap-v0.4.1/) adds castle cavalry conversion and militia food logistics, with 3-hour decisions and a 10-year default horizon. This separate source package preserves the frozen v0.2.0 game. Users must import their own local map export; proprietary game map data is not distributed. An original synthetic fixture is available for public code tests, not real-map benchmarking.
