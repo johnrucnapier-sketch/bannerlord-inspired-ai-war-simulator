@@ -1,0 +1,37 @@
+{
+  "candidate": "A-R3",
+  "agent": "agent.py",
+  "sha256": "818d5834ec12545cd632163a0dd5986ababf79fc893cbdb896d3cfe7c0f6e65e",
+  "source_lineage": "Independent public-rules implementation, not based on Grok source. This is the exact A-R3 tested source, not the later A-R4 repair.",
+  "opponent": {
+    "version": "GrokBot v24",
+    "commit": "b0e84dfdfde320a6f972fa2835a4460e486ecb8e",
+    "path": "strategies/submissions/策略更新-GrokBot小水/v24/agent.py",
+    "sha256": "a8cd2dabd2d66e98f96e4246bae4f562f2f2a95b1b5b64d0453a73cdfb669c67"
+  },
+  "baseline": "v0.2.0",
+  "frozen_manifest_sha256": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+  "python": "3.12.14",
+  "decision_timeout_seconds": 2,
+  "days": 1680,
+  "decision_hours": 6,
+  "status": "experimental; not independently validated",
+  "development_seeds": [
+    520119416,
+    674021657,
+    2087628885,
+    1468764083
+  ],
+  "max_concurrent_matches": 2,
+  "observed": {
+    "wins": 6,
+    "losses": 2,
+    "draws": 0
+  },
+  "fault_conservative": {
+    "wins": 5,
+    "losses": 3,
+    "draws": 0
+  },
+  "fresh_holdout_games": 0
+}
