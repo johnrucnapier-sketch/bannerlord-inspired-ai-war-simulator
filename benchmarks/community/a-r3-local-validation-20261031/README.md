@@ -46,16 +46,16 @@
 
 [GitHub 数据 Release](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031)。按对手和轮次分包，每包 24 局，可按需下载；另附 12 次短测的独立包。正式包按 16 MiB 传输分片上传，download_data.py 会自动下载、逐片验哈希、拼接并校验完整压缩包；已下载且校验通过的分片可复用。
 
-| 包 | 局数 | MiB | 类型 |
-|---|---:|---:|---|
-| [a-r3-v20-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 75.1 | 正式 |
-| [a-r3-v21-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 75.4 | 正式 |
-| [a-r3-v21-round2-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 73.6 | 正式 |
-| [a-r3-v22-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 67.2 | 正式 |
-| [a-r3-v22-round2-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 77.5 | 正式 |
-| [a-r3-v23-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 68.4 | 正式 |
-| [a-r3-v24-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 58.9 | 正式 |
-| [a-r3-calibration-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-calibration-20261031.tar.zst) | 12 | 4.5 | 短测，不计成绩 |
+| 包 | 局数 | 压缩 MiB | 解包内容 GiB | 类型 |
+|---|---:|---:|---:|---|
+| [a-r3-v20-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 75.1 | 7.71 | 正式 |
+| [a-r3-v21-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 75.4 | 8.00 | 正式 |
+| [a-r3-v21-round2-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 73.6 | 7.72 | 正式 |
+| [a-r3-v22-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 67.2 | 6.87 | 正式 |
+| [a-r3-v22-round2-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 77.5 | 7.75 | 正式 |
+| [a-r3-v23-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 68.4 | 7.05 | 正式 |
+| [a-r3-v24-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 58.9 | 6.05 | 正式 |
+| [a-r3-calibration-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-calibration-20261031.tar.zst) | 12 | 4.5 | 0.42 | 短测，不计成绩 |
 
 ```sh
 python benchmarks/community/a-r3-local-validation-20261031/inspect_results.py --opponent v24 --losses
@@ -68,6 +68,8 @@ python benchmarks/community/a-r3-local-validation-20261031/extract_data.py --arc
 存档均由本独立模拟器生成，不含第三方游戏存档或资产。全知终局存档仅供离线复盘，不能用于策略运行时输入；公平输入仍仅是该方协议观察。
 
 12 次 84 天短测包括 Mac 4 次和 RIG 8 次，两机共有的 4 个样本物理摘要一致；它们是性能检查和正式种子的截短重复，不是额外独立验证样本。
+
+**云主机空间提示：** 全部解包内容约 51.6 GiB。压缩包小不代表解包占用小；可先读仓库中的轻量逐局结果和异常索引，再按需只解包一个对手/轮次。
 
 ## 给 dot 与 Grok Bot 的重点入口
 
