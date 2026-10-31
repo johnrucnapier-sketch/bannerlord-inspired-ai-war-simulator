@@ -44,17 +44,17 @@
 
 ## 完整原始记录下载
 
-[GitHub 数据 Release](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031)。按对手和轮次分包，每包 24 局，可按需下载；另附 12 次短测的独立包。
+[GitHub 数据 Release](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031)。按对手和轮次分包，每包 24 局，可按需下载；另附 12 次短测的独立包。正式包按 16 MiB 传输分片上传，download_data.py 会自动下载、逐片验哈希、拼接并校验完整压缩包；已下载且校验通过的分片可复用。
 
 | 包 | 局数 | MiB | 类型 |
 |---|---:|---:|---|
-| [a-r3-v20-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v20-round1-20261031.tar.zst) | 24 | 75.1 | 正式 |
-| [a-r3-v21-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v21-round1-20261031.tar.zst) | 24 | 75.4 | 正式 |
-| [a-r3-v21-round2-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v21-round2-20261031.tar.zst) | 24 | 73.6 | 正式 |
-| [a-r3-v22-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v22-round1-20261031.tar.zst) | 24 | 67.2 | 正式 |
-| [a-r3-v22-round2-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v22-round2-20261031.tar.zst) | 24 | 77.5 | 正式 |
-| [a-r3-v23-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v23-round1-20261031.tar.zst) | 24 | 68.4 | 正式 |
-| [a-r3-v24-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-v24-round1-20261031.tar.zst) | 24 | 58.9 | 正式 |
+| [a-r3-v20-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 75.1 | 正式 |
+| [a-r3-v21-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 75.4 | 正式 |
+| [a-r3-v21-round2-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 73.6 | 正式 |
+| [a-r3-v22-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 67.2 | 正式 |
+| [a-r3-v22-round2-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 77.5 | 正式 |
+| [a-r3-v23-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 68.4 | 正式 |
+| [a-r3-v24-round1-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/tag/a-r3-validation-20261031) | 24 | 58.9 | 正式 |
 | [a-r3-calibration-20261031.tar.zst](https://github.com/johnrucnapier-sketch/bannerlord-inspired-ai-war-simulator/releases/download/a-r3-validation-20261031/a-r3-calibration-20261031.tar.zst) | 12 | 4.5 | 短测，不计成绩 |
 
 ```sh
@@ -63,7 +63,7 @@ python benchmarks/community/a-r3-local-validation-20261031/download_data.py --op
 python benchmarks/community/a-r3-local-validation-20261031/extract_data.py --archive ./downloaded-ar3/a-r3-v21-round1-20261031.tar.zst --output ./ar3-data
 ```
 
-下载脚本验证大小和 SHA256，不自动解包或运行策略。解包脚本支持系统 zstd 或 Python zstandard 模块；没有系统安装权限时可在自己的 Python 环境安装 zstandard（例如 python -m pip install --user zstandard）。轻量 JSON/CSV 无需任何额外依赖；可省略 `--round` 下载该版本的两轮。包内每局有双方观察/命令/回执 JSONL（归档整体采用 Zstandard 无损压缩）、stderr、终局结果、协议元数据、challenge 配置与模拟器 `final.save.json`。JSONL 解压后的原始字节及模拟器存档保持不变；发布前对每个解压文件再验 SHA256，压缩方式变化也在清单记录；路径规范化项在文件清单中明确标记，原文件与公开文件哈希同时保留。stderr 的堆栈和异常内容不删除，只替换本机路径。
+下载脚本验证分片及完整压缩包的大小和 SHA256，不自动解包或运行策略；传输中断后重试会复用已验证分片。解包脚本支持系统 zstd 或 Python zstandard 模块；没有系统安装权限时可在自己的 Python 环境安装 zstandard（例如 python -m pip install --user zstandard）。轻量 JSON/CSV 无需任何额外依赖；可省略 `--round` 下载该版本的两轮。包内每局有双方观察/命令/回执 JSONL（归档整体采用 Zstandard 无损压缩）、stderr、终局结果、协议元数据、challenge 配置与模拟器 `final.save.json`。JSONL 解压后的原始字节及模拟器存档保持不变；发布前对每个解压文件再验 SHA256，压缩方式变化也在清单记录；路径规范化项在文件清单中明确标记，原文件与公开文件哈希同时保留。stderr 的堆栈和异常内容不删除，只替换本机路径。
 
 存档均由本独立模拟器生成，不含第三方游戏存档或资产。全知终局存档仅供离线复盘，不能用于策略运行时输入；公平输入仍仅是该方协议观察。
 
