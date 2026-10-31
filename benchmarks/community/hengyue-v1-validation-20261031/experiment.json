@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "baseline": "v0.2.0",
+  "source_commit": "e8afaaa59f590dca44474ae82a06e5980d0a93ca",
+  "preregistration_sha256": "384541af6296e5879aa42ed410e4a267b14f7247871d016638264c62aaf19046",
+  "candidate_lock_sha256": "1c342d77f625a8dd52f8a54bd7f86f5f6eafc7df9d35f7d53043490fb50fa85d",
+  "candidate": {
+    "label": "衡岳 V1",
+    "source_sha256": "6d0bd4778c746e5cc7b608f2b37a17da226e07ff92b08d642d694ea902e6eede"
+  },
+  "opponents": [
+    {
+      "id": "gptdot-a-r3",
+      "source_sha256": "818d5834ec12545cd632163a0dd5986ababf79fc893cbdb896d3cfe7c0f6e65e"
+    },
+    {
+      "id": "grok-v25",
+      "source_sha256": "6325ad27ff5c13522254814f337db504a345b09a67565ce1ac5cffe1e98e6bf0"
+    },
+    {
+      "id": "grok-v23",
+      "source_sha256": "23761bafb1e996d5091052b9f5ec5a51fb66a113ca2cd5239b37d6bd60f468e5"
+    },
+    {
+      "id": "march",
+      "source_sha256": "ae14c3b223d7a5cccc5563c7d77d69fecaed5d2097f2104ca04d78c023528455"
+    }
+  ],
+  "baseline_manifest_sha256": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+  "core_source_sha256": {
+    "game/aiwar/__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
+    "game/aiwar/__main__.py": "b77f1d39d07822ef3dc3fde7c948da839fc31dd92074d9c328fc20b65fc13465",
+    "game/aiwar/agent_example.py": "dc4a01dfb42e30959669227914756f9751ab71ff60c06693e053a2321514fa63",
+    "game/aiwar/agents.py": "f229c2b808e0394d6b340aac19647e71b40512d21b420809170cde828f47dc55",
+    "game/aiwar/economy.py": "7921fd3ffc210dba407237a2c999043a16665f1e8909b1d10ae92e26606cec83",
+    "game/aiwar/engine.py": "bf2026f6dfe675662cc88716f24b6077914f6918318dc9c974363ebcebaf45d0",
+    "game/aiwar/experiments.py": "2609f274383a54a6fb3313ffc701d9dab16f590254bb790c80280b7987b939e4",
+    "game/aiwar/layout.py": "69b35b31e2d8a5ed291e70407d84918ee06379b585ecf5ee031dbd87682718d0",
+    "game/aiwar/match.py": "9fb8e79e994d31f38226728ce874af6299a3483b4f146245b49b6847b6a1c20d",
+    "game/aiwar/metrics.py": "2e3eeb1f6b3e4939badfbe1318303c74d7eb8dd183c6803d65169d1314eae343",
+    "game/aiwar/navigation.py": "a7f5cb51a490c32eae447e24f86257f930e8b25a9a80c30bb5ea7df5c9bb6d62",
+    "game/aiwar/patrols.py": "aeb17dfe3d030a8e2459eef169dfecc24ce78a170f5997f71b464f270787cf0a",
+    "game/aiwar/policies.py": "1de261468d80b886d6ac7c9ea25c9a3b2e2482648b0e0d1f862589a26d040751",
+    "game/aiwar/policies_legacy.py": "55063b6597d255bb654a52a15d45716a7fc66d85684915fdf27389ae59adefe0",
+    "game/aiwar/policies_v014.py": "99417964e56760392a7c0275ac3f41a1b9aadb43660406a47e36b7ddc47d1a63",
+    "game/aiwar/policies_v015.py": "49ff2674bcfef21e082a8772f28794e5fa905169e9e652578cb4cee25fa6aff4",
+    "game/aiwar/relief.py": "d9487223196dbc127de5b8af88f2c635db36a3dad4b5858bb4c057fc96a21517",
+    "game/aiwar/replay.py": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+    "game/aiwar/runner.py": "dddb495a5bdfb7813ccf2bbed3d0ddca83cb4f9b8ac1640b61621bfa996941a8",
+    "game/aiwar/sdk.py": "2332300d45de3fe8b9789768b8f26ba116c8e3087cb05f8bdcb0540dbabfb959",
+    "game/aiwar/server.py": "d994b0e323bfd06c2767a8e107d54c70c74e540b057b556579146c57a6aa3aff",
+    "game/aiwar/warfare.py": "6d0a6d56d1f6686207eed256c84b5a095310accba6ce0a0294f1b20af30996cc"
+  },
+  "seed_exclusion_audit_sha256": "f47ec9b13fb3ee036974c6d22342ada424b67e5c81fbe2936e1f7c27acb7b60c",
+  "seeds": [
+    922692981,
+    164311966,
+    1795774266,
+    1114100708,
+    156147657,
+    2028304416
+  ],
+  "sides": [
+    "blue",
+    "red"
+  ],
+  "days": 1680,
+  "timeout_seconds": 2,
+  "seed_disclosure": "Seeds were preselected and not used in development games. Their numeric values were seen by the developer during schema inspection before candidate lock. They were not used as strategy inputs or selected through simulated performance. This was not developer-blinded.",
+  "planned_games": 48,
+  "independent_world_seeds": 6,
+  "games_per_opponent": 12,
+  "jobs": [
+    {
+      "id": "gptdot-a-r3-i00-blue",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 0,
+      "seed": 922692981,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "gptdot-a-r3-i00-red",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 0,
+      "seed": 922692981,
+      "candidate_side": "red"
+    },
+    {
+      "id": "gptdot-a-r3-i01-blue",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 1,
+      "seed": 164311966,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "gptdot-a-r3-i01-red",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 1,
+      "seed": 164311966,
+      "candidate_side": "red"
+    },
+    {
+      "id": "gptdot-a-r3-i02-blue",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 2,
+      "seed": 1795774266,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "gptdot-a-r3-i02-red",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 2,
+      "seed": 1795774266,
+      "candidate_side": "red"
+    },
+    {
+      "id": "gptdot-a-r3-i03-blue",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 3,
+      "seed": 1114100708,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "gptdot-a-r3-i03-red",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 3,
+      "seed": 1114100708,
+      "candidate_side": "red"
+    },
+    {
+      "id": "gptdot-a-r3-i04-blue",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 4,
+      "seed": 156147657,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "gptdot-a-r3-i04-red",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 4,
+      "seed": 156147657,
+      "candidate_side": "red"
+    },
+    {
+      "id": "gptdot-a-r3-i05-blue",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 5,
+      "seed": 2028304416,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "gptdot-a-r3-i05-red",
+      "opponent": "gptdot-a-r3",
+      "seed_index": 5,
+      "seed": 2028304416,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v25-i00-blue",
+      "opponent": "grok-v25",
+      "seed_index": 0,
+      "seed": 922692981,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v25-i00-red",
+      "opponent": "grok-v25",
+      "seed_index": 0,
+      "seed": 922692981,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v25-i01-blue",
+      "opponent": "grok-v25",
+      "seed_index": 1,
+      "seed": 164311966,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v25-i01-red",
+      "opponent": "grok-v25",
+      "seed_index": 1,
+      "seed": 164311966,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v25-i02-blue",
+      "opponent": "grok-v25",
+      "seed_index": 2,
+      "seed": 1795774266,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v25-i02-red",
+      "opponent": "grok-v25",
+      "seed_index": 2,
+      "seed": 1795774266,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v25-i03-blue",
+      "opponent": "grok-v25",
+      "seed_index": 3,
+      "seed": 1114100708,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v25-i03-red",
+      "opponent": "grok-v25",
+      "seed_index": 3,
+      "seed": 1114100708,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v25-i04-blue",
+      "opponent": "grok-v25",
+      "seed_index": 4,
+      "seed": 156147657,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v25-i04-red",
+      "opponent": "grok-v25",
+      "seed_index": 4,
+      "seed": 156147657,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v25-i05-blue",
+      "opponent": "grok-v25",
+      "seed_index": 5,
+      "seed": 2028304416,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v25-i05-red",
+      "opponent": "grok-v25",
+      "seed_index": 5,
+      "seed": 2028304416,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v23-i00-blue",
+      "opponent": "grok-v23",
+      "seed_index": 0,
+      "seed": 922692981,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v23-i00-red",
+      "opponent": "grok-v23",
+      "seed_index": 0,
+      "seed": 922692981,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v23-i01-blue",
+      "opponent": "grok-v23",
+      "seed_index": 1,
+      "seed": 164311966,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v23-i01-red",
+      "opponent": "grok-v23",
+      "seed_index": 1,
+      "seed": 164311966,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v23-i02-blue",
+      "opponent": "grok-v23",
+      "seed_index": 2,
+      "seed": 1795774266,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v23-i02-red",
+      "opponent": "grok-v23",
+      "seed_index": 2,
+      "seed": 1795774266,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v23-i03-blue",
+      "opponent": "grok-v23",
+      "seed_index": 3,
+      "seed": 1114100708,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v23-i03-red",
+      "opponent": "grok-v23",
+      "seed_index": 3,
+      "seed": 1114100708,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v23-i04-blue",
+      "opponent": "grok-v23",
+      "seed_index": 4,
+      "seed": 156147657,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v23-i04-red",
+      "opponent": "grok-v23",
+      "seed_index": 4,
+      "seed": 156147657,
+      "candidate_side": "red"
+    },
+    {
+      "id": "grok-v23-i05-blue",
+      "opponent": "grok-v23",
+      "seed_index": 5,
+      "seed": 2028304416,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "grok-v23-i05-red",
+      "opponent": "grok-v23",
+      "seed_index": 5,
+      "seed": 2028304416,
+      "candidate_side": "red"
+    },
+    {
+      "id": "march-i00-blue",
+      "opponent": "march",
+      "seed_index": 0,
+      "seed": 922692981,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "march-i00-red",
+      "opponent": "march",
+      "seed_index": 0,
+      "seed": 922692981,
+      "candidate_side": "red"
+    },
+    {
+      "id": "march-i01-blue",
+      "opponent": "march",
+      "seed_index": 1,
+      "seed": 164311966,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "march-i01-red",
+      "opponent": "march",
+      "seed_index": 1,
+      "seed": 164311966,
+      "candidate_side": "red"
+    },
+    {
+      "id": "march-i02-blue",
+      "opponent": "march",
+      "seed_index": 2,
+      "seed": 1795774266,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "march-i02-red",
+      "opponent": "march",
+      "seed_index": 2,
+      "seed": 1795774266,
+      "candidate_side": "red"
+    },
+    {
+      "id": "march-i03-blue",
+      "opponent": "march",
+      "seed_index": 3,
+      "seed": 1114100708,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "march-i03-red",
+      "opponent": "march",
+      "seed_index": 3,
+      "seed": 1114100708,
+      "candidate_side": "red"
+    },
+    {
+      "id": "march-i04-blue",
+      "opponent": "march",
+      "seed_index": 4,
+      "seed": 156147657,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "march-i04-red",
+      "opponent": "march",
+      "seed_index": 4,
+      "seed": 156147657,
+      "candidate_side": "red"
+    },
+    {
+      "id": "march-i05-blue",
+      "opponent": "march",
+      "seed_index": 5,
+      "seed": 2028304416,
+      "candidate_side": "blue"
+    },
+    {
+      "id": "march-i05-red",
+      "opponent": "march",
+      "seed_index": 5,
+      "seed": 2028304416,
+      "candidate_side": "red"
+    }
+  ],
+  "formal_batches": [
+    {
+      "id": "formal-batch-001",
+      "dataset": "formal",
+      "input_results_sha256": "e9d9873bf33194a0f129b0502874c9595086c71791d6d1d2f5e5f950521183d4",
+      "input_manifest_sha256": "899400d992e63631b3d14ffdf68b2817e797103ad7a97f13f92a53c7a2d72a24",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 4,
+      "recorded_rows": 4,
+      "python_version": "3.12.10",
+      "worker_count": 4,
+      "timeout_seconds": 2.0
+    },
+    {
+      "id": "formal-batch-002",
+      "dataset": "formal",
+      "input_results_sha256": "c49f0cdaa98f75485d8e490a0af67f095c218e67bec4d39489385543bb171881",
+      "input_manifest_sha256": "1ed908e0ff37c122e5c65106197c8fdd2a794f1d9f34ce2beaaa47e9a4c73837",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 4,
+      "recorded_rows": 4,
+      "python_version": "3.12.10",
+      "worker_count": 4,
+      "timeout_seconds": 2.0
+    },
+    {
+      "id": "formal-batch-003",
+      "dataset": "formal",
+      "input_results_sha256": "bbc7cd64947b1c0dc96b5fc8f06cb49e30dc97721857538fc32e86f5be06f6f3",
+      "input_manifest_sha256": "9f0f1d35dc8f30554e10ae06128ec4de4cf072449ebec82196706251513d9e4e",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 4,
+      "recorded_rows": 4,
+      "python_version": "3.12.10",
+      "worker_count": 4,
+      "timeout_seconds": 2.0
+    },
+    {
+      "id": "formal-batch-004",
+      "dataset": "formal",
+      "input_results_sha256": "1927c46f342cfb3ba3fc00259749e8cc5a68ca5ae59ab5d2875cb26647001baf",
+      "input_manifest_sha256": "8bc356c1cabc51682a0874a3c9005b2af1514d9513491baea3d86c4e671e1f29",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 4,
+      "recorded_rows": 4,
+      "python_version": "3.12.10",
+      "worker_count": 4,
+      "timeout_seconds": 2.0
+    },
+    {
+      "id": "formal-batch-005",
+      "dataset": "formal",
+      "input_results_sha256": "78e12ac9e35e048fb5c56d04928f219c2a8ad428b5a78eba92d8e00be48d5016",
+      "input_manifest_sha256": "dd5153a68c4514465b30083ba84916d889406d7d3aac28bc2b5b763fc981eb69",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 8,
+      "recorded_rows": 8,
+      "python_version": "3.12.3",
+      "worker_count": 8,
+      "timeout_seconds": 2.0
+    },
+    {
+      "id": "formal-batch-006",
+      "dataset": "formal",
+      "input_results_sha256": "d63a0a102e3a5ad7b2210cb42a854ebd23e22a1244773667b925af1157b80261",
+      "input_manifest_sha256": "f9f5259a328f28f565132568265f1997788ca4447bd9fb8d6fa60e1a06636fdd",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 8,
+      "recorded_rows": 8,
+      "python_version": "3.12.3",
+      "worker_count": 8,
+      "timeout_seconds": 2.0
+    },
+    {
+      "id": "formal-batch-007",
+      "dataset": "formal",
+      "input_results_sha256": "0e12ab804eddb201a229a2319b9e3ec7225633de941d01a8809d1cc34e75fe81",
+      "input_manifest_sha256": "6e39349758b0dae9c3a6d9841e447f703b942d8bdb1eeada3274f30cef6cf45b",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 8,
+      "recorded_rows": 8,
+      "python_version": "3.12.3",
+      "worker_count": 8,
+      "timeout_seconds": 2.0
+    },
+    {
+      "id": "formal-batch-008",
+      "dataset": "formal",
+      "input_results_sha256": "4d088c2022cbb1a7247154b1b0143d3cfe3a9acaf568ef19fca61e7767438650",
+      "input_manifest_sha256": "c274e99b0f83dad0df085c457bf5e440d4c213105ee477c2b1d78d1b0ebb4527",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 8,
+      "recorded_rows": 8,
+      "python_version": "3.12.3",
+      "worker_count": 8,
+      "timeout_seconds": 2.0
+    }
+  ],
+  "development_batches": [
+    {
+      "id": "development-batch-001",
+      "dataset": "development",
+      "input_results_sha256": "94db65559e2829c2d2d65b841a015468d01f092ba776fcd033b0563c615961d2",
+      "input_manifest_sha256": "442cb0207c68c30784e20239312b3d5a22168b2bceef278e25b4f695dca9e1cc",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 2,
+      "recorded_rows": 2,
+      "python_version": "3.12.10",
+      "worker_count": 2,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-002",
+      "dataset": "development",
+      "input_results_sha256": "e36965daf85028e562cfa1368489f8d0ef92b6781816420de81b7ce7aff4f0cd",
+      "input_manifest_sha256": "9a1bcc993267fdfe6f6e02e72b781f5750e73a860c8c2f37f0cd48b187ae421b",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 2,
+      "recorded_rows": 2,
+      "python_version": "3.12.3",
+      "worker_count": 2,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-003",
+      "dataset": "development",
+      "input_results_sha256": "5bb16a7ed2b5e558e364012c1dcd128548e5f0a59ae82caefb8af4c803dce171",
+      "input_manifest_sha256": "3f1598a94c971fc924a9b78dbb6ad02e8abc3d9d5c607706731519ec4abedbea",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 2,
+      "recorded_rows": 2,
+      "python_version": "3.12.10",
+      "worker_count": 2,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-004",
+      "dataset": "development",
+      "input_results_sha256": "9e50d1b02e116a0ced8fc661dd5daaee0de0b2457aa5bf57d7251bd9cc7a4f4d",
+      "input_manifest_sha256": "a7a5f69c416a7caa705948578635aacbe8da6cbdde8694c1e9594482d1219e85",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 2,
+      "recorded_rows": 2,
+      "python_version": "3.12.10",
+      "worker_count": 2,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-005",
+      "dataset": "development",
+      "input_results_sha256": "4397d19a60add940762ac6d85b70c75ba33158d38b65027b77b4a3fda5cc6cb9",
+      "input_manifest_sha256": "2f5f7bfc722b368219bed110d81afbb25ea8a813ec5c68ae0d78259af55a435b",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 2,
+      "recorded_rows": 2,
+      "python_version": "3.12.10",
+      "worker_count": 2,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-006",
+      "dataset": "development",
+      "input_results_sha256": "dffc0ebb59c89acb2ab584fafd5402ddc77a74d892a702de0be1f1584899b9a2",
+      "input_manifest_sha256": "bb47b9809bea6678e59a309dd37b37c23b4594f7b8e282919f80e26f677663c6",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 2,
+      "recorded_rows": 2,
+      "python_version": "3.12.3",
+      "worker_count": 2,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-007",
+      "dataset": "development",
+      "input_results_sha256": "fe79a821c184e2449e6b4ab9e0bdeb141d39b6e160360423eafaea06c6069db9",
+      "input_manifest_sha256": "e292a6d55a23c2cb637e1b3c92a1d092e4eaddefe59f5db0dc6ebb19064a5d6d",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 2,
+      "recorded_rows": 2,
+      "python_version": "3.12.3",
+      "worker_count": 2,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-008",
+      "dataset": "development",
+      "input_results_sha256": "c5c34d0c1e6b5a65d8df76afc4f07b40df3ee0d17659164868316261fae160df",
+      "input_manifest_sha256": "54f5e090f7fa1de74e6f32ee7511d2920ab293ae64b66552fa8fab50a64a43ee",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 4,
+      "recorded_rows": 4,
+      "python_version": "3.12.10",
+      "worker_count": 4,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-009",
+      "dataset": "development",
+      "input_results_sha256": "ab49a0151d596109d291381839cbeb89e1f1a8042296bdd5e7c22b2b85b2fa05",
+      "input_manifest_sha256": "3010c7d2143648783b9d4da6dda5fa0779b01cc56f51ac164abcaab4c4c71051",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 4,
+      "recorded_rows": 4,
+      "python_version": "3.12.3",
+      "worker_count": 4,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-010",
+      "dataset": "development",
+      "input_results_sha256": "cc155ffd208402d480543b599989b757ff99c510c65c75167390c113945ade47",
+      "input_manifest_sha256": "f9a196240859b7e49a8178b7062adddb5e904ac089d22aca8deba1d8ade6907f",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 4,
+      "recorded_rows": 4,
+      "python_version": "3.12.10",
+      "worker_count": 4,
+      "timeout_seconds": null
+    },
+    {
+      "id": "development-batch-011",
+      "dataset": "development",
+      "input_results_sha256": "2ff79a4ce7318283d1c56e91df0b46d8d54616da5d88684d08a94618e1b796b8",
+      "input_manifest_sha256": "ad3d930d2c11bba9cf9a1abae0bd01c27f9880052a19482aaec72991406f133a",
+      "verify_release_log_sha256": "e2f093e0d9c866f88d9c20057b55c6b0de99e7aa83fd7a16170fb8ff6fbfaa08",
+      "verify_release_all_pass_recorded": true,
+      "post_batch_source_unchanged_recorded": true,
+      "declared_jobs": 4,
+      "recorded_rows": 4,
+      "python_version": "3.12.3",
+      "worker_count": 4,
+      "timeout_seconds": null
+    }
+  ],
+  "core_verification": {
+    "before": "Recorded verify_release.py --scope all pass logs and their SHA-256.",
+    "per_game": "Recorded core and freeze hashes compared with preregistration.",
+    "after": "Recorded batch source_files_changed_during_run must be empty.",
+    "independent_replay_performed_by_reporter": false
+  },
+  "analysis": {
+    "point_rate": "win=1, draw=0.5, loss=0; mean of the two sides for each seed",
+    "bootstrap": "20000 seed-pair resamples; 2.5th/97.5th percentile; deterministic resampling RNG 7310631",
+    "score_uncertainty": "Standard error of six paired per-seed score means",
+    "small_sample_warning": "Only six independent worlds; intervals may be unstable or degenerate; descriptive, not a superiority claim.",
+    "all_wins_warning": "Six paired seeds all winning makes the nonparametric bootstrap interval [1,1]. This means no failure was observed in this small sample; it does not establish a true win probability of 1 or cover unseen-map risk."
+  },
+  "audit": {
+    "planned_jobs": 48,
+    "uniquely_matched_jobs": 48,
+    "missing_jobs": 0,
+    "duplicate_jobs": 0,
+    "unexpected_records": 0,
+    "audit_invalid_jobs": 0,
+    "failed_jobs": 0,
+    "complete_and_consistent": true
+  }
+}

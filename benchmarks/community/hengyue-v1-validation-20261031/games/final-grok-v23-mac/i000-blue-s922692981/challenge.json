@@ -1,0 +1,10 @@
+{
+  "baseline": "v0.2.0",
+  "baseline_manifest_sha256": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+  "seed": 922692981,
+  "days": 1680,
+  "mode": "duel",
+  "development_run": false,
+  "builtin_blue": null,
+  "builtin_red": null
+}

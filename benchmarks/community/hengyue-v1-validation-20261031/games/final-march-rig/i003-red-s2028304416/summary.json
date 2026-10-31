@@ -1,0 +1,174 @@
+{
+  "job_id": "i003-red-s2028304416",
+  "seed": 2028304416,
+  "side": "red",
+  "days": 1680,
+  "status": "completed",
+  "agent_errors": [
+    0,
+    0
+  ],
+  "command_rejections": [
+    0,
+    0
+  ],
+  "slow_decisions": [
+    0,
+    0
+  ],
+  "timeouts": [
+    0,
+    0
+  ],
+  "stderr_tracebacks": [
+    0,
+    0
+  ],
+  "stderr_policy_exceptions": [
+    0,
+    0
+  ],
+  "faults": [],
+  "source_sha256": {
+    "game/aiwar/__init__.py": "f5f6e5ac15301a6e6cb4415c62912a376542d46d7f340106c549d18d372910de",
+    "game/aiwar/__main__.py": "b77f1d39d07822ef3dc3fde7c948da839fc31dd92074d9c328fc20b65fc13465",
+    "game/aiwar/agent_example.py": "dc4a01dfb42e30959669227914756f9751ab71ff60c06693e053a2321514fa63",
+    "game/aiwar/agents.py": "f229c2b808e0394d6b340aac19647e71b40512d21b420809170cde828f47dc55",
+    "game/aiwar/economy.py": "7921fd3ffc210dba407237a2c999043a16665f1e8909b1d10ae92e26606cec83",
+    "game/aiwar/engine.py": "bf2026f6dfe675662cc88716f24b6077914f6918318dc9c974363ebcebaf45d0",
+    "game/aiwar/experiments.py": "2609f274383a54a6fb3313ffc701d9dab16f590254bb790c80280b7987b939e4",
+    "game/aiwar/layout.py": "69b35b31e2d8a5ed291e70407d84918ee06379b585ecf5ee031dbd87682718d0",
+    "game/aiwar/match.py": "9fb8e79e994d31f38226728ce874af6299a3483b4f146245b49b6847b6a1c20d",
+    "game/aiwar/metrics.py": "2e3eeb1f6b3e4939badfbe1318303c74d7eb8dd183c6803d65169d1314eae343",
+    "game/aiwar/navigation.py": "a7f5cb51a490c32eae447e24f86257f930e8b25a9a80c30bb5ea7df5c9bb6d62",
+    "game/aiwar/patrols.py": "aeb17dfe3d030a8e2459eef169dfecc24ce78a170f5997f71b464f270787cf0a",
+    "game/aiwar/policies.py": "1de261468d80b886d6ac7c9ea25c9a3b2e2482648b0e0d1f862589a26d040751",
+    "game/aiwar/policies_legacy.py": "55063b6597d255bb654a52a15d45716a7fc66d85684915fdf27389ae59adefe0",
+    "game/aiwar/policies_v014.py": "99417964e56760392a7c0275ac3f41a1b9aadb43660406a47e36b7ddc47d1a63",
+    "game/aiwar/policies_v015.py": "49ff2674bcfef21e082a8772f28794e5fa905169e9e652578cb4cee25fa6aff4",
+    "game/aiwar/relief.py": "d9487223196dbc127de5b8af88f2c635db36a3dad4b5858bb4c057fc96a21517",
+    "game/aiwar/replay.py": "092f186d66c5ff6f36f3f6d5e57c17e79bdadbe5073b778f006d1784366e98b0",
+    "game/aiwar/runner.py": "dddb495a5bdfb7813ccf2bbed3d0ddca83cb4f9b8ac1640b61621bfa996941a8",
+    "game/aiwar/sdk.py": "2332300d45de3fe8b9789768b8f26ba116c8e3087cb05f8bdcb0540dbabfb959",
+    "game/aiwar/server.py": "d994b0e323bfd06c2767a8e107d54c70c74e540b057b556579146c57a6aa3aff",
+    "game/aiwar/warfare.py": "6d0a6d56d1f6686207eed256c84b5a095310accba6ce0a0294f1b20af30996cc",
+    "freeze/v0.2.0.json": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+    "tools/play.py": "4ff502929daaa193d4c2be541fb03008407677e5aae044a17ab498d0f29a0f78",
+    "agent": "6d0bd4778c746e5cc7b608f2b37a17da226e07ff92b08d642d694ea902e6eede",
+    "opponent": "ae14c3b223d7a5cccc5563c7d77d69fecaed5d2097f2104ca04d78c023528455",
+    "run_formal.py": "8b919e63a344b2fbd09d8f0a39babcd6847fa1825e5f63f102933277068f8e67",
+    "run_dev.py": "52e09cb58682a3ba7838dfab9f0236313baa309d3a2fcd5d0d952e8ad22a1be3"
+  },
+  "result": {
+    "winner": 1,
+    "reason": "unification",
+    "cities": {
+      "0": 0,
+      "1": 12
+    },
+    "hour": 8593
+  },
+  "physics_digest": "30410a142f7accfc59c6c319fc9ecd08f0f3053bd3437df0ee8f3876a50f4148",
+  "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "totals": [
+    {
+      "nation": 0,
+      "population": 0,
+      "village_population": 0,
+      "transport_population": 0,
+      "military": 0,
+      "healthy": 0,
+      "wounded": 0,
+      "militia": 0,
+      "garrison": 0,
+      "field": 0,
+      "parties": 0,
+      "logistics": 0,
+      "cities": 0,
+      "armies": 0
+    },
+    {
+      "nation": 1,
+      "population": 4714,
+      "village_population": 4259,
+      "transport_population": 455,
+      "military": 3095,
+      "healthy": 2994,
+      "wounded": 101,
+      "militia": 2022,
+      "garrison": 483,
+      "field": 590,
+      "parties": 18,
+      "logistics": 0,
+      "cities": 12,
+      "armies": 0
+    }
+  ],
+  "captures": [
+    {
+      "hour": 585,
+      "city": "c03",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 956,
+      "city": "c05",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 3344,
+      "city": "c01",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 5324,
+      "city": "c02",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 6568,
+      "city": "c00",
+      "from": 0,
+      "to": 1
+    },
+    {
+      "hour": 8593,
+      "city": "c04",
+      "from": 0,
+      "to": 1
+    }
+  ],
+  "score_agent": 1393.4399801587301,
+  "score_opponent": 53.28000992063492,
+  "development_run": false,
+  "win": true,
+  "agents": [
+    [
+      "python3",
+      "-S",
+      "strategies/agent.py",
+      "--policy",
+      "march"
+    ],
+    [
+      "python3",
+      "-S",
+      "strategies/submissions/hengyue/v1/agent.py"
+    ]
+  ],
+  "elapsed_seconds": 133.55699042399647,
+  "raw_log_sha256": {
+    "agent-0.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "agent-1.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "challenge.json": "1308d6193667a298927aa56ecea076940a2eeecf885c9c4859d5df6be5d03083",
+    "final.save.json": "024035fe0237a40d8fcc6cbf9ffc57c9a7fc8aa20ae1c998c0b8884b2211a88c",
+    "match.json": "428cfe5085e8fd194b9e7a82fcd25ecebd4348d6dc2d7dc0216cef59561c24c1",
+    "nation-0.jsonl.gz": "cb0eca245364365c4c749ad8e7af7e89648061e3fe1b0beccf598a6a473348d4",
+    "nation-1.jsonl.gz": "88af654963d48179b8bf3a4dfe2ffcd70c3eaa00bbd01f78780c096321ef29ee",
+    "result.json": "d3849f175567cab0b093faf7fd31dbbf5fbf616c7ccfafffc137c9995c07854f"
+  }
+}

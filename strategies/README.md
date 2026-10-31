@@ -24,3 +24,8 @@ python tools/play.py --blue-command '["python","strategies/agent_template.py"]' 
 也可在Python里使用 `aiwar.match.run_match` 接入任何可执行程序。规则与接口见 `game/AGENT_API.md`。只能使用输入观察，不访问全知存档、核心World、对手文件、未来随机状态或Godot观察端口。
 
 提交时附源码、依赖、启动命令、训练方法、训练/验证/测试种子、模型与算力预算、完整输赢平和错误数。大模型需要API时只提供环境变量名称，绝不上传密钥。共享失败和负结果同样有价值。
+
+
+### 衡岳-V1：48局对抗与完整日志（2026-10-31）
+
+[策略、45胜3负报告及无损数据下载](../benchmarks/community/hengyue-v1-validation-20261031/README.md)：对A-R3、Grok v25/v23各11胜1负，对march12胜；6个共享新种子交换阵营。另保留30场开发记录和3场败局复盘。小样本，不代表对A-R5或未来策略的结论；默认march不变。

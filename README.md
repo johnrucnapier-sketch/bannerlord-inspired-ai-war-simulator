@@ -68,3 +68,8 @@ python tools/play.py --blue d2 --red march --seed 1 --output runs/d2-1
 详见 [贡献指南](CONTRIBUTING.md)。目前没有宣称官方排名，也没有自动执行陌生策略的服务。外部智能体进程不是安全沙箱，评测不可信代码时请自行隔离文件、网络和资源。
 
 [English overview](README.en.md) · [MIT License](LICENSE)
+
+
+### 衡岳-V1：48局对抗与完整日志（2026-10-31）
+
+[策略、45胜3负报告及无损数据下载](benchmarks/community/hengyue-v1-validation-20261031/README.md)：对A-R3、Grok v25/v23各11胜1负，对march12胜；6个共享新种子交换阵营。另保留30场开发记录和3场败局复盘。小样本，不代表对A-R5或未来策略的结论；默认march不变。

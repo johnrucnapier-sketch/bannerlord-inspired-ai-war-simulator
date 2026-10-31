@@ -1,0 +1,1406 @@
+[
+  {
+    "batch": "final-gptdot-a-r3-mac",
+    "game": "i000-blue-s922692981",
+    "formal": true,
+    "seed": 922692981,
+    "side": "blue",
+    "win": false,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 7371
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-mac",
+    "game": "i000-red-s922692981",
+    "formal": true,
+    "seed": 922692981,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 10486
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-mac",
+    "game": "i001-blue-s164311966",
+    "formal": true,
+    "seed": 164311966,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 21307
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-mac",
+    "game": "i001-red-s164311966",
+    "formal": true,
+    "seed": 164311966,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 16084
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-rig",
+    "game": "i000-blue-s1795774266",
+    "formal": true,
+    "seed": 1795774266,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 15203
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-rig",
+    "game": "i000-red-s1795774266",
+    "formal": true,
+    "seed": 1795774266,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 17238
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-rig",
+    "game": "i001-blue-s1114100708",
+    "formal": true,
+    "seed": 1114100708,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 13346
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-rig",
+    "game": "i001-red-s1114100708",
+    "formal": true,
+    "seed": 1114100708,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 6616
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-rig",
+    "game": "i002-blue-s156147657",
+    "formal": true,
+    "seed": 156147657,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 10148
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-rig",
+    "game": "i002-red-s156147657",
+    "formal": true,
+    "seed": 156147657,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 9390
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-rig",
+    "game": "i003-blue-s2028304416",
+    "formal": true,
+    "seed": 2028304416,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6794
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-gptdot-a-r3-rig",
+    "game": "i003-red-s2028304416",
+    "formal": true,
+    "seed": 2028304416,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 13905
+    },
+    "package": "hengyue-v1-gptdot-a-r3-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-mac",
+    "game": "i000-blue-s922692981",
+    "formal": true,
+    "seed": 922692981,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 4482
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-mac",
+    "game": "i000-red-s922692981",
+    "formal": true,
+    "seed": 922692981,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 14641
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-mac",
+    "game": "i001-blue-s164311966",
+    "formal": true,
+    "seed": 164311966,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 13423
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-mac",
+    "game": "i001-red-s164311966",
+    "formal": true,
+    "seed": 164311966,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 8104
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-rig",
+    "game": "i000-blue-s1795774266",
+    "formal": true,
+    "seed": 1795774266,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 25364
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-rig",
+    "game": "i000-red-s1795774266",
+    "formal": true,
+    "seed": 1795774266,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 14419
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-rig",
+    "game": "i001-blue-s1114100708",
+    "formal": true,
+    "seed": 1114100708,
+    "side": "blue",
+    "win": false,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 12725
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-rig",
+    "game": "i001-red-s1114100708",
+    "formal": true,
+    "seed": 1114100708,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 11611
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-rig",
+    "game": "i002-blue-s156147657",
+    "formal": true,
+    "seed": 156147657,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6443
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-rig",
+    "game": "i002-red-s156147657",
+    "formal": true,
+    "seed": 156147657,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 8410
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-rig",
+    "game": "i003-blue-s2028304416",
+    "formal": true,
+    "seed": 2028304416,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 5739
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v25-rig",
+    "game": "i003-red-s2028304416",
+    "formal": true,
+    "seed": 2028304416,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 6862
+    },
+    "package": "hengyue-v1-grok-v25-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-mac",
+    "game": "i000-blue-s922692981",
+    "formal": true,
+    "seed": 922692981,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 8734
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-mac",
+    "game": "i000-red-s922692981",
+    "formal": true,
+    "seed": 922692981,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 11652
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-mac",
+    "game": "i001-blue-s164311966",
+    "formal": true,
+    "seed": 164311966,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6784
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-mac",
+    "game": "i001-red-s164311966",
+    "formal": true,
+    "seed": 164311966,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 16539
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-rig",
+    "game": "i000-blue-s1795774266",
+    "formal": true,
+    "seed": 1795774266,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 9486
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-rig",
+    "game": "i000-red-s1795774266",
+    "formal": true,
+    "seed": 1795774266,
+    "side": "red",
+    "win": false,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 8216
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-rig",
+    "game": "i001-blue-s1114100708",
+    "formal": true,
+    "seed": 1114100708,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 9642
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-rig",
+    "game": "i001-red-s1114100708",
+    "formal": true,
+    "seed": 1114100708,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 9260
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-rig",
+    "game": "i002-blue-s156147657",
+    "formal": true,
+    "seed": 156147657,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 11057
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-rig",
+    "game": "i002-red-s156147657",
+    "formal": true,
+    "seed": 156147657,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 7803
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-rig",
+    "game": "i003-blue-s2028304416",
+    "formal": true,
+    "seed": 2028304416,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 7247
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-grok-v23-rig",
+    "game": "i003-red-s2028304416",
+    "formal": true,
+    "seed": 2028304416,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 8748
+    },
+    "package": "hengyue-v1-grok-v23-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-mac",
+    "game": "i000-blue-s922692981",
+    "formal": true,
+    "seed": 922692981,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 10048
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-mac",
+    "game": "i000-red-s922692981",
+    "formal": true,
+    "seed": 922692981,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 6674
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-mac",
+    "game": "i001-blue-s164311966",
+    "formal": true,
+    "seed": 164311966,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 8293
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-mac",
+    "game": "i001-red-s164311966",
+    "formal": true,
+    "seed": 164311966,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 10238
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-rig",
+    "game": "i000-blue-s1795774266",
+    "formal": true,
+    "seed": 1795774266,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 10186
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-rig",
+    "game": "i000-red-s1795774266",
+    "formal": true,
+    "seed": 1795774266,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 9940
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-rig",
+    "game": "i001-blue-s1114100708",
+    "formal": true,
+    "seed": 1114100708,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 9793
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-rig",
+    "game": "i001-red-s1114100708",
+    "formal": true,
+    "seed": 1114100708,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 7910
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-rig",
+    "game": "i002-blue-s156147657",
+    "formal": true,
+    "seed": 156147657,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6999
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-rig",
+    "game": "i002-red-s156147657",
+    "formal": true,
+    "seed": 156147657,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 7909
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-rig",
+    "game": "i003-blue-s2028304416",
+    "formal": true,
+    "seed": 2028304416,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6273
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "final-march-rig",
+    "game": "i003-red-s2028304416",
+    "formal": true,
+    "seed": 2028304416,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 8593
+    },
+    "package": "hengyue-v1-march-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-01-ar3",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": false,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 2928
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-01-ar3",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": false,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 8707
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-01-v25",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": false,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 19975
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-01-v25",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "time_limit",
+      "cities": {
+        "0": 1,
+        "1": 11
+      },
+      "hour": 40320
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-02-ar3",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": false,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 2928
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-02-ar3",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": false,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 8707
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-03-ar3",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 29149
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-03-ar3",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": false,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 7203
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-03-march",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 8254
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-03-march",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 7756
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-03-v23",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6225
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-03-v23",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 6427
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-03-v25",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 11655
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-03-v25",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 7531
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-05-ar3",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 8073
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-05-ar3",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 10526
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-05-ar3",
+    "game": "i001-blue-s10631002",
+    "formal": false,
+    "seed": 10631002,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 9578
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-05-ar3",
+    "game": "i001-red-s10631002",
+    "formal": false,
+    "seed": 10631002,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 8430
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-05-v25",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6708
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-05-v25",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "time_limit",
+      "cities": {
+        "0": 5,
+        "1": 7
+      },
+      "hour": 40320
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-05-v25",
+    "game": "i001-blue-s10631002",
+    "formal": false,
+    "seed": 10631002,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6953
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-05-v25",
+    "game": "i001-red-s10631002",
+    "formal": false,
+    "seed": 10631002,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 9685
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-06-ar3",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 13989
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-06-ar3",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 10526
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-06-ar3",
+    "game": "i001-blue-s10631002",
+    "formal": false,
+    "seed": 10631002,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 9578
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-06-ar3",
+    "game": "i001-red-s10631002",
+    "formal": false,
+    "seed": 10631002,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 8430
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-06-v25",
+    "game": "i000-blue-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6708
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-06-v25",
+    "game": "i000-red-s10631001",
+    "formal": false,
+    "seed": 10631001,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "time_limit",
+      "cities": {
+        "0": 5,
+        "1": 7
+      },
+      "hour": 40320
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-06-v25",
+    "game": "i001-blue-s10631002",
+    "formal": false,
+    "seed": 10631002,
+    "side": "blue",
+    "win": true,
+    "result": {
+      "winner": 0,
+      "reason": "unification",
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "hour": 6953
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  },
+  {
+    "batch": "dev-06-v25",
+    "game": "i001-red-s10631002",
+    "formal": false,
+    "seed": 10631002,
+    "side": "red",
+    "win": true,
+    "result": {
+      "winner": 1,
+      "reason": "unification",
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "hour": 9685
+    },
+    "package": "hengyue-v1-development-20261031.tar.zst"
+  }
+]

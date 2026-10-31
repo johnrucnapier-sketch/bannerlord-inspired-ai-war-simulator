@@ -1,0 +1,104 @@
+{
+  "schema": "hengyue-actions-v1",
+  "notes": [
+    "Read-only post-hoc analysis; no agent/simulator execution and no strategy changes.",
+    "Nation is selected exclusively from summary.side: blue=0, red=1. Counts concern the candidate only.",
+    "Attack/raid/siege counts are issued command occurrences, grouped by target kind in that exact observation; accepted commands do not prove successful attacks, completed raids or captures.",
+    "Zero-food and hungry counts are unit-by-decision-observation counts, excluding terminal rows; repeated observations are not independent hunger events, deaths, or durations. Garrison/militia food=0 is not counted as party food=0.",
+    "Relief fields are distinct relief_field battle IDs actually visible in own observations, not inferred from orders. Starts use the observed battle.start; six-hour sampling can miss short or invisible battles, so counts are observed lower bounds.",
+    "Evidence log line numbers are one-based in the decompressed JSONL; command indices are zero-based. Only relative batch/job identifiers and selected observation fields are emitted.",
+    "Only completed full-length (planned days >=1680) games are selected as loss/slow-win analysis candidates. Pending logs are not scanned; malformed/truncated completed logs are marked and excluded from aggregates.",
+    "Per-game distinct unit counts summed across games are game-unit pairs, not globally distinct soldiers/units."
+  ],
+  "coverage": {
+    "games_listed": 48,
+    "complete_logs": 48,
+    "scan_statuses": {
+      "complete": 48
+    }
+  },
+  "aggregate_complete_logs": {
+    "issued_actions_by_target_kind": {
+      "attack": {
+        "village_cart": 30957,
+        "party": 7807,
+        "city_cart": 19
+      },
+      "siege": {
+        "city": 2916
+      },
+      "raid": {
+        "village": 4316
+      }
+    },
+    "invalid_command_reasons": {},
+    "food_observation_counts": {
+      "party_observations_total": 1077243,
+      "party_zero_food_observations": 96,
+      "decisions_with_any_party_zero_food": 78,
+      "decisions_with_any_hungry_unit": 9365,
+      "distinct_zero_food_party_ids": 13,
+      "distinct_hungry_unit_ids": 158
+    },
+    "hungry_unit_observations_by_kind": {
+      "militia": 10872,
+      "garrison": 2306,
+      "party": 100,
+      "city_cart": 3
+    },
+    "observed_relief_fields_by_role": {
+      "own_city_defense": 29,
+      "own_besieging_force": 5
+    }
+  },
+  "analysis_candidates": [
+    {
+      "batch": "final-gptdot-a-r3-mac",
+      "job_id": "i000-blue-s922692981",
+      "reason": "loss",
+      "outcome": "loss",
+      "final_hour": 7371,
+      "evidence_reference": "rows[batch=final-gptdot-a-r3-mac,job_id=i000-blue-s922692981].evidence"
+    },
+    {
+      "batch": "final-grok-v23-rig",
+      "job_id": "i000-red-s1795774266",
+      "reason": "loss",
+      "outcome": "loss",
+      "final_hour": 8216,
+      "evidence_reference": "rows[batch=final-grok-v23-rig,job_id=i000-red-s1795774266].evidence"
+    },
+    {
+      "batch": "final-grok-v25-rig",
+      "job_id": "i001-blue-s1114100708",
+      "reason": "loss",
+      "outcome": "loss",
+      "final_hour": 12725,
+      "evidence_reference": "rows[batch=final-grok-v25-rig,job_id=i001-blue-s1114100708].evidence"
+    },
+    {
+      "batch": "final-grok-v25-rig",
+      "job_id": "i000-blue-s1795774266",
+      "reason": "longest_full_length_win",
+      "outcome": "win",
+      "final_hour": 25364,
+      "evidence_reference": "rows[batch=final-grok-v25-rig,job_id=i000-blue-s1795774266].evidence"
+    },
+    {
+      "batch": "final-gptdot-a-r3-mac",
+      "job_id": "i001-blue-s164311966",
+      "reason": "longest_full_length_win",
+      "outcome": "win",
+      "final_hour": 21307,
+      "evidence_reference": "rows[batch=final-gptdot-a-r3-mac,job_id=i001-blue-s164311966].evidence"
+    },
+    {
+      "batch": "final-gptdot-a-r3-rig",
+      "job_id": "i000-red-s1795774266",
+      "reason": "longest_full_length_win",
+      "outcome": "win",
+      "final_hour": 17238,
+      "evidence_reference": "rows[batch=final-gptdot-a-r3-rig,job_id=i000-red-s1795774266].evidence"
+    }
+  ]
+}

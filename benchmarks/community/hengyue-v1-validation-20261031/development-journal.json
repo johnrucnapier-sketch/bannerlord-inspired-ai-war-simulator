@@ -1,0 +1,332 @@
+{
+  "changes": {
+    "c01": "初版：资源预算与集中战役原型。",
+    "c02": "修复守城busy遮挡救援和None错误匹配；相同开发局仍失败。",
+    "c03": "修复解围出击折返、普通自动整补预算、轻损作战后冗余休整。",
+    "c04": "修复部分援军已接战后余军折返，以及侦察点越过8000视野。仅机制回归，不另跑完整对局。",
+    "c05": "加入城防损耗与抵达期限预测、最后一城及重启后的外援识别；随后发现最早接敌时间使用错误。",
+    "c06": "修正守城损耗只计到首支外援最早接敌；缓存观察到的攻方加入时输出，用于城防截止时间。冻结为衡岳-V1。"
+  },
+  "batches": [
+    {
+      "batch": "dev-01-ar3",
+      "completed": 2,
+      "planned": 2,
+      "summary": {
+        "planned": 2,
+        "completed": 2,
+        "failed": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "agent_error_events": 0,
+        "command_rejections": 0,
+        "slow_decisions": 0,
+        "score_agent": 36.07080853174603,
+        "sides": {
+          "blue": {
+            "wins": 0,
+            "draws": 0,
+            "losses": 1
+          },
+          "red": {
+            "wins": 0,
+            "draws": 0,
+            "losses": 1
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-01-v25",
+      "completed": 2,
+      "planned": 2,
+      "summary": {
+        "planned": 2,
+        "completed": 2,
+        "failed": 0,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "agent_error_events": 0,
+        "command_rejections": 1,
+        "slow_decisions": 0,
+        "score_agent": 419.60398985094713,
+        "sides": {
+          "blue": {
+            "wins": 0,
+            "draws": 0,
+            "losses": 1
+          },
+          "red": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-02-ar3",
+      "completed": 2,
+      "planned": 2,
+      "summary": {
+        "planned": 2,
+        "completed": 2,
+        "failed": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "agent_error_events": 0,
+        "command_rejections": 0,
+        "slow_decisions": 0,
+        "score_agent": 36.07080853174603,
+        "sides": {
+          "blue": {
+            "wins": 0,
+            "draws": 0,
+            "losses": 1
+          },
+          "red": {
+            "wins": 0,
+            "draws": 0,
+            "losses": 1
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-03-ar3",
+      "completed": 2,
+      "planned": 2,
+      "summary": {
+        "planned": 2,
+        "completed": 2,
+        "failed": 0,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "agent_error_events": 0,
+        "command_rejections": 0,
+        "slow_decisions": 0,
+        "score_agent": 591.5953621031746,
+        "sides": {
+          "blue": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+          },
+          "red": {
+            "wins": 0,
+            "draws": 0,
+            "losses": 1
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-03-march",
+      "completed": 2,
+      "planned": 2,
+      "summary": {
+        "planned": 2,
+        "completed": 2,
+        "failed": 0,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "agent_error_events": 0,
+        "command_rejections": 0,
+        "slow_decisions": 0,
+        "score_agent": 1400.7316468253966,
+        "sides": {
+          "blue": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+          },
+          "red": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-03-v23",
+      "completed": 2,
+      "planned": 2,
+      "summary": {
+        "planned": 2,
+        "completed": 2,
+        "failed": 0,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "agent_error_events": 0,
+        "command_rejections": 0,
+        "slow_decisions": 0,
+        "score_agent": 1421.5525793650795,
+        "sides": {
+          "blue": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+          },
+          "red": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-03-v25",
+      "completed": 2,
+      "planned": 2,
+      "summary": {
+        "planned": 2,
+        "completed": 2,
+        "failed": 0,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "agent_error_events": 0,
+        "command_rejections": 0,
+        "slow_decisions": 0,
+        "score_agent": 1381.0391865079364,
+        "sides": {
+          "blue": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+          },
+          "red": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-05-ar3",
+      "completed": 4,
+      "planned": 4,
+      "summary": {
+        "planned": 4,
+        "completed": 4,
+        "failed": 0,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "agent_error_events": 0,
+        "command_rejections": 0,
+        "slow_decisions": 0,
+        "score_agent": 1386.5110367063492,
+        "sides": {
+          "blue": {
+            "wins": 2,
+            "draws": 0,
+            "losses": 0
+          },
+          "red": {
+            "wins": 2,
+            "draws": 0,
+            "losses": 0
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-05-v25",
+      "completed": 4,
+      "planned": 4,
+      "summary": {
+        "planned": 4,
+        "completed": 4,
+        "failed": 0,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "agent_error_events": 0,
+        "command_rejections": 1,
+        "slow_decisions": 0,
+        "score_agent": 1184.20604933432,
+        "sides": {
+          "blue": {
+            "wins": 2,
+            "draws": 0,
+            "losses": 0
+          },
+          "red": {
+            "wins": 2,
+            "draws": 0,
+            "losses": 0
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-06-ar3",
+      "completed": 4,
+      "planned": 4,
+      "summary": {
+        "planned": 4,
+        "completed": 4,
+        "failed": 0,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "agent_error_events": 0,
+        "command_rejections": 0,
+        "slow_decisions": 0,
+        "score_agent": 1368.1702628968255,
+        "sides": {
+          "blue": {
+            "wins": 2,
+            "draws": 0,
+            "losses": 0
+          },
+          "red": {
+            "wins": 2,
+            "draws": 0,
+            "losses": 0
+          }
+        }
+      }
+    },
+    {
+      "batch": "dev-06-v25",
+      "completed": 4,
+      "planned": 4,
+      "summary": {
+        "planned": 4,
+        "completed": 4,
+        "failed": 0,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "agent_error_events": 0,
+        "command_rejections": 1,
+        "slow_decisions": 0,
+        "score_agent": 1184.20604933432,
+        "sides": {
+          "blue": {
+            "wins": 2,
+            "draws": 0,
+            "losses": 0
+          },
+          "red": {
+            "wins": 2,
+            "draws": 0,
+            "losses": 0
+          }
+        }
+      }
+    }
+  ],
+  "note": "Complete 1680-day development matches only. Short protocol/fixture/harness checks are separate. A-R3 and v25 cases selected for development are reused and not independent validation."
+}

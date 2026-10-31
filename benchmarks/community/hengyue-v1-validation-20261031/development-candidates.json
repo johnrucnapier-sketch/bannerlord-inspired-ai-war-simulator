@@ -1,0 +1,26 @@
+[
+  {
+    "candidate": "c01",
+    "sha256": "570b969ae01fdd2e99a345480aa34b2f19be2fb6788190fb5633be56d69e2bfc"
+  },
+  {
+    "candidate": "c02",
+    "sha256": "236e8a28d1cf3cd883870b2b47fd19eba7ad389690455c3c385351a9e7dcfe13"
+  },
+  {
+    "candidate": "c03",
+    "sha256": "5c250d6aa543f8627d6d7293d764ad5592a658ffc7282100a5af5f3b843b1249"
+  },
+  {
+    "candidate": "c04",
+    "sha256": "392f233a675ebfd0a94d65cf9dae3fd6f8a351df8054f66f45f7929282fc1bc5"
+  },
+  {
+    "candidate": "c05",
+    "sha256": "fc6c8bacb01b77828bbeb2403a33991b2ab8425ba9d77dea73180c60459516e0"
+  },
+  {
+    "candidate": "c06",
+    "sha256": "6d0bd4778c746e5cc7b608f2b37a17da226e07ff92b08d642d694ea902e6eede"
+  }
+]

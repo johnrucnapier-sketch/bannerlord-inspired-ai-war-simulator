@@ -1,0 +1,43 @@
+{
+  "baseline": "v0.2.0",
+  "targeted_policy_tests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "mac_release_check": "807 frozen files match",
+  "formal_candidate_sha256": "6d0bd4778c746e5cc7b608f2b37a17da226e07ff92b08d642d694ea902e6eede",
+  "loss_replay": {
+    "game": "gptdot-a-r3 / seed922692981 / candidate blue",
+    "hour": 7371,
+    "output": "REPLAY_OK 7371 e05706dba0b5cd0172c44285e222ed24083e573a5c00d2b5e0e6ea3599842b84"
+  },
+  "protocol_harness": [
+    "harness-validation.json",
+    "v25-harness-validation.json"
+  ],
+  "final_smoke": "smoke-final-c06",
+  "notes": [
+    "Only ordinary strategy and evaluator files added; no game/core/default opponent changes.",
+    "Policy tests include synthetic fixtures and actual frozen-engine movement/contact checks; they are not win-rate evidence.",
+    "Formal completed match results, development matches, and 7-day smoke checks are distinct."
+  ],
+  "rig_win_replayed_on_mac": {
+    "game": "gptdot-a-r3 / seed156147657 / candidate red",
+    "output": "REPLAY_OK 9390 0c9d75733f8210a922aa8b108e11b5545646cbea9477daeeb9abdf40ac715ba6"
+  },
+  "rig_readback": {
+    "verified_files": 504,
+    "mismatches": 0,
+    "final_release_check": "OK: v0.2.0 / 807 frozen files (all) / core and evidence match"
+  },
+  "formal_accounting": {
+    "planned_jobs": 48,
+    "uniquely_matched_jobs": 48,
+    "missing_jobs": 0,
+    "duplicate_jobs": 0,
+    "unexpected_records": 0,
+    "audit_invalid_jobs": 0,
+    "failed_jobs": 0,
+    "complete_and_consistent": true
+  }
+}

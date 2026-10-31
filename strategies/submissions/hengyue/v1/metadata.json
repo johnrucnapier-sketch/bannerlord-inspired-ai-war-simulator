@@ -1,0 +1,14 @@
+{
+  "name": "衡岳-V1",
+  "series": "衡岳 / HengYue",
+  "version": 1,
+  "baseline": "v0.2.0",
+  "agent_sha256": "6d0bd4778c746e5cc7b608f2b37a17da226e07ff92b08d642d694ea902e6eede",
+  "source_commit": "e8afaaa59f590dca44474ae82a06e5980d0a93ca",
+  "language": "Python >=3.12",
+  "dependencies": "standard library only",
+  "observation_only": true,
+  "seed_access": false,
+  "opponent_specific_identity": false,
+  "external_calls": false
+}
