@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "experiment": "ar5-small-validation-20261031",
+  "candidate_publication_commit": "1656d4914b9d582b703a89d53adefabc2ecdfcb0",
+  "v25_commit": "e8afaaa59f590dca44474ae82a06e5980d0a93ca",
+  "baseline": "v0.2.0",
+  "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+  "days": 1680,
+  "decision_hours": 6,
+  "timeout_seconds": 2,
+  "max_concurrent_matches": 1,
+  "resource_limits": {
+    "host_inherited_cpu_seconds": 2400,
+    "address_space_bytes": 2147483648,
+    "owned_process_group_wall_watchdog_seconds": 2700
+  },
+  "frozen_manifest_sha256": "a6d56cb4875804770bf82fa176d08cfc30f5af892763fc10f92e3c826e8274a5",
+  "python": "3.12.14",
+  "source_sha256": {
+    "ar5": "21f1c90b2ff2dc3844d63ce57ef150aafd729de0dcbe587d82aadbfa10e8ea2c",
+    "grok-v25": "6325ad27ff5c13522254814f337db504a345b09a67565ce1ac5cffe1e98e6bf0",
+    "ar3": "818d5834ec12545cd632163a0dd5986ababf79fc893cbdb896d3cfe7c0f6e65e"
+  },
+  "seed_selection": "secrets.randbits(63), two draws excluding recovered registered seeds before outcomes",
+  "seeds": [
+    "5406161782667714950",
+    "4822122513878347975"
+  ],
+  "seed_encoding": "decimal strings preserve 63-bit precision in JavaScript consumers",
+  "aggregate": {
+    "A-R3": {
+      "completed": 4,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "runtime_fault_games": 0,
+      "ar5_rejected_commands": 0,
+      "opponent_rejected_commands": 1
+    },
+    "Grok-V25": {
+      "completed": 4,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "runtime_fault_games": 0,
+      "ar5_rejected_commands": 0,
+      "opponent_rejected_commands": 10
+    }
+  },
+  "matches": [
+    {
+      "id": "A-R3-s5406161782667714950-ar5-side0",
+      "seed": "5406161782667714950",
+      "ar5_side": "blue",
+      "opponent": "A-R3",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 17740,
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "runtime_fault": false,
+      "ar5_runtime_fault": false,
+      "opponent_runtime_fault": false,
+      "ar5_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar5_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar5_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "c1140f32ee5d03112d3c41b1ba8245bbf2c8fefcb2819d9798e72211270b2ae1",
+      "wall_seconds": 164.114097,
+      "raw_archives": [
+        {
+          "filename": "A-R3-s5406161782667714950-ar5-side0.zip",
+          "bytes": 46830025,
+          "sha256": "95c01a925888bbc053d253fd8d2b55065580f223c4496ac90f82517f5967b89f"
+        }
+      ]
+    },
+    {
+      "id": "A-R3-s5406161782667714950-ar5-side1",
+      "seed": "5406161782667714950",
+      "ar5_side": "red",
+      "opponent": "A-R3",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 29293,
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "runtime_fault": false,
+      "ar5_runtime_fault": false,
+      "opponent_runtime_fault": false,
+      "ar5_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar5_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar5_command_rejections": [],
+      "opponent_command_rejections": [
+        {
+          "hour": 23808,
+          "error": "人数或容量无效"
+        }
+      ],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "15cd01680d30413d63950af718d62dbb444a5020210d3b90da4df7215d3ee7b5",
+      "wall_seconds": 285.00725249400057,
+      "raw_archives": [
+        {
+          "filename": "A-R3-s5406161782667714950-ar5-side1.zip",
+          "bytes": 80352079,
+          "sha256": "120ae932db30dab947a0ed29babeb41f5f6b896de8042f155b6fa66c400e9750"
+        }
+      ]
+    },
+    {
+      "id": "Grok-V25-s5406161782667714950-ar5-side0",
+      "seed": "5406161782667714950",
+      "ar5_side": "blue",
+      "opponent": "Grok-V25",
+      "status": "completed",
+      "observed_outcome": "win",
+      "reason": "time_limit",
+      "hour": 40320,
+      "cities": {
+        "0": 9,
+        "1": 3
+      },
+      "runtime_fault": false,
+      "ar5_runtime_fault": false,
+      "opponent_runtime_fault": false,
+      "ar5_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar5_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar5_command_rejections": [],
+      "opponent_command_rejections": [
+        {
+          "hour": 558,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 558,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 564,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 564,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 570,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 570,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 576,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 576,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 582,
+          "error": "部队不可用"
+        },
+        {
+          "hour": 582,
+          "error": "部队不可用"
+        }
+      ],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "e3ba3cc8243928d32dc08656b50c9c8e87443dda486d17cbdae68676d6e3833a",
+      "wall_seconds": 370.01202253700103,
+      "raw_archives": [
+        {
+          "filename": "Grok-V25-s5406161782667714950-ar5-side0.zip",
+          "bytes": 107426490,
+          "sha256": "10bdcdacc2bab81ec4590d946c3cd5de4177212c7b4b2feedcf53f20a3b3db2e"
+        }
+      ]
+    },
+    {
+      "id": "Grok-V25-s5406161782667714950-ar5-side1",
+      "seed": "5406161782667714950",
+      "ar5_side": "red",
+      "opponent": "Grok-V25",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 25891,
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "runtime_fault": false,
+      "ar5_runtime_fault": false,
+      "opponent_runtime_fault": false,
+      "ar5_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar5_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar5_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "147f65b168746d6d56e4f955e2a28a9efac85b788095dce62b0bf355ba8b10e6",
+      "wall_seconds": 250.0102443199994,
+      "raw_archives": [
+        {
+          "filename": "Grok-V25-s5406161782667714950-ar5-side1.zip",
+          "bytes": 73429339,
+          "sha256": "01cc3806936181a00087b1fc8a2d6af10edd0f7a5c0dca4eeb73928ffe1a644e"
+        }
+      ]
+    },
+    {
+      "id": "A-R3-s4822122513878347975-ar5-side0",
+      "seed": "4822122513878347975",
+      "ar5_side": "blue",
+      "opponent": "A-R3",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "time_limit",
+      "hour": 40320,
+      "cities": {
+        "0": 3,
+        "1": 9
+      },
+      "runtime_fault": false,
+      "ar5_runtime_fault": false,
+      "opponent_runtime_fault": false,
+      "ar5_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar5_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar5_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "2784db0c7b8a35ea82a539dbd6b45367e3b538cdc597fa4d2e791a729b05fe54",
+      "wall_seconds": 380.01288930400005,
+      "raw_archives": [
+        {
+          "filename": "A-R3-s4822122513878347975-ar5-side0.zip",
+          "bytes": 111606524,
+          "sha256": "725d440979e5626951e3f24a21f98e730c16d644d4eec976ef15c51f28787106"
+        }
+      ]
+    },
+    {
+      "id": "A-R3-s4822122513878347975-ar5-side1",
+      "seed": "4822122513878347975",
+      "ar5_side": "red",
+      "opponent": "A-R3",
+      "status": "completed",
+      "observed_outcome": "loss",
+      "reason": "unification",
+      "hour": 14733,
+      "cities": {
+        "0": 12,
+        "1": 0
+      },
+      "runtime_fault": false,
+      "ar5_runtime_fault": false,
+      "opponent_runtime_fault": false,
+      "ar5_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar5_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar5_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "aa52644b243120ba0d2ff5fad95f12200c4ae57335976ce5fe4b35c88a023709",
+      "wall_seconds": 125.00330197999938,
+      "raw_archives": [
+        {
+          "filename": "A-R3-s4822122513878347975-ar5-side1.zip",
+          "bytes": 38878603,
+          "sha256": "24493f4811eb42743709a4114ec3022b6b013c6232d141d14392c7d0d01f45e0"
+        }
+      ]
+    },
+    {
+      "id": "Grok-V25-s4822122513878347975-ar5-side0",
+      "seed": "4822122513878347975",
+      "ar5_side": "blue",
+      "opponent": "Grok-V25",
+      "status": "completed",
+      "observed_outcome": "win",
+      "reason": "time_limit",
+      "hour": 40320,
+      "cities": {
+        "0": 9,
+        "1": 3
+      },
+      "runtime_fault": false,
+      "ar5_runtime_fault": false,
+      "opponent_runtime_fault": false,
+      "ar5_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar5_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar5_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "33382f9c96e20537c8ff711a198db64f9bb32a0b2961e9b203c6ac2dbfbd308f",
+      "wall_seconds": 360.01145783599895,
+      "raw_archives": [
+        {
+          "filename": "Grok-V25-s4822122513878347975-ar5-side0.zip",
+          "bytes": 103519525,
+          "sha256": "602854bb498afcf76cb625dd491d3e41eb03b05b918345229c21d64678266b96"
+        }
+      ]
+    },
+    {
+      "id": "Grok-V25-s4822122513878347975-ar5-side1",
+      "seed": "4822122513878347975",
+      "ar5_side": "red",
+      "opponent": "Grok-V25",
+      "status": "completed",
+      "observed_outcome": "win",
+      "reason": "unification",
+      "hour": 12900,
+      "cities": {
+        "0": 0,
+        "1": 12
+      },
+      "runtime_fault": false,
+      "ar5_runtime_fault": false,
+      "opponent_runtime_fault": false,
+      "ar5_protocol_errors": [],
+      "opponent_protocol_errors": [],
+      "ar5_traceback_count": 0,
+      "opponent_traceback_count": 0,
+      "ar5_command_rejections": [],
+      "opponent_command_rejections": [],
+      "config_sha256": "2ee06ba004ca274d41f3dc036adc9859feb93614f9663732e302538f21967a26",
+      "physics_digest": "8ecc78a1784f24ef04793249e4c94d2fc3cd58ca3763b01c8ae8d839ef09b52d",
+      "wall_seconds": 115.00298766099877,
+      "raw_archives": [
+        {
+          "filename": "Grok-V25-s4822122513878347975-ar5-side1.zip",
+          "bytes": 34462369,
+          "sha256": "ba5a223fec3eb32d38f3b853b2e723b3ba82716d88bd9c36290a0ba757fb12ba"
+        }
+      ]
+    }
+  ],
+  "metadata_correction": "The preregistration expected-config hash was computed without the explicit mode key. The unchanged official host ran the intended duel configuration. Post-match assertion stopped after first complete match; raw result was recovered without replay, expected hash corrected, remaining seven original slots resumed. Original plan/failure and correction retained. No seed/source/world/timeout change and no extra game.",
+  "original_plan_sha256": "2deefdb2b0da7d15827b2442817285d83ba1de1d358d4302ff6d6503a4d0f96d",
+  "correction_sha256": "f3a81c9dbd7d11c4623294f78fdc4fbd960c649445b358ba0d2db1f6c3f6fd58",
+  "limitations": [
+    "Only two seed pairs per opponent; not proof of ranking or general superiority.",
+    "Decision errors/internal exceptions and command rejections are separate.",
+    "No parameter changes after seeing results; no automatic additional matches."
+  ]
+}
