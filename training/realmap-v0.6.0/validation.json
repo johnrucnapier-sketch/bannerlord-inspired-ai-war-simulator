@@ -1,0 +1,80 @@
+[
+  {
+    "seed": 31,
+    "days": 42,
+    "hours": 1008,
+    "commands": {
+      "set_strength": 108,
+      "move": 763,
+      "attack": 53,
+      "set_composition": 6,
+      "dispatch": 14,
+      "dispatch_deliver": 11,
+      "troops_dispatched": 0,
+      "assemble": 4,
+      "dispatch_fetch": 3,
+      "siege": 4,
+      "disband": 4
+    },
+    "invalid": [],
+    "stats": {
+      "war_dead": 1093,
+      "starved": 0,
+      "defeated_removed": 2663,
+      "food_lost": 13968400,
+      "recruits_lost": 85,
+      "bandit_spawns": 84,
+      "bandits_killed": 56,
+      "bandit_cart_losses": 72,
+      "bandit_food_lost": 10870000,
+      "bandit_recruits_lost": 73,
+      "delivered_food": 47190000,
+      "delivered_recruits": 328,
+      "bandit_flights": 86,
+      "cavalry_trained": 91,
+      "supply_dispatches": 14,
+      "supply_delivered_food": 1578800,
+      "supply_fetched_food": 309050,
+      "food_looted": 1277800
+    },
+    "digest": "466dfc8a2435ae46b77a671f9b7f72bae138832066e8b4be6a04bafb27ce55bf"
+  },
+  {
+    "seed": 7,
+    "days": 14,
+    "hours": 336,
+    "commands": {
+      "set_strength": 108,
+      "move": 202,
+      "attack": 2,
+      "set_composition": 5,
+      "dispatch": 6,
+      "dispatch_deliver": 3,
+      "troops_dispatched": 0,
+      "assemble": 2,
+      "dispatch_fetch": 3
+    },
+    "invalid": [],
+    "stats": {
+      "war_dead": 129,
+      "starved": 0,
+      "defeated_removed": 295,
+      "food_lost": 1870000,
+      "recruits_lost": 10,
+      "bandit_spawns": 27,
+      "bandits_killed": 2,
+      "bandit_cart_losses": 17,
+      "bandit_food_lost": 1870000,
+      "bandit_recruits_lost": 10,
+      "delivered_food": 9911000,
+      "delivered_recruits": 53,
+      "bandit_flights": 12,
+      "cavalry_trained": 32,
+      "supply_dispatches": 6,
+      "supply_delivered_food": 149500,
+      "supply_fetched_food": 137450,
+      "food_looted": 0
+    },
+    "digest": "d0cd8eab11293329d8c2f2bf648b2cdc3ad1860ccf6812a40e7be5a4ff9bd4a4"
+  }
+]

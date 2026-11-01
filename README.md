@@ -83,3 +83,7 @@ python tools/play.py --blue d2 --red march --seed 1 --output runs/d2-1
 ### 衡岳-V1：48局对抗与完整日志（2026-10-31）
 
 [策略、45胜3负报告及无损数据下载](benchmarks/community/hengyue-v1-validation-20261031/README.md)：对A-R3、Grok v25/v23各11胜1负，对march12胜；6个共享新种子交换阵营。另保留30场开发记录和3场败局复盘。小样本，不代表对A-R5或未来策略的结论；默认march不变。
+
+## 真实地图新规则 v0.6.0
+
+[下载即用的独立真实地图包](training/realmap-v0.6.0/README.md)新增军团持续送粮、20兵混装运输、25人地方巡逻、军团携粮/解散丢粮和劫掠收益；默认策略已适配这些机制。原game/v0.2.0与realmap/v0.4.1、v0.5.0全部保留；新规则不能套用旧策略胜率。

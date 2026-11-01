@@ -1,0 +1,45 @@
+[
+  {
+    "scenario": "army_supply",
+    "field_camp_distance": 6000,
+    "dispatches": [
+      {
+        "type": "dispatch",
+        "city": "castle_EW3",
+        "destination": "u00028",
+        "mission": "supply",
+        "food": 1848000
+      }
+    ],
+    "food_delivered": 1848000,
+    "holds_for_supply": true
+  },
+  {
+    "scenario": "rear_troops",
+    "commands": [
+      {
+        "type": "dispatch",
+        "city": "castle_EW1",
+        "destination": "castle_EW4",
+        "mission": "deliver",
+        "food": 150000,
+        "troops": 20
+      }
+    ],
+    "arrived_hour": 122,
+    "destination_garrison_increase": 20
+  },
+  {
+    "scenario": "raid_supply",
+    "commands": [
+      {
+        "type": "raid",
+        "unit": "u00028",
+        "target": "castle_village_EN9_1",
+        "vanilla_task": "raid_supply"
+      }
+    ],
+    "generated_household_food": 81000,
+    "food_looted": 81000
+  }
+]
