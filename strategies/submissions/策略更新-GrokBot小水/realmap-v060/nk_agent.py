@@ -41,3 +41,13 @@ def make_guard(overrides=None,gate_goal=None,front_goal=None,guard=None,opening_
         cmds=[c for c in cmds if c.get('unit') not in used or c['type'] in('set_strength','set_composition')]
         return (extra+cmds)[:100]
     return decide
+
+def make_phased(phases,gate_goal=None,front_goal=None):
+    """phases: [(起始日, 参数覆盖)]，按当前日取最后一个起始日<=今天的参数组。"""
+    makers=[(day,make(ov,gate_goal,front_goal)) for day,ov in sorted(phases,key=lambda p:p[0])]
+    def decide(obs,style=None):
+        today=obs['hour']/24;fn=makers[0][1]
+        for day,f in makers:
+            if today>=day:fn=f
+        return fn(obs)
+    return decide

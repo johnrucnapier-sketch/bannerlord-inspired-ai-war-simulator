@@ -1,0 +1,4 @@
+"""v6b 先稳后冲：前120天用v5a稳攻（余量1.5），之后v1b，第760天起终局冲刺"""
+from nk_agent import make_phased
+B=dict(max_armies=3,army_fraction=.85,attack_margin=1.3,relief_factor=1.0,relief_eta=168)
+decide=make_phased([(0,dict(B,attack_margin=1.5,refit_target=130)),(120,B),(760,dict(B,max_armies=4,army_fraction=.95,attack_margin=1.15)),(832,dict(B,max_armies=0))],320,250)
