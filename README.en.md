@@ -23,3 +23,24 @@ AI researchers, programmers and players are welcome to submit strategies, traini
 ## Ready-to-run real-map baseline (v0.5.0)
 
 [Third training form v0.5.0](training/realmap-v0.5.0/) now includes the derived strategic map data and rendered map backgrounds, with vanilla_v1 as the realmap default for both countries. No separate import is required. World rules remain v0.4.1; the v0.2.0 and v0.4.1 source snapshots are preserved. Derived map assets are outside the original-code MIT grant; see the package DATA_NOTICE.md.
+
+
+## Four training forms
+
+[Training entry points and version index](training/MODES.md)
+
+1. **Rural protection:** frozen `game/` v0.2.0, `mode=rural`.
+2. **Symmetric 1v1:** frozen `game/` v0.2.0, `mode=duel`.
+3. **Real-map two-country warfare:** preserved [v0.5.0](training/realmap-v0.5.0/) and [v0.6.0 logistics rules](training/realmap-v0.6.0/).
+4. **Real-map eight-country warfare:** separate [v0.7.0 training baseline](training/realmap-v0.7.0/), `mode=realmap`, with country-private observations, eight independent JSONL processes, clan armies, physical militia mobilization, extinction and clan migration, and switchable culture traits.
+
+The fourth form supports future opponent-strategy development and controlled experiments. It defaults to eight `vanilla_v1` agents, three-hour decisions and an 840-day horizon; two to eight countries can be configured. The map and initial resources are asymmetric. Culture follows the current owner by default (`culture_basis="owner"`), an explicit configurable modeling assumption; `origin` is also supported. Diplomacy remains disabled. This is not a full game/Mod AI implementation, a country ranking or evidence that the experimental [Dev19 adapter](strategies/submissions/dev19_multinational_v070/) is superior. Previous modes, frozen files and default opponents remain unchanged.
+
+Use a separate Python 3.12 environment inside `training/realmap-v0.7.0`, install with `python -m pip install -e .`, then run:
+
+```sh
+python ../../tools/verify_training_v070.py
+python tools/play.py --days 1 --seed 1 --output runs/eight-nations-smoke
+```
+
+One day checks integration only. Omit `--days` for the default 840-day match. See the [rules](training/realmap-v0.7.0/RULES.md), [agent API](training/realmap-v0.7.0/AGENT_API.md), [map provenance](training/realmap-v0.7.0/MAP_DATA.md) and [validation scope](training/realmap-v0.7.0/VALIDATION.md). A process boundary is not a malicious-code sandbox. Derived map files and geometric backgrounds remain outside the original-code MIT grant.

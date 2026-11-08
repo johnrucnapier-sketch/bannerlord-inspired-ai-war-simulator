@@ -1,0 +1,89 @@
+{
+  "strategy": "dev20-cavalry-v070",
+  "engine_baseline": "v0.7.0",
+  "engine_unchanged": true,
+  "environment": {
+    "platform": "Linux",
+    "python": "3.12.14",
+    "websockets": "16.0",
+    "websockets_used_by_headless_checks": false
+  },
+  "tests": {
+    "total": 51,
+    "passed": 51,
+    "failed": 0,
+    "skipped": 0,
+    "inherited_cases": 38,
+    "new_cases": 13,
+    "log_sha256": "4a0e2fd8a378baf096091ffdc17b68eec4b5cd82d65d00afa09ec0195cb182fd"
+  },
+  "frozen_baseline_verification": {
+    "v0.2.0": 807,
+    "v0.4.1": 69,
+    "v0.5.0": 80,
+    "v0.6.0": 85,
+    "v0.7.0": 110,
+    "status": "passed"
+  },
+  "development_attempts": [
+    {
+      "revision": "v1",
+      "seed": 73110129,
+      "days": 21,
+      "status": "completed_not_accepted",
+      "errors": 0,
+      "timeouts": 0,
+      "invalid_commands": 23,
+      "diagnosis": "Inherited relief candidates used normal roads while wait commands use siege-avoidance roads; all rejects were unreachable moves for one formation. Original evidence retained."
+    },
+    {
+      "revision": "r2",
+      "seed": 73110129,
+      "days": 21,
+      "status": "accepted_smoke",
+      "errors": 0,
+      "timeouts": 0,
+      "invalid_commands": 0,
+      "decisions_per_nation": [
+        168,
+        168,
+        168,
+        168,
+        168,
+        168,
+        168,
+        168
+      ],
+      "wall_seconds": 108.10573029599618,
+      "physics_digest": "20b7d53187b698e39f2d7a8b1e18f2c84941a675f255a5fb5a584d201e7f35c5",
+      "command_replay": {
+        "status": "passed",
+        "hours": 504,
+        "checks_physics_digest": true,
+        "reexecutes_policy": false
+      },
+      "composition_commands": 153,
+      "terminal_mobile_parties": 146,
+      "terminal_mobile_parties_with_max_preference": 146,
+      "terminal_healthy_mobile_cavalry": 34,
+      "terminal_healthy_garrison_cavalry": 79,
+      "dedicated_collection_moves": 0
+    }
+  ],
+  "real_engine_constructed_cases": [
+    "Full party cavalry/infantry exchange conserves both headcounts and total troops, cavalry, food.",
+    "Underfilled party receives cavalry preference and legal actual recruitment.",
+    "Setting preference away from a settlement transfers no troops.",
+    "A real road march reaches a castle before its cavalry exchange.",
+    "Eight simultaneous private observations remain unmodified and their commands are legal."
+  ],
+  "limitations": [
+    "The two smoke attempts reuse one development seed, not independent national-ranking samples.",
+    "Dedicated source trips did not occur naturally in the 21-day smoke; they are covered by bounded constructed tests.",
+    "Automatic settlement patrol composition and speed rules remain unchanged.",
+    "Actual long-run cavalry collection effectiveness and relative strategy strength are not established.",
+    "Windows and remote CI are not yet verified for this strategy.",
+    "The 12-seed ranking experiment is separate and must use its own frozen source and failure accounting.",
+    "Private raw observations, saves and machine paths are not included in the public strategy file set."
+  ]
+}
