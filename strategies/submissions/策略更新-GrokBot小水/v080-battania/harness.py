@@ -143,5 +143,7 @@ def main():
              names=names)
     out.with_suffix('.json').write_text(json.dumps(res,ensure_ascii=False))
     print('DIGEST',env.world.physics_digest())
+    fin=yearly[-1]; rank=sorted(range(8),key=lambda k:-fin['cities'][k]).index(BATTANIA)+1
+    print(f"SUMMARY policy={a.policy} seed={a.seed} day={fin['day']} battania_cities={fin['cities'][BATTANIA]} rank={rank} cities={fin['cities']} extinct={fin['extinct']} early_stop={bool(early)} wall={round(time.time()-t0)}s",flush=True)
     print('DONE',json.dumps(env.world.result,ensure_ascii=False),'wall',res['wall_seconds'])
 if __name__=='__main__': main()

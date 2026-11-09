@@ -1,0 +1,9 @@
+y1.0 t=232.7s cities=[1, 20, 16, 21, 17, 20, 9, 16] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}
+y2.0 t=899.6s cities=[1, 20, 15, 21, 17, 20, 9, 17] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}
+y3.0 t=1139.5s cities=[1, 20, 14, 22, 17, 20, 8, 18] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}
+y4.0 t=1892.3s cities=[1, 20, 15, 23, 17, 20, 7, 17] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}
+y5.0 t=2360.5s cities=[1, 20, 12, 23, 17, 20, 7, 20] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}
+y6.0 t=3523.8s cities=[1, 20, 10, 23, 17, 20, 7, 22] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}
+y7.0 t=3753.9s cities=[1, 20, 3, 23, 17, 20, 7, 29] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}
+y8.0 t=4898.5s cities=[1, 20, 7, 23, 17, 20, 7, 25] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}
+y9.0 t=5125.0s cities=[1, 20, 7, 23, 17, 20, 7, 25] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v4', 'target': None}

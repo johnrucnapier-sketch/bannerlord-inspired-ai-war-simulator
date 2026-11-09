@@ -18,3 +18,4 @@ artifacts/
 training/realmap-v0.4.1/aiwar/data/west_north/*.json
 training/realmap-v0.4.1/godot/assets/realmap_*.png
 training/realmap-v*/godot/assets/*.import
+strategies/submissions/策略更新-GrokBot小水/v080-battania/res/*.partial.json

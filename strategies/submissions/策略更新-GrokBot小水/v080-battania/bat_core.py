@@ -26,7 +26,8 @@ def distracted(obs,a,k):
     kn=set()
     for c in obs.get('cities',[]):
         if c['nation']==k:
-            for i in c.get('neighbors',[]): kn.add(byid.get(i,{}).get('nation',-1))
+            # 外国据点在观察里没有 neighbors 字段，只有公开的 supply_neighbors（静态陆路邻接，和 neighbors 基本一致）
+            for i in set(c.get('neighbors',[]))|set(c.get('supply_neighbors',[])): kn.add(byid.get(i,{}).get('nation',-1))
     return [j for j in kn if j>=0 and j not in (n,k) and rel(obs,k,j)=='war']
 
 def pick_target(obs,a,P):
@@ -46,7 +47,8 @@ def pick_target(obs,a,P):
     cands=[k for k in alive if a['adj'].get(k)]
     if P.get('vulture'):
         mine=a['own_cities']
-        cands=[k for k in cands if distracted(obs,a,k) and a['land'].get(k,0)<=mine*P['max_target_ratio']]
+        cands=[k for k in cands if (distracted(obs,a,k) and a['land'].get(k,0)<=mine*P['max_target_ratio'])
+               or a['land'].get(k,0)<=mine*P.get('weak_ratio',0)]
     if not cands: return None
     def score(k):
         others_at_war=sum(1 for j in alive if j!=k and rel(obs,k,j)=='war')
