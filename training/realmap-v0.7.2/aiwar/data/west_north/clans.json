@@ -1,0 +1,889 @@
+[
+  {
+    "id": "clan_aserai_1",
+    "name": "Banu Hulyan",
+    "kingdom": "aserai",
+    "initial_home_settlement": "town_A1",
+    "owned_city_ids": [
+      "castle_A1",
+      "town_A1",
+      "town_A6"
+    ],
+    "party_slots": 3,
+    "tier": 6,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_aserai_2",
+    "name": "Banu Sarran",
+    "kingdom": "aserai",
+    "initial_home_settlement": "town_A4",
+    "owned_city_ids": [
+      "castle_A4",
+      "town_A2",
+      "town_A4"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_aserai_3",
+    "name": "Banu Qild",
+    "kingdom": "aserai",
+    "initial_home_settlement": "town_A5",
+    "owned_city_ids": [
+      "castle_A2",
+      "castle_A6",
+      "town_A5"
+    ],
+    "party_slots": 3,
+    "tier": 5,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_aserai_4",
+    "name": "Banu Qaraz",
+    "kingdom": "aserai",
+    "initial_home_settlement": "town_A3",
+    "owned_city_ids": [
+      "castle_A5",
+      "town_A3"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_aserai_5",
+    "name": "Banu Arbas",
+    "kingdom": "aserai",
+    "initial_home_settlement": "town_A7",
+    "owned_city_ids": [
+      "town_A7"
+    ],
+    "party_slots": 2,
+    "tier": 3,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_aserai_6",
+    "name": "Banu Atij",
+    "kingdom": "aserai",
+    "initial_home_settlement": "town_A8",
+    "owned_city_ids": [
+      "town_A8"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_aserai_7",
+    "name": "Banu Sarmal",
+    "kingdom": "aserai",
+    "initial_home_settlement": "castle_A3",
+    "owned_city_ids": [
+      "castle_A3",
+      "castle_A7"
+    ],
+    "party_slots": 2,
+    "tier": 3,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_aserai_8",
+    "name": "Banu Habbab",
+    "kingdom": "aserai",
+    "initial_home_settlement": "castle_A8",
+    "owned_city_ids": [
+      "castle_A8"
+    ],
+    "party_slots": 1,
+    "tier": 1,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_aserai_9",
+    "name": "Banu Ruwaid",
+    "kingdom": "aserai",
+    "initial_home_settlement": "castle_A9",
+    "owned_city_ids": [
+      "castle_A9"
+    ],
+    "party_slots": 1,
+    "tier": 2,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_battania_1",
+    "name": "fen Gruffendoc",
+    "kingdom": "battania",
+    "initial_home_settlement": "town_B1",
+    "owned_city_ids": [
+      "castle_B5",
+      "castle_B8",
+      "town_B1"
+    ],
+    "party_slots": 3,
+    "tier": 6,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_battania_2",
+    "name": "fen Derngil",
+    "kingdom": "battania",
+    "initial_home_settlement": "town_B2",
+    "owned_city_ids": [
+      "castle_B7",
+      "town_B2"
+    ],
+    "party_slots": 3,
+    "tier": 5,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_battania_3",
+    "name": "fen Uvain",
+    "kingdom": "battania",
+    "initial_home_settlement": "town_B3",
+    "owned_city_ids": [
+      "castle_B4",
+      "town_B3"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_battania_4",
+    "name": "fen Penraic",
+    "kingdom": "battania",
+    "initial_home_settlement": "town_B4",
+    "owned_city_ids": [
+      "castle_B6",
+      "town_B4"
+    ],
+    "party_slots": 3,
+    "tier": 5,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_battania_5",
+    "name": "fen Giall",
+    "kingdom": "battania",
+    "initial_home_settlement": "town_B5",
+    "owned_city_ids": [
+      "town_B5"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_battania_6",
+    "name": "fen Eingal",
+    "kingdom": "battania",
+    "initial_home_settlement": "castle_B3",
+    "owned_city_ids": [
+      "castle_B3"
+    ],
+    "party_slots": 3,
+    "tier": 5,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_battania_7",
+    "name": "fen Morcar",
+    "kingdom": "battania",
+    "initial_home_settlement": "castle_B2",
+    "owned_city_ids": [
+      "castle_B2"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_battania_8",
+    "name": "fen Caernacht",
+    "kingdom": "battania",
+    "initial_home_settlement": "castle_B1",
+    "owned_city_ids": [
+      "castle_B1"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_empire_north_1",
+    "name": "俄斯提科斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "town_EN2",
+    "owned_city_ids": [
+      "castle_EN5",
+      "castle_EN9",
+      "town_EN2",
+      "town_EN4"
+    ],
+    "party_slots": 3,
+    "tier": 6
+  },
+  {
+    "id": "clan_empire_north_2",
+    "name": "阿耳戈洛斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "town_EN1",
+    "owned_city_ids": [
+      "castle_EN6",
+      "town_EN1"
+    ],
+    "party_slots": 3,
+    "tier": 5
+  },
+  {
+    "id": "clan_empire_north_3",
+    "name": "涅雷采斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "town_EN3",
+    "owned_city_ids": [
+      "castle_EN1",
+      "castle_EN4",
+      "town_EN3"
+    ],
+    "party_slots": 2,
+    "tier": 4
+  },
+  {
+    "id": "clan_empire_north_4",
+    "name": "印珀斯托雷斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "town_EN6",
+    "owned_city_ids": [
+      "town_EN6"
+    ],
+    "party_slots": 2,
+    "tier": 4
+  },
+  {
+    "id": "clan_empire_north_5",
+    "name": "多伦托斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "town_EN5",
+    "owned_city_ids": [
+      "town_EN5"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_empire_north_6",
+    "name": "霍尼斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "castle_EN2",
+    "owned_city_ids": [
+      "castle_EN2"
+    ],
+    "party_slots": 1,
+    "tier": 2
+  },
+  {
+    "id": "clan_empire_north_7",
+    "name": "法伦忒斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "castle_EN7",
+    "owned_city_ids": [
+      "castle_EN7"
+    ],
+    "party_slots": 1,
+    "tier": 1
+  },
+  {
+    "id": "clan_empire_north_8",
+    "name": "瓦塔采斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "castle_EN8",
+    "owned_city_ids": [
+      "castle_EN8"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_empire_north_9",
+    "name": "塞拉庇得斯",
+    "kingdom": "empire",
+    "initial_home_settlement": "castle_EN3",
+    "owned_city_ids": [
+      "castle_EN3"
+    ],
+    "party_slots": 1,
+    "tier": 2
+  },
+  {
+    "id": "clan_empire_south_1",
+    "name": "珀特洛斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "town_ES4",
+    "owned_city_ids": [
+      "castle_ES6",
+      "castle_ES8",
+      "town_ES4",
+      "town_ES5"
+    ],
+    "party_slots": 3,
+    "tier": 6
+  },
+  {
+    "id": "clan_empire_south_2",
+    "name": "列奥尼帕得斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "town_ES3",
+    "owned_city_ids": [
+      "town_ES3"
+    ],
+    "party_slots": 2,
+    "tier": 4
+  },
+  {
+    "id": "clan_empire_south_3",
+    "name": "墨斯特里卡洛斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "town_ES1",
+    "owned_city_ids": [
+      "castle_ES1",
+      "castle_ES4",
+      "town_ES1"
+    ],
+    "party_slots": 3,
+    "tier": 5
+  },
+  {
+    "id": "clan_empire_south_4",
+    "name": "翁革洛斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "town_ES2",
+    "owned_city_ids": [
+      "town_ES2"
+    ],
+    "party_slots": 2,
+    "tier": 4
+  },
+  {
+    "id": "clan_empire_south_5",
+    "name": "尤利俄斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "town_ES7",
+    "owned_city_ids": [
+      "castle_ES2",
+      "town_ES7"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_empire_south_6",
+    "name": "维扎耳托斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "town_ES6",
+    "owned_city_ids": [
+      "town_ES6"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_empire_south_7",
+    "name": "奥隆诺斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "castle_ES3",
+    "owned_city_ids": [
+      "castle_ES3"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_empire_south_8",
+    "name": "普里厄尼科斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "castle_ES5",
+    "owned_city_ids": [
+      "castle_ES5"
+    ],
+    "party_slots": 1,
+    "tier": 1
+  },
+  {
+    "id": "clan_empire_south_9",
+    "name": "维特然尼斯",
+    "kingdom": "empire_s",
+    "initial_home_settlement": "castle_ES7",
+    "owned_city_ids": [
+      "castle_ES7"
+    ],
+    "party_slots": 1,
+    "tier": 2
+  },
+  {
+    "id": "clan_empire_west_1",
+    "name": "科穆诺斯",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "town_EW2",
+    "owned_city_ids": [
+      "castle_EW3",
+      "town_EW2",
+      "town_EW3"
+    ],
+    "party_slots": 3,
+    "tier": 6
+  },
+  {
+    "id": "clan_empire_west_2",
+    "name": "瓦罗斯",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "town_EW4",
+    "owned_city_ids": [
+      "castle_EW1",
+      "town_EW4"
+    ],
+    "party_slots": 3,
+    "tier": 5
+  },
+  {
+    "id": "clan_empire_west_3",
+    "name": "狄俄尼科斯",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "town_EW1",
+    "owned_city_ids": [
+      "castle_EW4",
+      "town_EW1"
+    ],
+    "party_slots": 2,
+    "tier": 4
+  },
+  {
+    "id": "clan_empire_west_4",
+    "name": "厄拉刻斯",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "town_EW5",
+    "owned_city_ids": [
+      "castle_EW2",
+      "town_EW5"
+    ],
+    "party_slots": 2,
+    "tier": 4
+  },
+  {
+    "id": "clan_empire_west_5",
+    "name": "罗那利翁",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "town_EW6",
+    "owned_city_ids": [
+      "town_EW6"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_empire_west_6",
+    "name": "索拉多斯",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "castle_EW8",
+    "owned_city_ids": [
+      "castle_EW8"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_empire_west_7",
+    "name": "科雷尼俄斯",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "castle_EW5",
+    "owned_city_ids": [
+      "castle_EW5"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_empire_west_8",
+    "name": "马涅俄利斯",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "castle_EW6",
+    "owned_city_ids": [
+      "castle_EW6"
+    ],
+    "party_slots": 1,
+    "tier": 1
+  },
+  {
+    "id": "clan_empire_west_9",
+    "name": "帕拉狄俄斯",
+    "kingdom": "empire_w",
+    "initial_home_settlement": "castle_EW7",
+    "owned_city_ids": [
+      "castle_EW7"
+    ],
+    "party_slots": 1,
+    "tier": 2
+  },
+  {
+    "id": "clan_khuzait_1",
+    "name": "兀儿浑乃特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "town_K3",
+    "owned_city_ids": [
+      "castle_K4",
+      "town_K3",
+      "town_K5"
+    ],
+    "party_slots": 3,
+    "tier": 6
+  },
+  {
+    "id": "clan_khuzait_2",
+    "name": "库吉特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "town_K1",
+    "owned_city_ids": [
+      "town_K1"
+    ],
+    "party_slots": 2,
+    "tier": 4
+  },
+  {
+    "id": "clan_khuzait_3",
+    "name": "阿契特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "town_K4",
+    "owned_city_ids": [
+      "castle_K1",
+      "town_K4"
+    ],
+    "party_slots": 3,
+    "tier": 5
+  },
+  {
+    "id": "clan_khuzait_4",
+    "name": "帖克力特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "town_K2",
+    "owned_city_ids": [
+      "castle_K2",
+      "town_K2"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_khuzait_5",
+    "name": "合儿必特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "town_K6",
+    "owned_city_ids": [
+      "town_K6"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_khuzait_6",
+    "name": "巴鲁台特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "castle_K6",
+    "owned_city_ids": [
+      "castle_K6",
+      "castle_K9"
+    ],
+    "party_slots": 2,
+    "tier": 4
+  },
+  {
+    "id": "clan_khuzait_7",
+    "name": "阔勒帖特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "castle_K5",
+    "owned_city_ids": [
+      "castle_K5",
+      "castle_K7"
+    ],
+    "party_slots": 2,
+    "tier": 3
+  },
+  {
+    "id": "clan_khuzait_8",
+    "name": "颜赛力特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "castle_K3",
+    "owned_city_ids": [
+      "castle_K3"
+    ],
+    "party_slots": 1,
+    "tier": 1
+  },
+  {
+    "id": "clan_khuzait_9",
+    "name": "斡不力特",
+    "kingdom": "khuzait",
+    "initial_home_settlement": "castle_K8",
+    "owned_city_ids": [
+      "castle_K8"
+    ],
+    "party_slots": 1,
+    "tier": 2
+  },
+  {
+    "id": "clan_sturgia_1",
+    "name": "Gundaroving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "town_S1",
+    "owned_city_ids": [
+      "castle_S2",
+      "castle_S3",
+      "town_S1",
+      "town_S2"
+    ],
+    "party_slots": 3,
+    "tier": 6,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_sturgia_2",
+    "name": "Kuloving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "town_S3",
+    "owned_city_ids": [
+      "town_S3"
+    ],
+    "party_slots": 3,
+    "tier": 5,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_sturgia_3",
+    "name": "Vagiroving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "town_S5",
+    "owned_city_ids": [
+      "castle_S7",
+      "town_S5"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_sturgia_4",
+    "name": "Ormidoving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "town_S4",
+    "owned_city_ids": [
+      "castle_S8",
+      "town_S4"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_sturgia_5",
+    "name": "Togaroving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "town_S7",
+    "owned_city_ids": [
+      "castle_S1",
+      "town_S7"
+    ],
+    "party_slots": 2,
+    "tier": 3,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_sturgia_6",
+    "name": "Isyaroving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "town_S6",
+    "owned_city_ids": [
+      "town_S6"
+    ],
+    "party_slots": 2,
+    "tier": 3,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_sturgia_7",
+    "name": "Vezhoving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "castle_S5",
+    "owned_city_ids": [
+      "castle_S5"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_sturgia_8",
+    "name": "Ubroving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "castle_S6",
+    "owned_city_ids": [
+      "castle_S6"
+    ],
+    "party_slots": 1,
+    "tier": 1,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_sturgia_9",
+    "name": "Kostoroving",
+    "kingdom": "sturgia",
+    "initial_home_settlement": "castle_S4",
+    "owned_city_ids": [
+      "castle_S4"
+    ],
+    "party_slots": 1,
+    "tier": 2,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_1",
+    "name": "dey Meroc",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "town_V1",
+    "owned_city_ids": [
+      "castle_V7",
+      "town_V1",
+      "town_V5"
+    ],
+    "party_slots": 3,
+    "tier": 6,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_10",
+    "name": "dey Folcun",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "castle_V4",
+    "owned_city_ids": [
+      "castle_V4"
+    ],
+    "party_slots": 1,
+    "tier": 1,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_11",
+    "name": "dey Rothad",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "castle_V1",
+    "owned_city_ids": [
+      "castle_V1"
+    ],
+    "party_slots": 1,
+    "tier": 2,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_2",
+    "name": "dey Tihr",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "town_V3",
+    "owned_city_ids": [
+      "castle_V3",
+      "town_V3"
+    ],
+    "party_slots": 2,
+    "tier": 4,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_3",
+    "name": "dey Arromanc",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "town_V6",
+    "owned_city_ids": [
+      "town_V6"
+    ],
+    "party_slots": 2,
+    "tier": 3,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_4",
+    "name": "dey Cortain",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "town_V7",
+    "owned_city_ids": [
+      "town_V7"
+    ],
+    "party_slots": 3,
+    "tier": 5,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_5",
+    "name": "dey Gunric",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "castle_V5",
+    "owned_city_ids": [
+      "castle_V5"
+    ],
+    "party_slots": 1,
+    "tier": 2,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_6",
+    "name": "dey Valant",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "town_V9",
+    "owned_city_ids": [
+      "castle_V6",
+      "town_V9"
+    ],
+    "party_slots": 1,
+    "tier": 2,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_7",
+    "name": "dey Fortes",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "town_V2",
+    "owned_city_ids": [
+      "castle_V8",
+      "town_V2"
+    ],
+    "party_slots": 2,
+    "tier": 3,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_8",
+    "name": "dey Molarn",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "town_V8",
+    "owned_city_ids": [
+      "town_V8"
+    ],
+    "party_slots": 2,
+    "tier": 3,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  },
+  {
+    "id": "clan_vlandia_9",
+    "name": "dey Jelind",
+    "kingdom": "vlandia",
+    "initial_home_settlement": "castle_V2",
+    "owned_city_ids": [
+      "castle_V2"
+    ],
+    "party_slots": 1,
+    "tier": 1,
+    "provenance": "Derived from 1.5.6 SandBox spclans.xml; SHA256 318afe49eb3a7e4b7b92877da58c69af5571925b31e13c0a3851ba995e47b070"
+  }
+]
