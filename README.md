@@ -108,3 +108,7 @@ python tools/play.py --days 1 --seed 1 --output runs/eight-nations-smoke
 ```
 
 一天仅检查八个私有策略进程和命令协议。省略 `--days` 使用840天默认时限；策略评测应另存完整配置、种子、逐国错误/超时/非法命令和源码/地图哈希。规则见[八国规则](training/realmap-v0.7.0/RULES.md)，接入见[八国 API](training/realmap-v0.7.0/AGENT_API.md)。[Dev19 多国适配](strategies/submissions/dev19_multinational_v070/README.md)是独立实验策略，不替换任何默认对手。进程与私有观察是协议隔离，不是恶意代码安全沙箱。
+
+## 外交机制候选（独立草稿）
+
+[外交重建基线 v0.8.0-rebuilt.1](training/realmap-v0.8.0-rebuilt/README.md)及[实验策略](strategies/submissions/dev20_diplomacy_v080_rebuilt/README.md)：基于v0.7.0重新实现，不是丢失源码的逐字节恢复。战争、和平、互不侵犯和联盟同步已实现；与独立性能PR #4尚未整合。十二种子正式演化仍在运行，本次仅提交源码、规则及必要测试/文档，不含结果或存档。原viewer两秒测试首轮存在超时，后续不改代码重跑通过，不能视为全绿首轮或普遍时限保证。

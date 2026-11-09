@@ -1,0 +1,27 @@
+{
+  "version": "dev20-diplomacy-v080-rebuilt-experimental",
+  "provenance": "New reconstructed policy; not byte recovery or validation continuity of lost v0.8.0.",
+  "baseline": "recovered dev20-cavalry-v070",
+  "military_sources": {
+    "agent.py": "fb25f450a04c13a88370294b76e4b889bb02fd040699409dc1a46b8a524c4167",
+    "dev19_base.py": "9101a3dab5b208013694ae42246f62ad5c8b16e7798c76c6db4f25285acd63b4",
+    "dev19_original.py": "92549e49a7be8f721411048c549c3a804ff9249865902d300b46cdeec5f8b1b3"
+  },
+  "parameters": {
+    "front_cost": 1.4,
+    "low_food_days": 14,
+    "severe_food_days": 7,
+    "peace_threshold": 1.5,
+    "alliance_threshold": 1.0,
+    "dominant_land_share": 0.3,
+    "declaration_readiness": 0.7,
+    "deploy_min_healthy": 25,
+    "deploy_max_wound_fraction": 0.35,
+    "deploy_food_days": 7
+  },
+  "engine_timing": {
+    "ordinary_hours": 168,
+    "event_cooldown_hours": 0
+  },
+  "policy_state": "No process-local state; engine stores gates, proposals, signatures, receipts."
+}
