@@ -43,10 +43,18 @@ requests=[dict(protocol_version=1,type='decide',request_id=f'{n}:0',
 bootstrap=(f'import sys,runpy;sys.path.insert(0,{str(package)!r});import aiwar;'
            f'runpy.run_path({str(ADAPTED_SOURCE/"agent.py")!r},run_name="__main__")')
 argv=[sys.executable,'-I','-c',bootstrap]
+topology=[]
+if hasattr(os,'sched_getaffinity'):
+    for cpu in sorted(os.sched_getaffinity(0)):
+        row={'logical_cpu':cpu}
+        for key in ('core_id','physical_package_id','thread_siblings_list'):
+            try:row[key]=(Path('/sys/devices/system/cpu')/f'cpu{cpu}'/'topology'/key).read_text().strip()
+            except OSError:row[key]=None
+        topology.append(row)
 print(json.dumps(dict(type='environment',package=a.package,version=aiwar.__version__,
     python=platform.python_version(),platform=platform.system(),cpu_count=os.cpu_count(),
     effective_cpu_count=len(os.sched_getaffinity(0)) if hasattr(os,'sched_getaffinity') else None,
-    timeout_seconds=2,trials=a.trials,seed=1,world_hours_advanced=0,
+    timeout_seconds=2,trials=a.trials,seed=1,world_hours_advanced=0,cpu_topology=topology,
     source_sha256={f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted((package/'aiwar').glob('*.py'))})),flush=True)
 failures=0
 for trial in range(a.trials):

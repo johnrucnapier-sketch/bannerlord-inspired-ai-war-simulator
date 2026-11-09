@@ -41,7 +41,9 @@ jobs:
         if: runner.os == 'Linux'
         run: python scripts/profile_cold_viewer.py --cpus 2 --trials 5
       - name: All core, exact-route, command-equivalence and timeout-negative tests
+        if: always()
         run: python scripts/check_tests_isolated.py
       - name: Three unchanged cold viewer integration tests
+        if: always()
         run: |
           python -c "import subprocess,sys; results=[subprocess.run([sys.executable,'-m','unittest','tests.test_dev19_viewer_v7','-v']).returncode for _ in range(3)]; print('cold trial return codes',results); sys.exit(any(results))"

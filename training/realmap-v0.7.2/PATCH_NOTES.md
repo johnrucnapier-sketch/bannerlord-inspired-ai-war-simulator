@@ -22,3 +22,9 @@ The existing 161 ordered-route cases remain. Cold viewer tests retain their orig
 Exploratory stale-heap pruning did not create sufficient margin (one of three two-CPU trials still timed out) and was discarded. A shared heuristic-cache experiment did not clearly improve the final candidate and was also discarded. No failed run was erased or represented as a pass.
 
 Reported samples do not prove arbitrary-load reliability, long-campaign performance or strategic superiority. The prior main failure remains valid. The copied rules documents describe inherited behavior; copied historical validation notes are not new v0.7.2 evidence.
+
+## First remote candidate results retained
+
+Commit 30af397 passed the five default-four-logical-CPU trials on both Linux and Windows. Its Linux two-logical-CPU tests genuinely failed: push run 42552332410 had 40/40 timeout decisions and PR run 42552368895 had 26/40. No rerun was requested. This candidate is not recommended as a completed reliability fix. Those runners did not record CPU topology, so their physical-core arrangement cannot be inferred from the failure.
+
+The diagnostic-only follow-up records topology for new Linux runners and runs the full regression and integration stages even after stress failure. Any stress failure still makes the whole job fail. It does not change navigation code, remove the two-CPU gate, increase the budget or retry until passing.
