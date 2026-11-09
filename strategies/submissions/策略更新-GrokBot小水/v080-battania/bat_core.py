@@ -20,13 +20,28 @@ def info(obs):
     a['adj']=adj; a['own_cities']=len(own)
     return a
 
+def distracted(obs,a,k):
+    """k 正与另一个和它接壤的国家交战（私有观察可推断的公开关系+已知城邻接）"""
+    n=obs['nation']; byid={c['id']:c for c in obs.get('cities',[])}
+    kn=set()
+    for c in obs.get('cities',[]):
+        if c['nation']==k:
+            for i in c.get('neighbors',[]): kn.add(byid.get(i,{}).get('nation',-1))
+    return [j for j in kn if j>=0 and j not in (n,k) and rel(obs,k,j)=='war']
+
 def pick_target(obs,a,P):
     """唯一主攻对象。指导优先，其次相邻国中 '城数小/接壤多' 的软目标。"""
     n=obs['nation']; alive=[k for k in a['nations'] if k!=n]
     pref=P.get('directive_target')
     if pref is not None and pref in alive and a['adj'].get(pref):
         return pref
+    if P.get('sticky'):
+        cur=[k for k in alive if a['adj'].get(k) and rel(obs,n,k)=='war']
+        if len(cur)==1: return cur[0]
     cands=[k for k in alive if a['adj'].get(k)]
+    if P.get('vulture'):
+        mine=a['own_cities']
+        cands=[k for k in cands if distracted(obs,a,k) and a['land'].get(k,0)<=mine*P['max_target_ratio']]
     if not cands: return None
     def score(k):
         others_at_war=sum(1 for j in alive if j!=k and rel(obs,k,j)=='war')
@@ -45,6 +60,8 @@ def diplomacy_decide(obs,P):
     incoming=[p for p in d.get('incoming',[]) if p.get('expires_hour',hour+1)>hour]
     outgoing=[p for p in d.get('outgoing',[]) if p.get('expires_hour',hour+1)>hour]
     losing=a['own_cities']<P['panic_cities']
+    if P.get('exit_losing') and target is not None and rel(obs,n,target)=='war' and a['land'].get(target,0)>a['own_cities']*P['exit_ratio']:
+        losing=True
     for p in sorted(incoming,key=lambda p:(p['created_hour'],p['id'])):
         k=p['from_nation']; kind=p['kind']
         if kind in ('peace','nap'):
@@ -65,12 +82,15 @@ def diplomacy_decide(obs,P):
         k=max(peace_c,key=lambda k:(a['adj'].get(k,0),a['land'].get(k,0),-k))
         choice=('propose_peace',k)
     # 原则2：主攻目标不在战争状态时，条件成熟就宣战（不对已有NAP宣战）
+    elif P.get('exit_losing') and losing and target is not None and rel(obs,n,target)=='war' and target not in busy:
+        choice=('propose_peace',target)
     elif target is not None and rel(obs,n,target)=='peace' and target not in busy \
+            and (not P.get('one_war') or not a['wars']) \
             and a['readiness']>=P['declare_ready'] and a['food_days']>=P['declare_food']:
         choice=('declare_war',target)
     # 原则3：后方接壤国签互不侵犯，锁住背后（不对下一个目标签）
     else:
-        rear=[k for k in a['nations'] if k!=n and k not in tb and k not in busy and a['adj'].get(k)
+        rear=[k for k in a['nations'] if k!=n and k not in tb and k not in busy and (a['adj'].get(k) or P.get('nap_all'))
               and rel(obs,n,k)=='peace' and P['rear_nap']]
         if rear:
             choice=('propose_nap',max(rear,key=lambda k:(a['adj'][k],-k)))
