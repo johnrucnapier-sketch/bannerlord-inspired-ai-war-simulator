@@ -5,7 +5,8 @@
   "changed_from_v070": [
     "aiwar/__init__.py",
     "aiwar/real_map.py",
-    "pyproject.toml"
+    "pyproject.toml",
+    "scripts/check_tests_isolated.py"
   ],
   "added_to_v071": [
     "PATCH_NOTES.md",
@@ -71,7 +72,6 @@
     "godot/project.godot",
     "scripts/check_mobilization_policy.py",
     "scripts/check_multinational_viewer.gd",
-    "scripts/check_tests_isolated.py",
     "scripts/launch.py",
     "tests/legacy_world.py",
     "tests/test_agent_process_lifecycle_v7.py",
@@ -120,7 +120,7 @@
     "training/realmap-v0.7.1/IMPLEMENTATION_NOTES.md": "6b7b81a0d5c6fa5536636f7ab0e3f7a75c84a921a3f6a326a407273766fc0263",
     "training/realmap-v0.7.1/LICENSE": "96a660015b6de8d05a208874ae939a2a5d336e83daf57f0e10484df301723cff",
     "training/realmap-v0.7.1/MAP_DATA.md": "2f5e9d7799b1eeb9ef6cce366d227f0cdea5eec6ce7a971ee044ae92a7e249ba",
-    "training/realmap-v0.7.1/PATCH_NOTES.md": "c5f1cb72ee9400be2064090bf2c654f6d459be99cffafad1616bfdf4e51d20a3",
+    "training/realmap-v0.7.1/PATCH_NOTES.md": "c7a3b06010456c2727578d00721f6d9f4180f343e13c23dda0d9fd5882e43873",
     "training/realmap-v0.7.1/README.md": "557fb207d2eb3a3790eba62839dfba96159fb273b87ac61c6da6b3b680cbfa08",
     "training/realmap-v0.7.1/RULES.md": "086f8f9228f5f966255868320bc3dfdbc1e66eada384305d628eb790fd5b16d4",
     "training/realmap-v0.7.1/STRATEGY.md": "461b6a8298529d9624a50069de45439b30801d13dd053778769e7b84f27c8b0a",
@@ -178,7 +178,7 @@
     "training/realmap-v0.7.1/pyproject.toml": "c7f1c3448a37cf3766b88a4a63c79a5d3ba75ea09af06111928e5df7cee306d8",
     "training/realmap-v0.7.1/scripts/check_mobilization_policy.py": "39bb5971f300a3fb70279de414dbdd8cb7bfe4e79c1f7fa4e2683b15c9feabdc",
     "training/realmap-v0.7.1/scripts/check_multinational_viewer.gd": "d7317ce4b1c657680cf90a52b8266488c689d12ec71cf3c460704db45c8758fe",
-    "training/realmap-v0.7.1/scripts/check_tests_isolated.py": "6b2ac1ea862dc7130c56375536ce363183aba9c38a101bb05b8225791d54a290",
+    "training/realmap-v0.7.1/scripts/check_tests_isolated.py": "6a86bf4290baff55d4699be6fcd9a990b0c91bcaadb6800758724bae7a54e114",
     "training/realmap-v0.7.1/scripts/launch.py": "992d18cee8c7bda10be90b65f1f32649ef6bd44be20e979566c8741681e74f15",
     "training/realmap-v0.7.1/tests/legacy_world.py": "f11e1a7cfa89812f115c808c89a1eecb7a2e3a85a690c052e47f149596476b99",
     "training/realmap-v0.7.1/tests/test_agent_process_lifecycle_v7.py": "7ee10be6918fa7e45201404f0cb76fe3b3dc0952808b49f1b701a592985c9bdd",
