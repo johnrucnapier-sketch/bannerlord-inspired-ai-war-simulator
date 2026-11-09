@@ -6,15 +6,20 @@
 
 **原有冻结基线：v0.2.0；第三模式发行包：v0.5.0。原创代码、文档和原创数据采用MIT许可；派生地图另见数据来源声明。**
 
-## 三种训练形式
+## 四种训练形式
+
+[全部训练入口与版本索引](training/MODES.md)
 
 | 形式 | 用途 | 版本与入口 |
 |---|---|---|
 | 单国护农 | 生产、运输、清剿与人口保护 | game/，v0.2.0，mode=rural |
 | 公平1v1 | 对称12城地图战争策略对照 | game/，v0.2.0，mode=duel |
 | **真实地图双国对抗** | 西/北帝国、城堡骑兵、民兵粮食接力 | [training/realmap-v0.5.0/](training/realmap-v0.5.0/)，mode=realmap |
+| **真实地图八国对抗** | 逐国迷雾、独立策略进程、家族军团、实体动员与文化实验 | [training/realmap-v0.7.0/](training/realmap-v0.7.0/)，独立包，mode=realmap |
 
 第三形式保留真实坐标与陆路阻挡，每3游戏小时决策、默认10年；先读[规则介绍](training/realmap-v0.5.0/RULES.md)。地图数据已随包提供，默认双方使用原版风味基准vanilla_v1，下载即可运行；具体步骤见第三模式入口。v0.2.0游戏、参考策略及历史实验保持冻结。
+
+第四形式是独立的 [v0.7.0 八国训练基线](training/realmap-v0.7.0/README.md)，供后续对手策略开发与对抗实验使用。默认八国各运行一个 `vanilla_v1` JSONL 进程，每3小时决策、时限840天；可配置2–8国。六种文化可开关，默认 `culture_basis="owner"` 仍是可配置的实现假设；外交未启用。地图与资源不对称，不据此宣称国家/文化排名、完整 Mod AI 复刻或策略优势。原有三种形式及默认策略不变，具体通过范围见[本版验证说明](training/realmap-v0.7.0/VALIDATION.md)。
 
 ## 三个板块
 
@@ -87,3 +92,19 @@ python tools/play.py --blue d2 --red march --seed 1 --output runs/d2-1
 ## 真实地图新规则 v0.6.0
 
 [下载即用的独立真实地图包](training/realmap-v0.6.0/README.md)新增军团持续送粮、20兵混装运输、25人地方巡逻、军团携粮/解散丢粮和劫掠收益；默认策略已适配这些机制。原game/v0.2.0与realmap/v0.4.1、v0.5.0全部保留；新规则不能套用旧策略胜率。
+
+## 第四形式：八国策略训练
+
+在独立环境中运行，避免不同版本的同名 `aiwar` 包混用：
+
+```sh
+cd training/realmap-v0.7.0
+python -m venv .venv
+# macOS/Linux：source .venv/bin/activate
+# Windows PowerShell：.venv\Scripts\Activate.ps1
+python -m pip install -e .
+python ../../tools/verify_training_v070.py
+python tools/play.py --days 1 --seed 1 --output runs/eight-nations-smoke
+```
+
+一天仅检查八个私有策略进程和命令协议。省略 `--days` 使用840天默认时限；策略评测应另存完整配置、种子、逐国错误/超时/非法命令和源码/地图哈希。规则见[八国规则](training/realmap-v0.7.0/RULES.md)，接入见[八国 API](training/realmap-v0.7.0/AGENT_API.md)。[Dev19 多国适配](strategies/submissions/dev19_multinational_v070/README.md)是独立实验策略，不替换任何默认对手。进程与私有观察是协议隔离，不是恶意代码安全沙箱。

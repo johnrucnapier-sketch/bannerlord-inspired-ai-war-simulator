@@ -1,0 +1,17 @@
+{
+  "strategy": "dev20-cavalry-v070",
+  "date": "2026-11-08",
+  "engine_baseline": "v0.7.0",
+  "engine_freeze_sha256": "3fce85a7623998c80037998799ff03b9fd39936e7b5c67c604c89dce48387e99",
+  "entrypoint": "strategies/submissions/dev20_cavalry_v070/agent.py",
+  "files": {
+    "README.md": "5afe3413eec11d6b4d2a56a42dd4f97091063c1a6b5f815b5dabc2a4207ed199",
+    "VALIDATION.json": "20dc95f876dbd4dce810f35d1c3377db2bf7663ae5d480c807125e54b16cc61a",
+    "agent.py": "fb25f450a04c13a88370294b76e4b889bb02fd040699409dc1a46b8a524c4167",
+    "dev19_base.py": "9101a3dab5b208013694ae42246f62ad5c8b16e7798c76c6db4f25285acd63b4",
+    "dev19_original.py": "92549e49a7be8f721411048c549c3a804ff9249865902d300b46cdeec5f8b1b3",
+    "test_adapter.py": "343e023db5502b602ce8aa1bbb79fbbe95b58154ed4edf84045bd5f454e70561",
+    "test_cavalry.py": "752e18514e374c1a058b126d36b68ec5777a18edda58c47896495667fbdd7dca",
+    "verify.py": "053913dcbe00c4ded2e46f536a7cd3f2fb8a282324cb08db3494c51283703a02"
+  }
+}

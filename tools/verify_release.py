@@ -11,7 +11,7 @@ def main():
   path=(root/rel).resolve()
   if not path.is_relative_to(root):errors.append('outside root: '+rel);continue
   if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=expected:errors.append('missing or changed: '+rel)
- actual={str(f.relative_to(root)) for f in (root/'game').rglob('*') if f.is_file() and '__pycache__' not in f.parts and '.godot' not in f.parts and '.tools' not in f.parts and '.venv' not in f.parts and not any(x.endswith('.egg-info') for x in f.parts) and 'build' not in f.parts}
+ actual={f.relative_to(root).as_posix() for f in (root/'game').rglob('*') if f.is_file() and '__pycache__' not in f.parts and '.godot' not in f.parts and '.tools' not in f.parts and '.venv' not in f.parts and not any(x.endswith('.egg-info') for x in f.parts) and 'build' not in f.parts}
  expected={r for r in m['files'] if r.startswith('game/')}
  if a.scope in ('all','core'):errors.extend('untracked core file: '+r for r in sorted(actual-expected))
  if errors:print('\n'.join(errors));sys.exit(1)
