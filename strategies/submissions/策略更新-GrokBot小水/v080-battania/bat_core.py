@@ -35,6 +35,11 @@ def pick_target(obs,a,P):
     pref=P.get('directive_target')
     if pref is not None and pref in alive and a['adj'].get(pref):
         return pref
+    for k in P.get('directive_order',[]):  # 唯一特殊指导：按顺序清掉背后的邻居
+        if k in alive and a['adj'].get(k):
+            return k
+    if P.get('directive_order') and P.get('hold_until_rear_clear'):
+        pass
     if P.get('sticky'):
         cur=[k for k in alive if a['adj'].get(k) and rel(obs,n,k)=='war']
         if len(cur)==1: return cur[0]
@@ -93,7 +98,7 @@ def diplomacy_decide(obs,P):
         rear=[k for k in a['nations'] if k!=n and k not in tb and k not in busy and (a['adj'].get(k) or P.get('nap_all'))
               and rel(obs,n,k)=='peace' and P['rear_nap']]
         if rear:
-            choice=('propose_nap',max(rear,key=lambda k:(a['adj'][k],-k)))
+            choice=('propose_nap',max(rear,key=lambda k:(a['adj'].get(k,0),-k)))
     if choice:
         cmds.append(dict(type='diplomacy',action=choice[0],target=choice[1],reason=dict(v=P['name'],target=target)))
     else:

@@ -91,7 +91,7 @@ def main():
                     wars_of_battania=[j for j in range(8) if j!=4 and str(j) in w.relations.get('4',{}) and w.relations['4'][str(j)]=='war' and j in diplomacy.live(w)],
                     rel=rel,elapsed=round(time.time()-t0,1))
     yearly.append(snap())
-    relchg=[]; citychg=[]
+    relchg=[]; citychg=[]; last_reason=None
     prev_rel={k:v for k,v in snap()['rel'].items()}
     prev_own={cid:c['nation'] for cid,c in env.world.cities.items()}
     while True:
@@ -114,6 +114,8 @@ def main():
                 errors[n]+=1
                 if errors[n]<=3: print('ERR',n,err,file=sys.stderr)
             acts.append(cmds)
+        for c in acts[BATTANIA] if len(acts)>BATTANIA else []:
+            if c.get('type')=='diplomacy' and isinstance(c.get('reason'),dict): last_reason=c['reason']
         r=fast_step(env,acts); obs=None; step+=1
         for n,oc in enumerate(r['outcomes']):
             invalid[n]+=sum(1 for o in oc if not o.get('ok'))
@@ -131,9 +133,9 @@ def main():
         bc=sum(1 for c in env.world.cities.values() if c['nation']==BATTANIA)
         early=(h%(84*24)==0 and ((h>=2*84*24 and bc<=3) or BATTANIA in env.world.extinct_nations))
         if h%(84*24)==0 or r['terminated']:
-            s=snap(); yearly.append(s)
+            s=snap(); s['b_reason']=last_reason; yearly.append(s)
             out.with_suffix('.partial.json').write_text(json.dumps(dict(relchg=relchg,citychg=citychg,yearly=yearly,diplomacy_events=dlog,errors=errors,invalid=invalid),ensure_ascii=False))
-            print(f"y{h/(84*24):.1f} t={s['elapsed']}s cities={s['cities']} blocs={s['blocs']} B-wars={s['wars_of_battania']} ext={s['extinct']}",flush=True)
+            print(f"y{h/(84*24):.1f} t={s['elapsed']}s cities={s['cities']} blocs={s['blocs']} B-wars={s['wars_of_battania']} ext={s["extinct"]} err={errors} B={last_reason}",flush=True)
         if r['terminated'] or early: break
     for p in pipes: p.send(None)
     res=dict(early_stop=bool(early),relchg=relchg,citychg=citychg,policy=a.policy,seed=a.seed,days=a.days,result=env.world.result,yearly=yearly,errors=errors,invalid=invalid,
