@@ -85,7 +85,7 @@ def diplomacy_decide(obs,P):
     peace_c=[k for k in wars if k not in busy]
     if peace_c:
         k=max(peace_c,key=lambda k:(a['adj'].get(k,0),a['land'].get(k,0),-k))
-        choice=('propose_peace',k)
+        choice=('propose_nap' if P.get('nap_first') and a['adj'].get(k) else 'propose_peace',k)
     # 原则2：主攻目标不在战争状态时，条件成熟就宣战（不对已有NAP宣战）
     elif P.get('exit_losing') and losing and target is not None and rel(obs,n,target)=='war' and target not in busy:
         choice=('propose_peace',target)
@@ -95,8 +95,12 @@ def diplomacy_decide(obs,P):
         choice=('declare_war',target)
     # 原则3：后方接壤国签互不侵犯，锁住背后（不对下一个目标签）
     else:
+        tr=d.get('treaties',{})
+        def expiring(k):
+            t=tr.get(':'.join(map(str,sorted((n,k)))))
+            return rel(obs,n,k)=='nap' and t and t.get('expires_hour',0)-hour<P.get('renew_hours',0)
         rear=[k for k in a['nations'] if k!=n and k not in tb and k not in busy and (a['adj'].get(k) or P.get('nap_all'))
-              and rel(obs,n,k)=='peace' and P['rear_nap']]
+              and (rel(obs,n,k)=='peace' or expiring(k)) and P['rear_nap']]
         if rear:
             choice=('propose_nap',max(rear,key=lambda k:(a['adj'].get(k,0),-k)))
     if choice:
