@@ -1,0 +1,241 @@
+{
+  "candidate": "western-empire-v1-dev19",
+  "agent_sha256": "92549e49a7be8f721411048c549c3a804ff9249865902d300b46cdeec5f8b1b3",
+  "baseline": "realmap-v0.6.0",
+  "faction": 0,
+  "fixed_map": "west_north_v1",
+  "rows": [
+    {
+      "opponent": "vanilla",
+      "seed": 2700007,
+      "hour": 14922,
+      "days": 621.75,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 29,
+          "1": 0
+        },
+        "hour": 14922
+      },
+      "physics_digest": "271e82844637e426db7401361abb5a008aa59f91dc48fcb0b583d512813cb730",
+      "config_sha256": "00da1149f0d382248dbfd7c5e6d471f0ada8ffc2cdc5cc365ab45eea59022d86",
+      "failures": [
+        0,
+        0
+      ],
+      "decision_timeouts": [
+        0,
+        0
+      ],
+      "invalid_commands": [
+        0,
+        0
+      ]
+    },
+    {
+      "opponent": "vanilla",
+      "seed": 2800001,
+      "hour": 10830,
+      "days": 451.25,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 29,
+          "1": 0
+        },
+        "hour": 10830
+      },
+      "physics_digest": "da838c659c5969156308eb4d643717fa80274779233ed9919560b573e741e10b",
+      "config_sha256": "00da1149f0d382248dbfd7c5e6d471f0ada8ffc2cdc5cc365ab45eea59022d86",
+      "failures": [
+        0,
+        0
+      ],
+      "decision_timeouts": [
+        0,
+        0
+      ],
+      "invalid_commands": [
+        0,
+        0
+      ]
+    },
+    {
+      "opponent": "vanilla",
+      "seed": 2900017,
+      "hour": 12326,
+      "days": 513.5833333333334,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 29,
+          "1": 0
+        },
+        "hour": 12326
+      },
+      "physics_digest": "e6b15b03cca06ec59b2a6250aedbfb867de68518b67f9eb22fec3bf38ed6a585",
+      "config_sha256": "00da1149f0d382248dbfd7c5e6d471f0ada8ffc2cdc5cc365ab45eea59022d86",
+      "failures": [
+        0,
+        0
+      ],
+      "decision_timeouts": [
+        0,
+        0
+      ],
+      "invalid_commands": [
+        0,
+        0
+      ]
+    },
+    {
+      "opponent": "vanilla",
+      "seed": 3000017,
+      "hour": 12297,
+      "days": 512.375,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 29,
+          "1": 0
+        },
+        "hour": 12297
+      },
+      "physics_digest": "5baa7f12023214b011167b672473cc9c9ed98ef2ccaa060525303777cdd844a9",
+      "config_sha256": "00da1149f0d382248dbfd7c5e6d471f0ada8ffc2cdc5cc365ab45eea59022d86",
+      "failures": [
+        0,
+        0
+      ],
+      "decision_timeouts": [
+        0,
+        0
+      ],
+      "invalid_commands": [
+        0,
+        0
+      ]
+    },
+    {
+      "opponent": "v5b",
+      "seed": 2700007,
+      "hour": 11579,
+      "days": 482.4583333333333,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 29,
+          "1": 0
+        },
+        "hour": 11579
+      },
+      "physics_digest": "4bb0b409d7b973c49138da1d9265e3e54350c8acef6de947d48a400db87c1ac1",
+      "config_sha256": "00da1149f0d382248dbfd7c5e6d471f0ada8ffc2cdc5cc365ab45eea59022d86",
+      "failures": [
+        0,
+        0
+      ],
+      "decision_timeouts": [
+        0,
+        0
+      ],
+      "invalid_commands": [
+        0,
+        0
+      ]
+    },
+    {
+      "opponent": "v5b",
+      "seed": 2800001,
+      "hour": 10535,
+      "days": 438.9583333333333,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 29,
+          "1": 0
+        },
+        "hour": 10535
+      },
+      "physics_digest": "1a50800d957be46ce614768a6393e2431d3c6db77e02a877999f2db3cfcca50c",
+      "config_sha256": "00da1149f0d382248dbfd7c5e6d471f0ada8ffc2cdc5cc365ab45eea59022d86",
+      "failures": [
+        0,
+        0
+      ],
+      "decision_timeouts": [
+        0,
+        0
+      ],
+      "invalid_commands": [
+        0,
+        0
+      ]
+    },
+    {
+      "opponent": "v5b",
+      "seed": 2900017,
+      "hour": 12111,
+      "days": 504.625,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 29,
+          "1": 0
+        },
+        "hour": 12111
+      },
+      "physics_digest": "4770389c52ee7e2f22da6fb05aef2a4437c09d9021be2edb44328831c405c7f2",
+      "config_sha256": "00da1149f0d382248dbfd7c5e6d471f0ada8ffc2cdc5cc365ab45eea59022d86",
+      "failures": [
+        0,
+        0
+      ],
+      "decision_timeouts": [
+        0,
+        0
+      ],
+      "invalid_commands": [
+        0,
+        0
+      ]
+    },
+    {
+      "opponent": "v5b",
+      "seed": 3000017,
+      "hour": 12297,
+      "days": 512.375,
+      "result": {
+        "winner": 0,
+        "reason": "unification",
+        "cities": {
+          "0": 29,
+          "1": 0
+        },
+        "hour": 12297
+      },
+      "physics_digest": "5baa7f12023214b011167b672473cc9c9ed98ef2ccaa060525303777cdd844a9",
+      "config_sha256": "00da1149f0d382248dbfd7c5e6d471f0ada8ffc2cdc5cc365ab45eea59022d86",
+      "failures": [
+        0,
+        0
+      ],
+      "decision_timeouts": [
+        0,
+        0
+      ],
+      "invalid_commands": [
+        0,
+        0
+      ]
+    }
+  ]
+}
