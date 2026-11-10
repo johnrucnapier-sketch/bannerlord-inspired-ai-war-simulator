@@ -26,12 +26,16 @@ def pick_target(obs,a,P):
     gate=P.get('join_gate')   # (目标, 伙伴)：只在伙伴正与目标交战、且伙伴只有这一场仗（会拒绝目标求和）时加入
     if gate and gate[0] in alive:
         k,j=gate
-        partner_locked = j in pr['live'] and rel(obs,j,k)=='war' and set(pr['wars'][j])<={k,n}
+        partner_locked = j in pr['live'] and rel(obs,j,k)=='war' and set(pr['wars'][j])<={k,n} \
+            and pr['land'].get(j,0)>=P.get('gate_partner_min',0)   # 伙伴太弱时（整备/粮差）公式里的 −1.2 不成立，会接受停战
+        c=P.get('contain')   # 遏制：伙伴快被瓜分时，抢在目标之前拿下伙伴余地，不让目标坐大
+        if c and j in pr['live'] and a['adj'].get(j) and pr['land'].get(j,0)<=c and rel(obs,j,k)=='war' and not partner_locked:
+            if rel(obs,n,j)=='war' or not a['wars']: return j
         if rel(obs,n,k)=='war' and partner_locked and a['adj'].get(k): return k
         if partner_locked and a['adj'].get(k) and pr['land'].get(k,0)<=a['own_cities']*P['gate_ratio']: return k
         if P.get('gate_exclusive'): return None
     cur=[k for k in alive if a['adj'].get(k) and rel(obs,n,k)=='war']
-    if len(cur)==1: return cur[0]
+    if len(cur)==1 and not P.get('cur_must_qualify'): return cur[0]
     mine=a['own_cities']; cands=[]
     pu=P.get('protect_until',{}); protected=set(pu.get('nations',[])) if (pu and (pu.get('while_alive') is None or pu.get('while_alive') in alive)) else set()
     for k in alive:
@@ -39,6 +43,9 @@ def pick_target(obs,a,P):
         lk=pr['land'].get(k,0); sf=sticky_front(pr,k,n); busy=[j for j in pr['wars'][k] if j!=n and pr['border'][k].get(j)]
         if (sf and lk<=mine*P['max_target_ratio']) or (busy and lk<=mine*P['busy_ratio']) or lk<=mine*P['weak_ratio']:
             cands.append((lk-a['adj'][k]-2*len(sf)-len(busy),k))
+    if P.get('cur_must_qualify') and len(cur)==1:
+        # 现有战争只有在对象本身符合目标条件时才继续打；否则（开局遗留、被别国宣战）当作要脱身的战争
+        return cur[0] if cur[0] in {k for _,k in cands} else None
     return min(cands)[1] if cands else None
 
 def our_proxy(a): return max(a['own_healthy'],a['own_cities']*100)
@@ -69,9 +76,11 @@ def decide_diplomacy(obs,P):
         if r=='war' and k not in tb:
             if border and nap_ok: opts.append((100+border+P.get('nap_bonus',{}).get(k,0),'propose_nap',k))
             elif peace_s>=1.5: opts.append((90+border,'propose_peace',k))
+            elif border and P.get('nap_over_peace'): opts.append((50+border,'propose_nap',k))   # 互不侵犯门槛(压力≥0.7)远低于停战(≈2.7)，对方一被打伤就会接受
             else: opts.append((10+border,'propose_peace',k))      # 预测不过，只在无事可做时试
         elif r=='war' and k in tb and losing:
-            opts.append((80 if peace_s>=1.5 else 5,'propose_peace',k))
+            if P.get('nap_over_peace') and border and not nap_ok and peace_s<1.5: opts.append((40,'propose_nap',k))
+            else: opts.append((80 if peace_s>=1.5 else 5,'propose_peace',k))
         elif r in ('peace','nap') and k not in tb:
             t=pr['treaties'].get(tuple(sorted((n,k))))
             left=(t['expires_hour']-hour) if (t and t.get('kind')=='nap') else 0

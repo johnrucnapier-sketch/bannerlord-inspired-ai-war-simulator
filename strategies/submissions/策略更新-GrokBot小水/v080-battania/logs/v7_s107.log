@@ -1,0 +1,23 @@
+y1.0 t=184.6s cities=[4, 20, 11, 20, 13, 21, 10, 21] blocs=[] B-wars=[] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y2.0 t=4957.2s cities=[1, 20, 15, 23, 15, 22, 7, 17] blocs=[] B-wars=[1] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': 5}
+y3.0 t=5193.0s cities=[1, 18, 15, 23, 17, 22, 7, 17] blocs=[] B-wars=[1] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': 5}
+y4.0 t=5837.9s cities=[1, 19, 15, 23, 15, 23, 7, 17] blocs=[] B-wars=[5] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y5.0 t=6055.7s cities=[1, 19, 14, 23, 12, 26, 7, 18] blocs=[] B-wars=[5] ext=[] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y6.0 t=6268.3s cities=[0, 19, 13, 23, 17, 22, 7, 19] blocs=[] B-wars=[5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': 5}
+y7.0 t=6501.9s cities=[0, 19, 13, 23, 22, 17, 7, 19] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y8.0 t=6722.5s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y9.0 t=6941.8s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y10.0 t=8810.8s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y11.0 t=9042.8s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y12.0 t=9264.7s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y13.0 t=9488.6s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y14.0 t=9714.6s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y15.0 t=9917.8s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y16.0 t=10238.4s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y17.0 t=10512.9s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y18.0 t=16742.1s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y19.0 t=16975.0s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+y20.0 t=17206.8s cities=[0, 19, 12, 23, 22, 17, 7, 20] blocs=[] B-wars=[1, 5] ext=[0] err=[0, 0, 0, 0, 0, 0, 0, 0] B={'v': 'v7', 't': None}
+DIGEST 3ba331e845a9947499fd9849c74fbc8df5445f0090c6849730e5219baf3f3479
+SUMMARY policy=v7 seed=107 day=1680 battania_cities=22 rank=2 cities=[0, 19, 12, 23, 22, 17, 7, 20] extinct=[0] early_stop=False wall=17211s
+DONE {"winner": 3, "reason": "time_limit", "cities": {"0": 0, "1": 19, "2": 12, "3": 23, "4": 22, "5": 17, "6": 7, "7": 20}, "hour": 40320, "rankings": [3, 4, 7, 1, 5, 2, 6, 0], "tied_leaders": [3]} wall 17206.8
