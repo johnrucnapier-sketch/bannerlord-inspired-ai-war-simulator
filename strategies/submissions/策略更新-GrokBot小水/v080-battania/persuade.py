@@ -23,11 +23,19 @@ def pick_target(obs,a,P):
     n=obs['nation']; pr=a['probe']; alive=[k for k in pr['live'] if k!=n]
     pref=P.get('directive_target')
     if pref in alive and a['adj'].get(pref): return pref
+    gate=P.get('join_gate')   # (目标, 伙伴)：只在伙伴正与目标交战、且伙伴只有这一场仗（会拒绝目标求和）时加入
+    if gate and gate[0] in alive:
+        k,j=gate
+        partner_locked = j in pr['live'] and rel(obs,j,k)=='war' and set(pr['wars'][j])<={k,n}
+        if rel(obs,n,k)=='war' and partner_locked and a['adj'].get(k): return k
+        if partner_locked and a['adj'].get(k) and pr['land'].get(k,0)<=a['own_cities']*P['gate_ratio']: return k
+        if P.get('gate_exclusive'): return None
     cur=[k for k in alive if a['adj'].get(k) and rel(obs,n,k)=='war']
     if len(cur)==1: return cur[0]
     mine=a['own_cities']; cands=[]
+    pu=P.get('protect_until',{}); protected=set(pu.get('nations',[])) if (pu and (pu.get('while_alive') is None or pu.get('while_alive') in alive)) else set()
     for k in alive:
-        if not a['adj'].get(k): continue
+        if not a['adj'].get(k) or (k in protected and pr['land'].get(k,0)>mine*P['weak_ratio']): continue
         lk=pr['land'].get(k,0); sf=sticky_front(pr,k,n); busy=[j for j in pr['wars'][k] if j!=n and pr['border'][k].get(j)]
         if (sf and lk<=mine*P['max_target_ratio']) or (busy and lk<=mine*P['busy_ratio']) or lk<=mine*P['weak_ratio']:
             cands.append((lk-a['adj'][k]-2*len(sf)-len(busy),k))
@@ -59,7 +67,7 @@ def decide_diplomacy(obs,P):
         r=rel(obs,n,k); border=a['adj'].get(k,0); nap_ok=pb.est_nap_accept(pr,k,n)
         peace_s=pb.est_peace_score(pr,k,n,strength_other=me_proxy)
         if r=='war' and k not in tb:
-            if border and nap_ok: opts.append((100+border,'propose_nap',k))
+            if border and nap_ok: opts.append((100+border+P.get('nap_bonus',{}).get(k,0),'propose_nap',k))
             elif peace_s>=1.5: opts.append((90+border,'propose_peace',k))
             else: opts.append((10+border,'propose_peace',k))      # 预测不过，只在无事可做时试
         elif r=='war' and k in tb and losing:
@@ -68,7 +76,8 @@ def decide_diplomacy(obs,P):
             t=pr['treaties'].get(tuple(sorted((n,k))))
             left=(t['expires_hour']-hour) if (t and t.get('kind')=='nap') else 0
             idle_threat=border and not pr['wars'][k] and pr['land'].get(k,0)*100>=me_proxy*1.1
-            if nap_ok and left<P['renew_hours']:
+            no_renew = P.get('join_gate') and k==P['join_gate'][0]   # 不续签将来要打的目标，否则宣不了战
+            if nap_ok and left<P['renew_hours'] and not no_renew:
                 opts.append(((70 if border else 30)+(15 if idle_threat else 0)+pr['land'].get(k,0)/10,'propose_nap',k))
     if target is not None and rel(obs,n,target)=='peace' and target not in busy and not a['wars'] \
             and a['readiness']>=P['declare_ready'] and a['food_days']>=P['declare_food']:
